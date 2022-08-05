@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_weekly_matching"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:padding="@dimen/dimen_five_dp"
+                android:singleLine="false"
+                android:text="@string/weekly_date"
+                android:textColor="@color/color_table_text"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/weekly_f1_pv"
+                android:textColor="@color/color_table_text"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/weekly_f2_pv"
+                android:textColor="@color/color_table_text"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/matching"
+                android:textColor="@color/color_table_text"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/view_weekly_matching"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_light"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/ln_weekly_matching"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/date"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/PVF1Name"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:text=""
+                android:paddingTop="@dimen/dimen_eight_dp"
+                android:paddingStart="@dimen/dimen_eight_dp"
+                android:paddingEnd="@dimen/dimen_eight_dp"
+                android:textColor="@color/color_texts"
+                android:textStyle="normal"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/PVF1"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text=""
+            android:paddingStart="@dimen/dimen_eight_dp"
+            android:paddingEnd="@dimen/dimen_eight_dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+            <LinearLayout
+                android:id="@+id/weekly_PVcf"
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="end"
+                    android:text="("
+                    android:textColor="@color/color_texts"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="end"
+            android:text="CF:"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/weekly_cf"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:text=""
+                android:paddingEnd="@dimen/dimen_eight_dp"
+                android:textColor="@color/color_texts"
+                android:textSize="@dimen/dimen_twelve_sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/PVF2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/dimen_eight_dp"
+            android:paddingStart="@dimen/dimen_eight_dp"
+            android:paddingEnd="@dimen/dimen_eight_dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+        <LinearLayout
+            android:id="@+id/weekly_cf2"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="end"
+                android:text="("
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="end"
+                android:text="CF:"
+                android:textColor="@color/color_table_text"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/weekly_cfpv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:text=""
+                android:paddingEnd="@dimen/dimen_eight_dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+        </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/matching"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

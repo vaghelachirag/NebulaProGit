@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:weightSum="1"
+    android:background="@android:drawable/editbox_background_normal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dimen_forty_dp"
+        android:layout_weight="0.125"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:id="@+id/list_item_thumbnail"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:weightSum="1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_vertical">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/list_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="@color/DARK_GREEN"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            style="@style/SelectableItemBackground"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/list_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            style="@style/SelectableItemBackground"/>
+
+        <!--<com.nebulacompanies.nebula.view.MyTextView
+            android:id="@+id/list_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#837f7f"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/dimen_small_callibri"
+            android:gravity="start"
+            android:layout_gravity="center_vertical"
+            style="@style/SelectableItemBackground"/>-->
+
+    </LinearLayout>
+</LinearLayout>

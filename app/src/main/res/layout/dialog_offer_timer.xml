@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:flipTimer="http://schemas.android.com/tools"
+    android:id="@+id/moredatalay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:background="@drawable/nebula_effect"
+        android:contentDescription="@null"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_dialog_close_light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:id="@+id/layTimer"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/textmessage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:text="If you complete your purchase within:"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/easyCountDownTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:isShowMillisecond="false"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:layout_marginBottom="@dimen/dimen_ten_dp"
+            app:isShowMinute="true"
+            app:isShowSecond="true"
+            app:suffixGravity="bottom"
+            app:suffixHour="h"
+            app:suffixMinute="m"
+            app:suffixDayLeftMargin="5dp"
+            app:suffixDayRightMargin="10dp"
+            app:suffixHourLeftMargin="5dp"
+            app:suffixHourRightMargin="10dp"
+            app:suffixMinuteLeftMargin="5dp"
+            app:suffixMinuteRightMargin="10dp"
+            app:suffixSecondLeftMargin="5dp"
+            app:suffixSecond="s"
+            app:suffixDay="d"
+            app:suffixTextColor="@color/tab_background_unselected"
+            app:suffixTextSize="20sp"
+            app:timeTextColor="#444444"
+            app:timeTextSize="40sp"/>
+      <!--  <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/easyCountDownTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_ten_dp"
+            android:padding="@dimen/dimen_ten_dp"
+            app:timeBgColor="#000000"
+            app:isHideTimeBackground="false"
+            app:isShowHour="true"
+            app:isShowMillisecond="false"
+            app:isShowMinute="true"
+            app:isShowSecond="true"
+            app:isShowTimeBgDivisionLine="false"
+            app:isTimeTextBold="true"
+            app:suffixDay="Days"
+            app:suffixGravity="bottom"
+            app:suffixHour="h"
+            app:suffixMillisecond="Ms"
+            app:suffixMinute="m"
+            app:suffixSecond="s"
+            app:suffixTextColor="#000000"
+            app:suffixTextSize="12sp"
+            app:timeTextColor="#ffffff"
+            app:timeTextSize="60sp" />-->
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/textmessage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:text="Offer will be applied automatically to your cart."
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+    </LinearLayout>
+
+
+    <com.nebulacompanies.ibo.ecom.utils.AspectRatioImageView
+        android:id="@+id/customView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <com.nebulacompanies.ibo.view.MyButton
+        android:id="@+id/confirm_button"
+        style="@style/dialog_blue_button"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_ten_dp"
+        android:textSize="@dimen/dimen_sixteen_sp"
+        android:text="Close" />
+
+</LinearLayout>

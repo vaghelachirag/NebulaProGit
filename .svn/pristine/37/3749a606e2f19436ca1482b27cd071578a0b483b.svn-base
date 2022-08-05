@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progresbar"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            app:mpb_indeterminateTint="@color/colorRadio"
+            app:mpb_progressStyle="horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/rl_ecom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:foreground="@drawable/holiday"
+            android:layout_marginTop="@dimen/dimen_eight_dp">
+
+            <!-- android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:layout_marginLeft="@dimen/dimen_ten_dp"
+            android:layout_marginRight="@dimen/dimen_ten_dp"
+            android:layout_marginStart="@dimen/dimen_ten_dp"-->
+
+
+            <ImageView
+                android:id="@+id/ecomimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dwarka_banner"
+                android:background="#631353" />
+
+
+
+
+        </RelativeLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dimen_five_dp"
+            android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:id="@+id/ln_progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:animateLayoutChanges="true"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/progressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/qwert" />
+
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:text="Loading info..."
+                        android:textAlignment="center"
+                        android:textColor="@color/nebula"
+                        android:textSize="@dimen/dimen_large_callibri"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <include
+                    layout="@layout/layout_empty_view1"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@android:color/white">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_forty_dp"
+            android:background="@android:color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@drawable/tab_color_selector"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/nebula_new_dark"
+                app:tabMaxWidth="0dp"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextAppearance="@style/Tabs"
+                app:tabTextColor="@color/bar_empty" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.nebulacompanies.ibo.view.CustomViewPager
+            android:id="@+id/viewpager_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    </LinearLayout>
+    <include
+        layout="@layout/activity_walkthrough_welcome" />
+</LinearLayout>

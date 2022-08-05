@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:itemIconTint="@android:color/white"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:title="@string/nav_dashboard" />
+
+
+        <item
+            android:id="@+id/nav_holidays"
+            android:title="Holiday Packages"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_offers"
+            android:title="Cashback &amp; Offers"
+            android:visible="false" />
+
+
+        <item
+            android:id="@+id/nav_ibolist"
+            android:title="@string/nav_ibo_list"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/registation"
+            android:title="@string/nav_registation"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_my_sales"
+            android:title="@string/nav_my_sales" />
+
+        <item
+            android:id="@+id/nav_my_purchase"
+            android:title="@string/nav_my_purchase" />
+
+        <item
+            android:id="@+id/nav_my_downline"
+            android:title="@string/nav_my_downline" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:title="@string/nav_star_report"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_my_promotions"
+            android:title="@string/wallet_detail"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_projects"
+            android:title="@string/nav_projects" />
+
+
+        <item
+            android:id="@+id/nav_my_income"
+            android:title="@string/nav_my_income"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_account_summary"
+            android:title="@string/nav_account_summary"
+            android:visible="false" />
+
+
+        <item
+            android:id="@+id/nav_downloads"
+            android:title="@string/nav_downloads" />
+
+
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/nav_events" />
+
+        <item
+            android:id="@+id/nav_pin"
+            android:title="Payout PIN"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_query"
+            android:title="@string/raise_query"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:title="@string/nav_privacy"
+            android:visible="false" />
+
+        <!--<item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/booking_form"
+            android:title="@string/nav_promotions" />-->
+
+    </group>
+
+
+</menu>

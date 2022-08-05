@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785437263930",
+    "firebase_url": "https://ibobackoffice-f5c47.firebaseio.com",
+    "project_id": "ibobackoffice-f5c47",
+    "storage_bucket": "ibobackoffice-f5c47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785437263930:android:c1a88486da3e8556",
+        "android_client_info": {
+          "package_name": "com.nebulacompanies.ibo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785437263930-puu7vjdn380tfk6bcdsn7u6i2a4ho148.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nebulacompanies.ibo",
+            "certificate_hash": "6faec5f42c6a412400724633c12930624f3cfeb1"
+          }
+        },
+        {
+          "client_id": "785437263930-9t7udbberr5b7jf0g28i3jf8dkqmdvs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9A1uW1_PTQ6fp4S7uqEnD4dSHZ5ReRrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785437263930-9t7udbberr5b7jf0g28i3jf8dkqmdvs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

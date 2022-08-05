@@ -1,0 +1,243 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_id_details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:visibility="visible"
+    app:cardBackgroundColor="@color/nebula_new_light"
+    app:cardCornerRadius="@dimen/dimen_five_dp"
+    app:cardElevation="@dimen/dimen_five_dp"
+    app:cardUseCompatPadding="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/nebula_new_light"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_four_dp">
+
+
+            <ImageView
+                style="@style/SelectableItemBackground"
+                android:layout_width="@dimen/dimen_twenty_dp"
+                android:layout_height="@dimen/dimen_twenty_dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:src="@drawable/current_rank" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:text="@string/id_details1"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/currentrank_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:textColor="@android:color/black" />
+
+
+            <ImageView
+                android:id="@+id/currentrankname"
+                style="@style/SelectableItemBackground"
+                android:layout_width="@dimen/dimen_thirty_dp"
+                android:layout_height="@dimen/dimen_thirty_dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_ecom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ecomimage"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:adjustViewBounds="true"
+                    android:background="#00aaaa"
+                    android:padding="@dimen/dimen_two_dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_refresh" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layiddata"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginStart="@dimen/dimen_three_dp"
+            android:layout_marginLeft="@dimen/dimen_three_dp"
+            android:layout_marginEnd="@dimen/dimen_three_dp"
+            android:layout_marginRight="@dimen/dimen_three_dp"
+            android:layout_marginBottom="@dimen/dimen_three_dp"
+            android:background="@drawable/drawable_rounded_white"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:orientation="vertical">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:drawableLeft="@drawable/ic_date"
+                    android:text="@string/id_joining_date"
+                    android:textColor="@color/color_table_text" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/id_joining_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text="@string/id_status"
+                    android:drawableLeft="@drawable/ic_rank"
+                    android:textColor="@color/color_table_text" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/rank"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text="@string/active_date"
+                    android:drawableLeft="@drawable/ic_date"
+                    android:textColor="@color/color_table_text" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/active_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text="@string/expire_date"
+                    android:drawableLeft="@drawable/ic_date"
+                    android:textColor="@color/color_table_text" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/expire_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:drawableLeft="@drawable/ic_id"
+                    android:text="@string/total_activation"
+                    android:textColor="@color/color_table_text" />
+
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/total_activation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/dimen_two_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:gravity="start|center"
+                    android:drawableLeft="@drawable/ic_id"
+                    android:text="@string/capping_ammount"
+                    android:textColor="@color/color_table_text" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/capping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/dimen_two_dp"
+                    android:gravity="start|center"
+                    android:text=""
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <!-- android:paddingBottom="@dimen/dimen_ten_dp"
+                android:paddingEnd="@dimen/dimen_ten_dp"
+                android:paddingLeft="@dimen/dimen_ten_dp"
+                android:paddingRight="@dimen/dimen_ten_dp"
+                android:paddingStart="@dimen/dimen_ten_dp"-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_car"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_four_dp">
+
+
+    <LinearLayout
+        android:id="@+id/ln_address_address"
+        android:layout_width="@dimen/dimen_two_hundred_dp"
+        android:layout_height="@dimen/dimen_hundred_dp"
+        android:layout_margin="@dimen/dimen_eight_dp"
+        android:background="@drawable/drawable_address"
+        android:padding="@dimen/dimen_four_dp"
+        android:orientation="vertical">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textColor="@android:color/black" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_address_decs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_address_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_address_city"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:text="" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_address_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textColor="@android:color/darker_gray"
+            android:text=""/>
+
+        <com.nebulacompanies.ibo.ecom.utils.MyItalicTextViewEcom
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="sdsddsdsdsd"
+            android:textSize="13sp"
+            android:textColor="@android:color/darker_gray"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:elevation="3dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:visibility="gone"
+        app:cardBackgroundColor="@android:color/white">
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/card_view"
+        android:background="@drawable/drawable_address"
+        android:padding="@dimen/dimen_eight_dp"
+        android:text="Add an address or pick-up point"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+</RelativeLayout>
+
+
+
+
+

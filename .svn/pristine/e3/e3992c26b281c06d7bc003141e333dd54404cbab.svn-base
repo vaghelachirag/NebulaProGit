@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background_inset_popup"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_effect_popup"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/drawable_rounded_green_top_info_popup"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:text="Phone"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_phone_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/drawable_rounded_white_top_info_popup"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_email"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_weight="0.2"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:text="Email"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_email_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+            </LinearLayout>
+
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_city"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/drawable_rounded_green_bottom_info_popup"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:text="City"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ln_city_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/drawable_rounded_white_bottom_info_popup"
+                    android:gravity="start|center"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

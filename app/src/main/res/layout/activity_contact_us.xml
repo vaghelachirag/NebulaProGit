@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_contact_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_us_bg"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_fifteen_dp"
+        android:orientation="vertical">
+       <!-- <androidx.appcompat.widget.Toolbar
+            android:id="@+id/contact_us_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nebula_new_dark"
+            android:visibility="visible"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/ToolBarTextAppearance"/>-->
+        <include layout="@layout/toolbarnotification"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                tools:context=".gui.ContactUs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/dimen_ten_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/tv_toll_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/dimen_ten_dp"
+                android:text="@string/toll_free"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/tv_toll_free_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/nebula_effect"
+                android:paddingTop="@dimen/dimen_ten_dp"
+                android:paddingBottom="@dimen/dimen_ten_dp"
+                android:text="@string/toll_free_phone_number"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/dimen_fifteen_dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ToggleButton
+                    android:id="@+id/tg_ahmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contact_us_selector"
+                    android:checked="true"
+                    android:drawableTop="@drawable/ic_ahmd"
+                    android:drawablePadding="@dimen/dimen_four_dp"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:text="@string/ahmedabad"
+                    android:textColor="@android:color/white"
+                    android:textOff="@string/ahmedabad"
+                    android:textOn="@string/ahmedabad"
+                    android:textSize="@dimen/dimen_ten_sp" />
+
+                <ToggleButton
+                    android:id="@+id/tg_hyd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/contact_us_selector"
+                    android:checked="false"
+                    android:drawablePadding="@dimen/dimen_four_dp"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:drawableTop="@drawable/ic_hyd"
+                    android:text="@string/hyderabad"
+                    android:textColor="@android:color/white"
+                    android:textOff="@string/hyderabad"
+                    android:textOn="@string/hyderabad"
+                    android:textSize="@dimen/dimen_ten_sp" />
+
+                <ToggleButton
+                    android:id="@+id/tg_chennai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/contact_us_selector"
+                    android:checked="false"
+                    android:drawableTop="@drawable/ic_chennai"
+                    android:paddingBottom="@dimen/dimen_four_dp"
+                    android:text="@string/chennai"
+                    android:textColor="@android:color/white"
+                    android:textOff="@string/chennai"
+                    android:textOn="@string/chennai"
+                    android:textSize="@dimen/dimen_ten_sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/layout_ahmedabad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/left"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_left_black"
+                        android:visibility="invisible" />
+
+                    <com.nebulacompanies.ibo.view.WrappingViewPager
+                        android:id="@+id/viewpager_ahmedabad"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.88" />
+
+                    <ImageView
+                        android:id="@+id/right"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/dimen_ten_dp"
+                        android:layout_marginRight="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_right_blacks"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_hyderabad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/left1"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_left_black"
+                        android:visibility="invisible" />
+
+                    <com.nebulacompanies.ibo.view.WrappingViewPager
+                        android:id="@+id/viewpager_hyderabad"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.88" />
+
+                    <ImageView
+                        android:id="@+id/right1"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/dimen_ten_dp"
+                        android:layout_marginRight="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_right_blacks"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_chennai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/chennai_left_icon"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_left_black"
+                        android:visibility="invisible" />
+
+                    <com.nebulacompanies.ibo.view.WrappingViewPager
+                        android:id="@+id/viewpager_chennai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.88" />
+
+                    <ImageView
+                        android:id="@+id/chennai_right_icon"
+                        style="@style/SelectableItemBackground"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/dimen_ten_dp"
+                        android:layout_marginRight="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.08"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_right_blacks"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

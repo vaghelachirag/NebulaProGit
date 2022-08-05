@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+
+    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+        android:id="@+id/tv_payment_shipping_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:text="Select Payment method"
+        android:textColor="@color/black"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        android:layout_marginEnd="@dimen/dimen_ten_dp"
+        android:layout_marginStart="@dimen/dimen_ten_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            style="@style/RadioButton"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_upi_icon"
+            android:text="UPI / Paytm / Google Pay" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            style="@style/RadioButton"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:drawableStart="@drawable/ic_credit_card"
+            android:text="Credit / Debit Card" />
+
+        <RadioButton
+            android:id="@+id/rd3"
+            style="@style/RadioButton"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:drawableStart="@drawable/ic_wallet"
+            android:saveEnabled="true"
+            android:text="Wallet" />
+
+        <RadioButton
+            android:id="@+id/rd4"
+            style="@style/RadioButton"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:drawableStart="@drawable/ic_visa"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:text="Net Banking" />
+
+
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableStart="@drawable/ic_share"
+        android:text="@string/action_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableStart="@drawable/ic_share"
+        android:text="@string/action_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableStart="@drawable/ic_share"
+        android:text="@string/action_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawableStart="@drawable/ic_share"
+        android:text="@string/action_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        />
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pinview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nebula_new_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:background="@drawable/nebula_effect"
+        android:contentDescription="@null"
+        android:padding="@dimen/dimen_five_dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+    <RelativeLayout
+        android:id="@+id/rl_yes_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_pin_date"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:padding="16dp"
+            android:text="@string/verification_code"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/tv_pin_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pinview"
+            android:layout_centerHorizontal="true"
+            android:text="@string/verification_code_subtext"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_eleven_sp" />
+
+
+        <com.goodiebag.pinview.Pinview
+            android:id="@+id/pinview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:visibility="visible"
+            app:cursorVisible="true"
+            app:forceKeyboard="false"
+            app:hint="0"
+            app:inputType="number"
+            app:password="false"
+            app:pinBackground="@drawable/example_drawable"
+            app:pinHeight="40dp"
+            app:pinLength="4"
+            app:pinWidth="40dp" />
+
+        <Button
+            android:id="@+id/validate_button"
+            android:layout_width="@dimen/dimen_ninety_dp"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_below="@+id/pinview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_twenty_dp"
+            android:background="@drawable/nebula_button_pin"
+            android:text="@string/validate"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_pin_tc"
+            android:layout_marginEnd="@dimen/dimen_five_dp"
+            android:layout_marginStart="@dimen/dimen_five_dp"
+            android:padding="@dimen/dimen_five_dp"
+            android:text="@string/pin_info"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/tv_pin_tc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/reset_pin_button"
+            android:layout_marginBottom="@dimen/dimen_thirty_dp"
+            android:layout_marginEnd="@dimen/dimen_five_dp"
+            android:layout_marginStart="@dimen/dimen_five_dp"
+            android:padding="@dimen/dimen_five_dp"
+            android:text="@string/pin_tc"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+        <Button
+            android:id="@+id/reset_pin_button"
+            android:layout_width="@dimen/dimen_ninety_dp"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/dimen_eight_dp"
+            android:background="@drawable/nebula_button_pin"
+            android:text="@string/resent_pin"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/skip_button"
+            android:layout_width="@dimen/dimen_ninety_dp"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dimen_eight_dp"
+            android:background="@drawable/nebula_button_pin"
+            android:text="@string/skip_pay"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_no_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/img_blocked"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/padding_10"
+            app:srcCompat="@drawable/ic_block_red" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_blocked"
+            android:layout_marginEnd="@dimen/dimen_five_dp"
+            android:layout_marginStart="@dimen/dimen_five_dp"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dimen_five_dp"
+            android:text="@string/pin_disable"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+    </RelativeLayout>
+</RelativeLayout>

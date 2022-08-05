@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/dimen_fifteen_dp"
+    android:layout_marginRight="@dimen/dimen_fifteen_dp"
+    android:layout_marginStart="@dimen/dimen_fifteen_dp"
+    android:layout_marginEnd="@dimen/dimen_fifteen_dp"
+    android:background="@drawable/location_rounded_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/site_map_rounded_bg">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/address_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/site_office_ahmedabad"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:padding="5dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_six_dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="@dimen/dimen_six_dp"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_location" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dimen_four_dp"
+            android:layout_weight="1"
+            android:text="@string/site_address_ahmedabad"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_eleven_sp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/ic_call_black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/phone_number1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:background="@drawable/nebula_effect"
+                android:padding="@dimen/dimen_two_dp"
+                android:text="@string/phone"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/phone_number2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:background="@drawable/nebula_effect"
+                android:padding="@dimen/dimen_two_dp"
+                android:text="@string/office_phone_number2"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/fax" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/output_fax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.9"
+            android:text="@string/office_fax_number"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/ic_email_black_24dp" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.9"
+            android:background="@drawable/nebula_effect"
+            android:text="@string/office_email"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ln_share"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background_inset"
+    android:gravity="center"
+    android:excludeFromRecents="true"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="Share Rank"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <ImageView
+            android:id="@+id/img_income_close_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:background="@drawable/nebula_effect"
+            android:contentDescription="@null"
+            android:padding="@dimen/dimen_two_dp"
+            app:srcCompat="@drawable/ic_close_new_white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/image_share_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_three_dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.nebulacompanies.ibo.util.AspectRatioImageView
+                    android:id="@+id/my_income_share_rank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginRight="@dimen/dimen_six_dp"
+                    android:layout_marginEnd="@dimen/dimen_six_dp"
+                    android:layout_marginBottom="@dimen/dimen_twenty_dp"
+                    android:gravity="bottom|end"
+                    android:text=""
+                    android:visibility="gone"
+                    android:textSize="@dimen/dimen_eleven_sp"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/dimen_six_dp"
+                    android:gravity="bottom|end"
+                    android:visibility="gone"
+                    android:textSize="@dimen/dimen_eleven_sp"
+                    android:text=""
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_share"
+                    style="@style/Button"
+                    android:layout_width="@dimen/dimen_seventy_dp"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_gravity="bottom|center"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:text="Share"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/frame_layout"
+                    android:visibility="visible"
+                    android:layout_margin="@dimen/dimen_five_dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_fourteen_sp" />
+                <!-- </RelativeLayout>-->
+            </FrameLayout>
+
+           <!-- <Button
+                android:id="@+id/btn_share"
+                style="@style/Button"
+                android:layout_width="@dimen/dimen_seventy_dp"
+                android:layout_height="@dimen/dimen_thirty_dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/nebula_button_login_eftct_login"
+                android:text="Share"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/frame_layout"
+                android:visibility="visible"
+                android:layout_margin="@dimen/dimen_five_dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_fourteen_sp" />-->
+            <ImageView
+                android:id="@+id/btn_badge_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/dimen_four_dp"
+                android:background="@drawable/nebula_button_rounded_share"
+                android:padding="@dimen/dimen_four_dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_share_white_badge" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

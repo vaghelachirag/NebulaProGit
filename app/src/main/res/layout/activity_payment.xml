@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_ten_dp"
+        android:background="@android:color/white">
+
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_layout_search"
+            android:visibility="gone" />
+
+
+        <androidx.core.widget.NestedScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_place_order"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                    android:id="@+id/tv_payment_method_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Payment Method"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_nineteen_sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_payment_method_title"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_four_dp">
+
+                    <RadioButton
+                        android:id="@+id/rd_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:buttonTint="@color/colorRadio"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_four_dp" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                        android:id="@+id/tv_payment_method"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/dimen_four_dp"
+                        android:text="Cash On Delivery (COD)"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+        <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+            android:id="@+id/btn_place_order"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_forty_dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/dimen_ten_dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/nebula_button_login_eftct_login_ecom"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Place Order"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bonanza_leg_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/table_effect"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/tree_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <!-- Here you put the rest of your current view-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bonanza_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_three_dp"
+                android:background="@drawable/drawable_rounded_white_popup"
+                android:dividerHeight="4dp"
+                android:fadeScrollbars="false"
+                android:fitsSystemWindows="true"
+                android:orientation="horizontal"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbHorizontal="@android:color/darker_gray"
+                android:scrollbars="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+
+        <!-- </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

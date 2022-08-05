@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ln_main"
+        layout="@layout/dashboard_bar_navigation_ecom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_dashboard"
+        android:layout_width="@dimen/dimen_two_hundred_fifty_dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:visibility="visible"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.NavigationView"
+        app:itemIconTint="@color/colorPrimaryDark"
+        app:itemTextAppearance="@style/MenuTitleBarText"
+        app:itemTextColor="#1d3f4c"/>
+
+
+</LinearLayout>

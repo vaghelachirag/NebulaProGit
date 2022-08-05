@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_two_hundred_dp"
+    android:background="@drawable/profile_bg"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:id="@+id/ln_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_marginTop="@dimen/dimen_ten_dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgRank"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+
+           />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/iboid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_six_dp"
+            android:padding="@dimen/dimen_two_dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/iboname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_two_dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_two_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/iborank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/dimen_two_dp"
+                android:text="KYC "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <ImageView
+                android:id="@+id/img_kyc"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:padding="@dimen/dimen_two_dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

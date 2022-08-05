@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFA500</color>
+    <color name="nebula">#00aaaa</color>
+    <color name="nebula_new_light">#00aaaa</color>
+    <color name="nebula_new_xlight">#D0F4F4</color>
+    <color name="nebula_new_light_selected">#5CC9C9</color>
+    <color name="nebula_new_dark">#008081</color>
+    <color name="nebula_divider">#1A294DB0</color>
+    <color name="color_maroon">#800000</color>
+    <color name="red">#e72d1f</color>
+    <color name="olive_green">#BED5A3</color>
+    <color name="ticket_bg">#f2ccc1</color>
+    <color name="green">#36ab3b</color>
+    <color name="background_color">#F3F4F8</color>
+    <color name="background_color1">#F3F4F8</color>
+    <color name="view">#66000000</color>
+    <color name="aavaas_downline">#0ab1d5</color>
+    <color name="colorAccentt">#D3D3D3</color>
+    <color name="bar_empty">#e3e3e3</color>
+    <color name="Gray">#BDBDBD</color>
+    <color name="grey">#808080</color>
+    <color name="grey_alert">#616161</color>
+    <color name="snackbar_install">#ffff00</color>
+    <color name="test">#ffafbd</color>
+    <color name="scratch_start_gradient">#e5e5e5</color>
+    <color name="scratch_end_gradient">#cccccc</color>
+    //VACATION THAILAND
+    <color name="vacation_bg">#333333</color>
+    <color name="coloropacity">#BF000000</color>
+    <color name="coloropacity_dark">#D9000000</color>
+    <color name="grey_light">#dcdcdc</color>
+    <color name="bottom_sheet_color">#3e4152</color>
+    <color name="violet">#9C27B0</color>
+    <color name="violet_light">#EDD9F1</color>
+
+    <!--Modified By Jadav Chirag.-->
+    <color name="colorOffer">#fef2e6</color>
+    <color name="coloroffertext">#d4933d</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightBlack">#696969</color>
+    <color name="colorNavigation">#1B1C1F</color>
+    <color name="colorTransparent">#85000000</color>
+    <color name="colorPositive">#40596B</color>
+    <color name="colorNegative">#FF7058</color>
+    <color name="colorTextGrey">#808080</color>
+    <color name="icon_color_vector">#737373</color>
+    <color name="transparent">#00000000</color>
+    <color name="click_effect">#D3D3D3</color>
+    <color name="table_bg_even">#E6E7E8</color>
+    <color name="table_bg_odd">#D2D3D5</color>
+
+    <color name="color_table_text">#001594</color>
+
+    <color name="toolbar">#152968</color>
+    <color name="sub_toolbar">#7DC6FA</color>
+
+    // Dashboard
+    <color name="DARK_GREEN">#3ea13e</color>
+    <color name="GREEN">#64cc64</color>
+    <color name="color_text">#A9A9A9</color>
+    <color name="button_bg">#d34836</color>
+    <color name="blue">#123256</color>
+    <color name="gray">#444444</color>
+    <color name="gray_light_opacity">#4Dffffff</color>
+    <color name="gray_light_opacity_layout">#40ffffff</color>
+    <color name="out_stock_color">#908f8d</color>
+    <color name="gray_very_light">#DDDDDD</color>
+    <color name="light_gray">#DFDEDB</color>
+    <color name="gray_divider">#FBF6F6</color>
+    <!--Payment Method-->
+    <color name="payment_title">#d9dadc</color>
+    <color name="gray_light">#BBBBBB</color>
+    <color name="color_texts">#414042</color>
+
+    <!--Tour PopUp Stuff-->
+    <color name="hint_color">#99ffffff</color>
+
+    <!--IBO Forgot-->
+    <color name="forgot_title_text">#868686</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#ffe54c</color>
+    <color name="dot_light_screen6">#ff5bff</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#764f00</color>
+    <color name="dot_dark_screen6">#0c6459</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#c68400</color>
+    <color name="bg_screen6">#9e00c5</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+    </array>
+
+    <!--Sweet Dialogue-->
+    <color name="line">#c0c0c0</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#6DD700</color>
+    <color name="blue_btn_bg_pressed_color">#75be3c</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="color_customer_theme">#0aa89e</color>
+    <color name="view_color">#EBEBEB</color>
+
+    <!--Ecom-->
+    <color name="proceed_disable">#DEDEDE</color>
+    <color name="proceed_enable">#72D63A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#f0c350</color>
+    <color name="colorNotification">#66ccce</color>
+    <color name="colorRadio">#e87701</color>
+    <color name="colorRadioOpacity">#f9e7b9</color>
+    <color name="colorStroke">#846a29</color>
+    <color name="colorStrokeAddress">#bd8344</color>
+    <color name="click_effect_address">#afaeb3</color>
+    <color name="holo_red_dark">#ff0000</color>
+    <color name="list_product_name">#121212</color>
+    <color name="selected_product_count">#4d4d4d</color>
+    <color name="tab_background_unselected">#7DC6FA</color>
+    <color name="light_yellow">#FAF8DF</color>
+    <color name="light_blue">#DDF2FD</color> <!--//8fb9e1 ,92bbf0-->
+
+    <color name="colorBookingText">#612154</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="dot_light_screen6_new">#CDFFFF</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <color name="colorPrimarySubToolbar">#66ccce</color>
+    <dimen name="default_circle_indicator_radius">4dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="colorGray">#D0D0D0</color>
+    <color name="dimgray">#696969</color>
+    <color name="click_effect_opicity">#4DD3D3D3</color>
+    <color name="colorActiveItem">#4400a59c</color>
+    <color name="colorOrderSummary">#737373</color>
+
+    <color name="black">#000000</color>
+    <color name="hyper_link">#0000ff</color>
+
+    <color name="light_green">#e6f8ea</color>
+
+    <color name="light_green_border">#b3dbb9</color>
+    <color name="dark_green">#258f44</color>
+
+    <color name="light_red">#f8e4e3</color>
+    <color name="light_red_border">#e3f8eb</color>
+    <color name="dark_red">#bd2122</color>
+
+    <!--Custom Alert-->
+    <color name="pdlg_color_white">#eeeeee</color>
+    <color name="pdlg_color_green">#388E3C</color>
+    <color name="pdlg_color_red">#d50000</color>
+    <color name="pdlg_color_blue">#1976D2</color>
+    <color name="pdlg_color_black">#212121</color>
+    <color name="pdlg_color_yellow">#FFEB3B</color>
+    <color name="pdlg_color_gray">#9E9E9E</color>
+    <color name="pdlg_color_yellow_light">#E8E5CA</color>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':fancydialog', 'nebulavideoplayer',  'treeview', ':libCrop'
+//include ':app', ':libraries','nebulavideoplayer', 'nebulatutorial'

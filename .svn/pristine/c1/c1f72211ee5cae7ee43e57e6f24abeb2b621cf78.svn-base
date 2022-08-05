@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background_inset_popup"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_two_dp"
+        android:background="@drawable/table_effect_popup"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bv_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/bv"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/bv_per_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:paddingBottom="@dimen/dimen_two_dp"
+                    android:paddingEnd="@dimen/dimen_two_dp"
+                    android:paddingLeft="@dimen/dimen_four_dp"
+                    android:paddingRight="@dimen/dimen_two_dp"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_two_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+                <!--                    android:background="@drawable/drawable_rounded_white_top_info_popup"-->
+            </LinearLayout>
+
+            <View
+                android:id="@+id/bv_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/retail_profit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/retail_profit_new"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/ret_pro_value"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/retail_profit_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/star_pool_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/starPoolPercent_new"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/starpool"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/star_pool_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/star_pool_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/StarPoolAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/starpoolamount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/star_pool_amount"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/three_pool_percent_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/ThreeStarPoolPercentNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/threepoolPercent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/three_pool_percent_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/three_pool_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/ThreeStarPoolAmount"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/threepoolamount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/three_pool_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/retails_advance_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/RetailsAdvanceAmount"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/retails_advance_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/retails_advance_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/star_pool_advance_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/StarPoolAdvanceAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/star_pool_advance_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/star_pool_advance_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/three_star_pool_advance_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/ThreeStarPoolAdvanceAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/three_star_pool_advance_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/three_star_pool_advance_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/sponsor_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/SponsorIncomeAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/sponsor_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/sponsor_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/sponsor_income_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/SponsorIncomeRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/sponsor_income"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/sponsor_income_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/platinum_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/PlatinumRankBonusAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/platinum_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/platinum_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/platinum_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/PlatinumRankBonusRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/platinum_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/platinum_rate_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/star_platinum_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/StarPlatinumRankBonusIncomeAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/star_platinum_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/star_platinum_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/star_platinum_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/StarPlatinumRankBonusIncomeRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/star_platinum_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/star_platinum_rate_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayAchieverRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_rate_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayAchieverAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_mini_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayMiniBonanzaAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_mini_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_mini_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_mini_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayMiniBonanzaRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_mini_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_mini_rate_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_bonaza_rate_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayBonanzaRateNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_bonaza_rate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_bonaza_rate_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/holiday_bonaza_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/HolidayBonanzaAmountNew"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/holiday_bonaza_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/holiday_bonaza_amount_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/nv_token_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/nvtoken"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/nv_token"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/nv_token_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/nv_dp_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/nvdp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/nv_dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/nv_dp_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/nv_bank_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.70"
+                    android:background="@color/nebula"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/nvbankloan"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/white" />
+                <!--android:background="@drawable/drawable_rounded_green_bottom_info_popup"-->
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/nv_bank_loan"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/drawable_rounded_white_info_popup"
+                    android:gravity="end|center"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/black" />
+
+                <!--android:background="@drawable/drawable_rounded_white_bottom_info_popup"-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

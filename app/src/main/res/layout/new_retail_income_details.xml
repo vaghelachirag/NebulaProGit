@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen_ten_dp"
+    android:background="@drawable/dialog_background_inset"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_effect"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="16">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.8"
+            android:gravity="center"
+            android:padding="1dp"
+            android:singleLine="false"
+            android:text="@string/date"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.2"
+            android:gravity="center"
+            android:singleLine="false"
+            android:text="@string/customer_name"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="3dp"
+            android:singleLine="false"
+            android:text="@string/unit"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="3dp"
+            android:singleLine="false"
+            android:text="@string/emi_no"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="3dp"
+            android:singleLine="false"
+            android:text="@string/retail_income"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_three_dp"
+            android:background="@drawable/drawable_rounded_white_popup"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list_project_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:fadeScrollbars="false"
+                android:layoutAnimation="@anim/layout_animation_fall_down"
+                android:smoothScrollbar="true" />
+
+            <include
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

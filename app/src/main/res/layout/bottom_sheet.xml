@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_sort"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:visibility="visible"
+    android:layout_gravity="bottom"
+    android:layout_marginStart="@dimen/dimen_five_dp"
+    android:layout_marginEnd="@dimen/dimen_five_dp"
+    android:layout_marginBottom="@dimen/dimen_fifty_dp"
+    android:layout_alignParentBottom="true">
+
+
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/dimen_four_dp"
+        android:text="Sort By"
+        android:drawablePadding="@dimen/dimen_five_dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_sixteen_sp"
+        android:textStyle="normal" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dimen_four_dp"
+        android:layout_height="@dimen/dimen_one_dp"
+        android:background="@color/view"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_five_dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: Low to High"
+            android:id="@+id/rb_price_low"
+            android:checked="true"
+            android:buttonTint="@color/colorRadio"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: High to Low"
+            android:id="@+id/rb_price_high"
+            android:checked="false"
+            android:buttonTint="@color/colorRadio"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A - Z"
+            android:id="@+id/rb_a_to_z"
+            android:textColor="@android:color/black"
+            android:checked="false"
+            android:buttonTint="@color/colorRadio"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z - A"
+            android:id="@+id/rb_z_to_z"
+            android:checked="false"
+            android:buttonTint="@color/colorRadio"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#000"
+        android:visibility="gone"
+        android:text="PROCEED PAYMENT"
+        android:textColor="#fff" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_thirty_eight_dp"
+        android:layout_marginStart="@dimen/dimen_four_dp"
+        android:layout_marginEnd="@dimen/dimen_four_dp"
+        android:layout_marginTop="@dimen/dimen_fifteen_dp"
+        android:gravity="center"
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:padding="@dimen/dimen_six_dp"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+</LinearLayout>

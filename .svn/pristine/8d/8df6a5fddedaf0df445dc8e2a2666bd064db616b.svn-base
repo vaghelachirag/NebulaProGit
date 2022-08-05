@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nebulacompanies.ibo.view.MyTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/dimen_twelve_sp"
+    android:textIsSelectable="false"
+    android:padding="@dimen/dimen_two_dp"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:textColor="@android:color/white" />

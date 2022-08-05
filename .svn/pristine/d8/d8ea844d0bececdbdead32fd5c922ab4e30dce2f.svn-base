@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:gravity="start"
+    android:longClickable="false"
+    app:layout_gravity="start">
+
+    <!-- <com.nebulacompanies.ibo.view.NebulaEditText
+         android:id="@+id/edittext"
+         style="@style/styleSmallEditTextIBO"
+         android:layout_width="fill_parent"
+         android:layout_margin="0dp"
+         android:background="@android:color/transparent"
+         android:inputType="textPassword"
+         android:maxLines="1"
+         android:drawableStart="@drawable/ic_lock"
+         android:drawableLeft="@drawable/ic_lock"
+         android:textSize="15sp"
+         android:padding="0dp"
+         android:layout_marginEnd="@dimen/dimen_six_dp"
+         android:layout_marginRight="@dimen/dimen_six_dp"
+         android:textColorHint="@color/hint_color"
+         android:paddingEnd="35dip"
+         android:layout_toStartOf="@+id/button_clear"
+         android:layout_toLeftOf="@+id/button_clear"
+         android:selectAllOnFocus="true"
+         android:paddingRight="35dip" />-->
+
+
+    <com.nebulacompanies.ibo.view.NebulaEditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:backgroundTint="@color/view"
+        android:gravity="start"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:selectAllOnFocus="true"
+        android:textColorHint="@color/hint_color"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/button_clear"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen_ten_dp"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/ic_eye_open"
+        android:scaleType="fitXY" />
+</RelativeLayout>

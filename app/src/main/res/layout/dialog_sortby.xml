@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:id="@+id/tv_sort_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_ten_dp"
+        android:text="Sort By"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_sixteen_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_divider"
+        android:visibility="visible" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_four_dp">
+
+        <RadioButton
+            android:id="@+id/rb_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+            android:checked="true"
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="All"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_price_low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="Price: Low to High"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rb_price_high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+            android:padding="@dimen/dimen_ten_dp"
+
+            android:text="Price: High to Low"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rb_a_to_z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="A - Z"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rb_z_to_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="Z - A"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_trending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+            android:padding="@dimen/dimen_ten_dp"
+
+            android:text="Trending"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rb_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/nebula"
+
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="New"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:shape="rectangle">
+    <solid android:color="#0aa89e" />
+    <corners android:radius="2dp" />
+    <stroke
+        android:width="2dip"
+        android:color="#0aa89e" />
+      <!--  android:color="@color/color_ibo_theme" />-->
+
+      <!--  android:color="@color/color_customer_theme"-->
+</shape>

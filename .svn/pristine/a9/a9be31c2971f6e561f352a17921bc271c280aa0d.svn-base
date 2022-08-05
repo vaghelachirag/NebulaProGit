@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ln_my_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/purchase_date1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/apartment1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="@android:color/black" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#cfcfcf" />
+
+        <ImageView
+            android:id="@+id/sale_info1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:visibility="gone"
+            android:background="@drawable/nebula_effect"
+            android:gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_info_black" />
+
+        <!--<TextView
+            android:id="@+id/sale_info1"
+            android:layout_width="0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight="3"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:textColor = "@android:color/black"
+            android:text="@string/info"
+            android:singleLine="false"
+            android:layout_gravity="center"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

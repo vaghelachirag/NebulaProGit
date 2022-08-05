@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background_inset_agreement"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ln_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_effect_up"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_eight_dp"
+                    android:text="@string/policies_agreements"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimen_sixteen_sp" />
+
+                <ImageView
+                    android:id="@+id/img_policy_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/dimen_five_dp"
+                    android:background="@drawable/nebula_effect"
+                    android:contentDescription="@null"
+                    android:padding="@dimen/dimen_five_dp"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_close_new_white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginEnd="@dimen/dimen_two_dp"
+                android:layout_marginStart="@dimen/dimen_two_dp"
+                android:background="#cfcfcf" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ln_title"
+            android:layout_marginBottom="@dimen/dimen_two_dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginStart="@dimen/dimen_two_dp"
+            android:background="@drawable/drawable_rounded_white_popup"
+            android:padding="@dimen/dimen_three_dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rl_agree"
+                android:layout_marginEnd="@dimen/dimen_three_dp"
+                android:layout_marginStart="@dimen/dimen_three_dp"
+                android:fadeScrollbars="false"
+                android:scrollbarThumbVertical="@color/click_effect"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_three_dp"
+                    android:background="@drawable/drawable_rounded_white_popup"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_eight_dp">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_policy_agreement"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="STANDARD OPERATING PROCESS FOR EXECUTION OF AFS AND COMPILATION OF LOAN DOCUMENTS"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_sixteens_sp" />
+
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="Any sale will be considered to be done by the referring IBO only when the customer gets the loan sanctioned and disbursed from available banks. It will be the responsibility of the referring IBO to help and assist the customer and Nebula to get the bank loan done for the customer who has bought an apartment in Nebula through that IBO. With a view to provide good after sale support the IBOs shall at all times assist the customers and Nebula which in turn will positively aﬀect the reputation of the company and the IBOs will also be reckoned as trusted partners by the customers. In the event of failure of an IBO in fulﬁlling the above commitments especially in getting the bank loan done, the concerned IBO shall cease to qualify for income arising out of sale made to that particular customer with immediate eﬀect."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_twelve_sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="1) IBO Involvement:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="Nebula will intimate IBO on Call/SMS/email with complete details of the Customer and pendency of any kind including but not limited to submission of bank loan documents, where IBO involvement is required to make sure that the customer provides all required information/documents for taking loan from bank."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_twelve_sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="2) Implication:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="If an IBO does not eﬀectively respond or support within 7 Days then same will be escalated to the sponsor of the IBO and up-line Star Platinum of that IBO. The Sponsor and Star Platinum will be given 7 days to contact the IBO and get the issue resolved completely within 14 days. If within the above time period none of the above eﬀectively supports than the IBO and the sponsor of that IBO will lose the opportunity to earn the payout generated thereafter may it be from Loan Disbursement/Self Payment/EMI."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="This shall have no impact on the Platinum income, star platinum income and pool income generated from the concerned unit."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:text="This SOP shall be applicable to new sale as well as existing sale."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <RelativeLayout
+                android:id="@+id/rl_agree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/dimen_five_dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:drawableLeft="@drawable/ic_check_white"
+                    android:drawablePadding="@dimen/dimen_two_dp"
+                    android:drawableStart="@drawable/ic_check_white"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:text="@string/policies_agree_accept"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

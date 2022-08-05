@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/viewline"
+        android:animateLayoutChanges="true"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="@color/nebula" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_four_dp"
+        android:paddingTop="@dimen/dimen_fourteen_dp"
+        android:paddingRight="@dimen/dimen_four_dp"
+        android:paddingBottom="@dimen/dimen_fourteen_dp">
+
+        <RelativeLayout
+            android:id="@+id/rel_data"
+            android:layout_width="64dp"
+            android:layout_height="64dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_centerInParent="true"
+                android:src="@color/nebula_new_xlight"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0dp" />
+
+            <ImageView
+                android:id="@+id/img_category"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cat_wellness" />
+
+            <ImageView
+                android:id="@+id/img_category_small"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cat_wellness" />
+        </RelativeLayout>
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/textname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Personal Care"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_twelve_sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardLogin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dimen_ten_dp"
+                android:paddingBottom="@dimen/dimen_ten_dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/colorNotification" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                        style="@style/styleTextViewLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/login"
+                        android:textSize="@dimen/dimen_fifteen_sp" />
+                </RelativeLayout>
+
+
+                <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                    android:id="@+id/edt_mobile"
+                    style="@style/styleSmallEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:background="@drawable/bg_card_customer_edit_text"
+                    android:hint="Mobile No."
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="14sp" />
+
+
+                <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                    android:id="@+id/edt_otp"
+                    style="@style/styleSmallEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:background="@drawable/bg_card_customer_edit_text"
+                    android:hint="OTP"
+                    android:inputType="phone"
+                    android:maxLength="6"
+                    android:maxLines="1"
+                    android:visibility="gone"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="14sp" />
+
+                <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_thirty_eight_dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dimen_ten_dp"
+                    android:layout_marginStart="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="Get OTP"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_thirteen_sp" />
+
+                <RelativeLayout
+                    android:id="@+id/seperatorlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp">
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/ln_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@drawable/nebula_effect"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/dimen_four_dp"
+                        android:orientation="horizontal">
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="end"
+                            android:text="Don't have an account?"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimen_two_dp"
+                            android:gravity="end"
+                            android:text="Register"
+                            android:textColor="@color/colorRadio"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/cardLogin"
+            android:layout_alignEnd="@id/cardLogin"
+            android:layout_alignRight="@id/cardLogin"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginRight="-10dp"
+            android:src="@drawable/ic_action_ic_logo"
+            android:transitionName="loginFab"
+            app:backgroundTint="@color/colorNotification"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRegister"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dimen_ten_dp"
+                android:paddingBottom="@dimen/dimen_ten_dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp">
+
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/colorNotification" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                        style="@style/styleTextViewLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="Register"
+                        android:textSize="@dimen/dimen_fifteen_sp" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:orientation="horizontal">
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/edt_register_first_name"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_five_dp"
+                        android:layout_marginEnd="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_customer_edit_text"
+                        android:hint="First Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/edt_register_last_name"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_five_dp"
+                        android:layout_marginStart="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_customer_edit_text"
+                        android:hint="Last Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:orientation="horizontal">
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/edt_register_mobile"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_five_dp"
+                        android:layout_marginEnd="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_customer_edit_text"
+                        android:hint="Mobile No."
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/edt_register_email"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_five_dp"
+                        android:layout_marginStart="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_customer_edit_text"
+                        android:hint="Email ID"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ln_enter_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:visibility="visible"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/edt_register_otp"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_five_dp"
+                        android:layout_marginEnd="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_card_customer_edit_text"
+                        android:hint="OTP"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                        android:id="@+id/btn_get_otp"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="@dimen/dimen_four_dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:text="Get OTP"
+                        android:layout_marginBottom="6dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/dimen_thirteen_sp"/>
+
+                    <!--<com.nebulacompanies.nebula.ecom.utils.MyButtonEcom
+                        android:id="@+id/btn_get_otp"
+                        style="@style/styleSmallEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_seven_dp"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                        android:layout_weight="1"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Get OTP"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:gravity="center"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_thirteen_sp" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:orientation="horizontal">
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="start"
+                        android:clickable="false"
+                        android:background="@null"
+                        android:editable="false"
+                        android:text="Gender:"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <RadioGroup
+                        android:id="@+id/member_radiogroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:buttonTint="@color/colorRadio"
+                            android:checked="true"
+                            android:text="Male"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_thirteen_sp" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/colorRadio"
+                            android:text="Female"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_thirteen_sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                    android:id="@+id/btn_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_thirty_eight_dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dimen_ten_dp"
+                    android:layout_marginStart="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="Register"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_thirteen_sp" />
+
+                <RelativeLayout
+                    android:id="@+id/seperatorlayout_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_thirty_dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp">
+                    <LinearLayout
+                        android:id="@+id/ln_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@drawable/nebula_effect"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/dimen_four_dp"
+                        android:orientation="horizontal">
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="end"
+                            android:text="Already have an account?"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimen_two_dp"
+                            android:gravity="end"
+                            android:text="Sign In"
+                            android:textColor="@color/colorRadio"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/cardRegister"
+            android:layout_alignEnd="@id/cardRegister"
+            android:layout_alignRight="@id/cardRegister"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginRight="-10dp"
+            android:src="@drawable/ic_action_ic_logo"
+            android:transitionName="loginFab"
+            app:backgroundTint="@color/colorNotification"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+</RelativeLayout>

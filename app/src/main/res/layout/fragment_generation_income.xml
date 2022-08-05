@@ -1,0 +1,132 @@
+<!--<com.nebulacompanies.nebula.view.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    android:id="@+id/horizontalscrollview10">-->
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/generation_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_ten_dp">
+
+    <LinearLayout
+        android:id="@+id/ln_generation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_effect"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_dp"
+            android:orientation="horizontal"
+            android:weightSum="12">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/closingdate_geninc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/closing_date"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_normal_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/mybv_per_geninc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/my_bv"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_normal_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/total_bv_comm_geninc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/total_bv_commission"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_normal_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf"
+                android:visibility="gone" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/more_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/more_info"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_normal_callibri"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_three_dp"
+            android:background="@drawable/drawable_rounded_white_popup"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listview_generation_income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:fadeScrollbars="false"
+                android:layoutAnimation="@anim/layout_animation_fall_down"
+                android:smoothScrollbar="true" />
+
+            <include
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    <!--
+    </com.nebulacompanies.nebula.view.MyScrollView>-->
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

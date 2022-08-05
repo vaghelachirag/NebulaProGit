@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+
+        <attr name="ci_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0" />
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="ci_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003" />
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005" />
+        </attr>
+
+    </declare-styleable>
+
+    <!--Show Case View Back-->
+    <declare-styleable name="ShowcaseView">
+        <attr name="sv_backgroundColor" format="color|reference" />
+        <attr name="sv_detailTextColor" format="color|reference" />
+        <attr name="sv_titleTextColor" format="color|reference" />
+        <attr name="sv_buttonBackgroundColor" format="color|reference" />
+        <attr name="sv_buttonForegroundColor" format="color|reference" />
+        <attr name="sv_buttonText" format="string|reference" />
+        <attr name="sv_detailTextAppearance" format="reference" />
+        <attr name="sv_titleTextAppearance" format="reference" />
+        <attr name="sv_showcaseColor" format="color|reference" />
+        <attr name="sv_tintButtonColor" format="boolean|reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="showcaseViewStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="DownloadProgressView">
+        <attr name="percentageColor" format="color" />
+        <attr name="totalSizeColor" format="color" />
+        <attr name="downloadedSizeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ShownEdittext">
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:textColorHint" />
+        <attr name="android:enabled" />
+        <attr name="android:imeOptions" />
+        <attr name="showButton" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ToggleSwitchOptions">
+        <attr name="toggleWidth" format="dimension" />
+        <attr name="textToggleCenter" format="string" localization="suggested" />
+        <attr name="textToggleLeft" format="string" localization="suggested" />
+        <attr name="textToggleRight" format="string" localization="suggested" />
+        <attr name="activeBgColor" format="color" />
+        <attr name="activeTextColor" format="color" />
+        <attr name="inactiveBgColor" format="color" />
+        <attr name="inactiveTextColor" format="color" />
+        <attr name="separatorColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
+    <!-- <declare-styleable name="ShownEdittext">
+         <attr name="android:inputType" />
+         <attr name="android:hint" />
+         <attr name="android:textColorHint" />
+         <attr name="android:enabled" />
+         <attr name="android:imeOptions" />
+         <attr name="showButton" format="boolean" />
+     </declare-styleable>-->
+
+    <declare-styleable name="ChipView">
+        <attr name="label" format="string" />
+        <attr name="labelColor" format="color" />
+        <attr name="hasAvatarIcon" format="boolean" />
+        <attr name="avatarIcon" format="reference" />
+        <attr name="deletable" format="boolean" />
+        <attr name="deleteIcon" format="reference" />
+        <attr name="deleteIconColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ChipsInput">
+        <attr name="hint" format="string" />
+        <attr name="hintColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="maxRows" format="integer" />
+        <attr name="chip_labelColor" format="color" />
+        <attr name="chip_hasAvatarIcon" format="boolean" />
+        <attr name="chip_deletable" format="boolean" />
+        <attr name="chip_deleteIcon" format="reference" />
+        <attr name="chip_deleteIconColor" format="color" />
+        <attr name="chip_backgroundColor" format="color" />
+        <attr name="showChipDetailed" format="boolean" />
+        <attr name="chip_detailed_textColor" format="color" />
+        <attr name="chip_detailed_backgroundColor" format="color" />
+        <attr name="chip_detailed_deleteIconColor" format="color" />
+        <attr name="filterable_list_backgroundColor" format="color" />
+        <attr name="filterable_list_textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollViewMaxHeight">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AvatarView">
+        <attr name="showLabel" format="boolean" />
+        <attr name="avatarSize" format="dimension" />
+        <attr name="avatarSrc" format="reference" />
+        <attr name="labelSrc" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TriangleLabelView">
+
+        <attr name="backgroundColor_triangle" format="color" />
+        <attr name="primaryTextColor" format="color" />
+        <attr name="secondaryTextColor" format="color" />
+
+        <attr name="primaryText" format="string" />
+        <attr name="secondaryText" format="string" />
+
+        <attr name="primaryTextSize" format="dimension" />
+        <attr name="secondaryTextSize" format="dimension" />
+
+        <attr name="labelTopPadding" format="dimension" />
+        <attr name="labelCenterPadding" format="dimension" />
+        <attr name="labelBottomPadding" format="dimension" />
+
+        <attr name="primaryTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+
+        <attr name="secondaryTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+
+        <attr name="corner">
+            <enum name="leftTop" value="1" />
+            <enum name="rightTop" value="2" />
+            <enum name="leftBottom" value="3" />
+            <enum name="rightBottom" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+
+    <!-- Custom Splash UI Design-->
+
+
+    <declare-styleable name="GravView">
+        <attr name="colorGenerator" format="string" />
+        <attr name="pointGenerator" format="string" />
+        <attr name="gravGenerator" format="string" />
+        <attr name="animationGenerator" format="string" />
+        <attr name="animationGenerators" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleColorGenerator">
+        <attr name="single_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ArrayColorGenerator">
+        <attr name="array_colors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BallGenerator">
+        <attr name="ball_size" format="dimension" />
+        <attr name="ball_from_size" format="dimension" />
+        <attr name="ball_to_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RectangleGenerator">
+        <attr name="rectangle_width" format="dimension" />
+        <attr name="rectangle_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RegularPointGenerator">
+        <attr name="regular_cell_size" format="integer" />
+        <attr name="regular_variance" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularPointGenerator">
+        <attr name="circular_cell_size" format="integer" />
+        <attr name="circular_variance" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ShakeAnimator">
+        <attr name="shake_min_duration" format="integer" />
+        <attr name="shake_max_duration" format="integer" />
+        <attr name="shake_variance" format="dimension" />
+        <attr name="shake_direction" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SideToSideAnimator">
+        <attr name="side_to_side_interpolator" format="string" />
+        <attr name="side_to_side_min_duration" format="integer" />
+        <attr name="side_to_side_max_duration" format="integer" />
+        <attr name="side_to_side_direction" format="enum">
+            <enum name="leftToRight" value="0" />
+            <enum name="rightToLeft" value="1" />
+            <enum name="upToDown" value="2" />
+            <enum name="downToUp" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BallSizeAnimator">
+        <attr name="ball_size_min_duration" format="integer" />
+        <attr name="ball_size_max_duration" format="integer" />
+        <attr name="ball_size_from_size" format="dimension" />
+        <attr name="ball_size_to_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PercentPointGenerator">
+        <attr name="percent_points_array" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AlphaAnimator">
+        <attr name="alpha_from" format="integer" />
+        <attr name="alpha_to" format="integer" />
+        <attr name="alpha_min_duration" format="integer" />
+        <attr name="alpha_max_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PathAnimator">
+        <attr name="path_variance_from" format="dimension" />
+        <attr name="path_variance_to" format="dimension" />
+        <attr name="path" format="string" />
+        <attr name="path_original_width" format="integer" />
+        <attr name="path_original_height" format="integer" />
+        <attr name="path_min_duration" format="integer" />
+        <attr name="path_max_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="minWidth" format="dimension" />
+        <attr name="maxWidth" format="dimension" />
+        <attr name="minHeight" format="dimension" />
+        <attr name="maxHeight_" format="dimension" />
+        <attr name="indicatorName" format="string" />
+        <attr name="indicatorColor" format="color" />
+    </declare-styleable>
+
+
+    <!-- default style for theme -->
+    <attr name="ttlm_defaultStyle" format="reference" />
+
+    <!-- default style -->
+    <declare-styleable name="TooltipLayout">
+        <attr name="ttlm_padding" format="dimension" />
+        <attr name="ttlm_strokeColor" format="color" />
+        <attr name="ttlm_backgroundColor" format="color" />
+        <attr name="ttlm_strokeWeight" format="dimension" />
+        <attr name="ttlm_cornerRadius" format="dimension" />
+        <attr name="ttlm_arrowRatio" format="float" />
+        <attr name="android:textAppearance" />
+        <attr name="android:gravity" />
+        <attr name="ttlm_overlayStyle" format="reference" />
+        <attr name="ttlm_font" format="string" />
+
+        <!-- elevation of the tooltip. Works only on non custom views -->
+        <attr name="ttlm_elevation" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TooltipOverlay">
+        <attr name="android:color" />
+        <attr name="android:alpha" />
+        <attr name="ttlm_repeatCount" format="integer" />
+        <attr name="ttlm_duration" format="integer" />
+        <attr name="android:layout_margin" />
+    </declare-styleable>
+
+    <!--Expended collapse-->
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="android:orientation" />
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+
+    <!--Likes -->
+    <declare-styleable name="LikeButton">
+        <attr name="icon_type" format="string" />
+        <attr name="icon_size" format="dimension|reference" />
+        <attr name="like_drawable" format="reference" />
+        <attr name="unlike_drawable" format="reference" />
+        <attr name="dots_primary_color" format="color|reference" />
+        <attr name="dots_secondary_color" format="color|reference" />
+        <attr name="circle_start_color" format="color|reference" />
+        <attr name="circle_end_color" format="color|reference" />
+        <attr name="liked" format="boolean" />
+        <attr name="is_enabled" format="boolean" />
+        <attr name="anim_scale_factor" format="float" />
+    </declare-styleable>
+
+
+    <!--Read More Read Less-->
+
+    <declare-styleable name="ReadMoreTextView">
+        <attr name="trimExpandedText" format="string" />
+        <attr name="trimCollapsedText" format="string" />
+        <attr name="trimLength" format="integer" />
+        <attr name="showTrimExpandedText" format="boolean" />
+        <attr name="colorClickableText" format="color" />
+        <attr name="trimLines" format="integer" />
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0" />
+            <enum name="trimModeLength" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <!--PIN-->
+    <declare-styleable name="OtpViewTheme">
+        <attr name="otpViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OtpView">
+        <attr name="itemCount" format="integer" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemRadius" format="dimension" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineColorName" format="reference|color" />
+        <attr name="viewType" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="line" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="android:cursorVisible" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="reference|color" />
+        <attr name="android:itemBackground" />
+        <attr name="hideLineWhenFilled" format="boolean" />
+        <attr name="state_filled" format="boolean" />
+        <attr name="rtlTextDirection" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="Pinview">
+        <attr name="pinBackground" format="reference"/>
+        <attr name="pinLength" format="integer"/>
+        <attr name="pinWidth" format="dimension"/>
+        <attr name="pinHeight" format="dimension"/>
+        <attr name="splitWidth" format="dimension"/>
+        <attr name="cursorVisible" format="boolean"/>
+        <attr name="password" format="boolean"/>
+        <attr name="forceKeyboard" format ="boolean"/>
+        <attr name="hints" format="string"/>
+        <attr name="inputType"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+    <attr name="inputType" format="enum">
+        <enum name="text" value="0"/>
+        <enum name="number" value="1"/>
+    </attr>
+
+    <!--Sweet Dialogue-->
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <attr name="sweet_alert_bg_drawable" format="reference" />
+    <attr name="sweet_alert_title_text_color" format="color|reference" />
+    <attr name="sweet_alert_content_text_color" format="color|reference" />
+
+
+
+    <declare-styleable name="TimelineView" >
+        <attr name="markerColor" format="color|reference"/>
+        <attr name="lineColor" format="color|reference"/>
+        <attr name="markerSize" format="dimension"/>
+        <attr name="markerStrokeWidth" format="dimension"/>
+        <attr name="markerActiveColor" format="color|reference"/>
+        <attr name="markerActiveStrokeWidth" format="dimension"/>
+        <attr name="lineSize" format="dimension"/>
+        <attr name="markerTextSize" format="dimension"/>
+        <attr name="markerTextColor" format="color|reference"/>
+        <attr name="markerActive" format="boolean"/>
+        <attr name="lineOrientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

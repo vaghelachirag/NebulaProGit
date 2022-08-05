@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/dimen_twenty_dp"
+            android:layout_marginTop="@dimen/dimen_fifty_five_dp"
+            android:layout_marginEnd="@dimen/dimen_twenty_dp"
+            android:background="@drawable/white_radius_background">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_decs"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:background="@drawable/rounded_bg_alert"
+                android:gravity="center"
+                android:text="Complete my profile"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/tv_decs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:gravity="center"
+                android:text="It seems that your profile is incomplete. \n Kindly complete your profile details to become eligible for payouts."
+                android:textColor="@color/grey_alert"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:gravity="center"
+                android:text="Profile incomplete"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-55dp"
+            android:background="@drawable/ic_caution" />
+
+    </RelativeLayout>
+</RelativeLayout>

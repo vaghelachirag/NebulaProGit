@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llEmpty2"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_two_dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_rounded_white_popup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgError2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_cloud_off_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/txtErrorTitle2"
+        style="@style/styleTextViewLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/error_no_records"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dp" />
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/txtRetry2"
+        style="@style/styleTextViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="Retry"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:background="@drawable/nebula_effect"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/white"></solid>
+    <padding
+        android:bottom="@dimen/card_margin"
+        android:left="@dimen/dimen_three_dp"
+        android:right="@dimen/card_margin"
+        android:top="@dimen/card_margin"></padding>
+
+    <stroke
+        android:width="1dip"
+        android:color="@color/gray_light" />
+    <!-- Here is the corner radius -->
+    <corners android:radius="8dp"></corners>
+
+</shape>

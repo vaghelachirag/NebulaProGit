@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/achiever_income_layout"
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "fill_parent"
+        android:weightSum="2"
+        android:background="@drawable/nebula_effect">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/achiever_date"
+            android:layout_width="0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight="1"
+            android:gravity = "center"
+            android:padding = "@dimen/dimen_ten_dp"
+            android:textColor = "@android:color/black"
+            android:textSize="@dimen/dimen_normal_callibri"
+            android:singleLine="false"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/achiever_amount"
+            android:layout_width="0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight="1"
+            android:gravity = "center"
+            android:padding = "@dimen/dimen_ten_dp"
+            android:textColor = "@android:color/black"
+            android:textSize="@dimen/dimen_normal_callibri"
+            android:singleLine="false"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

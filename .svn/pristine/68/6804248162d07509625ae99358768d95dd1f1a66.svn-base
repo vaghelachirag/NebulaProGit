@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_ten_dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RadioButton
+        android:id="@+id/rb_package_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_four_dp"
+        android:buttonTint="@color/colorRadio"
+        android:checked="false"
+        android:textColor="@android:color/black"
+        android:paddingStart="@dimen/dimen_six_dp"
+        android:text="@string/package_one"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_pv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:layout_marginStart="@dimen/dimen_thirty_eight_dp"
+                android:text=""/>
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_nv"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_bv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

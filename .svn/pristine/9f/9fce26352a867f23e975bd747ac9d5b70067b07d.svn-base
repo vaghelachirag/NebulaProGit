@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000">
+
+    <ImageView
+        android:id="@+id/img_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:background="@drawable/nebula_effect"
+        android:contentDescription="@null"
+        android:padding="@dimen/dimen_five_dp"
+        app:srcCompat="@drawable/ic_arrow_back" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen_four_dp"
+                android:contentDescription="@null"
+                app:srcCompat="@drawable/ic_nebula_white_logo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_twenty_dp"
+                android:layout_marginStart="@dimen/dimen_twenty_dp"
+                android:background="@drawable/drawable_rounded_transperent">
+
+                <com.nebulacompanies.ibo.view.MyBoldTextView
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/registration_new"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_sixteen_sp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img_back_arrow"
+            android:layout_marginTop="20dp"
+            android:fadeScrollbars="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/ic_lable"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_eight_dp">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:gravity="center"
+                        android:text="@string/networks_details"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_sponsor_id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:hint="@string/sponser_id_"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:nextFocusDown="@+id/edt_placement_id"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_placement_id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Placement ID*"
+                            android:inputType="number"
+                            android:longClickable="false"
+                            android:maxLength="6"
+                            android:nextFocusDown="@+id/edt_reg_first_name"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_forty_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginStart="@dimen/dimen_forty_dp"
+                    android:layout_marginTop="-4dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user"
+                            android:visibility="gone"
+                            tools:ignore="VectorDrawableCompat" />
+
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/sponsor_id_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_eleven_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:background="@android:color/transparent"
+                            android:clickable="false"
+                            android:gravity="start"
+                            android:longClickable="false"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <!-- android:hint="@string/sponser_name_registration"-->
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user"
+                            android:visibility="gone"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/placement_id_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="17dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:background="@android:color/transparent"
+                            android:clickable="false"
+                            android:gravity="start"
+                            android:longClickable="false"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <!--android:hint="Placement Name"-->
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/ic_lable"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_eight_dp">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:gravity="center"
+                        android:text="@string/personal_details"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_two_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_five_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_name_first"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_first_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="First Name*"
+                            android:inputType="textPersonName"
+                            android:longClickable="false"
+                            android:maxLength="10"
+                            android:nextFocusDown="@+id/edt_reg_middle_name"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_name_first"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_middle_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:hint="Middle Name"
+                            android:inputType="textPersonName"
+                            android:longClickable="false"
+                            android:maxLength="10"
+                            android:nextFocusDown="@+id/edt_reg_last_name"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_six_dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginRight="@dimen/dimen_five_dp"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/dimen_ten_dp"
+                        android:paddingLeft="@dimen/dimen_ten_dp"
+                        android:paddingRight="@dimen/dimen_ten_dp"
+                        android:paddingStart="@dimen/dimen_ten_dp"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_name_first"
+                                tools:ignore="VectorDrawableCompat" />
+
+
+                            <com.nebulacompanies.ibo.view.NebulaEditText
+                                android:id="@+id/edt_reg_last_name"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen_four_dp"
+                                android:layout_marginRight="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:hint="Last Name*"
+                                android:inputType="textFilter"
+                                android:longClickable="false"
+                                android:maxLength="10"
+                                android:textColor="@android:color/white"
+                                android:textColorHint="@color/hint_color"
+                                android:textCursorDrawable="@drawable/color_cursor"
+                                android:textSize="@dimen/dimen_twelve_sp"
+                                android:theme="@style/EditTextTheme"
+                                tools:ignore="RtlCompat" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_eight_dp"
+                            android:layout_marginStart="@dimen/dimen_eight_dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_event_available"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <com.nebulacompanies.ibo.view.NebulaEditText
+                                android:id="@+id/edt_reg_dob"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen_four_dp"
+                                android:layout_marginRight="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:editable="false"
+                                android:hint="Date of birth*"
+                                android:imeOptions="actionDone"
+                                android:maxLength="10"
+                                android:textColor="@android:color/white"
+                                android:textColorHint="@color/hint_color"
+                                android:textCursorDrawable="@drawable/color_cursor"
+                                android:textSize="@dimen/dimen_twelve_sp"
+                                android:theme="@style/EditTextTheme"
+                                tools:ignore="RtlCompat" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginEnd="@dimen/dimen_five_dp"
+                        android:layout_marginLeft="@dimen/dimen_eight_dp"
+                        android:layout_marginRight="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_eight_dp"
+                        android:layout_marginTop="@dimen/dimen_six_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/dimen_ten_dp"
+                        android:paddingLeft="@dimen/dimen_ten_dp"
+                        android:paddingRight="@dimen/dimen_ten_dp"
+                        android:paddingStart="@dimen/dimen_ten_dp">
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginStart="@dimen/dimen_five_dp"
+                            android:gravity="center"
+                            android:text="Gender:"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                        <!--  <RadioButton
+                              android:id="@+id/radioButton1"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center_horizontal"
+                              android:layout_marginLeft="@dimen/dimen_five_dp"
+                              android:layout_marginStart="@dimen/dimen_five_dp"
+                              android:buttonTint="@color/button_bg"
+                              android:text="Male"
+                              android:textColor="@android:color/white"
+                              android:textSize="@dimen/dimen_fourteen_sp" />
+
+                          <RadioButton
+                              android:id="@+id/radioButton2"
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:buttonTint="@color/button_bg"
+                              android:text="Female"
+                              android:textColor="@android:color/white"
+                              android:textSize="@dimen/dimen_fourteen_sp" />
+  -->
+
+                        <RadioGroup
+                            android:id="@+id/member_radiogroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginStart="@dimen/dimen_five_dp"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/male"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:buttonTint="@color/button_bg"
+                                android:checked="true"
+                                android:text="Male"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/dimen_twelve_sp" />
+
+                            <RadioButton
+                                android:id="@+id/female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/button_bg"
+                                android:text="Female"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/dimen_twelve_sp" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/ic_lable"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_eight_dp">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:gravity="center"
+                        android:text="@string/contact_details"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_five_dp"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginStart="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_eight_dp"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/dimen_five_dp"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginRight="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_home_address"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:hint="Address*"
+                            android:inputType="text"
+                            android:longClickable="false"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_two_dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_pincode"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <com.nebulacompanies.ibo.view.NebulaEditText
+                                android:id="@+id/edt_reg_pin_code"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen_four_dp"
+                                android:layout_marginRight="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:hint="Pin Code*"
+                                android:inputType="number"
+                                android:longClickable="false"
+                                android:maxLength="6"
+                                android:nextFocusDown="@+id/edt_reg_email"
+                                android:textColor="@android:color/white"
+                                android:textColorHint="@color/hint_color"
+                                android:textCursorDrawable="@drawable/color_cursor"
+                                android:textSize="@dimen/dimen_twelve_sp"
+                                android:theme="@style/EditTextTheme"
+                                tools:ignore="RtlCompat" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_ten_dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_email_white"
+                                tools:ignore="VectorDrawableCompat" />
+
+
+                            <com.nebulacompanies.ibo.view.NebulaEditText
+                                android:id="@+id/edt_reg_email"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen_four_dp"
+                                android:layout_marginRight="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:hint="Email ID*"
+                                android:inputType="textEmailAddress"
+                                android:longClickable="false"
+                                android:textColor="@android:color/white"
+                                android:textColorHint="@color/hint_color"
+                                android:textCursorDrawable="@drawable/color_cursor"
+                                android:textSize="@dimen/dimen_twelve_sp"
+                                android:theme="@style/EditTextTheme"
+                                tools:ignore="RtlCompat" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_two_dp"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/dimen_ten_dp"
+                        android:paddingLeft="@dimen/dimen_six_dp"
+                        android:paddingRight="@dimen/dimen_ten_dp"
+                        android:paddingStart="@dimen/dimen_six_dp"
+                        android:paddingTop="@dimen/dimen_five_dp"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:paddingTop="@dimen/dimen_eight_dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_state"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <androidx.appcompat.widget.AppCompatSpinner
+                                android:id="@+id/State_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/dimen_five_dp"
+                                android:layout_marginStart="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:theme="@style/ThemeSpinner" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_fifteen_dp"
+                            android:layout_marginStart="@dimen/dimen_fifteen_dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:paddingTop="@dimen/dimen_eight_dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_city_"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <androidx.appcompat.widget.AppCompatSpinner
+                                android:id="@+id/city_detail"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/dimen_five_dp"
+                                android:layout_marginStart="@dimen/dimen_five_dp"
+                                android:layout_weight="0.5"
+                                android:gravity="center"
+                                android:theme="@style/ThemeSpinner" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_six_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_five_dp"
+                    android:weightSum="1">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_phone_iphone_white"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_mobile_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Mobile Number*"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:nextFocusDown="@+id/edt_reg_alternate_mobile_number"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_phone_iphone_white"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_alternate_mobile_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Alternate Mobile Number*"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_twelve_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_five_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:id="@+id/enter_otp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_verified_user"
+                            tools:ignore="VectorDrawableCompat" />
+
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_mobile_otp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Enter OTP"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/getOtpTxt"
+                        style="@style/Button"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dimen_thirty_two_dp"
+                        android:layout_marginBottom="@dimen/dimen_twelve_dp"
+                        android:layout_marginLeft="@dimen/dimen_twenty_five_dp"
+                        android:layout_marginRight="@dimen/dimen_twenty_four_dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/nebula_button_login_eftct_login"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_six_dp"
+                        android:text="Get OTP"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@color/hint_color"
+                        android:textSize="@dimen/dimen_twelve_sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:weightSum="1">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_nomineee"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Nominee"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dimen_eight_dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_nominee"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/nominee_detail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginStart="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:theme="@style/ThemeSpinner" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_six_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_five_dp"
+                    android:weightSum="1">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_id_card"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_aadhaar"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Aadhaar No"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLength="12"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_pan_card"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_reg_pan"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="PAN"
+                            android:inputType="textCapCharacters"
+                            android:maxLength="10"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/dimen_ten_dp"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:background="@drawable/ic_lable"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_eight_dp">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_marginStart="@dimen/dimen_five_dp"
+                        android:gravity="center"
+                        android:text="@string/bank_details"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_account_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:hint="Account No.*"
+                            android:inputType="number"
+                            android:maxLength="25"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_acc_holder_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:clickable="false"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:gravity="start"
+                            android:hint="A/C Holder Name*"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/dimen_eight_dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/bank_detail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginStart="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:theme="@style/ThemeSpinner" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_ifsc_coce"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_ifsc_code"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789"
+                            android:hint="IFSC Code*"
+                            android:inputType="textCapCharacters"
+                            android:longClickable="false"
+                            android:maxLength="11"
+                            android:maxLines="1"
+                            android:nextFocusDown="@+id/edt_branch_name"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_fourteen_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_ten_dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_five_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_user_new"
+                            tools:ignore="VectorDrawableCompat" />
+
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_branch_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_five_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:hint="Branch*"
+                            android:inputType="text"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:nextFocusDown="@+id/edt_branch_city"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_ten_dp"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_city_"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <com.nebulacompanies.ibo.view.NebulaEditText
+                            android:id="@+id/edt_branch_city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_four_dp"
+                            android:layout_marginRight="@dimen/dimen_five_dp"
+                            android:layout_weight="0.5"
+                            android:hint="Branch City*"
+                            android:inputType="text"
+                            android:longClickable="false"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="@color/hint_color"
+                            android:textCursorDrawable="@drawable/color_cursor"
+                            android:textSize="@dimen/dimen_twelve_sp"
+                            android:theme="@style/EditTextTheme"
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/ln_tc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_twelve_dp"
+                    android:layout_marginLeft="@dimen/dimen_twenty_four_dp"
+                    android:layout_marginRight="@dimen/dimen_twenty_four_dp"
+                    android:layout_marginTop="@dimen/dimen_fifteen_dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/policies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="center"
+                        android:background="#59ffffff"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:text="@string/policies"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/disclaimerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:background="#59ffffff"
+                        android:gravity="right"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:text="@string/disclaimer"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+                    <!--<com.nebulacompanies.ibo.view.MyTextView
+                            android:id="@+id/kyc"
+                            style="@style/SelectableItemBackground"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:gravity="end"
+                            android:padding="@dimen/dimen_four_dp"
+                            android:text="@string/ibo_new_register"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/dimen_fourteen_sp" />-->
+                </RelativeLayout>
+
+                <CheckBox
+                    android:id="@+id/cb_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_twelve_dp"
+                    android:layout_marginLeft="@dimen/dimen_twenty_dp"
+                    android:layout_marginRight="@dimen/dimen_twenty_two_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:buttonTint="@color/button_bg"
+                    android:checked="false"
+                    android:padding="@dimen/dimen_six_dp"
+                    android:text="@string/check_tc"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_fourteen_sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    style="@style/Button"
+                    android:layout_width="@dimen/dimen_one_fifty_dp"
+                    android:layout_height="@dimen/dimen_forty_dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_fifteen_dp"
+                    android:layout_marginTop="@dimen/dimen_fifteen_dp"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:text="Register"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_fourteen_sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

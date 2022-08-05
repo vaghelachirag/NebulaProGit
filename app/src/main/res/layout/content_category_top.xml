@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f3f2"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_four_dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:foreground="@drawable/cardview_selector">
+
+                <com.takwolf.android.aspectratio.AspectRatioLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:arl_heightRatio="2"
+                    app:arl_widthRatio="5">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_banner_ecom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:background="@drawable/placeholder">
+
+                        <com.nebulacompanies.ibo.ecom.customBanner.InfiniteViewPager
+                            android:id="@+id/viewpager_ecom"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <com.nebulacompanies.ibo.ecom.customBanner.CirclePageIndicator
+                            android:id="@+id/indicator_ecom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dimen_eight_dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="200dp" />
+
+                        <!--android:layout_marginTop="120dp"-->
+
+                    </RelativeLayout>
+                </com.takwolf.android.aspectratio.AspectRatioLayout>
+
+
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@android:color/white"
+                android:visibility="gone"
+                app:cardCornerRadius="@dimen/dimen_four_dp">
+
+
+                <com.nebulacompanies.ibo.util.AspectRatioImageView
+                    android:id="@+id/img_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/placeholder" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/cv_image"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:layout_marginEnd="@dimen/dimen_two_dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/fl_banner"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/dimen_ninety_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:clickable="true"
+                        android:elevation="10dp"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:visibility="gone"
+                        app:cardBackgroundColor="@android:color/white"
+                        app:cardCornerRadius="@dimen/dimen_four_dp">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_card_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_category_one"
+                                android:layout_width="@dimen/dimen_seventy_five_dp"
+                                android:layout_height="@dimen/dimen_seventy_five_dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="centerInside"
+                                android:visibility="invisible"
+                                app:srcCompat="@drawable/ic_shopping_cart" />
+
+                            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                                android:id="@+id/name_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_margin="@dimen/dimen_two_dp"
+                                android:maxLines="1"
+                                android:padding="@dimen/dimen_two_dp"
+                                android:text="Well Win Premium"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/dimen_fourteen_sp"
+                                android:textStyle="normal" />
+
+
+                            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                                android:id="@+id/tv_category_decs_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/name_one"
+                                android:layout_gravity="start"
+                                android:layout_margin="@dimen/dimen_two_dp"
+                                android:maxLines="2"
+                                android:padding="@dimen/dimen_two_dp"
+                                android:text="Well Win Premium Chakki Atta 5 kg"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/dimen_twelve_sp"
+                                android:textStyle="normal" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/img_category_one"
+                                android:background="#40000000"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+
+                                <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/name"
+                                    android:layout_gravity="start"
+                                    android:layout_marginStart="@dimen/dimen_four_dp"
+                                    android:drawableEnd="@drawable/ic_arrow_right"
+                                    android:gravity="start|center"
+                                    android:maxLines="1"
+                                    android:text="View All"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="@dimen/dimen_twelve_sp"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+               <!-- -->
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/dimen_four_dp"
+
+                    android:visibility="visible">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview_category_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/tv_sort"
+                        android:background="#f1f3f2"
+                        android:scrollbars="horizontal"
+                        android:visibility="visible"/>
+
+<!--
+                    <RelativeLayout
+                        android:id="@+id/rl_card_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#f1f3f2"
+                        android:orientation="vertical">
+
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:id="@+id/name_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:maxLines="1"
+                            android:padding="@dimen/dimen_six_dp"
+                            android:paddingBottom="@dimen/dimen_four_dp"
+                            android:text="Wellness"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_sixteen_sp"
+                            android:textStyle="normal" />
+
+                        <View
+                            android:id="@+id/view_two"
+                            android:layout_width="@dimen/dimen_seventy_five_dp"
+                            android:layout_height="@dimen/dimen_two_dp"
+                            android:layout_below="@+id/name_four"
+                            android:background="@android:color/darker_gray"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/rl_card_three"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_toEndOf="@+id/rl_card_four"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:id="@+id/name_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:maxLines="1"
+                            android:padding="@dimen/dimen_six_dp"
+                            android:text="Food"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_sixteen_sp"
+                            android:textStyle="normal" />
+
+                        <View
+                            android:id="@+id/view_one"
+                            android:layout_width="@dimen/dimen_fifty_dp"
+                            android:layout_height="@dimen/dimen_two_dp"
+                            android:layout_below="@+id/name_three"
+                            android:background="@android:color/darker_gray"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/rl_card_new"
+                        android:layout_width="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_toEndOf="@+id/rl_card_three"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                            android:id="@+id/name_new"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:maxLines="1"
+                            android:padding="@dimen/dimen_six_dp"
+                            android:text="Container"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/dimen_sixteen_sp"
+                            android:textStyle="normal" />
+
+                        <View
+                            android:id="@+id/view_new"
+                            android:layout_width="@dimen/dimen_fifty_dp"
+                            android:layout_height="@dimen/dimen_two_dp"
+                            android:layout_below="@+id/name_new"
+                            android:background="@android:color/darker_gray"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+
+                  -->
+
+                   <!-- <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                        android:id="@+id/tv_product_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:maxLines="2"
+                        android:text="Products"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp"
+                        android:textStyle="normal"
+                        android:visibility="gone" />-->
+                   <!-- <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_sort"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="@dimen/dimen_hundred_fifty_dp"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_toEndOf="@+id/tv_product_title"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:popupBackground="@android:color/white"
+                        android:spinnerMode="dropdown"
+                        android:visibility="gone" />
+-->
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                        android:id="@+id/tv_sort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+
+                        android:layout_gravity="end"
+                        android:drawableEnd="@drawable/ic_sort"
+                        android:drawablePadding="@dimen/dimen_five_dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:paddingTop="@dimen/dimen_four_dp"
+                        android:paddingBottom="@dimen/dimen_four_dp"
+                        android:text="Sort"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_sixteen_sp"
+                        android:textStyle="normal"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+               <!-- </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

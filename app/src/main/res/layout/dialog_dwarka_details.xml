@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNotification">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:text="Dwarka Package Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <ImageView
+            android:id="@+id/img_dialog_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dimen_five_dp"
+            android:background="@drawable/nebula_effect"
+            android:contentDescription="@null"
+            android:padding="@dimen/dimen_five_dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_close_new_white" />
+
+    </RelativeLayout>
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar_dialog"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="visible"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_ten_dp"
+        android:layout_marginTop="@dimen/dimen_ten_dp"
+        android:layout_marginEnd="@dimen/dimen_ten_dp"
+        android:layout_marginBottom="@dimen/dimen_ten_dp"
+        android:orientation="vertical">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:id="@+id/package_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_four_dp"
+            android:text=""
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_two_dp">
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:layout_weight="0.3"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="Amount"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="-"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_two_dp">
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="Token"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/token"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="-"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:orientation="horizontal">
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="Plan"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/plan_details"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:background="@drawable/drawable_spinner_rounded_ecom"
+                android:gravity="start"
+                android:padding="@dimen/dimen_four_dp"
+                android:popupBackground="@android:color/white"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="EMI + GST"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/emi_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="-"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:id="@+id/lay_discount"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="Discount"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/discount_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="-"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="Total Payable Amount"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:id="@+id/payable_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_four_dp"
+                android:text="-"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        </LinearLayout>
+
+
+        <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+            android:id="@+id/btn_submit_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_forty_dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:layout_marginBottom="@dimen/dimen_ten_dp"
+            android:background="@drawable/nebula_button_login_eftct_login_ecom"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_thirty_five_dp"
+            android:paddingRight="@dimen/dimen_thirty_five_dp"
+            android:text="Buy Now"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

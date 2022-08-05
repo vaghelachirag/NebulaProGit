@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@drawable/dialog_background_inset"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_effect_popup"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_two_dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_green_top_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:text="@string/member_name_"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/member_name_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/dimen_two_dp"
+                android:paddingBottom="@dimen/dimen_two_dp"
+                android:paddingLeft="@dimen/dimen_four_dp"
+                android:paddingStart="@dimen/dimen_four_dp"
+                android:paddingRight="@dimen/dimen_two_dp"
+                android:paddingEnd="@dimen/dimen_two_dp"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:background="@drawable/drawable_rounded_white_top_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/nebula"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:text="@string/sponser_id_"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/sponsor_id_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/nebula"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:text="@string/rank"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/rank_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/nebula"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:text="@string/city_"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/city_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/nebula"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:text="@string/state_"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/state_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_green_bottom_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:text="@string/mobile"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/mobile_super1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_bottom_info_popup"
+                android:gravity="start|center"
+                android:padding="6dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

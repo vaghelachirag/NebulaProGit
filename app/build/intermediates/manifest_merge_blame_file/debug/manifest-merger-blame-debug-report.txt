@@ -1,0 +1,2017 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nebulacompanies.ibo"
+4    android:versionCode="74"
+5    android:versionName="1.1.73" >
+6
+7    <uses-sdk
+7-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+8        android:minSdkVersion="21"
+8-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+9        android:targetSdkVersion="30" />
+9-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:5-79
+15-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:5-67
+16-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+17-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:5-79
+17-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+18-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:15:5-17:47
+18-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:16:9-64
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:5-81
+19-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:5-80
+20-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:22-77
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+21-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:5-81
+21-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:22-78
+22    <uses-permission android:name="android.permission.CALL_PHONE" />
+22-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:5-69
+22-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:22-66
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Removed due to Play Store Policy -->
+23-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:5-75
+23-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:22-72
+24
+25    <uses-permission android:name="android.permission.READ_PROFILE" />
+25-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:5-71
+25-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:22-68
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:5-65
+26-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:22-62
+27    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+27-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:5-79
+27-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:22-76
+28
+29    <uses-feature
+29-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:28:5-30:35
+30        android:name="android.hardware.camera"
+30-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:29:9-47
+31        android:required="true" />
+31-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:30:9-32
+32    <uses-feature
+32-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:32:5-34:36
+33        android:name="android.hardware.camera.autofocus"
+33-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:33:9-57
+34        android:required="false" />
+34-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:34:9-33
+35
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:5-81
+36-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:22-78
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:5-68
+37-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:22-65
+38
+39    <queries>
+39-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:9:5-20:15
+40
+41        <!-- Specific apps you interact with, eg: -->
+42        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+42-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:12:9-88
+42-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:12:18-85
+43        <!--
+44             Specific intents you query for,
+45             eg: for a custom share UI
+46        -->
+47        <intent>
+47-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:17:9-19:18
+48            <action android:name="android.intent.action.MAIN" />
+48-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
+48-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+49        </intent>
+50
+51        <package android:name="in.amazon.mShop.android.shopping" />
+51-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:15:9-68
+51-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:15:18-65
+52        <package android:name="com.upi.axispay" />
+52-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:16:9-51
+52-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:16:18-48
+53        <package android:name="com.axis.mobile" />
+53-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:17:9-51
+53-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:17:18-48
+54        <package android:name="com.fisglobal.bandhanupi.app" />
+54-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:18:9-64
+54-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:18:18-61
+55        <package android:name="com.bankofbaroda.upi" />
+55-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:19:9-56
+55-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:19:18-53
+56        <package android:name="in.org.npci.upiapp" />
+56-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:20:9-54
+56-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:20:18-51
+57        <package android:name="com.canarabank.mobility" />
+57-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:21:9-59
+57-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:21:18-56
+58        <package android:name="com.citiuat" />
+58-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:22:9-47
+58-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:22:18-44
+59        <package android:name="com.dbs.in.digitalbank" />
+59-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:23:9-58
+59-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:23:18-55
+60        <package android:name="com.olive.dcb.upi" />
+60-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:24:9-53
+60-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:24:18-50
+61        <package android:name="com.finopaytech.bpayfino" />
+61-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:25:9-60
+61-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:25:18-57
+62        <package android:name="com.freecharge.android" />
+62-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:26:9-58
+62-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:26:18-55
+63        <package android:name="com.google.android.apps.nbu.paisa.user" />
+63-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:27:9-74
+63-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:27:18-71
+64        <package android:name="com.snapwork.hdfc" />
+64-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:28:9-53
+64-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:28:18-50
+65        <package android:name="com.mgs.hsbcupi" />
+65-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:29:9-51
+65-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:29:18-48
+66        <package android:name="com.csam.icici.bank.imobile" />
+66-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:30:9-63
+66-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:30:18-60
+67        <package android:name="com.icicibank.pockets" />
+67-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:31:9-57
+67-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:31:18-54
+68        <package android:name="com.euronet.iobupi" />
+68-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:32:9-54
+68-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:32:18-51
+69        <package android:name="com.mgs.induspsp" />
+69-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:33:9-52
+69-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:33:18-49
+70        <package android:name="com.fss.jnkpsp" />
+70-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:34:9-50
+70-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:34:18-47
+71        <package android:name="com.jio.myjio" />
+71-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:35:9-49
+71-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:35:18-46
+72        <package android:name="com.mycompany.kvb" />
+72-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:36:9-53
+72-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:36:18-50
+73        <package android:name="com.kvb.mobilebanking" />
+73-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:37:9-57
+73-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:37:18-54
+74        <package android:name="com.lcode.smartz" />
+74-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:38:9-52
+74-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:38:18-49
+75        <package android:name="com.msf.kbank.mobile" />
+75-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:39:9-56
+75-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:39:18-53
+76        <package android:name="com.upi.federalbank.org.lotza" />
+76-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:40:9-65
+76-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:40:18-62
+77        <package android:name="com.infrasofttech.mahaupi" />
+77-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:41:9-61
+77-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:41:18-58
+78        <package android:name="com.mipay.in.wallet" />
+78-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:42:9-55
+78-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:42:18-52
+79        <package android:name="com.myairtelapp" />
+79-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:43:9-51
+79-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:43:18-48
+80        <package android:name="com.mobikwik_new" />
+80-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:44:9-52
+80-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:44:18-49
+81        <package android:name="com.onymy.paybee.prod" />
+81-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:45:9-57
+81-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:45:18-54
+82        <package android:name="net.one97.paytm" />
+82-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:46:9-51
+82-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:46:18-48
+83        <package android:name="com.phonepe.app" />
+83-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:47:9-51
+83-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:47:18-48
+84        <package android:name="com.Version1" />
+84-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:48:9-48
+84-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:48:18-45
+85        <package android:name="com.samsung.android.spay" />
+85-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:49:9-60
+85-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:49:18-57
+86        <package android:name="com.sbi.upi" />
+86-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:50:9-47
+86-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:50:18-44
+87        <package android:name="com.SIBMobile" />
+87-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:51:9-49
+87-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:51:18-46
+88        <package android:name="com.truecaller" />
+88-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:52:9-50
+88-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:52:18-47
+89        <package android:name="com.infrasoft.uboi" />
+89-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:53:9-54
+89-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:53:18-51
+90        <package android:name="com.lcode.ucoupi" />
+90-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:54:9-52
+90-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:54:18-49
+91        <package android:name="com.YesBank" />
+91-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:55:9-47
+91-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:55:18-44
+92        <package android:name="com.dreamplug.androidapp" />
+92-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:56:9-60
+92-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:56:18-57
+93        <package android:name="money.bullet" /> <!-- Needs to be explicitly declared on Android R+ -->
+93-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:57:9-48
+93-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:57:18-45
+94        <package android:name="com.google.android.apps.maps" />
+94-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+94-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+95
+96        <intent>
+96-->[androidx.media:media:1.4.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8458b5345985c1e7b769849188f2e05b\media-1.4.1\AndroidManifest.xml:25:9-27:18
+97            <action android:name="android.media.browse.MediaBrowserService" />
+97-->[androidx.media:media:1.4.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8458b5345985c1e7b769849188f2e05b\media-1.4.1\AndroidManifest.xml:26:13-79
+97-->[androidx.media:media:1.4.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8458b5345985c1e7b769849188f2e05b\media-1.4.1\AndroidManifest.xml:26:21-76
+98        </intent>
+99    </queries>
+100
+101    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+101-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:13:5-76
+101-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:13:22-73
+102    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+102-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\ad065216efd81afd7b82f812ea42b8f6\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:5-82
+102-->[com.google.android.gms:play-services-gcm:17.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\ad065216efd81afd7b82f812ea42b8f6\jetified-play-services-gcm-17.0.0\AndroidManifest.xml:23:22-79
+103
+104    <uses-feature
+104-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+105        android:glEsVersion="0x00020000"
+105-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+106        android:required="true" />
+106-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+107
+108    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+108-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+108-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
+109    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+110    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+110-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:13:5-77
+110-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:13:22-74
+111
+112    <application
+112-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:39:5-828:19
+113        android:name="com.nebulacompanies.ibo.IBOBackOffice"
+113-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:40:9-38
+114        android:allowBackup="false"
+114-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:41:9-36
+115        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+115-->[androidx.core:core:1.6.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fd1d89d0200088dc7e4fc5334366cdc4\core-1.6.0\AndroidManifest.xml:24:18-86
+116        android:debuggable="true"
+116-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:42:9-35
+117        android:exported="true"
+117-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:43:9-32
+118        android:hardwareAccelerated="true"
+118-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:44:9-43
+119        android:icon="@drawable/app_logo"
+119-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:45:9-42
+120        android:label="@string/app_name"
+120-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:46:9-41
+121        android:largeHeap="true"
+121-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:47:9-33
+122        android:requestLegacyExternalStorage="true"
+122-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:48:9-52
+123        android:supportsRtl="true"
+123-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:49:9-35
+124        android:testOnly="true"
+125        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+125-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:50:9-77
+126        android:usesCleartextTraffic="true" >
+126-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:51:9-44
+127
+128        <!-- [START fcm_default_icon] -->
+129        <!--
+130             Set custom default icon. This is used when no icon is set for incoming notification messages.
+131             See README(https://goo.gl/l4GJaQ) for more.
+132        -->
+133        <meta-data
+133-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:59:9-61:60
+134            android:name="com.google.firebase.messaging.default_notification_icon"
+134-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:60:13-83
+135            android:resource="@mipmap/notification_icon" />
+135-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:61:13-57
+136        <!--
+137             Set color used with incoming notification messages. This is used when no color is set for the incoming
+138             notification message. See README(https://goo.gl/6BKBk7) for more.
+139        -->
+140        <meta-data
+140-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:64:9-66:48
+141            android:name="com.google.firebase.messaging.default_notification_color"
+141-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:65:13-84
+142            android:resource="@color/nebula" />
+142-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:66:13-45
+143        <!-- [END fcm_default_icon] -->
+144        <!-- [START fcm_default_channel] -->
+145        <!--
+146              <meta-data
+147              android:name="com.google.firebase.messaging.default_notification_channel_id"
+148              android:value="@string/default_notification_channel_id" />
+149        -->
+150        <!-- [END fcm_default_channel] -->
+151
+152
+153        <!--
+154             The API key for Google Maps-based APIs is defined as a string resource.
+155             (See the file "res/values/google_maps_api.xml").
+156             Note that the API key is linked to the encryption key used to sign the APK.
+157             You need a different API key for each encryption key, including the release key that is used to
+158             sign the APK for publishing.
+159             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+160        -->
+161        <meta-data
+161-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:82:9-84:55
+162            android:name="com.google.android.geo.API_KEY"
+162-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:83:13-58
+163            android:value="@string/google_maps_key" />
+163-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:84:13-52
+164
+165        <provider
+166            android:name="androidx.core.content.FileProvider"
+166-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:86:13-62
+167            android:authorities="com.nebulacompanies.ibo.fileprovider"
+167-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:87:13-71
+168            android:exported="false"
+168-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:88:13-37
+169            android:grantUriPermissions="true" >
+169-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:89:13-47
+170            <meta-data
+170-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:91:13-94:52
+171                android:name="android.support.FILE_PROVIDER_PATHS"
+171-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:92:17-67
+172                android:resource="@xml/file_paths" />
+172-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:93:17-51
+173        </provider>
+174
+175        <activity
+175-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:96:9-101:57
+176            android:name="com.nebulacompanies.ibo.activities.MyDownlineWeb"
+176-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:97:13-53
+177            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+177-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:98:13-83
+178            android:screenOrientation="portrait"
+178-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:99:13-49
+179            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+179-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:100:13-69
+180            android:windowSoftInputMode="stateHidden" />
+180-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:101:13-54
+181
+182        <receiver
+182-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:103:9-113:20
+183            android:name="com.nebulacompanies.ibo.util.NetworkChangeReceiver"
+183-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:104:13-55
+184            android:exported="true"
+184-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:105:13-36
+185            android:label="NetworkChangeReceiver" >
+185-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:106:13-50
+186            <intent-filter>
+186-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:107:13-112:29
+187                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+187-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:17-85
+187-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:25-82
+188                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+188-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:17-79
+188-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:25-76
+189                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+189-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:17-78
+189-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:25-75
+190                <!--  -->
+191            </intent-filter>
+192        </receiver>
+193
+194        <!--
+195         <receiver
+196             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+197             android:exported="true"
+198             android:permission="com.google.android.c2dm.permission.SEND" >
+199             <intent-filter>
+200                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+201                 <category android:name="com.nebulacompanies.ibo" />
+202             </intent-filter>
+203         </receiver>
+204        -->
+205
+206        <receiver
+206-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:127:9-133:20
+207            android:name="com.nebulacompanies.ibo.sms.SmsBroadcastReceiver"
+207-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:128:13-53
+208            android:exported="true" >
+208-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:129:13-36
+209            <intent-filter>
+209-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:130:13-132:29
+210                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVE" />
+210-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:17-93
+210-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:25-90
+211            </intent-filter>
+212        </receiver>
+213
+214        <activity
+214-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:135:9-149:25
+215            android:name="com.nebulacompanies.ibo.activities.StartUp"
+215-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:136:18-52
+216            android:configChanges="keyboard|keyboardHidden|screenSize"
+216-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:137:18-76
+217            android:exported="true"
+217-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:139:18-41
+218            android:noHistory="true"
+218-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:138:18-42
+219            android:theme="@style/StartUp"
+219-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:140:18-48
+220            android:windowSoftInputMode="stateUnchanged|adjustResize|stateHidden|stateAlwaysHidden" >
+220-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:141:18-105
+221            <intent-filter>
+221-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:142:18-147:34
+222                <action android:name="android.intent.action.MAIN" />
+222-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
+222-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+223                <action android:name="android.intent.action.VIEW" />
+223-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:22-74
+223-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:30-71
+224
+225                <category android:name="android.intent.category.LAUNCHER" />
+225-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:22-82
+225-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:32-79
+226            </intent-filter>
+227        </activity>
+228        <!--
+229          <activity
+230              android:name=".activities.DemoActivity"
+231              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+232              android:screenOrientation="portrait"
+233              android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+234              android:windowSoftInputMode="stateHidden" >
+235              <intent-filter>
+236                  <action android:name="android.intent.action.MAIN" />
+237                  <action android:name="android.intent.action.VIEW" />
+238                  <category android:name="android.intent.category.LAUNCHER" />
+239              </intent-filter>
+240          </activity>
+241        -->
+242        <!--
+243        <activity
+244            android:name=".ecom.MyLatestCategoryActivity"
+245            android:configChanges="keyboard|keyboardHidden|screenSize"
+246            android:exported="true"
+247            android:noHistory="true"
+248            android:theme="@style/StartUp"
+249            android:windowSoftInputMode="stateUnchanged|adjustResize|stateHidden|stateAlwaysHidden">
+250            <intent-filter>
+251                <action android:name="android.intent.action.MAIN" />
+252                <action android:name="android.intent.action.VIEW" />
+253                <category android:name="android.intent.category.LAUNCHER" />
+254            </intent-filter>
+255
+256        </activity>
+257        -->
+258        <activity
+258-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:176:9-189:20
+259            android:name="com.nebulacompanies.ibo.ecom.MyLatestCategoryActivity"
+259-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:177:13-58
+260            android:configChanges="keyboard|keyboardHidden|screenSize"
+260-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:178:13-71
+261            android:exported="true"
+261-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:179:13-36
+262            android:noHistory="true"
+262-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:180:13-37
+263            android:theme="@style/StartUp"
+263-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:181:13-43
+264            android:windowSoftInputMode="stateUnchanged|adjustResize|stateHidden|stateAlwaysHidden" >
+264-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:182:13-100
+265
+266            <!--
+267            <intent-filter>
+268                <action android:name="android.intent.action.MAIN" />
+269                <action android:name="android.intent.action.VIEW" />
+270                <category android:name="android.intent.category.LAUNCHER" />
+271            </intent-filter>
+272            -->
+273
+274        </activity>
+275
+276        <uses-library
+276-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:190:9-192:40
+277            android:name="org.apache.http.legacy"
+277-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:191:13-50
+278            android:required="false" />
+278-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:192:13-37
+279
+280        <activity
+280-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:194:9-198:72
+281            android:name="com.nebulacompanies.ibo.activities.PinActivity"
+281-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:195:13-51
+282            android:configChanges="keyboard|keyboardHidden|screenSize"
+282-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:196:13-71
+283            android:screenOrientation="portrait"
+283-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:197:13-49
+284            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+284-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:198:13-69
+285        <activity
+285-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:199:9-203:54
+286            android:name="com.nebulacompanies.ibo.activities.IdcardActivity"
+286-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:200:13-54
+287            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+287-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:201:13-83
+288            android:screenOrientation="portrait"
+288-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:202:13-49
+289            android:theme="@style/Theme.AppCompat" />
+289-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:203:13-51
+290        <activity
+290-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:205:9-209:72
+291            android:name="com.nebulacompanies.ibo.activities.ContactUs"
+291-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:206:13-49
+292            android:configChanges="keyboard|keyboardHidden|screenSize"
+292-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:207:13-71
+293            android:screenOrientation="portrait"
+293-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:208:13-49
+294            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+294-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:209:13-69
+295        <activity
+295-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:210:9-214:72
+296            android:name="com.nebulacompanies.ibo.ecom.ShowFullScreenAttachment"
+296-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:211:13-58
+297            android:configChanges="keyboard|keyboardHidden|screenSize"
+297-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:212:13-71
+298            android:screenOrientation="portrait"
+298-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:213:13-49
+299            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+299-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:214:13-69
+300        <activity
+300-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:215:9-218:74
+301            android:name="com.nebulacompanies.ibo.activities.ProductListDwarka"
+301-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:216:13-57
+302            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+302-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:217:13-83
+303            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+303-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:218:13-71
+304        <activity
+304-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:219:9-222:74
+305            android:name="com.nebulacompanies.ibo.activities.ProductListHyderabad"
+305-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:220:13-60
+306            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+306-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:221:13-83
+307            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+307-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:222:13-71
+308        <activity
+308-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:223:9-226:74
+309            android:name="com.nebulacompanies.ibo.activities.GenerationIncome"
+309-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:224:13-56
+310            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+310-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:225:13-83
+311            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+311-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:226:13-71
+312        <activity
+312-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:227:9-230:74
+313            android:name="com.nebulacompanies.ibo.activities.GoldIncome"
+313-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:228:13-50
+314            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+314-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:229:13-83
+315            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+315-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:230:13-71
+316        <activity
+316-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:231:9-248:20
+317            android:name="com.nebulacompanies.ibo.MainActivityDemo"
+317-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:232:13-45
+318            android:launchMode="singleInstance"
+318-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:234:13-48
+319            android:theme="@style/MaterialAnimations.White"
+319-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:233:13-60
+320            android:windowSoftInputMode="stateHidden" >
+320-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:235:13-54
+321
+322            <!--
+323            <intent-filter android:autoVerify="true">
+324                <action android:name="android.intent.action.VIEW" />
+325                <category android:name="android.intent.category.DEFAULT" />
+326                <category android:name="android.intent.category.BROWSABLE" />
+327                <data android:scheme="https"
+328                    android:host="www.limeroad.com"
+329                    android:pathPrefix="/Home_page"></data>
+330
+331            </intent-filter>
+332            -->
+333        </activity>
+334        <activity
+334-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:249:9-253:66
+335            android:name="com.nebulacompanies.ibo.activities.SiteProducts"
+335-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:250:13-52
+336            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+336-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:251:13-83
+337            android:screenOrientation="portrait"
+337-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:252:13-49
+338            android:theme="@style/Theme.AppCompat.NoActionBar" />
+338-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:253:13-63
+339        <activity
+339-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:254:9-258:66
+340            android:name="com.nebulacompanies.ibo.activities.NewCompanyEvent"
+340-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:255:13-55
+341            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+341-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:256:13-83
+342            android:screenOrientation="portrait"
+342-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:257:13-49
+343            android:theme="@style/Theme.AppCompat.NoActionBar" />
+343-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:258:13-63
+344        <activity
+344-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:259:9-263:66
+345            android:name="com.nebulacompanies.ibo.activities.OrderListActivity"
+345-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:260:13-57
+346            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+346-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:261:13-83
+347            android:screenOrientation="portrait"
+347-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:262:13-49
+348            android:theme="@style/Theme.AppCompat.NoActionBar" />
+348-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:263:13-63
+349        <activity
+349-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:264:9-269:57
+350            android:name="com.nebulacompanies.ibo.activities.ChangodarBanner"
+350-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:265:13-55
+351            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+351-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:266:13-83
+352            android:screenOrientation="portrait"
+352-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:267:13-49
+353            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+353-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:268:13-69
+354            android:windowSoftInputMode="stateHidden" />
+354-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:269:13-54
+355        <activity
+355-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:270:9-275:57
+356            android:name="com.nebulacompanies.ibo.activities.SiteProductsWeb"
+356-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:271:13-55
+357            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+357-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:272:13-83
+358            android:screenOrientation="portrait"
+358-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:273:13-49
+359            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+359-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:274:13-69
+360            android:windowSoftInputMode="stateHidden" />
+360-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:275:13-54
+361        <activity
+361-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:276:9-280:66
+362            android:name="com.nebulacompanies.ibo.activities.ViewEvents"
+362-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:277:13-50
+363            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+363-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:278:13-83
+364            android:screenOrientation="portrait"
+364-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:279:13-49
+365            android:theme="@style/Theme.AppCompat.NoActionBar" />
+365-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:280:13-63
+366        <activity
+366-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:281:9-285:54
+367            android:name="com.nebulacompanies.ibo.activities.ShowFullScreenEvents"
+367-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:282:13-60
+368            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+368-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:283:13-83
+369            android:screenOrientation="portrait"
+369-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:284:13-49
+370            android:theme="@style/Theme.AppCompat" />
+370-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:285:13-51
+371        <activity
+371-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:286:9-289:74
+372            android:name="com.nebulacompanies.ibo.activities.SpotIncome"
+372-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:287:13-50
+373            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+373-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:288:13-83
+374            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+374-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:289:13-71
+375        <activity
+375-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:290:9-293:74
+376            android:name="com.nebulacompanies.ibo.activities.StarClubIncome"
+376-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:291:13-54
+377            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+377-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:292:13-83
+378            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+378-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:293:13-71
+379        <activity
+379-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:294:9-297:74
+380            android:name="com.nebulacompanies.ibo.activities.RankBonusIncome"
+380-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:295:13-55
+381            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+381-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:296:13-83
+382            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+382-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:297:13-71
+383        <activity
+383-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:298:9-301:74
+384            android:name="com.nebulacompanies.ibo.activities.SponsorIncome"
+384-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:299:13-53
+385            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+385-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:300:13-83
+386            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+386-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:301:13-71
+387        <activity
+387-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:302:9-305:74
+388            android:name="com.nebulacompanies.ibo.activities.SalesAavaas"
+388-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:303:13-51
+389            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+389-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:304:13-83
+390            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+390-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:305:13-71
+391        <activity
+391-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:306:9-309:74
+392            android:name="com.nebulacompanies.ibo.activities.SalesDwarka"
+392-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:307:13-51
+393            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+393-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:308:13-83
+394            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+394-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:309:13-71
+395        <activity
+395-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:310:9-313:74
+396            android:name="com.nebulacompanies.ibo.activities.SalesHoliday"
+396-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:311:13-52
+397            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+397-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:312:13-83
+398            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+398-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:313:13-71
+399        <!--
+400  <activity
+401              android:name=".fragments.DownloadsFragment"
+402              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+403              android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+404        -->
+405        <activity
+405-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:320:9-323:54
+406            android:name="com.nebulacompanies.ibo.activities.DownloadRateCharts"
+406-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:321:13-58
+407            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+407-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:322:13-83
+408            android:theme="@style/Theme.AppCompat" />
+408-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:323:13-51
+409        <activity
+409-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:324:9-328:63
+410            android:name="com.nebulacompanies.ibo.activities.DashboardActivity"
+410-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:325:13-57
+411            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+411-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:326:13-83
+412            android:hardwareAccelerated="true"
+412-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:327:13-47
+413            android:theme="@style/MaterialAnimations.White" /> <!-- android:screenOrientation="sensor" -->
+413-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:328:13-60
+414        <!--
+415  <activity
+416              android:name=".web.DashBoardFragmentWeb"
+417              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+418              android:hardwareAccelerated="true"
+419              android:screenOrientation="portrait"
+420              android:theme="@style/MaterialAnimations.White" />
+421          <activity
+422              android:name=".web.MySalesFragmentWeb"
+423              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+424              android:hardwareAccelerated="true"
+425              android:screenOrientation="portrait"
+426              android:theme="@style/MaterialAnimations.White" />
+427          <activity
+428              android:name=".web.ProjectsFragmentWeb"
+429              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+430              android:hardwareAccelerated="true"
+431              android:screenOrientation="portrait"
+432              android:theme="@style/MaterialAnimations.White" />
+433          <activity
+434              android:name=".web.DownlineFragmentWeb"
+435              android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+436              android:hardwareAccelerated="true"
+437              android:screenOrientation="portrait"
+438              android:theme="@style/MaterialAnimations.White" />
+439        -->
+440        <activity
+440-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:355:9-360:57
+441            android:name="com.nebulacompanies.ibo.activities.MyIncomeActivityWeb"
+441-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:356:13-59
+442            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+442-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:357:13-83
+443            android:screenOrientation="portrait"
+443-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:358:13-49
+444            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+444-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:359:13-69
+445            android:windowSoftInputMode="stateHidden" />
+445-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:360:13-54
+446        <activity
+446-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:361:9-366:57
+447            android:name="com.nebulacompanies.ibo.activities.MyIboListActivityWeb"
+447-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:362:13-60
+448            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+448-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:363:13-83
+449            android:screenOrientation="portrait"
+449-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:364:13-49
+450            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+450-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:365:13-69
+451            android:windowSoftInputMode="stateHidden" />
+451-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:366:13-54
+452        <activity
+452-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:367:9-372:57
+453            android:name="com.nebulacompanies.ibo.activities.MyProductsActivityWeb"
+453-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:368:13-61
+454            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+454-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:369:13-83
+455            android:screenOrientation="portrait"
+455-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:370:13-49
+456            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+456-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:371:13-69
+457            android:windowSoftInputMode="stateHidden" />
+457-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:372:13-54
+458        <activity
+458-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:373:9-378:57
+459            android:name="com.nebulacompanies.ibo.activities.EcomPromosActivityWeb"
+459-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:374:13-61
+460            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+460-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:375:13-83
+461            android:screenOrientation="portrait"
+461-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:376:13-49
+462            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+462-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:377:13-69
+463            android:windowSoftInputMode="stateHidden" />
+463-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:378:13-54
+464        <activity
+464-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:379:9-384:57
+465            android:name="com.nebulacompanies.ibo.activities.MyDownlineActivityWeb"
+465-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:380:13-61
+466            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+466-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:381:13-83
+467            android:screenOrientation="portrait"
+467-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:382:13-49
+468            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+468-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:383:13-69
+469            android:windowSoftInputMode="stateHidden" />
+469-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:384:13-54
+470        <activity
+470-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:385:9-390:57
+471            android:name="com.nebulacompanies.ibo.ecom.BusinessActivity"
+471-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:386:13-50
+472            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+472-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:387:13-83
+473            android:screenOrientation="portrait"
+473-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:388:13-49
+474            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+474-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:389:13-69
+475            android:windowSoftInputMode="stateHidden" />
+475-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:390:13-54
+476        <!--
+477 <activity
+478             android:name=".web.MyIncomeFragmentWeb"
+479             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+480             android:hardwareAccelerated="true"
+481             android:screenOrientation="portrait"
+482             android:theme="@style/MaterialAnimations.White" />
+483         <activity
+484             android:name=".web.RegistrationFragmentWeb"
+485             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+486             android:hardwareAccelerated="true"
+487             android:screenOrientation="portrait"
+488             android:theme="@style/MaterialAnimations.White" />
+489         <activity
+490             android:name=".web.AccountSummaryFragmentWeb"
+491             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+492             android:hardwareAccelerated="true"
+493             android:screenOrientation="portrait"
+494             android:theme="@style/MaterialAnimations.White" />
+495         <activity
+496             android:name=".web.PurchaseFragmentWeb"
+497             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+498             android:hardwareAccelerated="true"
+499             android:screenOrientation="portrait"
+500             android:theme="@style/MaterialAnimations.White" />
+501        -->
+502        <!--
+503          <service android:name=".firebase.MyFirebaseInstanceIDService"
+504          android:exported="false"
+505              >
+506              <intent-filter>
+507                  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+508              </intent-filter>
+509          </service>
+510        -->
+511
+512        <service
+512-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:426:9-433:19
+513            android:name="com.nebulacompanies.ibo.firebase.MyFirebaseMessagingService"
+513-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:427:13-64
+514            android:exported="true"
+514-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:428:13-36
+515            android:resource="@drawable/app_logo" >
+515-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:429:13-50
+516            <intent-filter>
+516-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:430:13-432:29
+517                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+517-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:17-78
+517-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:25-75
+518            </intent-filter>
+519        </service>
+520        <!--
+521<meta-data
+522            android:name="com.google.firebase.messaging.default_notification_icon"
+523            android:resource="@mipmap/notification_icon" />
+524        <meta-data
+525            android:name="com.google.firebase.messaging.default_notification_color"
+526            android:resource="@color/nebula" />
+527        -->
+528        <activity
+528-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:442:9-445:74
+529            android:name="com.nebulacompanies.ibo.activities.BonanzaIncome"
+529-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:443:13-53
+530            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+530-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:444:13-83
+531            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" /> <!-- Modified By Jadav Chirag -->
+531-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:445:13-71
+532        <activity
+532-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:446:9-449:74
+533            android:name="com.nebulacompanies.ibo.activities.RetailIncome"
+533-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:447:13-52
+534            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+534-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:448:13-83
+535            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+535-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:449:13-71
+536        <activity
+536-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:450:9-453:74
+537            android:name="com.nebulacompanies.ibo.activities.DreamVolume"
+537-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:451:13-51
+538            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+538-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:452:13-83
+539            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+539-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:453:13-71
+540        <activity
+540-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:454:9-457:74
+541            android:name="com.nebulacompanies.ibo.activities.BoosterIncome"
+541-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:455:13-53
+542            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+542-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:456:13-83
+543            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+543-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:457:13-71
+544        <activity
+544-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:458:9-461:74
+545            android:name="com.nebulacompanies.ibo.activities.SuperBoosterIncome"
+545-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:459:13-58
+546            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+546-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:460:13-83
+547            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+547-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:461:13-71
+548        <activity
+548-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:462:9-465:74
+549            android:name="com.nebulacompanies.ibo.activities.LeadershipBonus"
+549-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:463:13-55
+550            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+550-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:464:13-83
+551            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+551-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:465:13-71
+552        <activity
+552-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:466:9-469:74
+553            android:name="com.nebulacompanies.ibo.activities.SuBoosterIncome"
+553-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:467:13-55
+554            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+554-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:468:13-83
+555            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+555-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:469:13-71
+556        <activity
+556-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:470:9-473:74
+557            android:name="com.nebulacompanies.ibo.activities.CarProgramIncome"
+557-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:471:13-56
+558            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+558-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:472:13-83
+559            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+559-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:473:13-71
+560        <activity
+560-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:474:9-477:74
+561            android:name="com.nebulacompanies.ibo.activities.ThreeStarClubIncome"
+561-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:475:13-59
+562            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+562-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:476:13-83
+563            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+563-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:477:13-71
+564        <activity
+564-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:478:9-482:54
+565            android:name="com.nebulacompanies.ibo.activities.SettingFragment"
+565-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:479:13-55
+566            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+566-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:480:13-83
+567            android:screenOrientation="portrait"
+567-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:481:13-49
+568            android:theme="@style/Theme.AppCompat" />
+568-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:482:13-51
+569        <activity
+569-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:483:9-486:74
+570            android:name="com.nebulacompanies.ibo.activities.HolidayAchiever"
+570-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:484:13-55
+571            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+571-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:485:13-83
+572            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+572-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:486:13-71
+573        <activity
+573-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:487:9-491:58
+574            android:name="com.nebulacompanies.ibo.activities.LoginActivity"
+574-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:488:13-53
+575            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+575-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:489:13-83
+576            android:theme="@style/MaterialAnimations.White"
+576-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:490:13-60
+577            android:windowSoftInputMode="adjustResize" />
+577-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:491:13-55
+578        <activity
+578-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:492:9-496:58
+579            android:name="com.nebulacompanies.ibo.activities.LoginSkipActivity"
+579-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:493:13-57
+580            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+580-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:494:13-83
+581            android:theme="@style/MaterialAnimations.White"
+581-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:495:13-60
+582            android:windowSoftInputMode="adjustResize" />
+582-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:496:13-55
+583        <activity
+583-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:497:9-501:58
+584            android:name="com.nebulacompanies.ibo.activities.LoginSkipDialog"
+584-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:498:13-55
+585            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+585-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:499:13-83
+586            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
+586-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:500:13-70
+587            android:windowSoftInputMode="adjustResize" />
+587-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:501:13-55
+588        <activity
+588-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:502:9-506:58
+589            android:name="com.nebulacompanies.ibo.activities.SessionOverDialog"
+589-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:503:13-57
+590            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+590-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:504:13-83
+591            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
+591-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:505:13-70
+592            android:windowSoftInputMode="adjustResize" />
+592-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:506:13-55
+593        <activity
+593-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:507:9-510:63
+594            android:name="com.nebulacompanies.ibo.activities.NoLoginActivity"
+594-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:508:13-55
+595            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+595-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:509:13-83
+596            android:theme="@style/MaterialAnimations.White" />
+596-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:510:13-60
+597        <activity
+597-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:511:9-514:63
+598            android:name="com.nebulacompanies.ibo.activities.PrivacyPolicyActivity"
+598-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:512:13-61
+599            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+599-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:513:13-83
+600            android:theme="@style/MaterialAnimations.White" />
+600-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:514:13-60
+601        <activity
+601-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:515:9-519:67
+602            android:name="com.nebulacompanies.ibo.activities.RegistationActivity"
+602-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:516:13-59
+603            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+603-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:517:13-83
+604            android:theme="@style/MaterialAnimations.White"
+604-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:518:13-60
+605            android:windowSoftInputMode="stateHidden|adjustPan" />
+605-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:519:13-64
+606        <activity
+606-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:520:9-524:67
+607            android:name="com.nebulacompanies.ibo.activities.RegistationFullActivity"
+607-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:521:13-63
+608            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+608-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:522:13-83
+609            android:theme="@style/MaterialAnimations.White"
+609-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:523:13-60
+610            android:windowSoftInputMode="stateHidden|adjustPan" />
+610-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:524:13-64
+611        <activity
+611-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:525:9-529:71
+612            android:name="com.nebulacompanies.ibo.activities.RegistrationFullWebview"
+612-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:526:13-63
+613            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+613-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:527:13-83
+614            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+614-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:528:13-69
+615            android:windowSoftInputMode="stateVisible|adjustResize" />
+615-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:529:13-68
+616        <activity
+616-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:530:9-535:71
+617            android:name="com.nebulacompanies.ibo.activities.RegistrationUpdateKYCWebview"
+617-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:531:13-68
+618            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+618-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:532:13-83
+619            android:screenOrientation="portrait"
+619-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:533:13-49
+620            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+620-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:534:13-69
+621            android:windowSoftInputMode="stateVisible|adjustResize" />
+621-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:535:13-68
+622        <!--
+623<activity android:name=".activities.UploadDocument"
+624            android:screenOrientation="portrait"
+625            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+626            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+627            android:windowSoftInputMode="stateHidden|adjustResize"/>
+628        -->
+629        <activity
+629-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:543:9-547:74
+630            android:name="com.nebulacompanies.ibo.activities.UploadDocument"
+630-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:544:13-54
+631            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+631-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:545:13-83
+632            android:screenOrientation="portrait"
+632-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:546:13-49
+633            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+633-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:547:13-71
+634        <activity
+634-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:548:9-553:57
+635            android:name="com.nebulacompanies.ibo.activities.RegistrationActivityWebview"
+635-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:549:13-67
+636            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+636-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:550:13-83
+637            android:screenOrientation="portrait"
+637-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:551:13-49
+638            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+638-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:552:13-69
+639            android:windowSoftInputMode="stateHidden" />
+639-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:553:13-54
+640        <activity
+640-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:554:9-559:67
+641            android:name="com.nebulacompanies.ibo.activities.UpdateProfile"
+641-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:555:13-53
+642            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+642-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:556:13-83
+643            android:screenOrientation="portrait"
+643-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:557:13-49
+644            android:theme="@style/MaterialAnimations.White"
+644-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:558:13-60
+645            android:windowSoftInputMode="stateHidden|adjustPan" />
+645-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:559:13-64
+646        <activity
+646-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:560:9-563:66
+647            android:name="com.nebulacompanies.ibo.activities.IBONotifications"
+647-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:561:13-56
+648            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+648-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:562:13-83
+649            android:theme="@style/Theme.AppCompat.NoActionBar" />
+649-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:563:13-63
+650        <activity
+650-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:564:9-567:59
+651            android:name="com.nebulacompanies.ibo.activities.TakeTourActivity"
+651-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:565:13-56
+652            android:screenOrientation="portrait"
+652-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:566:13-49
+653            android:theme="@style/AppTheme.NoActionBar" /> <!-- Customer booking App -->
+653-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:567:13-56
+654        <activity
+654-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:568:9-571:59
+655            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+655-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:569:13-76
+656            android:screenOrientation="portrait"
+656-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:570:13-49
+657            android:theme="@style/Base.Theme.AppCompat" />
+657-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:571:13-56
+658        <activity
+658-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:572:9-575:74
+659            android:name="com.nebulacompanies.ibo.activities.ProductListHoliday"
+659-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:573:13-58
+660            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+660-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:574:13-83
+661            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+661-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:575:13-71
+662
+663        <meta-data
+663-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:577:9-579:35
+664            android:name="com.google.android.gms.vision.DEPENDENCIES"
+664-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:578:13-70
+665            android:value="ocr" />
+665-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:579:13-32
+666
+667        <provider
+668            android:name="androidx.core.content.FileProvider"
+668-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:86:13-62
+669            android:authorities="com.nebulacompanies.ibo.provider"
+669-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:87:13-71
+670            android:exported="false"
+670-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:88:13-37
+671            android:grantUriPermissions="true" >
+671-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:89:13-47
+672            <meta-data
+672-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:91:13-94:52
+673                android:name="android.support.FILE_PROVIDER_PATHS"
+673-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:92:17-67
+674                android:resource="@xml/provider_paths" />
+674-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:93:17-51
+675        </provider>
+676
+677        <activity
+677-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:591:9-593:59
+678            android:name="com.nebulacompanies.ibo.MapsActivity"
+678-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:592:13-41
+679            android:label="@string/title_activity_maps" /> <!-- ECOM -->
+679-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:593:13-56
+680        <activity
+680-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:594:9-597:52
+681            android:name="com.nebulacompanies.ibo.ecom.MyLocationUsingHelper"
+681-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:595:13-55
+682            android:label="MyLocation"
+682-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:596:13-39
+683            android:screenOrientation="portrait" />
+683-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:597:13-49
+684        <activity
+684-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:598:9-600:63
+685            android:name="com.nebulacompanies.ibo.ecom.MyLocationUsingLocationAPI"
+685-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:599:13-60
+686            android:theme="@style/MaterialAnimations.White" />
+686-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:600:13-60
+687        <activity
+687-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:601:9-617:20
+688            android:name="com.nebulacompanies.ibo.ecom.MainActivity"
+688-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:602:13-46
+689            android:theme="@style/MaterialAnimations.White"
+689-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:603:13-60
+690            android:windowSoftInputMode="stateHidden" >
+690-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:604:13-54
+691
+692            <!--
+693            <intent-filter android:autoVerify="true">
+694                <action android:name="android.intent.action.VIEW" />
+695                <category android:name="android.intent.category.DEFAULT" />
+696                <category android:name="android.intent.category.BROWSABLE" />
+697                <data android:scheme="https"
+698                    android:host="www.limeroad.com"
+699                    android:pathPrefix="/Home_page"></data>
+700
+701            </intent-filter>
+702            -->
+703        </activity>
+704        <activity
+704-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:618:9-622:57
+705            android:name="com.nebulacompanies.ibo.ecom.ProductDescription"
+705-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:619:13-52
+706            android:screenOrientation="portrait"
+706-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:620:13-49
+707            android:theme="@style/AppTheme.NoActionBar"
+707-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:621:13-56
+708            android:windowSoftInputMode="stateHidden" />
+708-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:622:13-54
+709        <activity
+709-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:623:9-627:57
+710            android:name="com.nebulacompanies.ibo.ecom.TrackOrderActivity"
+710-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:624:13-52
+711            android:screenOrientation="portrait"
+711-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:625:13-49
+712            android:theme="@style/AppTheme.NoActionBar"
+712-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:626:13-56
+713            android:windowSoftInputMode="stateHidden" />
+713-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:627:13-54
+714        <activity
+714-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:628:9-632:57
+715            android:name="com.nebulacompanies.ibo.ecom.MyCartActivity"
+715-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:629:13-48
+716            android:screenOrientation="portrait"
+716-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:630:13-49
+717            android:theme="@style/AppTheme.NoActionBar"
+717-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:631:13-56
+718            android:windowSoftInputMode="stateHidden" />
+718-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:632:13-54
+719        <activity
+719-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:633:9-637:57
+720            android:name="com.nebulacompanies.ibo.ecom.MyCartActivityNotification"
+720-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:634:13-60
+721            android:screenOrientation="portrait"
+721-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:635:13-49
+722            android:theme="@style/AppTheme.NoActionBar"
+722-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:636:13-56
+723            android:windowSoftInputMode="stateHidden" />
+723-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:637:13-54
+724        <activity
+724-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:638:9-642:57
+725            android:name="com.nebulacompanies.ibo.ecom.MyCartActivityRemove"
+725-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:639:13-54
+726            android:screenOrientation="portrait"
+726-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:640:13-49
+727            android:theme="@style/AppTheme.NoActionBar"
+727-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:641:13-56
+728            android:windowSoftInputMode="stateHidden" />
+728-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:642:13-54
+729        <activity
+729-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:643:9-647:57
+730            android:name="com.nebulacompanies.ibo.ecom.ProductAvaibilityActivity"
+730-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:644:13-59
+731            android:screenOrientation="portrait"
+731-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:645:13-49
+732            android:theme="@style/AppTheme.NoActionBar"
+732-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:646:13-56
+733            android:windowSoftInputMode="stateHidden" />
+733-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:647:13-54
+734        <activity
+734-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:648:9-652:57
+735            android:name="com.nebulacompanies.ibo.activities.ReadMoreActivity"
+735-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:649:13-56
+736            android:screenOrientation="portrait"
+736-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:650:13-49
+737            android:theme="@style/AppTheme.NoActionBar"
+737-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:651:13-56
+738            android:windowSoftInputMode="stateHidden" />
+738-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:652:13-54
+739        <activity
+739-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:653:9-657:57
+740            android:name="com.nebulacompanies.ibo.activities.AddReviewActivity"
+740-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:654:13-57
+741            android:screenOrientation="portrait"
+741-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:655:13-49
+742            android:theme="@style/AppTheme.NoActionBar"
+742-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:656:13-56
+743            android:windowSoftInputMode="stateHidden" />
+743-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:657:13-54
+744        <activity
+744-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:658:9-662:57
+745            android:name="com.nebulacompanies.ibo.activities.TambolaActivity"
+745-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:659:13-55
+746            android:screenOrientation="portrait"
+746-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:660:13-49
+747            android:theme="@style/AppTheme.NoActionBar"
+747-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:661:13-56
+748            android:windowSoftInputMode="stateHidden" />
+748-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:662:13-54
+749        <activity
+749-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:663:9-682:20
+750            android:name="com.nebulacompanies.ibo.ecom.MyCategoryActivity"
+750-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:664:13-52
+751            android:launchMode="singleTop"
+751-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:665:13-43
+752            android:screenOrientation="portrait"
+752-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:666:13-49
+753            android:theme="@style/AppTheme.NoActionBar"
+753-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:667:13-56
+754            android:windowSoftInputMode="stateHidden" >
+754-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:668:13-54
+755
+756            <!--
+757            <intent-filter android:autoVerify="true">
+758                <action android:name="android.intent.action.VIEW" />
+759                <category android:name="android.intent.category.DEFAULT" />
+760                <category android:name="android.intent.category.BROWSABLE" />
+761                <data android:scheme="https"
+762                    android:host="www.limeroad.com"
+763                    android:pathPrefix="/Category_page"></data>
+764
+765            </intent-filter>
+766            -->
+767
+768        </activity>
+769        <activity
+769-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:683:9-688:70
+770            android:name="com.nebulacompanies.ibo.activities.DashboardDesignChange"
+770-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:684:13-61
+771            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
+771-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:685:13-78
+772            android:screenOrientation="portrait"
+772-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:686:13-49
+773            android:theme="@style/Theme.AppCompat.NoActionBar"
+773-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:687:13-63
+774            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+774-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:688:13-67
+775        <activity
+775-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:689:9-693:57
+776            android:name="com.nebulacompanies.ibo.ecom.MyOrderDetailsActivity"
+776-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:690:13-56
+777            android:screenOrientation="portrait"
+777-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:691:13-49
+778            android:theme="@style/AppTheme.NoActionBar"
+778-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:692:13-56
+779            android:windowSoftInputMode="stateHidden" />
+779-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:693:13-54
+780        <activity
+780-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:694:9-698:57
+781            android:name="com.nebulacompanies.ibo.ecom.MyViewOrderActivity"
+781-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:695:13-53
+782            android:screenOrientation="portrait"
+782-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:696:13-49
+783            android:theme="@style/AppTheme.NoActionBar"
+783-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:697:13-56
+784            android:windowSoftInputMode="stateHidden" />
+784-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:698:13-54
+785        <activity
+785-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:699:9-703:57
+786            android:name="com.nebulacompanies.ibo.ecom.MyWishListActivity"
+786-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:700:13-52
+787            android:screenOrientation="portrait"
+787-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:701:13-49
+788            android:theme="@style/AppTheme.NoActionBar"
+788-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:702:13-56
+789            android:windowSoftInputMode="stateHidden" />
+789-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:703:13-54
+790        <activity
+790-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:704:9-708:57
+791            android:name="com.nebulacompanies.ibo.ecom.MyAddressActivity"
+791-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:705:13-51
+792            android:screenOrientation="portrait"
+792-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:706:13-49
+793            android:theme="@style/AppTheme.NoActionBar"
+793-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:707:13-56
+794            android:windowSoftInputMode="stateHidden" />
+794-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:708:13-54
+795        <activity
+795-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:709:9-713:57
+796            android:name="com.nebulacompanies.ibo.ecom.CustomerSupport"
+796-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:710:13-49
+797            android:screenOrientation="portrait"
+797-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:711:13-49
+798            android:theme="@style/CustomerSupportWhite"
+798-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:712:13-56
+799            android:windowSoftInputMode="stateHidden" />
+799-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:713:13-54
+800        <activity
+800-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:714:9-718:57
+801            android:name="com.nebulacompanies.ibo.ecom.GenerateCoupon"
+801-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:715:13-48
+802            android:screenOrientation="portrait"
+802-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:716:13-49
+803            android:theme="@style/AppTheme.NoActionBar"
+803-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:717:13-56
+804            android:windowSoftInputMode="stateHidden" />
+804-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:718:13-54
+805        <activity
+805-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:719:9-723:57
+806            android:name="com.nebulacompanies.ibo.ecom.ReferralsPromotion"
+806-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:720:13-52
+807            android:screenOrientation="portrait"
+807-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:721:13-49
+808            android:theme="@style/AppTheme.NoActionBar"
+808-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:722:13-56
+809            android:windowSoftInputMode="stateHidden" />
+809-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:723:13-54
+810        <activity
+810-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:724:9-728:57
+811            android:name="com.nebulacompanies.ibo.ecom.MyPromoCodes"
+811-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:725:13-46
+812            android:screenOrientation="portrait"
+812-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:726:13-49
+813            android:theme="@style/AppTheme.NoActionBar"
+813-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:727:13-56
+814            android:windowSoftInputMode="stateHidden" />
+814-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:728:13-54
+815        <activity
+815-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:729:9-733:57
+816            android:name="com.nebulacompanies.ibo.ecom.CustomerSupportList"
+816-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:730:13-53
+817            android:screenOrientation="portrait"
+817-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:731:13-49
+818            android:theme="@style/AppTheme.NoActionBar"
+818-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:732:13-56
+819            android:windowSoftInputMode="stateHidden" />
+819-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:733:13-54
+820        <activity
+820-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:734:9-738:58
+821            android:name="com.nebulacompanies.ibo.ecom.SearchActivity"
+821-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:735:13-48
+822            android:screenOrientation="portrait"
+822-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:736:13-49
+823            android:theme="@style/AppTheme.NoActionBar"
+823-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:737:13-56
+824            android:windowSoftInputMode="stateVisible" />
+824-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:738:13-55
+825        <activity
+825-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:739:9-743:57
+826            android:name="com.nebulacompanies.ibo.ecom.MyAddressAccountActivity"
+826-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:740:13-58
+827            android:screenOrientation="portrait"
+827-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:741:13-49
+828            android:theme="@style/AppTheme.NoActionBar"
+828-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:742:13-56
+829            android:windowSoftInputMode="stateHidden" />
+829-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:743:13-54
+830        <activity
+830-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:744:9-748:57
+831            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountActivity"
+831-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:745:13-58
+832            android:screenOrientation="portrait"
+832-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:746:13-49
+833            android:theme="@style/AppTheme.NoActionBar"
+833-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:747:13-56
+834            android:windowSoftInputMode="stateHidden" />
+834-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:748:13-54
+835        <activity
+835-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:749:9-753:57
+836            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountBottomActivity"
+836-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:750:13-64
+837            android:screenOrientation="portrait"
+837-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:751:13-49
+838            android:theme="@style/AppTheme.NoActionBar"
+838-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:752:13-56
+839            android:windowSoftInputMode="stateHidden" />
+839-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:753:13-54
+840        <activity
+840-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:754:9-758:57
+841            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountNewActivity"
+841-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:755:13-61
+842            android:screenOrientation="portrait"
+842-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:756:13-49
+843            android:theme="@style/AppTheme.NoActionBar"
+843-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:757:13-56
+844            android:windowSoftInputMode="stateHidden" />
+844-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:758:13-54
+845        <activity
+845-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:759:9-763:57
+846            android:name="com.nebulacompanies.ibo.ecom.EditAddressActivity"
+846-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:760:13-53
+847            android:screenOrientation="portrait"
+847-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:761:13-49
+848            android:theme="@style/AppTheme.NoActionBar"
+848-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:762:13-56
+849            android:windowSoftInputMode="stateHidden" />
+849-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:763:13-54
+850        <activity
+850-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:764:9-768:57
+851            android:name="com.nebulacompanies.ibo.ecom.EditAddressAccountActivity"
+851-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:765:13-60
+852            android:screenOrientation="portrait"
+852-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:766:13-49
+853            android:theme="@style/AppTheme.NoActionBar"
+853-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:767:13-56
+854            android:windowSoftInputMode="stateHidden" />
+854-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:768:13-54
+855        <activity
+855-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:769:9-773:57
+856            android:name="com.nebulacompanies.ibo.ecom.OrderSummaryActivity"
+856-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:770:13-54
+857            android:screenOrientation="portrait"
+857-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:771:13-49
+858            android:theme="@style/AppTheme.NoActionBar"
+858-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:772:13-56
+859            android:windowSoftInputMode="stateHidden" />
+859-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:773:13-54
+860        <activity
+860-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:774:9-778:57
+861            android:name="com.nebulacompanies.ibo.ecom.MyWalletActivity"
+861-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:775:13-50
+862            android:screenOrientation="portrait"
+862-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:776:13-49
+863            android:theme="@style/AppTheme.NoActionBar"
+863-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:777:13-56
+864            android:windowSoftInputMode="stateHidden" />
+864-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:778:13-54
+865        <activity
+865-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:779:9-783:57
+866            android:name="com.nebulacompanies.ibo.ecom.PaymentActivity"
+866-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:780:13-49
+867            android:screenOrientation="portrait"
+867-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:781:13-49
+868            android:theme="@style/AppTheme.NoActionBar"
+868-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:782:13-56
+869            android:windowSoftInputMode="stateHidden" />
+869-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:783:13-54
+870        <activity
+870-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:784:9-788:57
+871            android:name="com.nebulacompanies.ibo.ecom.LoginActivityEcom"
+871-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:785:13-51
+872            android:screenOrientation="portrait"
+872-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:786:13-49
+873            android:theme="@style/AppTheme.NoActionBar"
+873-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:787:13-56
+874            android:windowSoftInputMode="stateHidden" />
+874-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:788:13-54
+875        <activity
+875-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:789:9-793:57
+876            android:name="com.nebulacompanies.ibo.ecom.BillingAddressActivity"
+876-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:790:13-56
+877            android:screenOrientation="portrait"
+877-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:791:13-49
+878            android:theme="@style/AppTheme.NoActionBar"
+878-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:792:13-56
+879            android:windowSoftInputMode="stateHidden" />
+879-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:793:13-54
+880        <activity
+880-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:794:9-798:57
+881            android:name="com.nebulacompanies.ibo.ecom.EnlargeItem"
+881-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:795:13-45
+882            android:screenOrientation="portrait"
+882-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:796:13-49
+883            android:theme="@style/AppTheme.NoActionBar"
+883-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:797:13-56
+884            android:windowSoftInputMode="stateHidden" /> <!-- Dwarka Package -->
+884-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:798:13-54
+885
+886        <activity
+886-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:801:9-806:20
+887            android:name="com.payu.custombrowser.CBActivity"
+887-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:802:13-61
+888            android:launchMode="singleTop"
+888-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:804:13-43
+889            android:screenOrientation="portrait"
+889-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:20:13-49
+890            android:theme="@style/AppThemes"
+890-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:803:13-45
+891            android:windowSoftInputMode="stateAlwaysHidden" >
+891-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:21:13-60
+892        </activity>
+893        <activity
+893-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:807:9-813:20
+894            android:name="com.nebulacompanies.ibo.ecom.PayUMoney"
+894-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:808:13-43
+895            android:screenOrientation="portrait"
+895-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:809:13-49
+896            android:theme="@style/AppThemes"
+896-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:810:13-45
+897            android:windowSoftInputMode="stateHidden" >
+897-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:811:13-54
+898        </activity>
+899            /> 
+900        <!-- Dwarka Package -->
+901        <activity
+901-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:817:9-822:57
+902            android:name="com.nebulacompanies.ibo.dwarkaPackage.DwarkaDashBoardActivity"
+902-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:818:13-66
+903            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+903-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:819:13-83
+904            android:screenOrientation="portrait"
+904-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:820:13-49
+905            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+905-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:821:13-69
+906            android:windowSoftInputMode="stateHidden" />
+906-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:822:13-54
+907
+908        <meta-data
+908-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:824:9-826:55
+909            android:name="com.razorpay.ApiKey"
+909-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:825:13-47
+910            android:value="rzp_live_5aijCS78CRhk5A" />
+910-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:826:13-52
+911
+912        <activity
+912-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:23:9-26:66
+913            android:name="com.paytm.pgsdk.PaytmPGActivity"
+913-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:24:13-59
+914            android:screenOrientation="portrait"
+914-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:25:13-49
+915            android:theme="@style/Theme.AppCompat.NoActionBar" />
+915-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:26:13-63
+916        <activity
+916-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:27:9-29:63
+917            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+917-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:28:13-64
+918            android:theme="@style/TransparentActivityTheme" />
+918-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:29:13-60
+919
+920        <service
+920-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:31:9-33:40
+921            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+921-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:32:13-73
+922            android:exported="false" />
+922-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:33:13-37
+923        <service
+923-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:34:9-36:40
+924            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+924-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:35:13-72
+925            android:exported="false" />
+925-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:36:13-37
+926        <service
+926-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:14:9-17:72
+927            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+927-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:15:13-75
+928            android:exported="false"
+928-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:16:13-37
+929            android:permission="android.permission.BIND_JOB_SERVICE" />
+929-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:17:13-69
+930        <service
+930-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:18:9-22:72
+931            android:name="easypay.appinvoke.utils.AnalyticsService"
+931-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:19:13-68
+932            android:enabled="true"
+932-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:20:13-35
+933            android:exported="false"
+933-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:21:13-37
+934            android:permission="android.permission.BIND_JOB_SERVICE" />
+934-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:22:13-69
+935
+936        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+936-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:9-90
+936-->[com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:24:19-87
+937
+938        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+938-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:23:9-81
+938-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:23:18-78
+939
+940        <activity
+940-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:18:9-20:52
+941            android:name="com.payu.ui.view.activities.CheckoutActivity"
+941-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:19:13-72
+942            android:screenOrientation="portrait" />
+942-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:20:13-49
+943
+944        <meta-data
+944-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:22:9-24:57
+945            android:name="preloaded_fonts"
+945-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:23:13-43
+946            android:resource="@array/preloaded_fonts" />
+946-->[in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:24:13-54
+947
+948        <service
+948-->[net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:18:9-22:19
+949            android:name="net.gotev.uploadservice.UploadService"
+949-->[net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:19:13-65
+950            android:enabled="true"
+950-->[net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:20:13-35
+951            android:exported="true" >
+951-->[net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:21:13-36
+952        </service>
+953
+954        <activity
+954-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:63:9-66:63
+955            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+955-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:64:13-83
+956            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+956-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:65:13-75
+957            android:windowSoftInputMode="stateAlwaysHidden" />
+957-->[in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:66:13-60
+958
+959        <receiver
+959-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:27:9-35:20
+960            android:name="com.google.firebase.messaging.directboot.FirebaseMessagingDirectBootReceiver"
+960-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:28:13-104
+961            android:directBootAware="true"
+961-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:29:13-43
+962            android:exported="true"
+962-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:30:13-36
+963            android:permission="com.google.android.c2dm.permission.SEND" >
+963-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:31:13-73
+964            <intent-filter>
+964-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:32:13-34:29
+965                <action android:name="com.google.firebase.messaging.RECEIVE_DIRECT_BOOT" />
+965-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:33:17-92
+965-->[com.google.firebase:firebase-messaging-directboot:20.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\031cba3c15d506b8790cfff3d4c53127\jetified-firebase-messaging-directboot-20.2.0\AndroidManifest.xml:33:25-89
+966            </intent-filter>
+967        </receiver>
+968        <receiver
+968-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+969            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+969-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+970            android:exported="true"
+970-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+971            android:permission="com.google.android.c2dm.permission.SEND" >
+971-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+972            <intent-filter>
+972-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+973                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+973-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+973-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+974            </intent-filter>
+975        </receiver>
+976        <!--
+977             FirebaseMessagingService performs security checks at runtime,
+978             but set to not exported to explicitly avoid allowing another app to call it.
+979        -->
+980        <service
+980-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+981            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+981-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+982            android:directBootAware="true"
+982-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+983            android:exported="false" >
+983-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+984            <intent-filter android:priority="-500" >
+984-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:430:13-432:29
+985                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+985-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:17-78
+985-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:25-75
+986            </intent-filter>
+987        </service>
+988        <service
+988-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+989            android:name="com.google.firebase.components.ComponentDiscoveryService"
+989-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:50:13-84
+990            android:directBootAware="true"
+990-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+991            android:exported="false" >
+991-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+992            <meta-data
+992-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+993                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+993-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+994                android:value="com.google.firebase.components.ComponentRegistrar" />
+994-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+995            <meta-data
+995-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\95a73373d81661ecd8e2693c9ab3aa7c\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+996                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+996-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\95a73373d81661ecd8e2693c9ab3aa7c\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+997                android:value="com.google.firebase.components.ComponentRegistrar" />
+997-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\95a73373d81661ecd8e2693c9ab3aa7c\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+998            <meta-data
+998-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c4f356beaa37378e136e32ee41aafe42\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+999                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+999-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c4f356beaa37378e136e32ee41aafe42\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+1000                android:value="com.google.firebase.components.ComponentRegistrar" />
+1000-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c4f356beaa37378e136e32ee41aafe42\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+1001            <meta-data
+1001-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2c75f9033f73617abdf344baeeecc4cd\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
+1002                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+1002-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2c75f9033f73617abdf344baeeecc4cd\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
+1003                android:value="com.google.firebase.components.ComponentRegistrar" />
+1003-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2c75f9033f73617abdf344baeeecc4cd\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
+1004            <meta-data
+1004-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\716245b909cd75da8cde1dc6813010d0\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+1005                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+1005-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\716245b909cd75da8cde1dc6813010d0\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+1006                android:value="com.google.firebase.components.ComponentRegistrar" />
+1006-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\716245b909cd75da8cde1dc6813010d0\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+1007        </service>
+1008
+1009        <meta-data
+1009-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a527539d3a08298576df6ce24241c6ba\jetified-android-maps-utils-2.3.0\AndroidManifest.xml:10:9-12:69
+1010            android:name="com.google.android.gms.version"
+1010-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a527539d3a08298576df6ce24241c6ba\jetified-android-maps-utils-2.3.0\AndroidManifest.xml:11:13-58
+1011            android:value="@integer/google_play_services_version" />
+1011-->[com.google.maps.android:android-maps-utils:2.3.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a527539d3a08298576df6ce24241c6ba\jetified-android-maps-utils-2.3.0\AndroidManifest.xml:12:13-66
+1012
+1013        <activity
+1013-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+1014            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+1014-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+1015            android:excludeFromRecents="true"
+1015-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+1016            android:exported="false"
+1016-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+1017            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1017-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+1018        <!--
+1019            Service handling Google Sign-In user revocation. For apps that do not integrate with
+1020            Google Sign-In, this service will never be started.
+1021        -->
+1022        <service
+1022-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+1023            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+1023-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+1024            android:exported="true"
+1024-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+1025            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+1025-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+1026            android:visibleToInstantApps="true" />
+1026-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\160d814382fde4dc90214e267d255db9\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+1027
+1028        <activity
+1028-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a9e9294fc985cfb916e4853669d1ee59\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+1029            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+1029-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a9e9294fc985cfb916e4853669d1ee59\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+1030            android:exported="false"
+1030-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a9e9294fc985cfb916e4853669d1ee59\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+1031            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+1031-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a9e9294fc985cfb916e4853669d1ee59\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+1032
+1033        <receiver
+1033-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
+1034            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+1034-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
+1035            android:enabled="true"
+1035-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
+1036            android:exported="false" >
+1036-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
+1037        </receiver>
+1038
+1039        <service
+1039-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
+1040            android:name="com.google.android.gms.measurement.AppMeasurementService"
+1040-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
+1041            android:enabled="true"
+1041-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
+1042            android:exported="false" />
+1042-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
+1043        <service
+1043-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
+1044            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+1044-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
+1045            android:enabled="true"
+1045-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
+1046            android:exported="false"
+1046-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
+1047            android:permission="android.permission.BIND_JOB_SERVICE" />
+1047-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\f250c4f37dbc8c41eed2166957ad4742\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
+1048
+1049        <provider
+1049-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+1050            android:name="com.google.firebase.provider.FirebaseInitProvider"
+1050-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+1051            android:authorities="com.nebulacompanies.ibo.firebaseinitprovider"
+1051-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+1052            android:directBootAware="true"
+1052-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+1053            android:exported="false"
+1053-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+1054            android:initOrder="100" />
+1054-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\62978cbdd4d7157e3f79a06d1d1cac9a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+1055        <provider
+1055-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:16:9-24:20
+1056            android:name="androidx.startup.InitializationProvider"
+1056-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:17:13-67
+1057            android:authorities="com.nebulacompanies.ibo.androidx-startup"
+1057-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:18:13-68
+1058            android:exported="false" >
+1058-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:19:13-37
+1059            <meta-data
+1059-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:21:13-23:52
+1060                android:name="com.payu.crashlogger.CrashProviderInitializer"
+1060-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:22:17-77
+1061                android:value="androidx.startup" />
+1061-->[in.payu:payu-crash-logger:1.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c9c838dbca726a791a427e8de37d60f9\jetified-payu-crash-logger-1.0.4\AndroidManifest.xml:23:17-49
+1062        </provider>
+1063
+1064        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+1064-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:12:9-16:20
+1064-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:12:19-63
+1065            <intent-filter>
+1065-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:13:13-15:29
+1066                <action android:name="rzp.device_token.share" />
+1066-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:14:17-65
+1066-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:14:25-62
+1067            </intent-filter>
+1068        </receiver>
+1069
+1070        <activity
+1070-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:18:9-29:20
+1071            android:name="com.razorpay.CheckoutActivity"
+1071-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:19:13-57
+1072            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+1072-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:20:13-83
+1073            android:theme="@style/CheckoutTheme" >
+1073-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:21:13-49
+1074            <intent-filter>
+1074-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:22:13-28:29
+1075                <action android:name="android.intent.action.MAIN" />
+1075-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
+1075-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+1076
+1077                <data
+1077-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:25:17-27:47
+1078                    android:host="rzp.io"
+1078-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:26:21-42
+1079                    android:scheme="io.rzp" />
+1079-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:27:21-44
+1080            </intent-filter>
+1081        </activity> <!-- The activities will be merged into the manifest of the hosting app. -->
+1082        <activity
+1082-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:18:9-24:45
+1083            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+1083-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:19:13-100
+1084            android:enabled="false"
+1084-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:20:13-36
+1085            android:exported="false"
+1085-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:21:13-37
+1086            android:launchMode="singleInstance"
+1086-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:22:13-48
+1087            android:process=":playcore_missing_splits_activity"
+1087-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:23:13-64
+1088            android:stateNotNeeded="true" />
+1088-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:24:13-42
+1089        <activity
+1089-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:25:9-29:65
+1090            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+1090-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:26:13-93
+1091            android:exported="false"
+1091-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:27:13-37
+1092            android:stateNotNeeded="true"
+1092-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:28:13-42
+1093            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+1093-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:29:13-62
+1094        <service
+1094-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:32:9-39:19
+1095            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+1095-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:33:13-94
+1096            android:enabled="false"
+1096-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:34:13-36
+1097            android:exported="true" >
+1097-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:35:13-36
+1098            <meta-data
+1098-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:36:13-38:41
+1099                android:name="com.google.android.play.core.assetpacks.versionCode"
+1099-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:37:17-83
+1100                android:value="11002" />
+1100-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:38:17-38
+1101        </service>
+1102        <service
+1102-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:40:9-43:40
+1103            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+1103-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:41:13-95
+1104            android:enabled="false"
+1104-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:42:13-36
+1105            android:exported="false" />
+1105-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:43:13-37
+1106        <service
+1106-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+1107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+1107-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+1108            android:exported="false" >
+1108-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+1109            <meta-data
+1109-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+1110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+1110-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+1111                android:value="cct" />
+1111-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\421e844a468071a73031357af625f27d\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+1112        </service>
+1113        <service
+1113-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+1114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+1114-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+1115            android:exported="false"
+1115-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+1116            android:permission="android.permission.BIND_JOB_SERVICE" >
+1116-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+1117        </service>
+1118
+1119        <receiver
+1119-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+1120            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+1120-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+1121            android:exported="false" />
+1121-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+1122    </application>
+1123
+1124</manifest>

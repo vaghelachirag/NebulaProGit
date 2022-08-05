@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_rounded_white"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:padding="@dimen/dimen_five_dp">
+
+        <LinearLayout
+            android:id="@+id/llBank"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_bank" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.75"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:longClickable="false"
+                android:text="@string/prompt_bank"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtBank"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="0.90"
+                android:longClickable="false"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBranch"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_branch" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.75"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:longClickable="false"
+                android:text="@string/prompt_branch"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtBranch"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.90"
+                android:longClickable="false"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBranchCity"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_branch_city" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_weight="0.75"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:longClickable="false"
+                android:text="@string/prompt_bank_city"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtBranchCity"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_weight="0.90"
+                android:longClickable="false"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llIFSCCode"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_ifsc_code" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_weight="0.75"
+                android:longClickable="false"
+                android:text="@string/prompt_ifsc_code"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtIFSCCode"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.90"
+                android:longClickable="false"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAccountHolder"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_account_holder" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.75"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:longClickable="false"
+                android:text="@string/prompt_account_holder"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtAccountHolder"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.90"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:longClickable="false"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAccountNo"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_account_no" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.75"
+                android:longClickable="false"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:text="@string/prompt_account_no"
+                android:textStyle="bold" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/txtAccountNo"
+                style="@style/StyleTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="0.90"
+                android:longClickable="false"
+                android:textSize="@dimen/dimen_twelve_sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/color_text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dimen_four_dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_thumb_visible"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/rounded_item_zoom"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/img_thumb_invisible"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/rounded_item_zoom_inactive"
+        android:contentDescription="@string/app_name"
+        android:visibility="visible"
+        android:scaleType="fitXY" />
+
+    <com.nebulacompanies.ibo.ecom.utils.AspectRatioImageView
+        android:id="@+id/img_thumb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:color/white"
+        android:padding="@dimen/dimen_ten_dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>
+
+
+</FrameLayout>

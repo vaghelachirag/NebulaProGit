@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <!--  <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:fillViewport="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ln_rank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="3dp"
+                tools:context=".navigation.DashboardActivity">
+
+              <!--  <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                    android:id="@+id/progresbar"
+                    style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="-5dp"
+                    android:visibility="gone"
+                    app:mpb_indeterminateTint="@color/colorRadio"
+                    app:mpb_progressStyle="horizontal" />
+
+                <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                    android:id="@+id/progresbar2"
+                    style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_marginTop="-15dp"
+                    android:visibility="gone"
+                    app:mpb_indeterminateTint="@color/colorRadio"
+                    app:mpb_progressStyle="horizontal" />-->
+
+                <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                    android:id="@+id/progresbar3"
+                    style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_marginTop="-5dp"
+                    android:visibility="gone"
+                    app:mpb_indeterminateTint="@color/colorRadio"
+                    app:mpb_progressStyle="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <!-- CURRENT RANK-->
+                    <include layout="@layout/current_rank_graph"
+                        android:visibility="gone"/>
+
+                    <include layout="@layout/id_details"
+                        android:visibility="visible"/>
+
+                    <include layout="@layout/distributor_tree"
+                        android:visibility="gone"/>
+
+                    <!-- NEXT RANK-->
+                    <include layout="@layout/next_rank_graph"
+                        android:visibility="visible"/>
+
+                    <!--RANK HISTORY-->
+                    <include
+                        layout="@layout/rank_history_graph"
+                        android:visibility="gone" />
+
+                    <include
+                        layout="@layout/layout_empty_view"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_share_full"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/coloropacity"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <include
+                    layout="@layout/popup_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/coloropacity"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/llSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginRight="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginTop="@dimen/dimen_fifteen_dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/dimen_ten_dp"
+                        app:srcCompat="@drawable/ic_reload_left" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/img_arrow"
+                        android:layout_margin="@dimen/dimen_five_dp"
+                        android:text="Your current rank."
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_next_rank_new_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_rank"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:background="@drawable/nebula_button_login_eftct_login"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:text="Next"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/llMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_fifteen_dp"
+                    android:layout_marginLeft="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginStart="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_two_hundred_dp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_ten_dp"
+                        android:paddingTop="@dimen/activity_horizontal_margin"
+                        app:srcCompat="@drawable/ic_reload_right" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_rank_bar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_margin="@dimen/dimen_five_dp"
+                        android:gravity="start"
+                        android:text="Leg wise Nebula Volume (NV) in your network used for calculating your rank."
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_next_rank_new_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_rank_bar"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dimen_six_dp"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:background="@drawable/nebula_button_login_eftct_login"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:text="Next"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:text="Next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_next_visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_next"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:text="Next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlOverlay_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="@color/coloropacity">
+
+                <RelativeLayout
+                    android:id="@+id/llSettings_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/dimen_five_dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginTop="@dimen/dimen_three_hundred_twenty_dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_arrow_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/dimen_ten_dp"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/dimen_ten_dp"
+                        app:srcCompat="@drawable/ic_reload_left" />
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/yourranktxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/img_arrow_next"
+                        android:layout_marginEnd="@dimen/dimen_five_dp"
+                        android:layout_marginRight="@dimen/dimen_five_dp"
+                        android:text="Your upcoming Rank."
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <!--<com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_next_rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="@dimen/dimen_seventy_dp"
+                        android:layout_marginRight="@dimen/dimen_ten_dp"
+                        android:background="@drawable/nebula_button_login_eftct_login"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:text="Got it"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:visibility="gone" />-->
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:id="@+id/tv_next_rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/yourranktxt"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="@dimen/dimen_ten_dp"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:background="@drawable/nebula_button_login_eftct_login"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:text="Got it"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/dimen_thirty_five_dp"
+                    android:layout_marginStart="@dimen/dimen_five_dp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:visibility="gone">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/activity_horizontal_margin"
+                        app:srcCompat="@drawable/ic_reload_right" />
+
+
+                    <com.nebulacompanies.ibo.view.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Downline NV requirement for upgrading your rank based on combination of Nebula Volumes in different legs. Please refer the rank chart in our ‘Perfect Career Plan’."
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </FrameLayout>
+
+
+    </ScrollView>
+    <!--  </FrameLayout>-->
+</LinearLayout>

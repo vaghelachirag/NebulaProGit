@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TreeLayout</string>
+    <declare-styleable name="TreeView">
+        <attr format="dimension" name="levelSeparation"/>
+        <attr format="dimension" name="lineThickness"/>
+        <attr format="color" name="lineColor"/>
+        <attr format="boolean" name="useMaxSize"/>
+    </declare-styleable>
+</resources>

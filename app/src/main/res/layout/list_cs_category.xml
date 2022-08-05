@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/progresbar"
+    android:visibility="visible"
+    android:layout_marginLeft="@dimen/dimen_eight_dp"
+    android:layout_marginRight="@dimen/dimen_eight_dp"
+    android:layout_marginTop="@dimen/dimen_one_dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_item_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_address"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                    android:id="@+id/tv_cs_categoryName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dimen_eight_dp"
+                    android:background="@null"
+                    android:text="fhghj"
+                    android:drawableEnd="@drawable/ic_keyboard_arrow_right_black"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_fifteen_sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_one_dp"
+                    android:layout_marginStart="@dimen/dimen_two_dp"
+                    android:layout_marginEnd="@dimen/dimen_two_dp"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

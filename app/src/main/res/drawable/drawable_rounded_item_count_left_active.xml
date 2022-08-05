@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:shape="rectangle">
+    <gradient
+        android:angle="90"
+        android:endColor="#f5dc9c"
+        android:centerColor="#f0c350"
+        android:startColor="#f0c350" />
+    <corners
+        android:topLeftRadius="@dimen/dimen_four_dp"
+        android:bottomLeftRadius="@dimen/dimen_four_dp"/>
+    <stroke
+        android:width="2dip"
+        android:color="@color/colorYellow" />
+      <!--  android:color="@color/color_ibo_theme" />-->
+
+      <!--  android:color="@color/color_customer_theme"-->
+</shape>

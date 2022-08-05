@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_view"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:text="@string/families"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/dimen_eight_dp"
+                            android:textColor="@color/color_table_text"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#cfcfcf" />
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/dimen_eight_dp"
+                            android:text="@string/pv_today"
+                            android:textColor="@color/color_table_text"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#cfcfcf" />
+
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/weekly_pv"
+                            android:textColor="@color/color_table_text"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#cfcfcf" />
+
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/lifetime_pv"
+                            android:textColor="@color/color_table_text"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#cfcfcf" />
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/dimen_eight_dp"
+                            android:text="@string/pv_rank"
+                            android:textColor="@color/color_table_text"
+                            android:textSize="@dimen/dimen_twelve_sp" />
+
+                </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:id="@+id/view_pv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="@color/gray_light"/>
+
+    <LinearLayout
+            android:id="@+id/ln_pv_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/families"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/PvToday"
+                android:layout_width="130dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/weeklyPv"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/lifetimePv"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/rank"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

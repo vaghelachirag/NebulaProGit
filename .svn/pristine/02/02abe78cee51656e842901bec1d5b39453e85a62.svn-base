@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/moredatalay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNotification">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:text="More Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dimen_five_dp"
+            android:background="@drawable/nebula_effect"
+            android:contentDescription="@null"
+            android:padding="@dimen/dimen_five_dp"
+            app:srcCompat="@drawable/ic_close_new_white" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_five_dp">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textactive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+            android:gravity="center_vertical"
+            android:text="Active"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_fourteen_sp"
+            android:visibility="gone" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textgeneratetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+            android:gravity="center_vertical"
+            android:text="generated 23 hours ago"
+            android:textColor="@color/text_color"
+            android:visibility="visible"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textpeopleused"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+            android:gravity="center_vertical"
+            android:text="2 People used"
+            android:visibility="visible"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:visibility="gone"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_five_dp">
+
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textshortdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Short description data"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textlongdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="Long description data!!!!"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_five_dp">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/img_share"
+            android:text="Offer Details:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textofferusagecount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="• The offer can be used by 25 times only."
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textofferdiscountamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="• Get Flat Rs.200.00 OFF on your order."
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textofferdiscountperc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="• Get Flat 20% OFF on your order."
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textoffermaxdiscountamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="• Get Maximum Flat Rs.150.00 OFF on your order."
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextView
+            android:id="@+id/textofferstartdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:gravity="center_vertical"
+            android:text="• Start from 2021-03-24 to 2021-03-26"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

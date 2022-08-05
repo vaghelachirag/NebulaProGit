@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNotification">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:text="Pay with"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+        <ImageView
+            android:id="@+id/img_sort_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dimen_five_dp"
+
+            android:background="@drawable/nebula_effect"
+            android:contentDescription="@null"
+            android:padding="@dimen/dimen_five_dp"
+            app:srcCompat="@drawable/ic_close_new_white" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvApps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/dimen_six_dp"/>
+
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_forty_dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_ten_dp"
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dimen_thirty_five_dp"
+        android:paddingRight="@dimen/dimen_thirty_five_dp"
+        android:text="Proceed"
+        android:visibility="visible"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_sixteen_sp"
+        android:textStyle="bold" />
+</LinearLayout>

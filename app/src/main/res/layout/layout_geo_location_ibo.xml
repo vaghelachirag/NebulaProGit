@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:map="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/llGoogleMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/nebula"
+            android:orientation="vertical">
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:id="@+id/progresbar"
+                style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="-5dp"
+                android:indeterminate="true"
+                android:visibility="visible"
+                app:mpb_indeterminateTint="@color/colorRadio"
+                app:mpb_progressStyle="horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    style="@style/StyleTitleTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_height"
+                    android:layout_weight="1"
+                    android:text="@string/prompt_your_location"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_normal_callibri" />
+
+                <ImageView
+                    android:id="@+id/imgRefresh"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/dimen_ten_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_refresh" />
+            </LinearLayout>
+
+
+            <fragment
+                android:id="@+id/mapIBOLocation"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                map:cameraZoom="13"
+                android:layout_margin="@dimen/dimen_five_dp" />
+
+        </LinearLayout>
+
+        <include
+            android:visibility="gone"
+            layout="@layout/layout_empty_view" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

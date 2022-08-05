@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llEmpty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgError"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/no_record"
+            tools:ignore="VectorDrawableCompat" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:id="@+id/txtErrorTitle"
+            style="@style/styleTextViewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgError"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:text="Cart is Empty"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/dimen_twenty_four_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/txt_error_content"
+            style="@style/styleTextViewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtErrorTitle"
+            android:visibility="gone"
+            android:gravity="center_horizontal"
+            android:text="Looks like you have no items in your shopping cart."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/txtRetry"
+            style="@style/styleTextViewLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/nebula_effect"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="Retry"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

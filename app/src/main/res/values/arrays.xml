@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_amenities">
+        <item>Business Center</item>
+        <item>24-Hour Front Desk</item>
+        <item>Air Conditioning</item>
+        <item>Daily Housekeeping</item>
+        <item>Front Desk Safe</item>
+        <item>Laundry Service</item>
+        <item>Luggage Storage</item>
+        <item>268 Smoke-Free Guestrooms</item>
+    </string-array>
+
+    <integer-array name="array_amenities_images">
+        <item>@drawable/ic_vector_business_center</item>
+        <item>@drawable/ic_front_desk</item>
+        <item>@drawable/ic_ac</item>
+        <item>@drawable/ic_house_keeping</item>
+        <item>@drawable/ic_front_desk_safe</item>
+        <item>@drawable/ic_vector_laundry_service</item>
+        <item>@drawable/ic_luggage_storage</item>
+        <item>@drawable/ic_vector_smoking_room</item>
+    </integer-array>
+    <string-array name="string_array_alcohol">
+        <item>Vodka</item>
+        <item>Rum</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Tequila</item>
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Espresso</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Cafe Latte</item>
+        <item>Ristretto</item>
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Carbonara</item>
+        <item>Capellini</item>
+        <item>Spaghetti</item>
+        <item>Gnocchi</item>
+        <item>Lasagnette</item>
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Cola</item>
+        <item>Lemonade</item>
+        <item>Citrus soda</item>
+        <item>Juice</item>
+        <item>Sparkling Water</item>
+    </string-array>
+
+    <!--<string-array name="product_list">
+        <item>Aavaas (Changodar), Ahmedabad</item>
+        <item>Hawthorn Suites, Dwarka</item>
+        <item>Aavaas, Hyderabad</item>
+    </string-array>-->
+
+    <!--Customer booking-->
+
+
+</resources>

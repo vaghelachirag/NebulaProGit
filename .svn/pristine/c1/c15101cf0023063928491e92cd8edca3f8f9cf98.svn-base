@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/img_spc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_agreement"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_thirty_dp"
+        android:paddingRight="@dimen/dimen_thirty_dp"
+        android:paddingLeft="@dimen/dimen_thirty_dp"
+
+        android:button="@null"
+        android:background="@drawable/nebula_button_login_eftct_login"
+        android:drawableLeft="@drawable/ic_check_white"
+        android:drawablePadding="@dimen/dimen_two_dp"
+        android:drawableStart="@drawable/ic_check_white"
+        android:text="I agree to these conditions"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dimen_twelve_sp" />
+</LinearLayout>

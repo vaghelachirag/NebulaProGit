@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout_search"
+        android:visibility="visible" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_img_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_five_dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/dimen_six_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="@dimen/dimen_hundred_dp"
+                    android:layout_height="@dimen/dimen_hundred_dp"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:layout_marginStart="@dimen/dimen_twenty_dp"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_shopping_cart" />
+
+
+                <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimen_ten_dp"
+                    android:text="Kesar Kavach"
+                    android:textColor="@color/list_product_name"
+                    android:textSize="@dimen/dimen_sixteen_sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+               <!-- <RatingBar
+                    android:id="@+id/ratingBar1"
+                    android:progressDrawable="@drawable/custom_rating"
+                    android:layout_marginTop="@dimen/dimen_ten_dp"
+                    android:layout_marginBottom="@dimen/dimen_twenty_dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    />
+
+
+                <RatingBar
+                    android:id="@+id/ratingBar2"
+                    style="@style/CustomRatingBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX=".5"
+                    android:scaleY=".5"
+                    android:transformPivotX="0dp"
+                    android:transformPivotY="0dp"
+                    android:isIndicator="false"
+                    android:layout_marginTop="8dp"
+                   android:stepSize="0.5"
+                    android:visibility="gone"
+                     />
+-->
+                <com.fuzzproductions.ratingbar.RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="@dimen/dimen_ten_dp"
+                    app:minAllowedStars="0"
+                    app:numStars="5"
+                    app:starSize="20dp"
+                    app:starMargin="10dp"
+                    app:isIndicator="false"
+                    app:emptyDrawable="@drawable/star_empty"
+                    app:filledDrawable="@drawable/star_filled"
+                    android:backgroundTint="@color/nebula"
+                    app:stepSize="0.5"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginEnd="@dimen/dimen_five_dp"
+                android:background="@color/gray_light"/>
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:layout_marginBottom="@dimen/dimen_five_dp"
+                android:text="Write a Review"
+                android:textColor="@color/list_product_name"
+                android:textSize="@dimen/dimen_sixteen_sp"
+                android:textStyle="normal" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/simpleEditTexttitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_marginEnd="@dimen/dimen_ten_dp"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Title"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_fourteen_dp" />
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/simpleEditTextdesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dimen_ten_dp"
+                        android:layout_marginEnd="@dimen/dimen_ten_dp"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Description"
+                        android:lines="5"
+                        android:gravity="left"
+                        android:imeOptions="actionNext"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_fourteen_dp" />
+                </LinearLayout>
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/button_submit"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:layout_marginBottom="@dimen/dimen_ten_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_button"
+                android:textAllCaps="false"
+                android:text="Submit"
+                android:textColor="@color/nebula" />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bonus_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_ten_dp">
+
+        <LinearLayout
+            android:id="@+id/ln_leadership"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_thirty_five_dp"
+                android:background="@drawable/table_effect_up"
+                android:orientation="horizontal"
+                android:weightSum="12">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/date"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/leadership_bonus"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/tds"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_normal_callibri" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/payout"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_normal_callibri" />
+
+            </LinearLayout>
+
+            <!-- <ListView
+                 android:id="@+id/listview_leadership_bonus"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_margin="@dimen/dimen_two_dp"
+                 android:layoutAnimation="@anim/layout_animation_fall_down"
+                 android:fadeScrollbars="false"
+                 android:background="@drawable/drawable_rounded_white_popup"
+                 android:divider="@null"
+                 android:paddingBottom="@dimen/dimen_five_dp"
+                 android:dividerHeight="0dp"
+                 android:smoothScrollbar="true" />
+
+             <include
+                 layout="@layout/layout_empty_view"
+                 android:visibility="gone" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_effect_down"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_three_dp"
+                    android:background="@drawable/drawable_rounded_white_popup"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/listview_leadership_bonus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:fadeScrollbars="false"
+                        android:layoutAnimation="@anim/layout_animation_fall_down"
+                        android:smoothScrollbar="true" />
+
+                    <include
+                        layout="@layout/layout_empty_view"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

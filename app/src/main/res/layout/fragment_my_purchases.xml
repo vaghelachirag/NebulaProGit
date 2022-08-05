@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aavaas_purchases_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_two_dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_two_dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/vacation_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/vacation_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vacation_purchase"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/vacation_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/red"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ln_my_purchase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <!--android:background="@drawable/table_effect"-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_thirty_five_dp"
+                android:background="@drawable/table_effect"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/purchase_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/purchase_date"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/apartment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/unit"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_twelve_sp" />
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf"
+                    android:visibility="gone" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/sale_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="@string/sale_info"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/dimen_twelve_sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listview_my_purchases"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_two_dp"
+                android:background="@drawable/drawable_rounded_white_popup"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:fadeScrollbars="false"
+                android:layoutAnimation="@anim/layout_animation_fall_down"
+                android:smoothScrollbar="true" />
+
+            <include
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

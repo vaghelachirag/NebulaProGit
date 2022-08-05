@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_rounded_alert_ecom_cancel"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_sort_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dimen_four_dp"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:gravity="center"
+            android:text="Select a reason for cancellation"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_sort_title"
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_four_dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/ln_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_two_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_alignParentStart="true"
+                android:text="Quantity:"
+                android:layout_centerInParent="true"
+                android:textColor="@color/selected_product_count"
+                android:textSize="@dimen/dimen_thirteen_sp"
+                android:textStyle="normal" />
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_remove_item"
+                android:layout_width="@dimen/dimen_thirty_six_dp"
+                android:layout_height="@dimen/dimen_twenty_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:layout_toEndOf="@+id/tv_product_quantity"
+                android:background="@drawable/nebula_button_left_item_count"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_eighteen_dp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/product_count"
+                android:layout_width="@dimen/dimen_thirty_six_dp"
+                android:layout_height="@dimen/dimen_twenty_five_dp"
+                android:layout_toEndOf="@+id/btn_remove_item"
+                android:text="1"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/drawable_item_count"
+                android:textColor="@color/selected_product_count"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_add_item"
+                android:layout_toEndOf="@+id/product_count"
+                android:layout_width="@dimen/dimen_thirty_six_dp"
+                android:layout_height="@dimen/dimen_twenty_five_dp"
+                android:text="+"
+                android:background="@drawable/nebula_button_right_item_count"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_eighteen_dp" />
+
+
+
+        </RelativeLayout>
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_two_dp"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I ordered the wrong product"
+                android:id="@+id/rb_wrong_product"
+                android:buttonTint="@color/colorRadio"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I placed the order by mistake"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:id="@+id/rb_mistake_product"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:text="Order is taking too long to deliver"
+                android:id="@+id/rb_time_product"
+                android:textColor="@android:color/black"
+                android:buttonTint="@color/colorRadio"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I did not place this order"
+                android:id="@+id/rb_placed_product"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:id="@+id/rb_other_product"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:layout_marginBottom="@dimen/dimen_six_dp"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+        </RadioGroup>
+
+
+        <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+            android:id="@+id/edt_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_one_fifty_dp"
+            android:gravity="start"
+            android:layout_gravity="top"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:padding="@dimen/dimen_six_dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            android:background="@drawable/order_cancel_bg"
+            android:textSize="@dimen/dimen_thirteen_sp"
+            android:hint="Remarks"/>
+
+        <LinearLayout
+            android:id="@+id/ln_my_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:paddingTop="@dimen/dimen_six_dp"
+            android:paddingBottom="@dimen/dimen_six_dp"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_thirty_dp"
+                android:layout_marginStart="@dimen/dimen_four_dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                android:gravity="center"
+                android:padding="@dimen/dimen_six_dp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:visibility="visible" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_okay"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_thirty_dp"
+                android:layout_marginStart="@dimen/dimen_four_dp"
+                android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                android:gravity="center"
+                android:padding="@dimen/dimen_six_dp"
+                android:text="OK"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

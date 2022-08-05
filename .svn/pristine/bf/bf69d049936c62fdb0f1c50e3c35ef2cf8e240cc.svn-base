@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_rounded_alert_ecom_sort"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+         <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+             android:id="@+id/tv_sort_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dimen_four_dp"
+            android:text="Sort By"
+             android:layout_marginStart="@dimen/dimen_four_dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_sort_title"
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_four_dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_two_dp"
+            android:id="@+id/radioGroup">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:id="@+id/rb_all"
+                android:checked="true"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: Low to High"
+                android:id="@+id/rb_price_low"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: High to Low"
+                android:id="@+id/rb_price_high"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A - Z"
+                android:id="@+id/rb_a_to_z"
+                android:textColor="@android:color/black"
+                android:buttonTint="@color/colorRadio"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z - A"
+                android:id="@+id/rb_z_to_a"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trending"
+                android:id="@+id/rb_trending"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New"
+                android:id="@+id/rb_new"
+                android:buttonTint="@color/colorRadio"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

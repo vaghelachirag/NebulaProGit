@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_five_dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dashed_border_green"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_five_dp"
+        android:paddingRight="@dimen/dimen_five_dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_ten_dp">
+
+            <ImageView
+                android:id="@+id/image_banner"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/app_logo" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:id="@+id/textoffertitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image_banner"
+                android:paddingLeft="@dimen/dimen_ten_dp"
+                android:text="Flat 15% Cashback on your 1st Amazon Pay Transaction Order"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_five_dp">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textshortdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Short description data"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textlongdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="Long description data!!!!"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_five_dp">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/img_share"
+                android:text="Offer Details:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textofferusagecount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="• The offer can be used by 25 times only."
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textofferdiscountamount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="• Get Flat Rs.200.00 OFF on your order."
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textofferdiscountperc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="• Get Flat 20% OFF on your order."
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textoffermaxdiscountamt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="• Get Maximum Flat Rs.150.00 OFF on your order."
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextView
+                android:id="@+id/textofferstartdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:gravity="center_vertical"
+                android:text="• Start from 2021-03-24 to 2021-03-26"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonGenerate"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/button_coupon"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Generate Code"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:layout_marginBottom="@dimen/dimen_ten_dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

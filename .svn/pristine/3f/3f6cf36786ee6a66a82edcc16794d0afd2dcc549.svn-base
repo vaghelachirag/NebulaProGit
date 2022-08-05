@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:shape="rectangle">
+    <solid android:color="@color/click_effect" />
+    <corners android:radius="8dp" />
+    <stroke
+        android:width="2dip"
+        android:color="@color/click_effect" />
+      <!--  android:color="@color/color_customer_theme"-->
+</shape>

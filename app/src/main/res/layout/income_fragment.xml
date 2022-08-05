@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/income_fragment_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ln_dashboard_income"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_ten_dp"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_ten_dp"
+                android:visibility="invisible"
+                tools:context=".navigation.DashboardActivity">
+
+                <!-- INCOME HISTORY-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_two_dp"
+                    android:background="@drawable/table_effect"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_dp"
+                        android:layout_marginTop="1dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_marginLeft="@dimen/dimen_twenty_dp"
+                            android:layout_marginStart="@dimen/dimen_twenty_dp"
+                            android:layout_weight="0.47"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:padding="@dimen/dimen_five_dp"
+                            android:singleLine="false"
+                            android:text="@string/date"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/dimen_fourteen_sp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#cfcfcf" />
+
+                        <com.nebulacompanies.ibo.view.MyTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.53"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:singleLine="false"
+                            android:text="@string/income"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/dimen_normal_callibri" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_three_dp"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:id="@+id/listview_income"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@null"
+                            android:dividerHeight="0dp"
+                            android:fadeScrollbars="false"
+                            android:smoothScrollbar="true" />
+
+                        <include
+                            layout="@layout/layout_empty_view"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/coloropacity"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/llSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    app:srcCompat="@drawable/ic_swap_vert_black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="@dimen/dimen_five_dp"
+                    android:text="Scroll up and Down."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollupdowntxt"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_five_dp"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:text="Got it"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+            <!--<com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/tv_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="100dp"
+                android:text="Got it"
+                android:background="@drawable/nebula_button_login_eftct_login"
+                android:padding="@dimen/dimen_ten_dp"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />-->
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

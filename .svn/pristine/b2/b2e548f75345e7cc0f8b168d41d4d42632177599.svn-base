@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_rounded"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen_ten_dp"
+    android:paddingTop="10dp"
+    android:paddingRight="@dimen/dimen_ten_dp"
+    android:paddingBottom="@dimen/dimen_ten_dp">
+
+
+    <ir.samanjafari.easycountdowntimer.EasyCountDownTextview
+        android:id="@+id/easyCountDownTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:colonColor="#000"
+        app:daysLabel="Days"
+        app:digitBackground="@android:color/black"
+        app:setAnimation="true"
+        app:showDays="true"
+        app:showHours="true"
+        app:start_automatically="true"
+        app:textColor="#ffffff"
+        app:textSize="16sp"
+        app:useFarsiNumeral="false" />
+    <!--
+     app:showHours="true"
+            app:textSize="16sp"
+            app:digitBackground="@android:color/transparent"
+            app:textColor="#000000"
+            app:setAnimation="true"
+            app:colonColor="#000"
+            app:showDays="true"
+            app:daysLabel="D"
+            app:days="1"
+            app:start_automatically="true"
+            app:useFarsiNumeral="false"
+    -->
+
+    <com.nebulacompanies.ibo.view.MyButton
+        android:id="@+id/confirm_button"
+        style="@style/dialog_blue_button"
+        android:text="Ok" />
+</LinearLayout>

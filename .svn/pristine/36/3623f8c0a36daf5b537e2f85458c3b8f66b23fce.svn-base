@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/sale_id"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/saleid_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/emino"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "0.5"
+            android:gravity = "left"
+            android:text = "@string/emi_no"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@color/facebook_feeds"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/emino1"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "0.5"
+            android:gravity = "left"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/investment"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/investment_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/payment_plan"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/paymentplan_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/token_amount"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/tokenamount_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/dp_20"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/dp20_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/discount"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/discount_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/monthly_installment"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/monthlyinstallment_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/next_installment_date"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/nextinstallmentdate_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cfcfcf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:text = "@string/amount_paid"
+            android:textColor = "@android:color/white"
+            android:textAlignment="gravity"
+            android:background="@drawable/table_effect"
+            android:padding="10dp"/>
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/receipt_11"
+            android:layout_width = "0dp"
+            android:layout_height = "match_parent"
+            android:layout_weight = "0.5"
+            android:gravity = "start|center"
+            android:textColor = "@android:color/black"
+            android:textAlignment="gravity"
+            android:background="@android:color/white"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

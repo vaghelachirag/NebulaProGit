@@ -1,0 +1,1126 @@
+<resources>
+
+    <!-- <string name="app_name">IBO Back Office </string>-->
+    <string name="app_name" translatable="false">Nebula Pro</string>
+    <string name="offer" translatable="false">60% OFF</string>
+    <string name="products" translatable="false">Products</string>
+    <string name="downloads" translatable="false">Downloads</string>
+
+    <string name="product_name" translatable="false">Product Name</string>
+    <string name="bv" translatable="false">BV %</string>
+    <!--  <string name="retail_profit" translatable="false">Retail Profit %</string>-->
+    <string name="retail_profit_new" translatable="false">Retail Income</string>
+    <string name="nv" translatable="false">NV</string>
+    <string name="customer_id" translatable="false">Customer ID</string>
+    <string name="customer_name" translatable="false">Customer Name</string>
+    <string name="emi_no" translatable="false">EMI No</string>
+    <string name="amount_paid" translatable="false">Amount Paid</string>
+    <string name="type" translatable="false">Type</string>
+    <string name="leadership_bonus" translatable="false">Leadership Bonus</string>
+    <string name="purchase_date" translatable="false">Purchase Date</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="attachment" translatable="false"><u>Attachment</u></string>
+    <string name="product_desc_title" translatable="false">You might also like these</string>
+    <string name="my_bv_commission" translatable="false">My BV Commission</string>
+    <string name="member_name_" translatable="false">Member Name</string>
+    <!--<string name="member_id_" translatable="false">Member ID</string>-->
+    <string name="member_id_" translatable="false">IBO ID</string>
+    <string name="closing_date" translatable="false">Closing Date</string>
+    <string name="my_bv" translatable="false">My BV %</string>
+    <string name="rank" translatable="false">Rank</string>
+    <string name="gold_income_" translatable="false">Gold Income</string>
+    <string name="total_bv_commission" translatable="false">Total BV Commission</string>
+    <string name="more_info" translatable="false">More Info</string>
+    <string name="bv_from_sales" translatable="false">BV From Sales</string>
+    <string name="fl_bv" translatable="false">FLBV</string>
+    <string name="my_BV" translatable="false">My BV</string>
+    <string name="dbv" translatable="false">DBV</string>
+    <string name="dbv_commission" translatable="false">DBV Commission</string>
+    <string name="total_income_new" translatable="false">Income</string>
+    <string name="incomeorshare" translatable="false">Income / Share</string>
+    <string name="sale_id" translatable="false">Sale ID</string>
+    <string name="unit" translatable="false">Unit</string>
+    <string name="sale_info" translatable="false">Sale Info</string>
+    <string name="investment" translatable="false">Investment</string>
+    <string name="payment_plan" translatable="false">Payment Plan</string>
+    <string name="token_amount" translatable="false">Token Amount</string>
+    <string name="dp_20" translatable="false">DP</string>
+    <string name="discount" translatable="false">Discount</string>
+    <string name="monthly_installment" translatable="false">Monthly Installment</string>
+    <string name="next_installment_date" translatable="false">Next Installment Date</string>
+    <string name="customer_info" translatable="false">Customer Info</string>
+    <string name="state_" translatable="false">State</string>
+    <string name="city_" translatable="false">City</string>
+    <string name="mobile" translatable="false">Mobile</string>
+    <string name="pincode_" translatable="false">Pincode</string>
+    <string name="text_alcohol" translatable="false">Alcohol</string>
+    <string name="text_coffee" translatable="false">Coffee</string>
+    <string name="text_pasta" translatable="false">Pasta</string>
+    <string name="text_cold_drinks" translatable="false">Cold Drinks</string>
+    <string name="text_expanded" translatable="false">Expanded</string>
+    <string name="text_collapsed" translatable="false">Collapsed</string>
+    <string name="pdf_share_toast" translatable="false">Please download the pdf to share</string>
+    <string name="image_share_toast" translatable="false">Please download image to share</string>
+    <string name="ratechart_download_toast" translatable="false">Are you sure you want to download this rate chart?</string>
+
+    //You Tube
+    <string name="hello_world" translatable="false">Hello world!</string>
+
+    // MENU
+    <string name="my_profile" translatable="false">My Profile</string>
+    <string name="logout" translatable="false">Logout</string>
+
+    // NEBULA APP
+    <string name="login" translatable="false">Login</string>
+    <string name="login_new" translatable="false">Associate / IBO Login</string>
+    <string name="registration_new" translatable="false">Associate / IBO Registration</string>
+    <string name="forgot_password" translatable="false">Forgot Password</string>
+    <string name="forgot_password_title" translatable="false">Forgot Password?</string>
+    <string name="forgot_otp_password" translatable="false">Reset Your Password </string>
+    <string name="ibo_new_register" translatable="false">Register Here</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="dashboard" translatable="false">Dashboard</string>
+    <string name="current_rank" translatable="false">Current Rank </string>
+    <string name="next_eligible_rank" translatable="false">Next Eligible Rank </string>
+
+    <string name="sponser_id_" translatable="false">Sponsor ID</string>
+    <string name="share_via" translatable="false">Share via</string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="change_password_underline" translatable="false"><u>Change Password</u></string>
+    <string name="old_password" translatable="false">Old Password</string>
+    <string name="new_password" translatable="false">New Password</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="prompt_share" translatable="false">Share</string>
+
+
+    <string name="starpoolnew" translatable="false">Star pool</string>
+    <string name="my_sales" translatable="false">My Sales</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="my_purchases" translatable="false">My Purchases</string>
+    <string name="vacation_purchase" translatable="false">Vacation Package Purchased on</string>
+    <string name="no_records_found" translatable="false">No records found..!</string>
+
+    <string name="level" translatable="false">Level</string>
+    <string name="leg" translatable="false">Leg</string>
+    <!--<string name="joining_date_">Joining Date</string>-->
+    <string name="joining_date_" translatable="false">Joined</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="gbv" translatable="false">GBV</string>
+    <string name="generation_income_" translatable="false">Generation Income</string>
+    <string name="date" translatable="false">Date</string>
+    <string name="tds" translatable="false">TDS</string>
+    <string name="net_amount" translatable="false">Net Amount</string>
+    <string name="shares" translatable="false">Shares</string>
+    <string name="payout" translatable="false">Payout</string>
+
+    <string name="projects_" translatable="false">Projects</string>
+    <string name="my_income" translatable="false">My Income</string>
+    <string name="Rs" translatable="false">\u20B9</string>
+    <string name="current_badge" translatable="false">My Current Badge</string>
+    <string name="upcoming_badge" translatable="false">Upcoming Badge</string>
+
+    <string name="last_payout" translatable="false">Last Payout</string>
+    <string name="last_payout_date" translatable="false">Last Payout Date</string>
+    <!-- <string name="payout_details"><u><i>Payout Details</i></u></string>-->
+    <string name="payout_details" translatable="false"><u><b>Payout Details</b></u></string>
+    <string name="amount_received" translatable="false">Amount Received</string>
+    <string name="pending_amount" translatable="false">Pending Amount</string>
+    <string name="installment_amount" translatable="false">Installment Amount</string>
+
+    //Waiting List
+
+    //Forgot Password
+    <string name="get_password" translatable="false">Get Password</string>
+
+    //Units Popup
+
+    //Projects
+
+    <string name="product_list_dw1" translatable="false">Hawthorn Suites, Dwarka</string>
+
+    <string name="submit" translatable="false">Submit</string>
+    <string name="Booster_Income_AavaasAhmedabad" translatable="false">Booster Income</string>
+    <string name="booster_income" translatable="false">Booster Income</string>
+    <string name="SuperBoosterIncome_AavaasAhmedabad" translatable="false">Super Booster Income</string>
+    <string name="super_booster_income" translatable="false">Super Booster Income</string>
+    <string name="su_booster" translatable="false">SU Booster Income</string>
+    <string name="car_program" translatable="false">Car Program Income</string>
+    <string name="logout_show" translatable="false">Are you sure you want to logout?</string>
+
+    <string name="Network_is_not_available" translatable="false">Network is not available.</string>
+    <string name="PlacementTree" translatable="false">Placement Tree</string>
+    <string name="SponsorTree" translatable="false">Sponsor Tree</string>
+    <string name="enter_login_id_password" translatable="false">Enter Login ID and Password</string>
+    <string name="enter_login_id" translatable="false">Enter Login ID</string>
+    <string name="enter_login_password" translatable="false">Enter Password</string>
+
+    <!-- <string name="title_app_lan">Application Language</string>-->
+
+    <string name="yes" translatable="false">Ok</string>
+    <string name="no" translatable="false">Cancel</string>
+
+    //Insufficient Storage
+    <string name="insufficient_storage" translatable="false">Insufficient storage</string>
+    <string name="view_storage" translatable="false">VIEW STORAGE</string>
+    <string name="cancel_storage" translatable="false">CANCEL</string>
+    <string name="view_device_message_newsletter" translatable="false">This device doesn\'t have enough space to download this newsletter. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_video" translatable="false">This device doesn\'t have enough space to download this video. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_brochure" translatable="false">This device doesn\'t have enough space to download this e-brochure. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_leaflet" translatable="false">This device doesn\'t have enough space to download this leaflet. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_bookingform" translatable="false">This device doesn\'t have enough space to download this booking form. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_ratechart" translatable="false">This device doesn\'t have enough space to download this rate chart. Consider deleting apps or content you no longer need and try again.</string>
+    <string name="view_device_message_kyc" translatable="false">This device doesn\'t have enough space to download this KYC Form. Consider deleting apps or content you no longer need and try again.</string>
+
+
+    //Itinerary
+
+    <string name="retail_income" translatable="false">Retail Income</string>
+    <string name="main_leg" translatable="false">Main Leg</string>
+    <string name="ibo_id" translatable="false">IBO ID</string>
+    <string name="ibo_name" translatable="false">IBO Name</string>
+    <string name="status" translatable="false">Status</string>
+
+    // State List
+
+    <string name="error_msg_network" translatable="false">Network is not available.</string>
+    <string name="error_service_unavailable" translatable="false">Service unavailable</string>
+    <string name="error_no_records" translatable="false">No records found.</string>
+    <string name="error_no_kyc" translatable="false">KYC not verified.</string>
+    <string name="error_internal_server" translatable="false">Internal server error</string>
+
+    <!--Modified By Jadav Chirag-->
+
+
+    <!--Navigation Drawer.-->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <!--Thailand Holiday  -->
+
+    <string name="give_storage_permission" translatable="false">Please give storage permission from settings</string>
+    <string name="income" translatable="false">Income</string>
+    <string name="amount" translatable="false">Amount</string>
+
+    <string name="dv_title" translatable="false">Dv</string>
+    <string name="dv_redeemed" translatable="false">DV Redeemed</string>
+    <string name="dream_volume" translatable="false">Dream Volume</string>
+    <string name="star_pool_income" translatable="false">Star Pool Income</string>
+    <string name="three_star_pool_income" translatable="false">3 Star Pool Income</string>
+
+    //translation is required
+    <string name="other" translatable="false">Others</string>
+    <string name="rank_history" translatable="false">Rank History</string>
+    <string name="bv1" translatable="false">BV</string>
+    <string name="next_bv" translatable="false">Next BV</string>
+    <string name="monthly_bv" translatable="false">Monthly BV</string>
+    <string name="personal_updates" translatable="false">Your Updates</string>
+    <string name="team_updates" translatable="false">Team Updates</string>
+    <string name="new_joinees" translatable="false">New Joinees</string>
+    <string name="downline_ranks" translatable="false">Downline Ranks</string>
+    <string name="ibo_list" translatable="false">IBO List</string>
+    <string name="ibo_pv" translatable="false">PV</string>
+
+    <string name="prompt_personal_info" translatable="false">Personal Detail</string>
+    <string name="prompt_bank_info" translatable="false">Bank Detail</string>
+    <string name="prompt_ibo_name" translatable="false">Name : \t </string>
+    <string name="prompt_phone_no" translatable="false">Phone Number : \t </string>
+    <string name="prompt_email_id" translatable="false">Email ID : \t </string>
+    <string name="prompt_date_of_join" translatable="false">Date Of Joining : \t </string>
+    <string name="prompt_gender" translatable="false">Gender : \t </string>
+    <string name="prompt_address" translatable="false">Address : \t </string>
+    <string name="prompt_bank" translatable="false">Bank : \t </string>
+    <string name="prompt_branch" translatable="false">Branch : \t </string>
+    <string name="prompt_bank_city" translatable="false">Branch City : \t </string>
+    <string name="prompt_ifsc_code" translatable="false">IFSC Code : \t </string>
+    <string name="prompt_account_holder" translatable="false">Account Holder : \t </string>
+    <string name="prompt_account_no" translatable="false">Account No. : \t </string>
+
+    <!--IBO GEO Location-->
+    <string name="prompt_your_location" translatable="false">Your Detected Location</string>
+    <string name="prompt_ibo_geo_location" translatable="false">Location</string>
+    <!--End-->
+
+    //Holiday
+    <!-- <string name="travel_name">Travel Name</string>
+     <string name="package_status">Package Status</string>-->
+    <string name="travel_name" translatable="false">Name</string>
+    <string name="package_names" translatable="false">Package Name</string>
+    <string name="package_status" translatable="false">Status</string>
+    <string name="package_amount" translatable="false">Amount</string>
+    <string name="package_date" translatable="false">Date</string>
+    <string name="downline_name" translatable="false">Name</string>
+
+    <string name="sponsor_id_sales" translatable="false">Sponsored ID</string>
+    <string name="customer_sales" translatable="false">Customer Sales</string>
+    <string name="moblie" translatable="false">Phone</string>
+    <string name="achiever_income" translatable="false">Achiever Income</string>
+    <string name="achiever_sales" translatable="false">Achiever Sales</string>
+    <string name="achiever_bonus" translatable="false">Select your achiever bonus: </string>
+    <string name="achiever_bonus1" translatable="false">Flight Ticket</string>
+    <string name="achiever_bonus2" translatable="false">\u20B9 17,000/-</string>
+
+    //Dashboard
+    <string name="nav_dashboard" translatable="false">Dashboard</string>
+    <!-- <string name="nav_projects">Projects</string>-->
+    <!--<string name="nav_projects" translatable="false">Real Estate Projects</string>-->
+    <string name="nav_projects" translatable="false">Products</string>
+    <string name="nav_my_sales" translatable="false">My Sales</string>
+    <string name="nav_my_purchase" translatable="false">My Purchases</string>
+    <!-- <string name="nav_my_downline" translatable="false">My Downline</string>-->
+    <string name="nav_my_downline" translatable="false">My Community Sales</string>
+    <string name="nav_my_income" translatable="false">My Income</string>
+    <string name="nav_account_summary" translatable="false">Account Summary</string>
+    <!--<string name="nav_downloads">Downloads</string>-->
+    <string name="nav_downloads" translatable="false">Documents</string>
+    <string name="nav_privacy" translatable="false"><u>Privacy Policy</u></string>
+    <string name="nav_events" translatable="false">Events</string>
+    <string name="nav_profile" translatable="false">My Profile</string>
+    <!-- <string name="nav_ibo_list" translatable="false">IBO List</string>-->
+    <string name="nav_ibo_list" translatable="false">My Network</string>
+    <string name="nav_settings" translatable="false">Settings</string>
+
+    <string name="sr_no" translatable="false">Sr No</string>
+
+
+    <!--Your payment has been processed successfully and your booking is confirmed. Please check your email for booking details."-->
+    <!--End Modification-->
+
+
+    <string name="my_dv" translatable="false">My DV: </string>
+    <string name="nvtoken" translatable="false">NV on Token</string>
+    <string name="nvdp" translatable="false">NV on Down Payment</string>
+    <string name="nvbankloan" translatable="false">NV on Bank Loan</string>
+    <string name="emi_date" translatable="false">EMI Date</string>
+
+    <!--Contact us-->
+    <string name="office_address" translatable="false">705, Shivalik Abaise, Prahladnagar, Ahmedabad - 380 015</string>
+    <string name="phone" translatable="false"><u>+91 79 6621 2222</u></string>
+    <string name="office_phone_number2" translatable="false"><u>1800 100 7276</u> (Toll Free)</string>
+    <string name="office_fax_number" translatable="false"><u>+91 79 6621 2200</u> (Fax)</string>
+    <string name="office_email" translatable="false"><u>info@nebulacompanies.com</u></string>
+
+    <string name="head_office_ahmedabad" translatable="false">HEAD OFFICE, AHMEDABAD</string>
+    <string name="site_address_ahmedabad" translatable="false">Aavaas, Village Moraiya, Changodar, Ahmedabad-Rajkot Highway, Ahmedabad - 382 213</string>
+    <string name="site_office_ahmedabad" translatable="false">SITE OFFICE, AHMEDABAD</string>
+
+    <string name="sanand" translatable="false">Sanand</string>
+    <string name="corporate_office_hyderabad" translatable="false">CORPORATE OFFICE, HYDERABAD</string>
+    <string name="corporate_office_hyderabad_address" translatable="false">Office: 606, 6th Floor, Manjeera Majestic Commercial, JNTU Rd, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana - 500072</string>
+    <string name="site_office_hyderabad" translatable="false">SITE OFFICE, HYDERABAD</string>
+    <string name="site_office_hyderabad_address" translatable="false">Bachupally Rd, Krishnaja Hills, Nizampet, Hyderabad, Telangana - 502325</string>
+    <string name="phone_hyd" translatable="false"><u>91 40 4613 6600</u></string>
+    <string name="hyderabad_email_address" translatable="false"><u>hyderabad@nebulacompanies.com</u></string>
+    <string name="corporate_office_kolkata" translatable="false">CORPORATE OFFICE, KOLKATA</string>
+    <string name="corporate_office_kolkata_address" translatable="false">Arihant Building, Collin Ln, Taltala, Kolkata, West Bengal - 700016</string>
+    <string name="site_office_sanand_address" translatable="false">Bopal - Sanand bypass Road, Near Muni Bapu Ashram, Near Kalhaar Blues &amp; Greens, Sanand, Ahmedabad - 382 110</string>
+    <string name="site_office_sanand" translatable="false">SITE OFFICE, SANAND</string>
+    <string name="kolkata" translatable="false">Kolkata</string>
+    <string name="let_go" translatable="false">Let\'s Go</string>
+
+    //Chennai
+    <string name="chennai_email_address" translatable="false"><u>happychennai@nebulacompanies.com</u></string>
+    <string name="corporate_office_chennai" translatable="false">CORPORATE OFFICE, CHENNAI</string>
+    <string name="site_office_chennai" translatable="false">SITE OFFICE, CHENNAI</string>
+    <string name="corporate_office_chennai_address" translatable="false">OPP. Mahindra World City Main Entrance, G.S.T Main Road, Chennai, Tamil Nadu - 603204</string>
+    <string name="corporate_office_chennai_phone_number" translatable="false"><u>044 6741 9777</u></string>
+
+
+    <string name="okay" translatable="false">Got it</string>
+
+    <string name="toll_free" translatable="false">Toll Free :</string>
+    <!--<string name="toll_free_phone_number"><u>1800 100 7276</u></string>-->
+    <string name="toll_free_phone_number" translatable="false"><u>1800 123 7073</u></string>
+    <string name="ahmedabad" translatable="false">Ahmedabad</string>
+    <string name="hyderabad" translatable="false">Hyderabad</string>
+    <string name="chennai" translatable="false">Chennai</string>
+    <!--Customer Booking-->
+
+
+    <!--<string name="error_service_unavailable">Service unavailable</string>
+    <string name="error_no_records">No records found.</string>-->
+
+
+    <!--1<sup><small>st</small></sup>-->
+
+
+    <!-- <string name="login">Login</string>
+     <string name="cancel">Cancel</string>-->
+
+    <!--<string name="prompt_more_details">More details</string>-->
+
+
+    <!--Request Permission & Message-->
+
+    <!--<string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+    <string name="permission_rationale_access">IBOBackOffice App permissions are needed for providing email,documents and contacts completions.</string>
+-->
+    <!-- <string name="navigation_drawer_open">Open navigation drawer</string>
+     <string name="navigation_drawer_close">Close navigation drawer</string>
+ -->
+    <!--<string name="nav_dashboard">Dashboard</string>-->
+    <!-- <string name="nav_logout">Logout</string>
+     <string name="nav_login">Login</string>-->
+
+    <!--My Account Applicant Details-->
+
+    <!--Loan documents upload-->
+    <!--Add-on /CO-APPLICANT-->
+
+    <!--Monthly take home salary-->
+    <!--YearsTotal work experience-->
+    <!--<string name="prompt_bank">Bank</string>-->
+    <!--Businessman-->
+
+    <!--ROW EMI Details -->
+
+    <string name="sv_income" translatable="false">SV</string>
+
+    <string name="Rank_bouns" translatable="false">Rank Bonus</string>
+    <string name="Sponsor_Income" translatable="false">Sponsor Income</string>
+    <string name="platinumRankBonus" translatable="false">Platinum Rank Bonus</string>
+    <string name="starPlatinumRankBonus" translatable="false">Star Platinum Rank Bonus</string>
+
+
+    <!--Read More -->
+
+    <string name="edittext_password" translatable="false">Password</string>
+
+    <string name="otp_registation" translatable="false">Please enter correct OTP</string>
+    <string name="enter_otp_registation" translatable="false">Please enter OTP</string>
+
+    <string name="resend_otp" translatable="false">Resend OTP</string>
+    <string name="nav_registation" translatable="false">New Registration</string>
+    <string name="skip" translatable="false">SKIP</string>
+    <string name="policies" translatable="false">Policies &amp; Procedures</string>
+    <string name="disclaimer" translatable="false">Disclaimer</string>
+    <string name="check_tc" translatable="false">Click here, if you agree to our policies &amp; procedures</string>
+
+    <string name="policy" translatable="false"><![CDATA[<p style="text-align:justify"><span style="color:#8e44ad"><span style="font-family:Verdana,Geneva,sans-serif"><span style="font-size:18px"><u><strong>INTRODUCTION</strong></u></span></span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The Nebula Policies and Procedures govern your rights as a Nebula Independent Business owner. You should familiarize yourself with the contents of these Policies and Procedures, and any questions you may have regarding the Policies and Procedures should be directed to the Nebula Customer Service staff.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.1</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Policies and Compensation Plan Incorporated into Independent Business Owner Agreement: &nbsp;These Policies and Procedures, in their present form and as amended from time to time by Nebula companies, or any Nebula Company Affiliate, (hereafter collectively &quot;Nebula&quot; or the &quot;Company&quot;), are referred to in the Nebula Independent Business Owner Agreement. Where these Policies and Procedures are incorporated into the Nebula Independent Business Owner Agreement by specific reference, these Policies and Procedure constitute an official part of that agreement. &nbsp;&nbsp;<br />
+Where these Policies and Procedures are not specifically incorporated into that agreement, they nevertheless reflect the official position of Nebula with respect to the terms thereof, and any violation of these Policies and Procedures may constitute a breach of an Independent Nebula Independent Business Owner&#39;s obligations under that agreement, subjecting the Independent Business Owner to the termination provisions of the agreement. Hereafter, when the term &quot;Agreement&quot; is used, it collectively refers to the mutual obligations between Nebula and the Independent Nebula Independent Business Owners as evidenced in the Application and Agreement, these Policies and Procedures, the Nebula Compensation Plan, and (when applicable) the Nebula Business Entity Application. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">It is the responsibility of each Independent Business Owner to understand and adhere to the most current version of these Policies and Procedures. When sponsoring a new Independent Business Owner, the sponsoring Independent Business Owner should help the new Independent Business Owner applicant to understand this ongoing obligation. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.2.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Purpose of Policies: Nebula produces innovative products and markets those products through Independent Independent Business Owners. Nebula invests heavily in providing marketing materials, developing brand value for the Company and developing Independent Business Owner compensation systems. Still, the success of the Company and the success of Independent Business Owners is ultimately dependent upon the integrity of the individual men and women who market the products. Because Nebula Independent Business Owners are independent business enterprises, Independent Business Owners have broad latitude in how they choose to operate, and to determine the times and methods of their work. Notwithstanding this independence, Nebula reserves a contractual right to protect its intellectual property, to prevent unsupportable product claims, and to preserve the integrity of its business model. These Policies India Policies &amp; Procedures- are designed to accomplish this. Because you may be unfamiliar with many of these standards of practice, it is very important that you read and abide by the Agreement. &nbsp;If you have any questions regarding any policy or rule, do not hesitate to seek an answer from anyone in your upline or Nebula. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.3.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Changes to Independent Business Owner Agreement: Nebula may amend the Independent Business Owner Agreement in its sole and absolute discretion. By signing the Independent Business Owner Agreement, a Independent Business Owner agrees to abide by all amendments or modifications that Nebula elects to make. Amendments shall become effective upon publication of notice of those amendments in published Nebula materials or the Back Office. The Company will make available to all Independent Business Owners a complete copy of the amended provisions by one or more of the following methods: (1) posting on the Company&#39;s official website; (2) electronic mail (e-mail); (3) inclusion in Company periodicals; (4) inclusion in product orders or bonus checks; or (5) special mailings. The continuation of a Independent Business Owner&#39;s Nebula business or a Independent Business Owner&#39;s acceptance of bonuses or commissions constitutes acceptance of any and all amendments. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.4.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Delays: Nebula shall not be responsible for delays or failures in performance of its obligations when performance is made commercially impractical due to circumstances beyond its control. This includes, but is not limited to, strikes, laborlabour difficulties, riot, war, fire, death, forces of nature, supply shortages, or government decrees, judgments or orders. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.5.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Policies and Provisions Severable: If any provision of the Agreement, in its current form or as may be hereafter amended, is found by any court of competent jurisdiction to be invalid or unenforceable for any reason, only the invalid portion(s) of the offending provision shall be severed and the remaining terms and conditions shall remain in full force and effect and shall be unaffected thereby. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>1.6.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Waiver: Nebula never gives up its right to insist on, and enforce, compliance with the Agreement and the applicable laws governing the conduct of a Independent Business Owner. No delay or failure by Nebula to exercise any right or power under the Agreement or to insist upon strict compliance by a Independent Business Owner with any obligation or provision of the Agreement, shall constitute a waiver of Nebula&#39;s right to demand exact compliance with the Agreement. Waiver by Nebula can be affected only in writing by an authorized officer of the Company. Nebula&#39;s waiver of any particular breach by a Independent Business Owner, or Nebula&#39;s waiver of any particular provision of the Independent Business Owner Agreement or these Policies and Procedures shall not affect or impair Nebula&#39;s rights with respect to any subsequent breach, nor shall it affect in any way the rights or obligations of any other Independent Business Owner. Any delay or omission by Nebula in exercising any right arising from a breach by a Independent Business Owner shall not be deemed to be a continuing waiver, nor shall it affect or impair Nebula&#39;s rights as to that or any subsequent breach thereof. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The existence of any claim or cause of action of a Independent Business Owner against Nebula shall not constitute a defense to Nebula&#39;s enforcement of any terms or provisions of the Agreement or these Policies and Procedures. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;&nbsp;</span></span><br />
+<span style="color:#1abc9c"><em><u><strong><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif">2. BECOMING A INDEPENDENT BUSINESS OWNER&nbsp;</span></span></strong></u></em></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>2.1.</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Requirements to Become a Independent Business Owner: To become a Nebula Independent Business Owner, each applicant must: &nbsp;<br />
+Be of legal age at the date of application submission and meet all other requirements by law to enter into a contract; ii. Provide true and accurate information regarding identity and location of residence as the Company may require from time to time. iii. Submit a properly completed (electronic or physical) Independent Business Owner Application and Agreement to Nebula or provide complete information; and; iv. Choose a Starter Pack and submit the appropriate KYC documentation and copy of valid ID. v. Provide a unique identifying number for tax or business purposes as issued by the country where Independent Business Owner is applying for Nebula membership.&nbsp;<br />
+The Company reserves the right to reject any applications for a new Independent Business Owner or applications for renewal, and may do so in its sole and absolute discretion.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>2.2. New Independent Business Owner Registration:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> New Independent Business Owners must be sponsored online at Nebula&#39;s official websites or at the Sponsor&#39;s replicated Nebula website. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>2.3. Independent Business Owner Benefits:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Once the Independent Business Owner Application and Agreement has been accepted by Nebula, the Independent Business Owner is eligible to participate in the Nebula Compensation Plan. As permitted by local law and Company policy for your location, these benefits include the right to: &nbsp;</span></span></p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Purchase Nebula products at the Independent Business Owner price;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Be paid the applicable commissions and bonuses as set forth in the Nebula Compensation Plan; </span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Participate in any promotions, incentive programs or other contests as announced by Nebula from time to time;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Enroll or sponsor other individuals as Customers or Independent Business Owners into the Nebula business;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Receive periodic Nebula literature and other Nebula updates; </span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Participate in Nebula-sponsored support, service, training, motivational and recognition functions, upon payment of appropriate charges, if applicable.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>2.4. Term of Agreement:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> The Independent Business Owner Agreement term shall begin on the date of acceptance by Nebula, and continue thereafter until cancelled as provided for herein or in the Independent Business Owner Agreement.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><u><em><strong><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px">3. &nbsp;OPERATING YOUR Nebula BUSINESS&nbsp;</span></span></strong></em></u></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.1. Adherence to the Nebula Compensation Plan:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners shall not offer the Nebula opportunity through, or in combination with, any other system, program, or method of marketing other than that specifically set forth in official Nebula literature, or in any way vary from the exclusive use of Nebula&#39;s official forms. Independent Business Owners shall not require or encourage participation in Nebula in any manner that varies from the program as set forth in official Nebula literature. Similarly, Independent Business Owners shall not require or encourage others to make any purchase from, or payment to, any Individual or other entity to participate in the Nebula Global Compensation Plan other than those purchases or payments identified as recommended or required in official Nebula literature.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.2. Advertising In General:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> All Independent Business Owners shall safeguard and promote the good reputation of Nebula and its products. The marketing and promotion of Nebula, the Nebula opportunity, the Global Compensation Plan, and Nebula products shall be consistent with the public interest, and must avoid all discourteous, deceptive, misleading, unethical or immoral conduct or practices.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.3. Identification of Rank:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> All Independent Business Owner marketing materials, whether in print or electronic media, must clearly and correctly state the Independent Business Owner rank according to the currently published ranks awarded by Nebula. Use of any deceptive or unauthorized rank or title is a violation of the Independent Business Owner Agreement and these Policies and Procedures.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.4. Business Reputation:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> &nbsp;To promote both the products, and the tremendous opportunity Nebula offers, Independent Business Owners must use the sales aids and support materials produced by Nebula. &nbsp;In the alternative, Independent Business Owner may develop their own sales aids and support materials if the Independent Business Owner obtains written approval and authorization from Nebula in order to comply with the vast and complex legal requirements of national and local laws. Violation of this policy (including unauthorized Internet advertising) not only constitutes a material breach of the Agreement, but it endangers the Nebula opportunity for all Independent Business Owners.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.5. Independent Business Owner Meetings:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners shall not conduct any meeting, or use any Nebula facility provided for Independent Business Owner meetings, to promote products or services from any non-Nebula company, or to promote any religious, social or fraternal organization or group. All presentations at any Independent Business Owner meetings shall be in conformance with local laws and regulations, and the content shall be consistent with officially published Nebula marketing materials for the country in which the Independent Business Owner meeting takes place.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.6. Sponsorship of Family Members:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> All family members must be sponsored in the same down line and directly sponsored and placed to each other (direct in both the sponsor and placement tree). No family member may be crossline, nor may the family member be placed so that a non-family member is between two family members. For purposes of these Policies and Procedures, a Family Member shall be defined as the Independent Business Owner&rsquo;s father, mother, brother, sister, grandfather, grandmother, aunts, uncles, first cousins, children and grandchildren (both siblings and half siblings). Also included in this definition are dependents, domestic partners, civil unions, or those deemed by Nebula to be in a cohabitating relationship or who depend upon each other for mutual financial support. This shall also apply to any business entity of which a Family Member holds a controlling interest.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.7. Spamming and Unsolicited Mass Communications:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Except as provided in this section, Independent Business Owners may not use or transmit unsolicited faxes, mass e-mail distribution, unsolicited e-mail, or &quot;spamming&quot; relative to the operation of their Nebula businesses. The terms &quot;unsolicited faxes&quot; and &quot;unsolicited e-mail&quot; mean the transmission via telephone facsimile or electronic mail, respectively, of any material or information advertising or promoting Nebula, its products, its compensation plan or any other aspect of the company which is transmitted to any person, except that these terms do not include a fax or e-mail: (a) to any person with that person&#39;s prior express invitation or permission; or (b) to any person with whom the Independent Business Owner has an Established business or personal relationship. The term &quot;established business or personal relationship means a prior or existing relationship formed by a voluntary two-way communication between a Independent Business Owner and a person, on the basis of: (a) an inquiry, application, purchase or transaction by the person regarding products offered by such Independent Business Owner; or (b) a personal or familial relationship, which relationship has not been previously terminated by either party.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.8. Telemarketing:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Except as more specifically restricted by local law, Independent Business Owners must not engage in telemarketing relative to the operation of their Nebula businesses. &nbsp;The term &quot;telemarketing&quot; means the placing of one or more telephone calls to an individual or entity to induce the purchase of a Nebula product or to recruit them for the Nebula opportunity. &quot;Cold calls&quot; made to prospective customers or Independent Business Owners that promote either Nebula&#39;s products or the Nebula opportunity constitute telemarketing and are prohibited.&nbsp;<br />
+Notwithstanding the foregoing, a Independent Business Owner may place telephone call(s) to a prospective customer or Independent Business Owner (a &quot;prospect&quot;) under the following limited situations:&nbsp;</span></span></p>
+
+<ul>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If the Independent Business Owner has an established business relationship with the prospect. An &quot;established business relationship&quot; is a relationship between a Independent Business Owner and a prospect based on:&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The prospect&#39;s purchase, rental, or lease of goods or services from the Independent Business Owner within the eighteen (18) months immediately preceding the date of a telephone call to induce the prospect&#39;s purchase of a product or services: or&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">A financial transaction between the prospect and the Independent Business Owner within the eighteen (18) months immediately preceding the date of such a call.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The prospect&#39;s personal inquiry or application regarding a product or service offered by the Independent Business Owner within the three (3) months immediately preceding the date of such a call.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If the Independent Business Owner receives written and signed permission from the prospect authorizing the Independent Business Owner to call. The authorization must specify the telephone number(s) which the Independent Business Owner is authorized to call.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners may call family members, personal friends, and acquaintances. An &quot;acquaintance&quot; is someone with whom a Independent Business Owner has at least a recent first-hand relationship (i.e., the Independent Business Owner recently personally met him or her). Bear in mind, however, that if a Independent Business Owner makes a habit of &quot;card collecting&quot; from everyone he or she meets and subsequently calling them, local law may consider this a prohibited form of telemarketing. Thus, if Independent Business Owners engage in calling &quot;acquaintances&quot;, the Independent Business Owner must make such calls on an occasional basis only and not as a routine practice.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">In addition, Independent Business Owners shall not use automatic telephone dialling systems relative to the operation of their Nebula businesses. The term &quot;automatic telephone dialling system&quot; means equipment that has the capacity to: (a) store or produce telephone numbers to be called, using a random or sequential number generator; and (b) to dial such numbers.&nbsp;</span></span></li>
+</ul>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.9. Independent Business Owner Websites:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Except as provided in this section and section (h) below, if a Independent Business Owner desires to utilize an Internet web page or website to promote his or her Nebula business, no Independent Business Owner may independently design a website that uses the names, logos, or product, descriptions of Nebula or otherwise promotes (directly or indirectly) Nebula products or the Nebula opportunity. All images on the Independent Business Owner website shall be from the official downloads section for such Independent Business Owner&rsquo;s country of residence, and the site shall clearly identify the Independent Business Owner name, contact information and contain the term &ldquo;Nebula Independent Independent Business Owner&rdquo;. National and local laws regarding the Internet, including promotional web are complex. Violations of the law by Independent Business Owners may subject Nebula to possible regulatory enforcement actions that could jeopardize the company and all Independent Business Owners&#39; businesses. Accordingly, Nebula strongly encourages all Independent Business Owners to utilize the company&#39;s self-replicating web site. These web sites are developed and maintained by Nebula to ensure that they comply with all applicable areas of law.&nbsp;<br />
+Nebula may allow a Independent Business Owner to develop his or her own web site as long as certain conditions are met. These include:&nbsp;</span></span></p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li style="text-align:justify"><span style="color:#555555">A Independent Business Owner must submit a Request for Authorization of an Independent Web Site in writing prior to the creation of his or her web site. Requests for Authorization should be sent to the Compliance Department. Authorization for an independent web site is in the sole and absolute discretion of Nebula.&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">In addition, the Independent Business Owner shall pay the cost of any legal review that is necessary for the Independent Business Owner&rsquo;s independent web site.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">In the event that Nebula concludes that the proposed independent web site is not acceptable, it will inform the Independent Business Owner that the site must be modified, and that approval will be withheld until such modifications are made. &nbsp;No Independent Business Owner may make his or her independent web site available to the public until he or she receives written approval from Nebula.&nbsp;<br />
+No changes or modifications may be made to the authorized web site, subject to the following:&nbsp;<br />
+In the event that a Independent Business Owner desires to alter a previously authorized web site, he or she must submit a Request for Modification of an Independent Web Site and a change fee of 5000 INR. The Request for Modification must specifically indicate each and every change or addition a Independent Business Owner desires to make. Changes may not be published to the web site until the Independent Business Owner receives approval, in writing, from Nebula.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.10. Independent Business Owner Websites and Online Sales:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners may only conduct online sales through a Independent Business Owner website with the approval of the Nebula Corporate Office. Any Independent Business Owner granted such permission shall strictly comply with the following restrictions:&nbsp;</span></span></p>
+
+<ol>
+	<li style="text-align:justify"><span style="color:#555555">1. Products may not be sold for less than the currently published wholesale (Independent Business Owner) price;&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners may not link to an online site such as eBay, Amazon or a similar online retailer;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners may not offer products for sale in any Country where Nebula is not officially open, and the identification of a Country as officially open shall be at the sole and absolute discretion of Nebula; &nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners must use approve company images and assets as identified in the Back Office downloads section;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners may not sell any other products either separately or combined with any Nebula products, unless otherwise approved in advance in writing by Nebula.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The URL must contain the phrase &ldquo;Nebuladist&rdquo; or &ldquo;Nebulateam&rdquo; together with some other unique identifier for the Independent Business Owner. No product names, countries, markets or territories may be included in the URL without the prior written permission of Nebula. &nbsp;By way of example, the URL www.realestateNebuladist.com or www.myhouseNebulateam.com would be acceptable. The URL www.Nebulacompany.com would not.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Nebula reserves the right at accept, deny, approve, or revoke any proposed Independent Business Owner website in its sole and absolute discretion.</span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.11 &nbsp;Domain Names and E-Mail Addresses:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners may not use or attempt to register any of Nebula&#39;s trade names, trademarks, service names, service marks, product names, the Company&#39;s name, or any derivative thereof, for any Internet domain name. Nor may Independent Business Owners incorporate or attempt to incorporate any of Nebula&#39;s trade names, trademarks, service names, service marks, product names, the Company&#39;s name, or any derivative thereof, into any electronic mail address.&nbsp;</span></span></p>
+
+<ol>
+	<li style="text-align:justify"><span style="color:#555555">Any e-mail address that uses the Nebula name, must include &ldquo;Nebuladist&rdquo; or &ldquo;Nebulateam&rdquo; and some other identifier. For example, johndoe.Nebuladist@gmail.com or johndoe.Nebulateam@gmail.com would be acceptable.&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If &ldquo;Nebuladist&rdquo; or &ldquo;Nebulateam&rdquo; is included in the e-mail address the signature line of the email address must also contain the name of the Independent Business Owner and the words &ldquo;Nebula Independent Independent Business Owner&rdquo; or &ldquo;Nebula Independent Independent Business Owner Team&rdquo;.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.12. Social Media Accounts:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> If Nebula is to be used in Social Media, any usernames that have Nebula in them must contain &ldquo;Nebuladist&rdquo; or &ldquo;Nebulateam&rdquo; in them. No other variations will be accepted. Usernames may not have Nebula by itself, or any Nebula specific product or trade names such as &ldquo;Aavaas&rdquo;, &ldquo;Reachbeyond&rdquo;, etc. All images posted to a social media account that relate to Nebula products must be officially approved Nebula images and assets obtained from the Back Office.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.13. Business Cards:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> &nbsp;All business cards must contain the Nebula Independent business owner logo. The Independent Business Owner shall not have any reference or any content on the card that would reasonably lead a person receiving such card that the Independent Business Owner is an employee of Nebula. &nbsp;If the Independent Business Owner chooses to publish his or her rank on the business card, any such rank designation must be accurate.</span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.14. Trademarks and Copyrights:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Nebula will not allow the use of its trade names, trademarks, designs, or symbols by any person, including a Nebula Independent Business Owner, without its prior, written permission. Independent Business Owners may not produce for sale or distribution any recorded company events and speeches without written permission from Nebula; nor may Independent Business Owners reproduce for sale or for personal use any recording of company-produced audio or video tape presentations.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.15. Media and Media Inquiries:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners must not attempt to respond to media inquiries regarding Nebula or its products or with regard to Nebula in respect of their independent Nebula business. All inquiries by any type of media that involves Nebula in any respect must be Immediately referred to Nebula&#39;s Public Relations Department. This policy is designed to assure that accurate and consistent information is provided to the public as well as a proper public image.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.16. Bonus Buying:</strong></u> </span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&quot;Bonus buying&quot; includes: {a) the sponsoring of individuals or entities without the knowledge of and/or execution of an Independent Independent Business Owner Application and Agreement by such individuals or entities; {b) the fraudulent sponsoring or enrolment of an individual or entity as a Independent Business Owner or Customer; {c) the sponsoring or attempted sponsoring of non-existent individuals or entities as Independent Business Owners or Customers {&quot;phantoms&quot;); or {d) the use of a credit card by or on behalf of a Independent Business Owner or Customer when the Independent Business Owner or Customer is not the account holder of such credit card. Bonus buying constitutes a material breach of these Policies and Procedures, and is strictly and absolutely prohibited.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.17. Business Entities:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> A corporation, partnership or trust {collectively referred to in this section as a &quot;Business Entity&quot;) may apply to be a Nebula Independent Business Owner by submitting its Certificate of Incorporation, Partnership Agreement or trust documents {these documents are collectively referred to as the &quot;Entity Documents&quot;) to Nebula, along with a properly completed Business Entity Registration form. If a Independent Business Owner is sponsored online, the Entity Documents and Business Entity Registration form must be submitted to Nebula within 30 days of online sponsoring. A Nebula business may change its status under the same sponsor from an individual to a partnership, corporation or trust, or from one type of entity to another. The Business Entity Registration form must be signed by all of the shareholders, partners or trustees. Members of the entity are jointly and severally liable for any indebtedness or other obligation to Nebula.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.18. Changes to the Nebula Business:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Each Independent Business Owner must immediately notify Nebula of all changes to the information contained on his or her Independent Business Owner Application and Agreement by submitting a written request, a properly executed Independent Business Owner Application and Agreement with the correct information, and appropriate supporting documentation.</span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>3.19. Change of Genealogy:</strong></u> </span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">To protect the integrity of all marketing organizations and safeguard the hard work of all Independent Business Owners, Nebula strongly discourages changes in sponsorship. Maintaining the integrity of trees or structure is critical for the success of every Independent Business Owner and marketing organization. Accordingly, the transfer of a Nebula business from one upline sponsor to another is rarely permitted.&nbsp;<br />
+Requests for change of genealogy must be submitted in writing to the Independent Business Owner Services Department, and must include the reason for the transfer. Transfers will only be considered in the following two (2) circumstances:&nbsp;</span></span></p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li style="text-align:justify"><span style="color:#555555">In cases involving fraudulent inducement or unethical sponsoring, a Independent Business Owner may request that he or she be transferred to another organization with his or her entire marketing organization intact. All requests for transfer alleging fraudulent sponsoring practices shall be evaluated on a case by case basis.&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The Independent Business Owner seeking to transfer submits a properly completed and fully executed Change of Genealogy Form which includes the written approval of all of the affected upline Independent Business Owners. If an upline Independent Business Owner fails to respond to the request for approval within the thirty days, the failure to respond shall be deemed as consent to the proposed transfer. The Independent Business Owner who requests the will be charged a fee of 10000 INR for Administrative charges and data processing. Downline Independent Business Owners will not be moved with the transferring Independent Business Owner unless all of the requirements of this paragraph are met. Transferring Independent Business Owners must allow thirty (30) days after the receipt of the Change of Genealogy Forms by Nebula for processing and verifying change requests.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>4. Unauthorized Claims and Actions&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.1. Indemnification:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> A Independent Business Owner is fully responsible for all of his or her verbal and written statements made regarding Nebula products and the Global Compensation Plan which are not expressly contained in official Nebula materials. Independent Business Owners agree to indemnify Nebula and Nebula&#39;s directors, officers, employees, and agents, and hold them harmless from any and all liability including judgments, civil penalties, refunds, attorney fees, court costs, or lost business incurred by Nebula as a result of the Independent Business Owner&#39;s unauthorized representations or actions. This provision shall survive the termination of the Independent Business Owner Agreement.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.2. Product Claims:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> No claims (which include personal testimonials) as to therapeutic, curative or beneficial properties of any products offered by Nebula may be made except those contained in official Nebula literature as applicable to the destination country of sale. In particular, no Independent Business Owner may make any claim that Nebula products are useful in the cure, treatment, diagnosis, mitigation or prevention of any diseases. Such statements can be perceived as medical or drug claims. Not only do such claims violate Nebula policies, but they are potentially dangerous and may violate various national and local laws.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.3. Income Claims:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> In their enthusiasm to sponsor prospective Independent Business Owners, some Independent Business Owners are occasionally tempted to make income claims or earnings representations to demonstrate the inherent power of network marketing. This is counter-productive because new Independent Business Owners may become disappointed very quickly if their results are not as extensive or as rapid as the results others have achieved. At Nebula, we firmly believe that the Nebula income potential is great enough to be highly attractive, without reporting the earnings of others. Moreover, national and local laws often regulate or even prohibit certain types of income claims and testimonials made by persons engaged in network marketing. &nbsp;While Independent Business Owners may believe it beneficial to provide copies of checks, or to disclose the earnings of themselves or others, such approaches have legal consequences that can negatively impact Nebula as well as the Independent Business Owner making the claim unless appropriate disclosures required by law are also made contemporaneously with the income claim or earnings representation. Because Nebula Independent Business Owners do not have the data necessary to comply with the legal requirements for making income claims, a Independent Business Owner, when presenting or discussing the Nebula opportunity or Global Compensation Plan to a prospective Independent Business Owner, may not make income projections, income claims, or disclose his or her Nebula income (including the showing of checks, copies of checks, bank statements, or tax records). &nbsp;Hypothetical income examples that are used to explain the operation of the Global Compensation Plan, and which are based solely on mathematical projections, may be made to prospective Independent Business Owners, so long as the Independent Business Owner who uses such hypothetical examples (1) makes clear to the prospective Independent Business Owner(s) that such earnings are hypothetical; and (2) provides each prospective Independent Business Owner with a current copy of Nebula&#39;s official income disclosure statement. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.4. Commercial Outlets:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Nebula strongly encourages the selling of its products through person to person contact. In order to preserve Nebula brand value and to help provide a standard of fairness for its Independent Business Owner base, Independent Business Owners may not without prior written permission from the Company display or sell Nebula products or literature in any retail or service establishment, except as set forth herein. Nebula will permit Independent Business Owners to solicit and make sales in retail or service establishments so long as the establishment is: (1) an independent locally-owned retail establishment, and not part of a national, regional, or state-wide chain; or (2) an office of a health care practitioner. Nebula will permit Independent Business Owners to solicit and make commercial sales upon prior written approval from the Company. For the purposes of these Policies and Procedures, the term &quot;commercial sale&quot; means the sale of: (a) Nebula products that equal or exceed 50,000 INR or more in a single order; and (b) To a third party who intends to resell the products to an end consumer.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.5. Trade Shows, Expositions and Other Sales Forums:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Independent Business Owners may display and/or sell Nebula products at trade shows and professional expositions. Before submitting a deposit to the event promoter, Independent Business Owners must contact the Independent Business Owner Services Department in writing for conditional approval, as Nebula&#39;s policy is to authorize only one Nebula business per event. Final approval will be granted to the first Independent Business Owner who submits an official advertisement of the event, a copy of the contract signed by both the Independent Business Owner and the event official, and a receipt indicating that a deposit for the booth has been paid. Approval is given only for the event specified. Any requests to participate in future events must again be submitted to the Independent Business Owner Services Department. In order to preserve its valuable brand, Nebula further reserves the right to refuse authorization to participate at any function which it does not deem a suitable forum for the promotion of its products or the Nebula opportunity. Approval will not be given for swap meets, garage sales, flea markets or farmer&#39;s markets as these events are not conducive to the professional image Nebula wishes to portray.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>4.6. No Predatory Pricing:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> All sales of Nebula products by Independent Business Owner must be at least ninety percent of the published Nebula price as shown on the Nebula website on the date of sale.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>5. Conflicts of Interest&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>5.1. Non-solicitation:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Nebula do not encourage its Independent Business Owners to participate in other direct selling or network marketing or multilevel marketing ventures (collectively &quot;network marketing&quot;), as the same could lead to conflict of interest or possibility of confidential information being shared. However, if a Independent Business Owner elects to participate in another network marketing opportunity, in order to avoid conflicts of interest and loyalties, Independent Business Owners are prohibited from Unauthorized Recruiting, which includes the following:&nbsp;<br />
+During the term of this agreement, any actual or attempted recruitment or sponsoring of Nebula Customers or Independent Business Owners for other network marketing business ventures, either directly or through a third party. This includes, but is not limited to, presenting or assisting in the presentation of other network marketing business ventures to any Nebula Customer or Independent Business Owner, or implicitly or explicitly encouraging any Nebula Customer or Independent Business Owner to join other business ventures.&nbsp;<br />
+For a period of twenty-four months following the cancellation of a Independent Business Owner&#39;s Agreement, the former Independent Business Owner may not recruit any Nebula Independent Business Owner or Customer for another network marketing program.&nbsp;<br />
+Producing or offering any literature, tapes or promotional material of any nature for another network marketing business which is used by the Independent Business Owner or any third person to recruit Nebula Customers or Independent Business Owners for that business venture;&nbsp;<br />
+Selling, offering to sell, or promoting any competing non-Nebula products to Nebula Customers or Independent Business Owners. Any product in the same generic category as a Nebula product is deemed to be competing; e.g.; any vacation package or housing unit or dietary supplement is in the same generic category as Nebula&#39;s packages, units or dietary supplements, and is therefore a competing product, regardless of differences in cost, quality, ingredients or nutrient content.&nbsp;<br />
+Offering Nebula products, or promoting the Nebula Global Compensation Plan, in conjunction with any non-Nebula products, business plan, opportunity, or incentive; or&nbsp;<br />
+Offering any non-Nebula products, business plan, opportunity, or incentive at any Nebula meeting, seminar, launch, convention, or other Nebula function, or immediately following such event.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>5.2. Downline Activity Reports:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Downline Activity Reports are available for Independent Business Owner access and viewing at Nebula&#39;s official website. Access to online Downline Activity Reports is password protected. &nbsp;All Downline Activity Reports and the information contained therein are confidential and constitute proprietary information and business trade secrets belonging to Nebula. &nbsp;Downline Activity Reports are provided to Independent Business Owners in strictest confidence and are made available to Independent Business Owners for the sole purpose of assisting Independent Business Owners in working with their respective Downline Organizations in the development of their Nebula business. &nbsp;Independent Business Owners should use their Downline Activity Reports to assist, motivate, and train their downline Independent Business Owners. The Independent Business Owner and Nebula agree that, but for this agreement of confidentiality and nondisclosure, Nebula would not provide Downline Activity Reports to the Independent Business Owner. A Independent Business Owner shall not, on his or her own behalf, or on behalf of any other person, partnership, association, corporation or other entity:&nbsp;</span></span></p>
+
+<ol start="1" style="list-style-type:lower-roman">
+	<li style="text-align:justify"><span style="color:#555555">Directly or indirectly disclose any information contained in any Downline Activity Report to any third party;&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Directly or indirectly disclose his or her password or other user access code to his or her Downline Activity Report;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Use the information to compete with Nebula or for any purpose other than promoting his or her Nebula business;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Recruit or solicit any Independent Business Owner or Customer of Nebula listed on any report, or in any manner attempt to influence or induce any Independent Business Owner or Preferred Customer of Nebula, to alter their business relationship with Nebula; or&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Use or disclose to any person, partnership, association, corporation, or other entity any information contained in any Downline Activity Report.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Upon the Company&#39;s request, any current or former Independent Business Owner will return the original and all copies of Downline Activity Reports to the Company.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>5.3 Targeting Other Direct Sellers:</strong></u> </span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Nebula does not condone Independent Business Owners specifically or consciously targeting the sales force of another direct sales company to sell Nebula products or to become Independent Business Owners for Nebula, nor does Nebula condone Independent Business Owners solicitation or enticement of members of the sales force of another direct sales company to violate the terms of their contract with such other company. Should Independent Business Owners engage in such activity, they bear the risk of being sued by the other direct sales company. If any lawsuit, arbitration or mediation is brought against a Independent Business Owner alleging that he or she engaged in inappropriate recruiting activity of its sales force or customers, Nebula will not pay any of the Independent Business Owner&#39;s defense costs or legal fees, nor will Nebula indemnify the Independent Business Owner for any judgment, award, or settlement.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>5.4. Cross-Recruiting:</strong></u></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Actual or attempted cross-recruiting is strictly prohibited. Cross- recruiting is defined as solicitation, enrollment or sponsoring of an individual or entity that already has a current Customer or Independent Business Owner Agreement on file with Nebula within a different line of sponsorship, or who has had such an agreement within the preceding twenty-four calendar months. The use of a spouse&#39;s or relative&#39;s name, trade names, &nbsp;assumed names, corporations, partnerships, trusts, fictitious ID numbers to circumvent this policy is prohibited. Independent Business Owners shall not demean, discredit or defame other Nebula Independent Business Owners in an attempt to entice another Independent Business Owner to become part of the first Independent Business Owner&#39;s marketing organization.&nbsp;<br />
+If cross-recruiting is discovered, it must be brought to the Company&#39;s attention immediately. Nebula may take disciplinary action against the Independent Business Owner that changed organizations and/or those Independent Business Owners who encouraged or participated in the cross-recruiting. Nebula may also move all or part of the offending Independent Business Owners downline to his or her original Downline Organization if the Company deems it equitable and feasible to do so. However, Nebula is under no obligation to move the cross-recruited Independent Business Owner&#39;s Downline Organization, and the ultimate disposition of the organization remains within the sole discretion of Nebula. Independent Business Owners waive all claims and causes of action against Nebula arising from or relating to the disposition of the cross-sponsored Independent Business Owner&#39;s Downline Organization.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>6. Errors or Questions</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If a Independent Business Owner has questions about or believes any errors have been made regarding commissions, bonuses, Downline Activity Reports, or charges, the Independent Business Owner must notify Nebula in writing within 60 days of the date of the purported error or incident in question. Nebula will not be responsible for any errors, omissions or problems not reported to it within 60 days.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>7. Excess Inventory Purchases Prohibited</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners are not required to carry inventory of products or sales aids. Independent Business Owners who do so may find making retail sales and building a marketing organization somewhat easier because of the decreased response time in fulfilling customer orders or in meeting a new Independent Business Owner&#39;s needs. Each Independent Business Owner must make his or her own decision with regard to these matters. To ensure that Independent Business Owners are not encumbered with excess inventory that they are unable to sell, such inventory may be returned to Nebula upon the Independent Business Owner&#39;s cancellation pursuant to the terms described herein.&nbsp;<br />
+Nebula strictly prohibits the purchase of products in unreasonable amounts primarily for the purpose of qualifying for commissions, bonuses or advancement in the Nebula Global Compensation Plan. &nbsp;Independent Business Owners may not purchase more inventory than they can reasonably Re-sell or consume in a month nor may they encourage others to do so.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>8. Governmental Approval or Endorsement</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Neither local nor national governmental regulatory agencies nor governmental officials approve or endorse any direct selling or network marketing companies or programs. Therefore, Independent Business Owners shall not represent or imply that Nebula or its Business Plan have been &quot;approved,&quot; &quot;endorsed&quot; or otherwise sanctioned by any government agency or official.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>9. Identification</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;All Independent Business Owners are required to provide any requested identification, tax or national identification number on or in conjunction with the Independent Business Owner Application and Agreement. Upon joining, the Company will provide a unique Independent Business Owner Identification Number to the Independent Business Owner by which he or she will be identified. This number will be used to place orders, and track commissions and bonuses.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><u><em><strong>10. Income Taxes</strong></em></u></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Every year, Nebula will provide such tax and information forms or declarations as it is legally required to submit to the relevant governmental bodies or agencies. Each Independent Business Owner is responsible for paying all taxes on any income generated as an Independent Independent Business Owner.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><em><u><strong><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif">11. Independent Contractor Status</span></span></strong></u></em></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;Independent Business Owners are independent contractors. The agreement between Nebula and its Independent Business Owners does not create an employer/employee relationship, agency, partnership, or joint venture between the Company and the Independent Business Owner, nor does the relationship involve the purchase of a franchise or the purchase of a business opportunity. The Independent Business Owner has no authority (expressed or implied), to bind the company to any obligation. Each Independent Business Owner shall establish his or her own goals, hours, and methods of sale, and other means of operating the Independent Business Owner&#39;s independent business, except as may be limited by the Independent Business Owner&#39;s contractual obligations and applicable laws.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>12.</strong></u></em></span></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> The name of Nebula and other names as may be adopted by Nebula are proprietary trade names, trademarks and service marks of Nebula. As such, these marks are of great value to Nebula and are supplied to Independent Business Owners for their use only in an expressly authorized manner. Use of Nebula name on any item not produced by the company is prohibited except as follows:&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>13.</strong></u></em></span></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> All Independent Business Owners may list themselves as an &quot;Independent Nebula Independent Business Owner&quot; in the white or yellow pages of the telephone directory under their own name. No Independent Business Owner may place telephone directory display ads using Nebula&#39;s name or logo. Independent Business Owners may not answer the telephone by saying Nebula&quot;, &quot;Nebula Incorporated&quot;, or in any other manner that would lead the caller to believe that he or she has reached corporate offices of Nebula.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>14. Insurance Business Pursuits Coverage</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;Nebula does not provide insurance coverage for your independent business operation. Independent Business Owners may wish to arrange insurance coverage for their business as they deem appropriate.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>15. International Marketing</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;Independent Business Owners are authorized to sell Nebula products, and enroll Customers or sponsor Independent Business Owners only in the countries in which Nebula is authorized to conduct business, as announced in official company literature. In countries where Nebula has authorized sales and Independent Business Owner activities, Independent Business Owners shall conform to the specific Nebula rules for that individual country. Such rules may vary from country-to-country and Independent Business Owners are obligated to know the appropriate rules for the country and venues in which they intend to conduct business. Country specific information may be presented from time to time under a country addendum to these Policies and Procedures.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>16. &nbsp;Adherence to Laws and Ordinances</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;Many communities have laws regulating certain homebased businesses. In most cases these ordinances are not applicable to Independent Business Owners because of the nature of their businesses. However, Independent Business Owners must obey those laws that do apply to them. If a government official or agency notifies a Independent Business Owner that an ordinance applies to him or her, the Independent Business Owner should respond politely and cooperatively; when appropriate, the Independent Business Owner is encouraged to send a copy of the ordinance to the Compliance Department of Nebula.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>17. &nbsp;Minors</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;No person who is recognized as a minor in his/her state or country of residence may be a Nebula Independent Business Owner. Independent Business Owners shall not sponsor or recruit minors into the Nebula program.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>18. &nbsp;Actions of Household Members or Affiliated Individuals</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If any member of a Independent Business Owner&#39;s immediate household engages in any activity which, if performed by the Independent Business Owner, would violate any provision of the Agreement, such activity will be deemed a violation by the Independent Business Owner and Nebula may take disciplinary action against the Independent Business Owner. Similarly, if any individual associated in any way with a corporation, partnership, trust or other entity (collectively &quot;affiliated individual&quot;) violates the Agreement, such action(s) will be deemed a violation by the entity, and Nebula may take disciplinary action against the entity.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>19. &nbsp;Re-packaging and Re-labeling Prohibited</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Independent Business Owners may not re-package, re-label, refill or alter the labels on any Nebula products, information, materials or programs in any way. Nebula products must be sold in their original containers only: re-labeling or repackaging could subject Independent Business Owners to criminal or civil liability, especially if harm results to property or to another person.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>20. &nbsp;Requests for Records</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Any request from a Independent Business Owner for copies of invoices, applications, downline activity reports, or other records will require a fee of 50 INR per page per copy to cover the expense of mailing and time required to research files and make copies of the records.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>21. &nbsp;Sale, Transfer or Assignment of Nebula Business</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Although a Nebula business is a privately owned, independently operated business, the sale, transfer or assignment of a Nebula business is subject to certain limitations. If a Independent Business Owner wishes to sell/transfer his or her Nebula business, the following criteria must be met:&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.1.</strong></u></em></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Protection of the existing line of sponsorship must always be maintained so that the Nebula business continues to be operated in that line of sponsorship.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.2.</strong></u></em></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> There will be an Administrative Fee of 12,500 INR for all transactions.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.3.</strong></u></em> </span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Before the sale, transfer or assignment can be finalized and approved by Nebula, any debt obligations the selling Independent Business Owner has with Nebula must be satisfied.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.4.</strong></u></em></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> The selling Independent Business Owner must be in good standing and not in violation of any of the terms of the Agreement in order to be eligible to sell, transfer or assign a Nebula business.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.5</strong></u></em></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Nebula has the sole discretion to accept or reject all sales transactions.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-family:Arial,Helvetica,sans-serif"><em><u><strong>21.6.</strong></u></em></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> Upon complete execution of the purchase and sale agreement, and the new Independent Business Owner Agreement, the parties must submit copies of the same to Nebula&#39;s Independent Business Owner Services Department for review and approval. Nebula reserves the right to request additional documentation that may be necessary to analyze the transaction between the buyer and seller. Nebula&#39;s Independent Business Owner Services Department will, in its discretion, approve or deny the sale, transfer or assignment within 30 days after the receipt of all necessary documents from the parties.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If the parties fail to obtain Nebula&#39;s approval for the transaction, the transfer may be voidable at Nebula&#39;s option. If Nebula approves the transfer the purchaser of the existing Nebula business will assume the obligations and position of the selling Independent Business Owner. A Independent Business Owner who sells his or her Nebula business shall not be eligible to re-apply as a Nebula Independent Business Owner for a period of at least twenty-four full calendar months after the sale.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">No changes in line of sponsorship can result from the sale or transfer of a Nebula business.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>22. &nbsp;Separation of a Nebula Business</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Nebula Independent Business Owners sometimes operate their Nebula businesses as husband-wife partnerships, regular partnerships, corporations, or trusts. At such time as a marriage may end in divorce or a corporation, partnership or trust (the latter three entities are collectively referred to herein as &quot;entities&quot;) may dissolve, arrangements must be made to assure that any separation or division of the business is accomplished so as not to adversely affect the interests and income of other businesses up or down the line of sponsorship. &nbsp;If the separating parties fail to provide for the best interests of other Independent Business Owners and the Company, Nebula will unilaterally terminate the Independent Business Owner Agreement.&nbsp;<br />
+During the pendency of a divorce or entity dissolution, the parties must adopt one of the following methods of operation:&nbsp;</span></span></p>
+
+<ol>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">One of the parties may, with consent of the other(s), operate the Nebula business pursuant to an assignment in writing whereby the relinquishing spouse, shareholders, partners or trustees authorize Nebula to deal directly and solely with the other spouse or nonrelinquishing shareholder, partner or trustee. </span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The parties may continue to operate the Nebula business jointly, whereupon all compensation paid by Nebula will be paid in the joint names of the Independent Business Owners or in the name of the entity to be divided as the parties may independently agree between themselves. 3. If the parties cannot mutually agree on how the business shall be allocated during the pendency of a divorce or dissolution, the Company shall treat the business according to the status quo as existed prior to the filing of the divorce or dissolution. &nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Under no circumstances will the Downline Organization of divorcing spouses or a dissolving business entity be divided. Similarly, under no circumstances will Nebula split commission and bonus checks between divorcing spouses or members of dissolving entities. Nebula will recognize only one Downline Organization and will issue only one commission check per Nebula business per commission cycle. Commission checks shall always be issued to the same individual or entity. In the event that parties to a divorce or dissolution proceeding are unable to resolve a dispute over the disposition of commissions and ownership of the business, the Independent Business Owner Agreement shall be involuntarily cancelled.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">If a former spouse or a former entity affiliate has completely relinquished all rights in their original Nebula business, they are thereafter free to sponsor under any sponsor of their choosing, so long as he or she meets the waiting period requirements set forth herein. In such case, however, the former spouse or partner shall have no rights to any Independent Business Owners in their former organization or to any former retail customer. They must develop the new business in the same manner as would any other new Independent Business Owner.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px"><em><u><strong>23.</strong></u></em></span></span></span><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"> &nbsp;Sponsoring: All active Independent Business Owners in good standing have the right to sponsor and enroll others into Nebula. Each prospective Customer or Independent Business Owner has the ultimate right to choose his or her own Sponsor. If two Independent Business Owners claim to be the Sponsor of the same new Independent Business Owner or Customer, the Company shall regard the first application received by the Company as controlling. In addition, Nebula reserves the right to deny enrollment in countries or territories where the company is not officially open.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>24. &nbsp;Stacking</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The term &quot;stacking&quot; includes: (a) the failure to transmit to Nebula, or the holding of an Independent Independent Business Owner Application and Agreement longer than 72 hours after its execution; (b) the placement or manipulation of Independent Independent Business Owner Applications and Agreements for the purpose of maximizing compensation pursuant to Nebula&#39;s Global Compensation Plan; or (c) providing financial assistance to new Independent Business Owners for the purpose of maximizing compensation pursuant to Nebula&#39;s Compensation Plan. Stacking constitutes a material breach of these Policies and Procedures, and is strictly and absolutely prohibited.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>24. &nbsp;Succession</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Upon the death of an individual Independent Business Owner, his or her business may be passed to his or her heirs. Appropriate legal documentation under local law must be submitted to the Company to ensure the transfer is proper. Accordingly, a Independent Business Owner should consult an attorney to assist him or her in the preparation of a will or other testamentary instrument as required under local law. Whenever a Nebula business is transferred by a will or other testamentary process as required under local law, the beneficiary acquires the right to collect all bonuses and commissions of the deceased Independent Business Owner&#39;s marketing organization provided the following qualifications are met. The successor(s) must:&nbsp;</span></span></p>
+
+<ol>
+	<li style="text-align:justify"><span style="color:#555555">&nbsp; &nbsp; Execute a new Independent Business Owner Agreement;&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; &nbsp; Comply with terms and provisions of the Agreement; and&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; &nbsp; Meet all of the qualifications for the deceased Independent Business Owner&#39;s status. </span></span></li>
+</ol>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Bonus and commission checks of a Nebula business transferred pursuant to this section will be paid in a single check jointly to the devisees. The devisees must provide Nebula with an &quot;address of record to which all bonus and commission checks will be sent. If the business is bequeathed to joint devisees, they must form a business entity to continue a Independent Business Ownership.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>25. &nbsp;Transfer Upon Incapacitation of a Independent Business Owner</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">To effect a transfer of a Nebula business because of incapacity, the successor must provide the following to Nebula: (1) a notarized copy of an appointment as guardian or trustee; (2) a notarized copy of the court Order or other documentation as required under local law that establishes the right by the successor to administer the Nebula business; and (3) a completed Independent Business Owner Agreement executed by the trustee.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><em><u><strong><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:16px">26. RESPONSIBILITIES OF INDEPENDENT BUSINESS OWNERS&nbsp;</span></span></strong></u></em></span></p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Change of Address or Telephone: To ensure timely delivery of products, support materials, and commission checks, it is critically important that Nebula&#39;s files are current. Independent Business Owners are required to keep all address and telephone number information current. This may be done in the Independent Business Owner&#39;s Back Office or in the alternative by sending such corrections as are necessary to Customer Service. To guarantee proper delivery of orders, all changes should be received not less than two weeks prior to the effective date of the address or telephone number change.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555">Ongoing Training: In order to be successful with the Nebula opportunity, any Independent Business Owner who sponsors another Independent Business Owner into Nebula should perform a bona fide assistance and training function to ensure that his or her downline is properly operating his or her Nebula business. Independent Business Owners should have ongoing contact and communication with the Independent Business Owners in their Downline Organizations. Examples of such contact and communication may include but are not limited to: newsletters, written correspondence, personal meetings, telephone contact, voicemail, electronic mail, and the accompaniment of downline Independent Business Owners to Nebula meetings, training sessions, and other functions. Upline Independent Business Owners should also seek to motivate and train new Independent Business Owners in Nebula product knowledge, effective sales techniques, the Nebula Global Compensation Plan, compliance with Company Policies and Procedures, and compliance with local law. Independent Business Owners must monitor the Independent Business Owners in their Downline Organizations to ensure that downline Independent Business Owners do not make improper product or business claims, or engage in any illegal or inappropriate conduct. &nbsp;Upon request, every Independent Business Owner should be able to provide documented evidence to Nebula of his or her ongoing fulfillment of the responsibilities of a Sponsor.&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Ongoing Sales Responsibilities: Regardless of their level of sponsoring activity, successfully Independent Business Owners feel an ongoing obligation to continue to personally promote sales through the generation of new customers and through servicing their existing customers.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Non-disparagement: Nebula wants to provide its independent Independent Business Owners with the best products, compensation plan, and service in the industry. Accordingly, constructive criticisms and comments are welcome and should be submitted in writing to the Independent Business Owner Services Department. Remember, to best serve you, we must hear from you! While Nebula welcomes constructive input, negative comments and remarks made in the field by Independent Business Owners about the Company, its products, or compensation plan serve no purpose other than to sour the enthusiasm of other Nebula Independent Business Owners. Similarly, &quot;trash talking&quot; the competition creates a negative environment that damages the industry in a way that ultimately can harm Nebula as well. For this reason, and to set the proper example for their down line, Independent Business Owners should not Disparage the Company and its products or the competition and its products. Nebula reserves the right to take action against Independent Business Owners whose personal behavior in this regard proves disruptive and harmful to Nebula.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Providing Documentation to Applicants: Independent Business Owners should help provide the most current version of the Policies and Procedures (always available at the Nebula website) and the Compensation Plan to individuals whom they are sponsoring to become Independent Business Owners before the applicant signs a Independent Business Owner Agreement.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Reporting Policy Violation: Independent Business Owners observing a Policy violation by another Independent Business Owner are encouraged to submit a written report of the violation directly to the attention of the Nebula Compliance Department. Details of the incidents such as dates, number of occurrences, persons involved, and any supporting documentation should be included in the report.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>27. &nbsp;SALES</strong></u></em></span></span><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">a. Product Sales: The Nebula Global Compensation Plan is based upon the sale of Nebula products to end consumers. Independent Business Owners must fulfill personal and Downline Organization retail sales requirements (as well as meet other responsibilities set forth in the Agreement) to be eligible for bonuses, commissions, and advancement to higher levels of achievement.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">b. Price and Territory Restrictions: Independent Business Owners may not sell Nebula products for less than the published wholesale (Independent Business Owner) price. Independent Business Owners may only sell Nebula products in countries that are officially recognized by Nebula as open for Nebula business. &nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">c. Sales Receipts: Nebula encourages all Independent Business Owners to provide their retail customers with two copies of an official Nebula sales receipt at the time of the sale. These receipts set forth the Customer Satisfaction Guarantee for Nebula products and a statement of consumer protection if these are afforded by local law. Records documenting the purchases of Independent Business Owners&#39; Direct and Preferred Customers will be maintained by Nebula, and Independent Business Owners should maintain all retail sales receipts for a period of two years and furnish them to Nebula at the company&#39;s request. Further, Independent Business Owners should remember to retain records related to Independent Business Owner transactions in order to comply with the requirements for their independent businesses under local law (for example to establish document regarding income and expenses in support of a Independent Business Owner&#39;s tax obligations).&nbsp;<br />
+If a sale qualifies as a &quot;door-to-door&#39; sale, Independent Business Owners should ensure that any receipt complies with the requirements of local law. For example, in some jurisdictions the following information must be contained on each sales receipt (with two copies provided to the buyer):&nbsp;</span></span></p>
+
+<ol>
+	<li style="text-align:justify"><span style="color:#555555">&nbsp; &nbsp;The date of the transaction;&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; &nbsp;The date by which the buyer may give notice of cancellation; and&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; &nbsp;Name and address of the selling Independent Business Owner. &nbsp; &nbsp;&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>28. &nbsp;BONUSES AND COMMISSIONS&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">a. Bonus and Commission Qualifications: A Independent Business Owner must be active and in compliance with the Agreement to qualify for bonuses and commissions. So long as a Independent Business Owner complies with the terms of the Agreement, Nebula shall pay commissions to such Independent Business Owner in accordance with the Compensation plan.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">b. Adjustment to Bonuses and Commissions: Independent Business Owners receive bonuses and commissions based on the actual sales of products to end consumers. When a product is returned to Nebula for a refund or is repurchased by the Company, the bonuses and commissions attributable to the returned or repurchased product(s) will be deducted in the month in which the refund is given, and continuing every pay period thereafter until the commission is recovered, from the Independent Business Owners who received bonuses or commissions on the sales of the refunded products. In the event that any such Independent Business Owner terminates his or her Independent Business Owner Agreement, and the amounts of the bonuses or commissions attributable to the returned products have not yet been fully recovered by the company, the remainder of the outstanding balance may be set off against any amounts owed to the terminated Independent Business Owner.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">c. Unclaimed Commissions and Credits: Independent Business Owners must deposit or cash commission and bonus checks within six months from their date of issuance. A check that remains uncashed after six months will be void. After a check has been voided, Nebula will attempt to notify a Independent Business Owner who has an uncashed check by sending a written notice to his or her last known address identifying the amount of the check and advising that the Independent Business Owner can request that the check be reissued. There shall be a 750 INR charge for re-issuing a cheque, and a 500 INR fee for each notice that is sent to the Independent Business Owner. These charges shall be deducted from the balance owed to the Independent Business Owner.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Customers or Independent Business Owners who have a credit on account should use their credit within six months from the date on which the credit was issued. If credits have not been used within six months, Nebula shall attempt to notify the Independent Business Owner or Customer on a monthly basis, by sending written notice to the last known address, advising the Independent Business Owner or Customer of the credit. There shall be a 500 INR charge for each attempted notification. This charge shall be deducted from the Independent Business Owner&#39;s or Customer&#39;s credit on account.</span></span></p>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;<br />
+d. Downline Activity Reports: All information provided by Nebula in online or telephonic downline activity reports, including but not limited to personal and group sales volume (or any part thereof), down line sponsoring activity, and other information is believed to be accurate and reliable. Nevertheless, due to various factors including the inherent possibility of human and mechanical error; the accuracy, completeness, and timeliness of orders; denial of credit card and electronic check payments; returned products; credit card and electronic check charge-backs; the information is not guaranteed by Nebula or any persons creating or transmitting the information.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">e. Warranties: ALL VOLUME INFORMATION (as described in Nebula&#39;s Global Compensation Plan) IS PROVIDED &ldquo;AS IS&quot; WITHOUT WARRANTIES, EXPRESS OR IMPLIED, OR REPRESENTATIONS OF ANY KIND WHATSOEVER. &nbsp;IN PARTICULAR BUT WITHOUT LIMITATION THERE SHALL BE NO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR USE, OR NON-INFRINGEMENT.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, NEBULA AND/OR OTHER PERSONS CREATING OR TRANSMITTING THE INFORMATION WILL IN NO EVENT BE LIABLE TO ANY INDEPENDENT BUSINESS OWNER OR ANYONE ELSE FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES THAT ARISE OUT OF THE USE OF OR ACCESS TO INFORMATION (INCLUDING BUT NOT LIMITED TO LOST PROFITS, BONUSES, OR COMMISSIONS, LOSS OF OPPORTUNITY, AND DAMAGES THAT MAY RESULT FROM INACCURACY, INCOMPLETENESS, INCONVENIENCE, DELAY, OR LOSS OF THE USE OF THE INFORMATION), EVEN IF NEBULA OR OTHER PERSONS CREATING OR TRANSMITTING THE INFORMATION SHALL HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TO THE FULLEST EXTENT PERMITTED BY LAW, NEBULA OR OTHER PERSONS CREATING OR TRANSMITTING THE INFORMATION SHALL HAVE NO RESPONSIBILITY OR LIABILITY TO YOU OR ANYONE ELSE UNDER ANY TORT, CONTRACT, NEGLIGENCE, STRICT LIABILITY, PRODUCTS LIABILITY OR OTHER THEORY WITH RESPECT TO ANY SUBJECT MATTER OF THIS AGREEMENT OR TERMS AND CONDITIONS RELATED THERETO.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Access to and use of Nebula&#39;s online and telephonic information services is at your own risk. All Information is provided to you &ldquo;as is&rdquo;. If you are dissatisfied with the information, your sole and exclusive remedy is to discontinue use of and access to Nebula&#39;s online and telephone information services.&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>29. &nbsp;DISPUTE RESOLUTION AND DISCIPLINARY PROCEEDINGS</strong></u></em></span></span><span style="font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<ul>
+	<li style="text-align:justify"><span style="color:#555555">a. Disciplinary Sanctions: Breach of the Agreement, including these Policies and Procedures (as applicable), or any illegal, fraudulent, deceptive or unethical business conduct by a Independent Business Owner may result, at Nebula&#39;s discretion, in one or more of the following corrective measures, which shall, when necessary, be considered as liquidated damages for a breach of the Agreement, but shall not waive Nebula&#39;s other rights under the Agreement:&nbsp;</span></li>
+</ul>
+
+<ol style="margin-left:40px">
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Issuance of a written warning or admonition;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Requiring the Independent Business Owner to take immediate corrective measures;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Imposition of a fine, which may be withheld from bonus and commission checks;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Loss or suspension of rights to one or more bonus and commission checks;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Nebula may withhold from a Independent Business Owner all or part of the Independent Business Owner&#39;s bonuses and &nbsp; &nbsp; &nbsp; &nbsp; commissions during the period that Nebula is investigating any conduct that may violate the Agreement. &nbsp;If Nebula chooses to terminate the Agreement because of a breach of the Agreement by the Independent Business Owner or a violation of applicable laws or regulations, the Independent Business Owner will not be entitled to receive any commissions or payments that were withheld during the investigation period prior to actual termination;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Suspension of the Independent Business Owner&#39;s right to purchase products and/or receive payments;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Termination of the Agreement;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Any other measure expressly allowed within any provision of the Agreement or which Nebula deems practicable to implement and appropriate to equitably resolve injuries caused partially or exclusively by the Independent Business Owner&#39;s conduct or omission;&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">The measures above do not exhaust Nebula&#39;s rights and do not mean that Nebula cannot also initiate legal proceedings for monetary and/or equitable relief or take other measures permitted by the Agreement or applicable laws.&nbsp;</span></span></li>
+</ol>
+
+<ul>
+	<li style="text-align:justify"><span style="color:#555555">b. Grievances and Complaints: When a Independent Business Owner has a grievance or complaint with another Independent Business Owner regarding any practice or conduct in relationship to their respective Nebula businesses, they are encouraged to seek to resolve the issue through private discussions with the other party. Where this is impractical or unsuccessful, the complaining Independent Business Owner is encouraged to discuss the problem with his or her Sponsor who may review the matter and try to resolve it, perhaps through the &quot;good offices&quot; of the other party&#39;s upline sponsor. Unresolved disputes may be reported in writing to the Customer Service Department at the Company, which may seek assistance from a Dispute Resolution Board for final review and determination as appropriate.&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">c. Dispute Resolution Board: The Dispute Resolution Board (or &quot;DRB&quot;) is composed of one or more qualified individuals selected by Nebula senior management. The composition of the Dispute Resolution Board may change at any time. The purpose of the DRB is to:&nbsp;</span></span></li>
+</ul>
+
+<p style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">1. Review appeals of any actions taken by the Company for an alleged breach of a Independent Business Owner&#39;s obligations; and &nbsp;<br />
+2. Review matters between Nebula Independent Business Owners. &nbsp;If the response or settlement suggested by Customer Service has been rejected or the matter otherwise remains unresolved, the Dispute Resolution Board may review evidence, deliberate, and respond to remaining issues.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">A Independent Business Owner may submit a written request for a telephonic or in-person review within seven business days from the date of: (1) the written notice by Nebula of action; or (2) the written decision of Independent Business Owner Services regarding disputes between Independent Business Owners. All communication with Nebula and the Independent Business Owner seeking resolution of a dispute must be in writing. It is within the DRB&#39;s discretion whether a claim is accepted for review. If the DRB agrees to review the matter, it shall schedule a review within thirty (30) days of the receipt of the Independent Business Owner&#39;s written request. All evidence (e.g., documents, exhibits, etc.) that a Independent Business Owner desires to have considered by the DRB must be submitted to Nebula no later than seven business days before the date of the review. The Independent Business Owner shall bear all of the expenses related to his or her attendance and the attendance of any witnesses he or she desires to be present at the review. The decision of the DRB will be final and subject to no further Company review. During the pendency of a claim before the DRB, Company will actively oppose any effort by a Independent Business Owner to seek arbitration or any other remedy against the other party or parties to the dispute or against Nebula.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">d. Governing Law and Jurisdiction: The Independent Business Owner Agreement between the Independent Business Owner and Nebula has been entered into in Ahmedabad, Gujrat, as this is the location where the Independent Business Owner submitted the application to enroll as a Nebula Independent Independent Business Owner, and where the application was reviewed and approved by Nebula. &nbsp;The Independent Business Owner Agreement shall be governed exclusively by the laws of the State of Gujrat &nbsp;and the Independent Business Owner agrees to submit exclusively to the jurisdiction of the courts of the State of Gujrat and specifically the District Court of Ahmedabad, for resolution of any claims or related litigation to interpret or enforce the terms of the Independent Business Owner Agreement.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">c. General Order Policies: On mail orders with invalid or incorrect payment, Nebula may attempt to contact the Independent Business Owner by phone, and/or mail to try to obtain correct payment. Nebula may also attempt to process the order up to five more times. Unsuccessful orders will not be processed. No C.O.D. orders will be accepted. Nebula maintains no minimum order requirements. Orders for products and sales aids may be combined.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">d. Shipping and Back Order Policy: Nebula will normally ship products within five (5) days from the date an order is received. Nebula will promptly ship ordered items that are currently in stock. Ordered items that are out-of-stock will be placed on backorder and sent when Nebula receives additional inventory. Independent Business Owners will be charged and given Personal Sales Volume on backordered items unless notified on the invoice that the product has been discontinued. Nebula will notify Independent Business Owners and Customers if items are backordered and are not expected to ship within 30 days from the date of the order. An estimated shipping date will also be provided. Backordered items may be cancelled upon a Customer&#39;s or Independent Business Owner&#39;s request. Customers and Independent Business Owners may request a refund, credit on account, or replacement merchandise for cancelled back orders. If a refund is requested, the Independent Business Owner&#39;s Personal Sales Volume will be decreased by the amount of the refund in the month in which the refund is issued.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">e. Confirmation of Order: A Independent Business Owner and/or recipient of an order must confirm that the product received matches the product listed on the shipping invoice, and is free of damage. Failure to notify Nebula of any shipping discrepancy or damage within thirty days of receiving the shipment will waive the Independent Business Owner&#39;s right to request a correction.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>30. &nbsp;PAYMENT AND SHIPPING&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li style="text-align:justify"><span style="color:#555555"><u><strong>Deposit:</strong></u> Nebula advises strongly against Independent Business Owners accepting money for a sale to a personal retail customer except at the time of product delivery {e.g. don&#39;t accept monies in anticipation of future deliveries).&nbsp;</span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Insufficient Funds:</strong></u> It is the responsibility of each Independent Business Owner to ensure that there are sufficient funds or credit available in his or her account to cover a monthly Autoship order. Nebula will not take action until the funds have cleared. Nebula will not contact Independent Business Owners in regard to orders cancelled due to insufficient funds or credit. This may result in a Independent Business Owner&#39;s failure to meet his or her Personal Sales Volume requirements for the month.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Returned Checks:</strong></u> All checks returned by a Independent Business Owner&#39;s bank for insufficient funds (checks) will be re-submitted for payment. A 150 INR returned check fee will be charged to the account of the Independent Business Owner. After receiving a returned check from a customer or a Independent Business Owner, all future orders must be paid by Credit Card, money order or cashier&#39;s check. Any outstanding balance owed to Nebula by a Independent Business Owner for NSF checks and returned check fees will be withheld from subsequent bonus and commission checks.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Returned Bonus and Commissions Checks:</strong></u> Independent Business Owners are responsible for ensuring Nebula has the correct name and address for their commission checks. There is a 500 INR processing fee for checks returned to Nebula for any reason including an incorrect name and/or address. This fee will be covered by making an adjustment to that Independent Business Owner&#39;s Bonus and Commissions and/or by charging the credit card(s) on file with Nebula.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Returned Packages:</strong></u> Independent Business Owners with packages that are returned to Nebula for an incorrect address, unsuccessful delivery attempts, return to sender, or any other reason will be charged for shipping to and from Nebula and a 1000 INR processing fee. This charge will be covered by making an adjustment to that Independent Business Owner&#39;s bonus and commission and/or by charging the credit card(s) on file with Nebula.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Restrictions on Third Party Use of Credit Cards and Checking Account Access:</strong></u> In order to preserve the independence of Nebula Independent Business Owners and to preserve the integrity of the Company&#39;s compensation plan, Nebula discourages any arrangement between the independent Independent Business Owners creating indebtedness between them, and Independent Business Owners are expressly prohibited from using a Independent Business Owner&#39;s credit card or permitting debits to a Independent Business Owner&#39;s checking account to enrol or sponsor other Independent Business Owners, or to make purchases from the Company on behalf of another Independent Business Owner.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif"><u><strong>Sales, Use and Value Added Taxes:</strong></u> In designing the Nebula opportunity, one of our guiding philosophies has been to free Independent Business Owners from as many administrative, operational, and logistical tasks as possible. Nevertheless, Independent Business Owners remain obligated to comply with all applicable laws and regulations for the jurisdictions in which the Independent Business Owners conduct business. Independent Business Owners should contact the Nebula Customer Service Department if they have any questions about Nebula&#39;s activities in this regard.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>31. &nbsp;INACTIVITY AND CANCELLATION&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<ol start="1" style="list-style-type:lower-alpha">
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Effect of Cancellation: So long as a Independent Business Owner remains active and complies with the terms of the Agreement and these Policies and Procedures, Nebula shall pay commissions to the Independent Business Owner in accordance with the Global Compensation Plan. A Independent Business Owner&#39;s bonuses and commissions constitute the entire consideration for the Independent Business Owner&rsquo;s efforts in generating sales and all activities related to generating sales (including building a down line organization). Following a Independent Business Owner&#39;s cancellation for inactivity as described herein, or voluntary or involuntary cancellation of his or her Agreement, including for breach of the Agreement or violation of the Policies and Procedures (all of these methods are collectively referred to as being &quot;cancelled&quot; or a &quot;cancellation&quot;), the former Independent Business Owner shall have no right, title, claim or interest to the marketing organization in which he or she operated, to any past, present or future Nebula trade secrets or other proprietary information or intellectual property, or to any commission or bonus from the sales generated by the organization after the Independent Business Owner&#39;s cancellation. A Independent Business Owner whose Agreement is cancelled will lose all rights as a Independent Business Owner. This includes the right to sell Nebula&nbsp;</span>. <span style="font-family:Arial,Helvetica,sans-serif">Products, and the right to receive future commissions, bonuses, or other income resulting from the sales and other activities of the Independent Business Owner&#39;s former down line sales organization. &nbsp;To remove all doubt, in the event of cancellation, the Independent Business Owner agrees to waive all rights he or she may have, including but not limited to property rights, trade secret rights, intellectual property rights, or otherwise, to their former downline organization, marketing data, financial data, or contact information related to that downline organization, or to any bonuses, commissions, or other remuneration that might otherwise have arisen from the sales or other activities of that downline organization, had the Independent Business Owner not been cancelled.&nbsp;The former Independent Business Owner shall not hold himself or herself out as a Nebula Independent Business Owner. A cancelled Independent Business Owner shall receive commissions and bonuses only for the last full pay period he or she was active prior to cancellation (less any amounts withheld during an investigation preceding an involuntary cancellation).&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Involuntary Cancellation: A Independent Business Owner&#39;s violation of any of the terms of the Agreement, including any amendments that may be made by Nebula in its sole discretion, may result in any of the sanctions listed in Section 29, including the involuntary cancellation of his or her Independent Business Owner Agreement. Cancellation shall be effective on the date on which written notice is mailed, return receipt requested, to the Independent Business Owner&#39;s last known address, or when the Independent Business Owner receives actual notice of cancellation, whichever occurs first.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">In addition, Nebula may cancel a Independent Business Owner&rsquo;s account if there are no product purchases for a period of twenty-four months.&nbsp;c. Voluntary Cancellation: A participant in this network marketing plan has a right to cancel at any time, regardless of reason. Cancellation is requested by satisfying the requirements of and executing a Independent Business Owner Cancellation Form and returning this form to Nebula by postal mail, scanned document through email, or FAX. Upon receipt of the Independent Business Owner Cancellation Form, Nebula will process the cancellation.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Non-renewal: A Independent Business Owner may also voluntarily cancel his or her Independent Business Owner Agreement by failing to make an order within one calendar year from the anniversary date of enrollment.&nbsp;</span></span></li>
+	<li style="text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Inactive or Cancelled Independent Business Owners Re-Enrollment Policy: A Nebula Independent Business Owner who voluntarily terminate as a Independent Business Owner may re-enroll as a new Independent Business Owner twenty-four months following the date of termination. If any such Independent Business Owner re-enrolls with Nebula, the Independent Business Owner shall be enrolled as a new Independent Business Owner, but any downline that was formerly under the Independent Business Owner prior to termination shall not be affected by such re-enrollment.&nbsp;</span></span></li>
+</ol>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="margin-left:40px; text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">A Nebula Independent Business Owner who has been inactive for a period of twenty-four months may be cancelled at Nebula&rsquo;s discretion. The Independent Business Owner&#39;s downline shall be unaffected by the change and shall not be moved with the Independent Business Owner. For purposes of this Policy an inactive Independent Business Owner shall be deemed to be any Independent Business Owner who has failed to make any purchase for twenty-four consecutive months.&nbsp;</span></span></p>
+
+<p style="margin-left:40px; text-align:justify"><span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">This Policy shall not apply to any Nebula Independent Business Owner whose Independent Business Owner Agreement was terminated by the company for cause. Any such Independent Business Owner must have approval from the Nebula Chief Executive Officer prior to being re-enrolled with the company.&nbsp;</span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#1abc9c"><span style="font-size:16px"><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><em><u><strong>32. &nbsp;RIGHT TO AMEND&nbsp;</strong></u></em></span></span></span></p>
+
+<p style="text-align:justify"><br />
+<span style="color:#555555"><span style="font-family:Arial,Helvetica,sans-serif">Nebula BusinessPlan: Nebula reserves the right to modify the Nebula Global Compensation Plan at any time and for any reason, including but not limited to bonuses, positions of leadership, percentages and incentives, etc.</span></span></p>]]></string>
+
+
+    <string name="disclaimer_txt" translatable="false"><![CDATA[<p style="text-align:justify"><span style="font-family:Verdana,Geneva,sans-serif">The information/data/values contained/shown in this portal is for general information purposes only. The information is provided by Nebula Infraspace LLP and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the software or the information, products, services, or related graphics contained on the softwarefor any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br />
+<span style="font-family:Verdana,Geneva,sans-serif">In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arise out of, or in connection with the use of this Portal.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Verdana,Geneva,sans-serif">Through this portal you will not be authorised to link to other portals which are not under the control of Nebula Infraspace LLP. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Verdana,Geneva,sans-serif">Every effort is made to keep the portal up and running smoothly. However, Nebula Infraspace LLP takes no responsibility for, and will not be liable for the portal being temporarily unavailable due to technical issues beyond our control. Nebula reserves the right to make change, update or discontinue the Portal anytime.</span></p>]]></string>
+    <string name="slide_1_title" translatable="false">Hello Associate!</string>
+    <string name="slide_1_desc" translatable="false">Welcome to the world of Nebula Pro. Nebula Pro is a business app that helps you consolidate your work all at one place.</string>
+
+    <string name="slide_2_title" translatable="false">Do what you love</string>
+    <string name="slide_2_desc" translatable="false">Track your sales volume, your customers and your network. Build your own network with a 2 step quick registration.</string>
+
+    <string name="slide_3_title" translatable="false">Conquer the market</string>
+    <string name="slide_3_desc" translatable="false">Get to know our products and selling techniques. See your network grow and climb up in the ranking ladder.</string>
+
+    <string name="slide_4_title" translatable="false">Earn what you deserve</string>
+    <string name="slide_4_desc" translatable="false">While you are busy selling, this app will guide you to your income history. Brag and share your rank and your income badges on social media.</string>
+
+    <string name="slide_5_title" translatable="false">Documents</string>
+    <string name="slide_5_desc" translatable="false">Download and share all the documents related to our products.</string>
+
+    <string name="slide_6_title" translatable="false">Lets get started..</string>
+
+    <!--PIN-->
+    <string name="verification_code_subtext" translatable="false">(For closing dated 14th April, 2019)</string>
+    <string name="verification_code" translatable="false">Enter your Payout PIN </string>
+    <string name="validate" translatable="false">Verify</string>
+    <string name="skip_pay" translatable="false">Skip</string>
+    <string name="resent_pin" translatable="false">Resend PIN</string>
+    <string name="pin_tc" translatable="false">This PIN will expire on 14th April, 2019, 7pm. Failure to enter the PIN before
+    deadline will result in non payment of your Income.</string>
+
+    <string name="pin_info" translatable="false">Our payout pin has been sent to your registered Mobile Number.</string>
+    <string name="pin_disable" translatable="false"> Sorry! The Payout PIN is currently disabled. If you are eligible you will receive an email and SMS for the next payout closing cycle. To receive uninterrupted payouts kindly make sure that your KYC is submitted and verified. Do regularly check your email and SMS.</string>
+
+
+    <string name="holiday_packages" translatable="false">Holiday Packages</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="bvmin" translatable="false">BVMin</string>
+    <string name="bvmax" translatable="false">BVMax</string>
+    <string name="differentials" translatable="false">Differentials</string>
+    <string name="starPoolPercent_new" translatable="false">Star Pool</string>
+    <string name="StarPoolAmountNew" translatable="false">Star Pool</string>
+    <string name="ThreeStarPoolPercentNew" translatable="false">Three Star Pool</string>
+    <string name="ThreeStarPoolAmount" translatable="false">Three Star Pool </string>
+    <string name="RetailsAdvanceAmount" translatable="false">Retails Advance</string>
+    <string name="StarPoolAdvanceAmountNew" translatable="false">Star Pool Advance</string>
+    <string name="ThreeStarPoolAdvanceAmountNew" translatable="false">Three Star Pool Advance</string>
+    <string name="SponsorIncomeAmountNew" translatable="false">Sponsor Income</string>
+    <string name="SponsorIncomeRateNew" translatable="false">Sponsor Income</string>
+    <string name="PlatinumRankBonusAmountNew" translatable="false">Platinum Rank Bonus</string>
+    <string name="PlatinumRankBonusRateNew" translatable="false">Platinum Rank Bonus</string>
+    <string name="StarPlatinumRankBonusIncomeAmountNew" translatable="false">Star Platinum Rank Bonus</string>
+    <string name="StarPlatinumRankBonusIncomeRateNew" translatable="false">Star Platinum Rank Bonus</string>
+    <string name="HolidayAchieverRateNew" translatable="false">Achiever</string>
+    <string name="HolidayAchieverAmountNew" translatable="false">Achiever</string>
+    <string name="HolidayMiniBonanzaRateNew" translatable="false">Mini Bonanza</string>
+    <string name="HolidayMiniBonanzaAmountNew" translatable="false">Mini Bonanza</string>
+    <string name="HolidayBonanzaRateNew" translatable="false">Bonanza</string>
+    <string name="HolidayBonanzaAmountNew" translatable="false">Bonanza</string>
+
+    <string name="reaccept" translatable="false">Please accept terms and condition</string>
+
+
+    <!--Registration-->
+    <string name="networks_details" translatable="false">Networks Details  </string>
+    <string name="personal_details" translatable="false">Personal Details  </string>
+    <string name="contact_details" translatable="false">Contact Details    </string>
+    <string name="bank_details" translatable="false">Bank Details          </string>
+    <string name="policies_agreements" translatable="false">We have updated our Terms &amp; Condition, please have a look.</string>
+    <string name="policies_agree_accept" translatable="false">I agree these terms and conditions</string>
+    <string name="invalid_pancard" translatable="false">PAN number already registered.</string>
+
+    <!--Sweet Dialogue-->
+    <string name="dialog_default_title" translatable="false">Here\'s a message!</string>
+    <string name="dialog_ok" translatable="false">OK</string>
+    <string name="dialog_cancel" translatable="false">Cancel</string>
+    <string name="LOADING" translatable="false">Loading...</string>
+    <string name="crop_image_activity_no_permissions" translatable="false">Cancelling, required permissions are not granted</string>
+
+    <string-array name="array_id_proof">
+        <item>PAN Card</item>
+        <item>Aadhaar</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+        <item>Voter\'s ID Card</item>
+    </string-array>
+
+    <string-array name="array_address_proof">
+        <item>Aadhaar</item>
+        <item>Passport</item>
+        <item>Driving License</item>
+        <item>Ration Card</item>
+    </string-array>
+    ------------------
+    <string name="prompt_Aadhaar" translatable="false">Aadhaar number*</string>
+    <string name="prompt_pan" translatable="false">PAN number*</string>
+
+    <string name="prompt_next" translatable="false">Submit</string>
+
+
+    <!--Ecom-->
+    <string name="strike_price" translatable="false">  <strike>1550 </strike></string>
+    <string name="strike_price_des" translatable="false">  <strike>₹ 1550 </strike></string>
+    <string name="strike_product_des" translatable="false">  <strike>₹ 5999 </strike></string>
+
+    <string name="trac_number" translatable="false"><u>5EVBUDKSIOKDKD76</u></string>
+
+
+    <string name="action_share" translatable="false">Share</string>
+    <string name="action_upload" translatable="false">Upload</string>
+    <string name="action_copy" translatable="false">Copy</string>
+    <string name="action_print" translatable="false">Print</string>
+    <string name="update_now" translatable="false">Update Now</string>
+    <string name="update_later" translatable="false">Update Later</string>
+    <string name="update_finish" translatable="false">Update Finish</string>
+    <string name="app_update" translatable="false"> A new version of this app is now available. Would you like to download it?</string>
+
+    <!--Dwarka-->
+
+    <string name="package_one" translatable="false">₹ 4000 (1 Night/2 Days stay.)</string>
+    <string name="package_two" translatable="false">₹ 6999 (2 Night/2 Days stay. Breakfast + Dinner)</string>
+    <string name="package_three" translatable="false">₹ 7500 (3 Night/2 Days stay. Breakfast + Dinner. Temple Visit.)</string>
+    <string name="check_one" translatable="false">Waive off my free lookup period for this purchase.</string>
+    <string name="check_two" translatable="false">I agree to Nebula\'s Terms &amp; Conditions.</string>
+    <string name="buy_now" translatable="false">Buy Now</string>
+    <string name="product_desc" translatable="false"><u>About this product</u></string>
+
+
+    //Table text
+    <string name="id_joining_date" translatable="false">Joining Date </string>
+    <string name="id_status" translatable="false">Rank </string>
+    <string name="active_date" translatable="false">Active Date </string>
+    <string name="expire_date" translatable="false">NV Expiry Date </string>
+    <string name="total_activation" translatable="false">Total Active IDs </string>
+    <string name="capping_ammount" translatable="false">Capping </string>
+    <string name="left_distributors" translatable="false">Left Active Distributors </string>
+    <string name="right_distributors" translatable="false">Right Active Distributors </string>
+    <string name="families" translatable="false">Families </string>
+    <string name="pv_rank" translatable="false">Rank </string>
+    <string name="pv_today" translatable="false">PV Today </string>
+    <string name="weekly_pv" translatable="false">Weekly PV </string>
+    <string name="lifetime_pv" translatable="false">Lifetime PV </string>
+    <string name="weekly_date" translatable="false">Date </string>
+    <string name="weekly_f1_pv" translatable="false">F1 PV </string>
+    <string name="weekly_f2_pv" translatable="false">F2 PV </string>
+    <string name="matching" translatable="false">Matching </string>
+    <string name="community_f1_pv" translatable="false">PV F1 </string>
+    <string name="community_f2_pv" translatable="false">PV F2 </string>
+    <string name="community_income" translatable="false">CGI </string>
+
+    <string name="id_details" translatable="false">ID </string>
+    <string name="pv_details" translatable="false">PV </string>
+
+    <string name="bv_details" translatable="false">BV </string>
+    <string name="income_details" translatable="false">Income</string>
+
+    <string name="id_details1" translatable="false">ID Details </string>
+
+
+    <string name="nv_details" translatable="false">Others </string>
+    <string name="vpa" translatable="false">7573020093@okbizaxis</string>
+    <string name="payee" translatable="false">Nebula Infraspace LLP</string>
+    <string name="vpa_holiday" translatable="false">8238061005@okbizaxis</string>
+    <string name="payee_holiday" translatable="false">Nebula Holidays</string>
+    <!--Ecom Module-->
+    <string name="payment_method" translatable="false">SELECT PAYMENT METHOD</string>
+    <string name="product_avaibility" translatable="false">Few items from your cart are not available. We regret the inconvenience.</string>
+    <string name="review" translatable="false">Review Cart</string>
+    <string name="confirm_order" translatable="false">Remove the items out of stock</string>
+    <string name="unavaibility_text" translatable="false">Confirm will remove the unavailable items from your cart.</string>
+    <string name="dummy" translatable="false">hiii this is comment section.Please change my product due to poor product quality.</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="error_comment" translatable="false">Please enter comment.</string>
+    <string name="error_subject" translatable="false">Please enter subject.</string>
+    <string name="error_selectorderid" translatable="false">Please select appropriate order number.</string>
+    <string name="error_selectcategory" translatable="false">Please select category.</string>
+    <string name="prompt_places_to_visit" translatable="false">Places to visit</string>
+    <string name="site_progress" translatable="false">Construction Updates</string>
+    <string name="nav_login" translatable="false">Login</string>
+    <string name="nav_logout" translatable="false">Logout</string>
+    <string name="wellness" translatable="false">wellness</string>
+
+    <string name="error_title" translatable="false">Network Error</string>
+    <string name="error_content" translatable="false">Failed to connect to NebulaPro. Please check your device\'s network connection.</string>
+    <string name="error_retry" translatable="false">Retry</string>
+
+    <string name="login_title" translatable="false"></string>
+    <string name="login_content" translatable="false">For more information, Please sign in.</string>
+    <string name="login_retry" translatable="false">Login</string>
+
+    <string name="error_normal" translatable="false">Something went wrong.</string>
+    <string name="referraldetails" translatable="false">Love Nebula Pro? Share this link and earn exciting rewards!</string>
+    <string name="referelsandpromo" translatable="false">Referrals and Promotions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="generate_coupon" translatable="false">Generate Coupon</string>
+    <string name="promo" translatable="false">My Promo Codes</string>
+    <string name="error_promo" translatable="false">Looks like you have no promo codes.</string>
+    <string name="error_coupon" translatable="false">Looks like you have no coupons.</string>
+    <string name="promotions" translatable="false">Promotions</string>
+
+    <string name="wallet_detail" translatable="false">Offers and Promotions</string>
+    <string name="raise_query" translatable="false">IBO Support</string>
+    <string name="ewallet_desc" translatable="false">E-wallet Discount</string>
+    <string name="ewallet" translatable="false">E-wallet</string>
+    <string name="ewallet_settle" translatable="false">Settle E-wallet balance</string>
+
+    <string name="rate_app_title" translatable="false">Rate App</string>
+    <string name="rate_app_message" translatable="false">If you are enjoying our app, please take a moment to rate it on PlayStore. Thanks for your support!</string>
+    <string name="rate_btn_pos" translatable="false">Rate Now</string>
+    <string name="rate_btn_neg" translatable="false">Remind me later</string>
+    <string name="rate_btn_nut" translatable="false">No, Thanks</string>
+    <string name="nav_star_report" translatable="false">Star Platinum Report</string>
+</resources>

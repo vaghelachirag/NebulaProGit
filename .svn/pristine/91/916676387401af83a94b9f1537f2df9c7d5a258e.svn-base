@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        card_view:mpb_indeterminateTint="@color/colorRadio"
+        card_view:mpb_progressStyle="horizontal" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/violet"
+        android:orientation="vertical"
+        android:visibility="visible"
+        card_view:cardBackgroundColor="@color/violet"
+        card_view:cardCornerRadius="@dimen/dimen_five_dp"
+        card_view:cardElevation="@dimen/dimen_five_dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nebula_logo" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dimen_five_dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="@dimen/dimen_five_dp"
+                    android:layout_marginBottom="@dimen/dimen_five_dp"
+                    android:background="@color/violet_light"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                            android:id="@+id/text_uname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/dimen_five_dp"
+                            android:text="Devang Patel"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimen_twenty_two_dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_five_dp"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dimen_five_dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/dimen_four_dp">
+
+                                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="IBO ID"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <com.nebulacompanies.ibo.view.MyTextView
+                                    android:id="@+id/text_id"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:text="10005"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:visibility="gone"
+                                android:padding="@dimen/dimen_four_dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Father's Name"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:text="Kirit Patel"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/dimen_four_dp">
+
+                                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="DOB"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <com.nebulacompanies.ibo.view.MyTextView
+                                    android:id="@+id/text_dob"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:text="01.01.1779"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/dimen_four_dp"
+                                >
+
+                                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Date of joining"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <com.nebulacompanies.ibo.view.MyTextView
+                                    android:id="@+id/text_join"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="1"
+                                    android:text="09.09.2020"
+                                    android:textColor="@color/black" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/dimen_four_dp">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="@dimen/dimen_six_dp"
+                                    card_view:srcCompat="@drawable/ic_location" />
+
+                                <com.nebulacompanies.ibo.view.MyTextView
+                                    android:id="@+id/text_address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:drawableLeft="@drawable/site_map_rounded_bg"
+                                    android:text="@string/office_address"
+                                    android:textColor="@color/black" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_light"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_five_dp"
+                        android:layout_marginBottom="@dimen/dimen_five_dp"
+                        android:background="@color/white"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/text_sign"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@color/white"
+                            android:src="@drawable/sign"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimen_seventeen_sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="121dp"
+                    android:layout_height="121dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:background="@color/black">
+
+                    <ImageView
+                        android:id="@+id/image_user"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/passport" />
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/dimen_ten_dp"
+        android:paddingBottom="@dimen/dimen_ten_dp"
+        android:paddingLeft="@dimen/dimen_forty_dp"
+        android:paddingRight="@dimen/dimen_forty_dp"
+        android:textColor="@color/black"
+        android:text="Download" />
+
+    <include
+        layout="@layout/layout_empty_view"/>
+</LinearLayout>

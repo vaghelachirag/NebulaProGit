@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_ten_dp"
+        android:layout_marginLeft="@dimen/dimen_ten_dp"
+        android:layout_marginTop="@dimen/dimen_five_dp"
+        android:layout_marginEnd="@dimen/dimen_ten_dp"
+        android:layout_marginRight="@dimen/dimen_ten_dp"
+        android:layout_marginBottom="64dp"
+        android:layout_weight="0.9"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_five_dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_share"
+                style="@style/SelectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/dimen_eight_dp"
+                    android:drawableStart="@drawable/ic_share_black_24dp"
+                    android:drawableLeft="@drawable/ic_share_black_24dp"
+                    android:drawablePadding="@dimen/dimen_thirty_dp"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="Share the App"
+                    android:textColor="@color/color_texts" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_keyboard_arrow_right_black" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_rate"
+                style="@style/SelectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_share"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/dimen_eight_dp"
+                    android:drawableStart="@drawable/ic_star_black"
+                    android:drawableLeft="@drawable/ic_star_black"
+                    android:drawablePadding="@dimen/dimen_twenty_four_dp"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="Rate Us"
+                    android:textColor="@color/color_texts" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_keyboard_arrow_right_black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_idcard"
+                style="@style/SelectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_rate"
+                android:clickable="true"
+                android:visibility="gone"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/dimen_eight_dp"
+                    android:drawableStart="@drawable/ic_baseline_credit_card_24"
+                    android:drawableLeft="@drawable/ic_baseline_credit_card_24"
+                    android:drawablePadding="@dimen/dimen_twenty_four_dp"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="ID card"
+                    android:textColor="@color/color_texts" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_keyboard_arrow_right_black" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/logout"
+                style="@style/SelectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_idcard"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/tv_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/dimen_eight_dp"
+                    android:drawableStart="@drawable/ic_logout_new"
+                    android:drawableLeft="@drawable/ic_logout_new"
+                    android:drawablePadding="@dimen/dimen_twenty_four_dp"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:text="@string/logout"
+                    android:textColor="@color/color_texts" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/ic_keyboard_arrow_right_black" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/dimen_twenty_dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_weight="0.1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/tv_version_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dimen_eight_dp"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen_ten_dp"
+            android:paddingBottom="@dimen/dimen_ten_dp"
+            android:text="hjfhfkhfjkhg"
+            android:textColor="@color/gray" />
+    </RelativeLayout>
+
+</LinearLayout>

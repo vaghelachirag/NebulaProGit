@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8A:EC:53:62:A5:8B:86:BE:AD:6B:14:C9:8F:C9:44:11:C0:11:40:FF%3Bcom.nebulacompanies.nebula
+
+    You can also add your credentials to an existing key, using this line:
+    8A:EC:53:62:A5:8B:86:BE:AD:6B:14:C9:8F:C9:44:11:C0:11:40:FF;com.nebulacompanies.nebula
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+   <!-- <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDBcehwdlHyDPy8i-lNXzh6HT6ZRbtsh5Q</string>-->
+<!--
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA-V5eR1weO-e7UANR3uFX1GzXPX6E4yjY</string>
+-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDd1Mkx3FYbFaIZPJleb4vD8oNtKfnQoEQ</string>
+
+</resources>

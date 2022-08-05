@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:background="@color/white">
+
+   <!-- android:background="#66000000"-->
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal_Red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        app:mpb_indeterminateTint="@color/button_bg"
+        app:mpb_progressStyle="horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen_ten_dp"
+            android:paddingTop="@dimen/dimen_ten_dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_eight_dp"
+                android:contentDescription="@null"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_nebula_white_logo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                android:layout_marginStart="@dimen/dimen_thirty_dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/drawable_rounded_transperent">
+                <!--@dimen/dimen_forty_four_dp-->
+                <com.nebulacompanies.ibo.view.MyBoldTextView
+                    style="@style/styleTextViewLabel"
+                    android:layout_width="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/login_new"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_fourteen_sp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_twenty_dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ln_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="start|center_vertical"
+                        app:srcCompat="@drawable/ic_user_new"
+                        android:tint="@color/black"/>
+
+
+                    <com.nebulacompanies.ibo.view.NebulaEditText
+                        android:id="@+id/txtUserName"
+                        android:backgroundTint="@color/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:hint="@string/login_new"
+                        android:inputType="number"
+                        android:longClickable="false"
+                        android:maxLength="6"
+                        android:cursorVisible="true"
+                        android:textCursorDrawable="@drawable/color_cursor1"
+                        android:layout_marginLeft="@dimen/dimen_four_dp"
+                        android:layout_marginStart="@dimen/dimen_four_dp"
+                        android:selectAllOnFocus="true"
+                        android:textColorHint="@color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                <!--android:textColorHint="@color/hint_color"-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/dimen_forty_four_dp"
+                    android:layout_marginStart="@dimen/dimen_forty_four_dp"
+                    android:background="#66000000"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ln_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ln_username"
+                    android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                    android:layout_marginStart="@dimen/dimen_thirty_dp"
+                    android:layout_marginTop="@dimen/dimen_fifteen_dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="start|center_vertical"
+                        app:srcCompat="@drawable/ic_lock"
+                        android:tint="@color/black"/>
+
+                    <com.nebulacompanies.ibo.view.ShowEdittext
+                        android:id="@+id/txtPassword"
+                        android:layout_marginLeft="@dimen/dimen_four_dp"
+                        android:layout_marginStart="@dimen/dimen_four_dp"
+                        android:gravity="start"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edittext_password"
+                        android:cursorVisible="true"
+                        android:textCursorDrawable="@drawable/color_cursor1"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/black" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/dimen_forty_four_dp"
+                    android:layout_marginStart="@dimen/dimen_forty_four_dp"
+                    android:background="#66000000"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="@dimen/dimen_one_fifty_dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/ln_password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/dimen_hundred_twenty_dp"
+                    android:layout_marginStart="@dimen/dimen_hundred_twenty_dp"
+                    android:layout_marginTop="@dimen/dimen_thirty_dp"
+                    android:background="@drawable/nebula_button_login_eftct_login"
+                    android:padding="@dimen/dimen_eight_dp"
+                    android:text="@string/login"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_fourteen_sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_thirty_dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="@dimen/dimen_thirty_dp"
+                android:layout_marginLeft="@dimen/dimen_thirty_dp"
+                android:layout_marginRight="@dimen/dimen_thirty_dp"
+                android:layout_marginStart="@dimen/dimen_thirty_dp"
+                android:layout_marginTop="@dimen/dimen_thirty_dp">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/forgotpassword"
+                    style="@style/SelectableItemBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:text="@string/forgot_password"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_fourteen_sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/black" />
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:id="@+id/kyc"
+                    style="@style/SelectableItemBackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:text="@string/ibo_new_register"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_fourteen_sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

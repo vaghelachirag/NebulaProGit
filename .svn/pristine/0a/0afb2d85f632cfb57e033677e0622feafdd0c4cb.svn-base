@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><!--<com.nebulacompanies.nebula.view.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white"
+    android:id="@+id/horizontalscrollview3">-->
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sales_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_margin="@dimen/dimen_ten_dp">
+
+    <LinearLayout
+        android:id="@+id/ln_rank_bonus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/nebula"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/tablelayout8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:orientation="horizontal"
+            android:weightSum="14">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/cust_name_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="@dimen/dimen_four_dp"
+                android:singleLine="false"
+                android:text="@string/customer_name"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:id="@+id/apartment_view"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/apartment_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="@dimen/dimen_four_dp"
+                android:singleLine="false"
+                android:text="@string/unit"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/cust_info_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="@dimen/dimen_four_dp"
+                android:singleLine="false"
+                android:text="@string/customer_info"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/sale_info_"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="@dimen/dimen_four_dp"
+                android:singleLine="false"
+                android:text="@string/sale_info"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview_my_sales"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:layout_marginBottom="@dimen/dimen_five_dp"
+            android:background="@drawable/drawable_rounded_white_popup"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadeScrollbars="false"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:paddingBottom="@dimen/dimen_five_dp"
+            android:smoothScrollbar="true" />
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

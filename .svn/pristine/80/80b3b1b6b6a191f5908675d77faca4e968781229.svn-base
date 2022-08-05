@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="3dp"
+        tools:context=".navigation.DashboardActivity">
+
+        // holiday sales achiver bonus selection
+
+        <include layout="@layout/holiday_achiever_bonus" />
+
+        // holiday sales achiver
+
+        <include layout="@layout/holiday_sales_achiver" />
+
+        // holiday sales history achiver
+
+        <include layout="@layout/holiday_sales_history_achiver" />
+
+        <include layout="@layout/layout_empty_view"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

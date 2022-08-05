@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id body
+id buttons_panel
+id card_view
+id image
+id negative
+id position
+id sub_title
+id title
+layout dialog_alert

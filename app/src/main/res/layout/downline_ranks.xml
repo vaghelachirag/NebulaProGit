@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_three_dp"
+        android:background="@drawable/drawable_rounded_white_popup"
+        android:orientation="vertical">
+
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progresbar"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:visibility="gone"
+            app:mpb_indeterminateTint="@color/colorRadio"
+            app:mpb_progressStyle="horizontal" />
+
+        <ListView
+            android:id="@+id/listview_downline_ranks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:dividerHeight="0dp"
+            android:paddingBottom="@dimen/dimen_four_dp"
+            android:fadeScrollbars="false"
+            android:smoothScrollbar="true" />
+
+
+        <LinearLayout
+            android:id="@+id/ly_no_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                style="@style/styleTextViewLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_twenty_dp"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:gravity="center_horizontal"
+                android:text="@string/login_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_login"
+                android:layout_width="150dp"
+                android:layout_height="@dimen/dimen_thirty_five_dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:background="@drawable/nebula_button_nologin_eftct_login_ecom"
+                android:gravity="center"
+                android:text="Sign in"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_sixteen_sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+        <include
+            layout="@layout/layout_empty_view_week"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

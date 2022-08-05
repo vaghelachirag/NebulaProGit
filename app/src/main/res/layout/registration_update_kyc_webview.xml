@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/nebula_new_dark"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Registration"
+            app:titleTextAppearance="@style/ToolBarTextAppearanceBack" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progresbar"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            app:mpb_indeterminateTint="@color/colorRadio"
+            app:mpb_progressStyle="horizontal" />
+        <WebView
+            android:id="@+id/webView"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/my_toolbar" />
+
+       <!-- <com.nebulacompanies.ibo.util.NestedWebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="outsideOverlay"
+            android:shadowRadius="2"
+            android:visibility="visible"/>-->
+
+        <!-- <pl.droidsonroids.gif.GifImageView
+             android:id="@+id/progressBar"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:background="@android:color/transparent"
+             android:src="@drawable/loader"
+             android:layout_centerInParent="true"
+             android:layout_gravity="center" />-->
+
+        <LinearLayout
+            android:id="@+id/ln_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/qwert" />
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:text="Loading info..."
+                android:textAlignment="center"
+                android:textColor="@color/nebula"
+                android:textSize="@dimen/dimen_large_callibri"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/dimen_twenty_two_dp"
+            android:layout_marginRight="@dimen/dimen_twenty_two_dp"
+            android:layout_marginBottom="@dimen/dimen_forty_two_dp"
+            android:orientation="horizontal">
+
+            <com.nebulacompanies.ibo.view.MyButton
+                android:id="@+id/btnnext"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_thirty_five_dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nebula_button_login_eftct_webview"
+                android:gravity="center"
+                android:text="Next"
+                android:visibility="gone"
+                android:textColor="@android:color/white" />
+
+
+
+                <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floating_action_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="16dp"
+                    app:srcCompat="@android:drawable/btn_plus" />-->
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_empty_view1"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

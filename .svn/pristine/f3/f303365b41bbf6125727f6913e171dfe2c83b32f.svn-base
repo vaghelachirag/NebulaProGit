@@ -1,0 +1,230 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'nebprokey'
+            keyPassword 'nebula123'
+            storeFile file('E:/Bhoomika/JKS file/Nebula Pro IBO/nebpro.jks')
+            storePassword 'nebula123'
+            v2SigningEnabled false
+        }
+    }
+    compileSdkVersion 30
+    //compileSdkVersion 26
+    //buildToolsVersion "26.0.0"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.nebulacompanies.ibo"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 16
+        versionName '1.1.16'
+        multiDexEnabled true
+        signingConfig signingConfigs.config
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "${variant.name}-${variant.versionName}.apk"
+                }
+            }
+            signingConfig signingConfigs.config
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dexOptions {
+        javaMaxHeapSize "4g" //specify the heap size for the dex process
+    }
+    productFlavors {
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+  //  implementation project(':libraries')
+    implementation project(':nebulavideoplayer')
+    implementation project(':fancydialog')
+    implementation project(':treeview')
+    implementation project(':libCrop')
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.4.Final'
+    implementation 'com.github.mreram:ticketview:1.0.0'
+    implementation 'ir.samanjafari.easycountdowntimer:easycountdowntimer:2.5.0'
+
+    implementation 'org.jsoup:jsoup:1.9.2'
+    implementation('org.apache.httpcomponents:httpmime:4.5.6') {
+        exclude module: 'httpclient'
+    }
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.5'
+
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+
+    // Custom Calendar
+    implementation 'com.github.npanigrahy:Custom-Calendar-View:v1.1'
+    implementation 'androidx.mediarouter:mediarouter:1.2.5'
+    implementation 'org.cyanogenmod:platform.sdk:4.0.1'
+
+    implementation 'net.gotev:uploadservice:2.0'
+
+    // Modified by jadav chirag
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    implementation 'com.squareup.okhttp:okhttp:2.4.0'
+    implementation('com.squareup.retrofit2:retrofit:2.5.0') {
+        // exclude Retrofit’s OkHttp dependency module and define your own module import
+        exclude module: 'okhttp'
+    }
+
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.facebook.fresco:fresco:0.7.0'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.google.firebase:firebase-core:20.0.0'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+
+    // location play services
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    //map play Services
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    // boom menu
+
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'at.blogc:expandabletextview:1.0.3'
+
+    implementation 'us.belka:androidtoggleswitch:1.2.2'
+
+    implementation 'com.muddzdev:styleabletoast:1.0.9'
+
+    implementation 'gun0912.ted:tedbottompicker:1.0.12'
+
+    implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v2.2.4'
+    implementation 'me.itangqi.waveloadingview:library:0.3.5'
+    implementation 'com.google.maps.android:android-maps-utils:2.3.0'
+    implementation 'com.koushikdutta.ion:ion:2.2.1'
+
+    //compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    // Customer Booking APP
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.beloo.widget:ChipsLayoutManager:0.3.7@aar'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.github.dimorinny:floating-text-button:0.0.4'
+
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+    implementation 'com.jaredrummler:material-spinner:1.1.0'
+    implementation 'com.github.ApendIr:slider:1.0'
+
+    //ShowcaseView
+    implementation 'com.github.faruktoptas:FancyShowCaseView:1.0.0'
+    implementation 'com.github.scottyab:showhidepasswordedittext:0.6'
+    implementation 'androidx.core:core:1.0.0'
+    implementation "com.google.firebase:firebase-iid:21.1.0"
+
+    //PIN
+    implementation 'com.github.GoodieBag:Pinview:v1.3'
+
+    implementation 'com.github.GoodieBag:Pinview:v1.3'
+
+    implementation 'com.github.alahammad:android-OTP-View:1.0.2'
+
+    implementation 'com.github.davidpizarro:pinview:1.0.0'
+    implementation 'org.apache.commons:commons-io:1.3.2'
+
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.5.1'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.takwolf.android:aspectratio:0.3.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android:flexbox:1.1.0'
+
+    implementation 'com.razorpay:checkout:1.5.8'
+    implementation 'com.hannesdorfmann.smoothprogressbar:library:1.0.0'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
+
+    //In App Purchase
+    implementation 'com.google.android.play:core:1.10.2'
+
+    //Zoom Image
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    implementation 'com.jsibbold:zoomage:1.3.1'
+    implementation 'it.sephiroth.android.library.imagezoom:imagezoom:2.2.5'
+    implementation 'com.nantaphop:hoverTouchView:0.1'
+
+    implementation 'com.tomergoldst.android:tooltips:1.0.10'
+    implementation 'com.github.douglasjunior:android-simple-tooltip:0.2.3'
+
+    //TreeView
+    implementation 'com.klinkerapps:peekview:1.2.3'
+    implementation 'com.github.MasayukiSuda:BubbleLayout:v1.2.1'
+
+    //ToolTip
+    implementation 'com.github.florent37:viewtooltip:1.1.8'
+    implementation 'com.github.mahimrocky:ShowMoreText:1.0.2'
+    implementation 'com.borjabravo:readmoretextview:2.1.0'
+
+    implementation 'com.github.MasayukiSuda:BubbleLayout:v1.2.1'
+    implementation 'com.github.MikeOrtiz:TouchImageView:1.4.1'
+    implementation 'ir.samanjafari.easycountdowntimer:easycountdowntimer:2.5.0'
+    implementation 'com.github.iwgang:countdownview:2.1.6'
+    implementation 'com.github.fuzz-productions:RatingBar:1.0.6'
+    implementation 'com.m2x:AvatarView:1.0.1'
+    implementation 'nl.dionsegijn:konfetti:1.3.2'
+
+    implementation 'com.google.firebase:firebase-messaging-directboot:20.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

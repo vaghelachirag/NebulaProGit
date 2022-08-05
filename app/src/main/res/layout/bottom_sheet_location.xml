@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+        android:id="@+id/tv_payment_shipping_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:text="Select Location"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+    <RadioGroup
+        android:id="@+id/rdgroup"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            style="@style/RadioButton"
+            android:drawableStart="@drawable/ic_truck"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:text="Door step delivery (shipping charges applicable)."
+            android:textColor="@color/black" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:text="OR"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            style="@style/RadioButton"
+            android:drawableStart="@drawable/ic_pick_up"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:text="Select a pickup point." />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:visibility="gone"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:text="Select City"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+        <RadioButton
+            android:id="@+id/rd_ahmd"
+            style="@style/RadioButton"
+            android:drawableStart="@drawable/ic_ahmd"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:visibility="gone"
+            android:text="Ahmedabad" />
+
+
+        <RadioButton
+            android:id="@+id/rd_hyd"
+            style="@style/RadioButton"
+            android:drawableStart="@drawable/ic_hyd"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:visibility="gone"
+            android:text="Hyderabad" />
+
+        <RadioButton
+            android:id="@+id/rd_chennai"
+            style="@style/RadioButton"
+            android:drawableStart="@drawable/ic_chennai"
+            android:drawablePadding="@dimen/dimen_eight_dp"
+            android:padding="@dimen/dimen_fifteen_dp"
+            android:saveEnabled="true"
+            android:visibility="gone"
+            android:text="Chennai" />
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_share"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:text="@string/action_share"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_share"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:text="@string/action_share"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_share"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:text="@string/action_share"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_share"
+        android:drawableLeft="@drawable/ic_share"
+        android:drawablePadding="@dimen/dimen_fifteen_dp"
+        android:padding="@dimen/dimen_fifteen_dp"
+        android:text="@string/action_share"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>

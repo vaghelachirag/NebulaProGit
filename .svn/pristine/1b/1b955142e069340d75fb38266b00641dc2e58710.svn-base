@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_eight_dp"
+    android:weightSum="1">
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/super_booster_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="1"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_twelve_sp" />
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/memberid_super"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:background="@drawable/nebula_effect"
+        android:gravity="center"
+        android:text="member id"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_twelve_sp" />
+
+    <ProgressBar
+        android:id="@+id/super_booster_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:max="100"
+        android:progressDrawable="@drawable/nv_custom_progress_bar_horizontal" />
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/ahd_super_booster_payment_percent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="5%"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_twelve_sp" />
+</LinearLayout>

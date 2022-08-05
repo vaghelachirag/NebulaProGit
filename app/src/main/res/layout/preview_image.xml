@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/drawable_rounded_popup">
+
+
+        <!-- <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/drawable_rounded_popup">-->
+
+
+        <com.nebulacompanies.ibo.view.MyBoldTextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_four_dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="@dimen/dimen_sixteen_sp"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:text="" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tv_item_name"
+            android:layout_height="@dimen/dimen_two_dp"
+            android:background="@color/nebula_divider"/>
+
+
+        <!--<androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            android:layout_below="@+id/tv_item_name"
+            app:cardCornerRadius="8dp">-->
+
+
+            <ImageView
+                android:id="@+id/iv_preview_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@drawable/drawable_rounded_popup_image"
+                android:layout_below="@+id/view" />
+
+        <!--</androidx.cardview.widget.CardView>-->
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnIvClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_close_red"
+        android:visibility="gone" />
+
+</RelativeLayout>

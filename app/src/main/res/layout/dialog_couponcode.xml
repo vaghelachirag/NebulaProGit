@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_four_dp"
+        android:padding="@dimen/dimen_eight_dp"
+        android:text="Coupon code"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_thirty_eight_dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_four_dp"
+
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:gravity="center"
+        android:padding="@dimen/dimen_six_dp"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+</LinearLayout>

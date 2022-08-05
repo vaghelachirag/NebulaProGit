@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:background = "@drawable/table_effect"
+            android:weightSum="6.5">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:padding="@dimen/dimen_ten_dp"
+                android:singleLine="false"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:text="@string/date"
+                android:textColor="#ffffff" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height = "wrap_content"
+                android:layout_weight="2"
+                android:gravity = "center"
+                android:padding = "@dimen/dimen_ten_dp"
+                android:textColor = "#ffffff"
+                android:singleLine="false"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:text="@string/ibo_id"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height = "wrap_content"
+                android:layout_weight="3"
+                android:gravity = "center"
+                android:padding = "@dimen/dimen_ten_dp"
+                android:textColor = "#ffffff"
+                android:singleLine="false"
+                android:text="@string/ibo_name"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/achiever_info_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarThumbVertical="@drawable/scrollview"
+            android:smoothScrollbar="true"/>
+        <!--<include
+            layout="@layout/layout_empty_view"/>-->
+    </LinearLayout>
+<!--
+
+</ScrollView>
+-->

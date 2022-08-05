@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bonus_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/table_effect"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">-->
+            <LinearLayout
+                android:id="@+id/holiday_sale_layout"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.view.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:layout_gravity="center"
+                    android:text="@string/achiever_bonus"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_title_callibri"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp" />
+
+                <ImageView
+                    android:id="@+id/info_achiever"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/ic_info"
+                    android:background="@drawable/nebula_effect" />
+
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:background="@drawable/drawable_rounded_white"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/eligible_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Select before"
+                android:textColor="@color/nebula"
+                android:textSize="@dimen/dimen_normal_callibri"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:lines="3"/>
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+            <CheckBox
+                android:id="@+id/chk1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/achiever_bonus1"
+                android:textSize="14dp"
+                android:layout_weight="0.5"/>
+
+            <CheckBox
+                android:id="@+id/chk2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/achiever_bonus2"
+                android:textSize="14dp"
+                android:layout_weight="0.5"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nebulacompanies.ibo.view.MyTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/faq_ans"
+    android:layout_width="match_parent"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:text="dvdvhjd"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/thailand_bg_popup"/>
