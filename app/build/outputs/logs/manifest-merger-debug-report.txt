@@ -1,33 +1,33 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:581:9-589:20
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:581:9-589:20
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:14:9-22:20
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:14:9-22:20
 	android:grantUriPermissions
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:89:13-47
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:89:13-47
 	android:authorities
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:87:13-71
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:87:13-71
 		REJECTED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:16:13-60
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:88:13-37
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:88:13-37
 	tools:replace
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:90:13-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:90:13-48
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:86:13-62
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:86:13-62
 manifest
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:2:1-39:12
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:databinding-adapters:4.2.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c6b87572a8a051727cf9233cb3bab1af\databinding-adapters-4.2.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:4.2.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\e1f29149821d57b83242f0c1d995c66f\databinding-runtime-4.2.2\AndroidManifest.xml:17:1-22:12
-MERGED from [:nebulavideoplayer] E:\Chirag\AndroidNebulaPro\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:libCrop] E:\Chirag\AndroidNebulaPro\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:nebulavideoplayer] E:\NebulaGit\NebulaProGit\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:libCrop] E:\NebulaGit\NebulaProGit\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:2:1-25:12
 MERGED from [com.github.dimorinny:floating-text-button:0.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2cc99fb867603ad2ee840828b4306279\jetified-floating-text-button-0.0.4\AndroidManifest.xml:2:1-16:12
 MERGED from [com.github.mahimrocky:ShowMoreText:1.0.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\469e34f425551a3743515bfeeb00d519\jetified-ShowMoreText-1.0.2\AndroidManifest.xml:2:1-11:12
@@ -190,29 +190,29 @@ MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chirag Vaghela\
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\3c29d0f836f5569dfc985220c0f1ffb9\jetified-materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
 MERGED from [jp.wasabeef:blurry:2.0.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a0fd54b1dd74c9bd095f85fc6237b87f\jetified-blurry-2.0.3\AndroidManifest.xml:2:1-12:12
 MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\5b59ab21ab5275a27c8863a93e9f78bc\jetified-paymentparamhelper-1.7.9\AndroidManifest.xml:2:1-14:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
 	package
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:1-829:12
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:1-829:12
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:5:5-44
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:5:5-44
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:5:5-7:41
@@ -221,14 +221,14 @@ MERGED from [androidx.databinding:databinding-adapters:4.2.2] C:\Users\Chirag Va
 MERGED from [androidx.databinding:databinding-adapters:4.2.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c6b87572a8a051727cf9233cb3bab1af\databinding-adapters-4.2.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\e1f29149821d57b83242f0c1d995c66f\databinding-runtime-4.2.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\e1f29149821d57b83242f0c1d995c66f\databinding-runtime-4.2.2\AndroidManifest.xml:20:5-44
-MERGED from [:nebulavideoplayer] E:\Chirag\AndroidNebulaPro\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:nebulavideoplayer] E:\Chirag\AndroidNebulaPro\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:libCrop] E:\Chirag\AndroidNebulaPro\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:libCrop] E:\Chirag\AndroidNebulaPro\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:nebulavideoplayer] E:\NebulaGit\NebulaProGit\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:nebulavideoplayer] E:\NebulaGit\NebulaProGit\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:libCrop] E:\NebulaGit\NebulaProGit\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:libCrop] E:\NebulaGit\NebulaProGit\libCrop\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:7:5-9:41
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.dimorinny:floating-text-button:0.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2cc99fb867603ad2ee840828b4306279\jetified-floating-text-button-0.0.4\AndroidManifest.xml:7:5-9:41
@@ -551,24 +551,24 @@ MERGED from [jp.wasabeef:blurry:2.0.3] C:\Users\Chirag Vaghela\.gradle\caches\tr
 MERGED from [jp.wasabeef:blurry:2.0.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\a0fd54b1dd74c9bd095f85fc6237b87f\jetified-blurry-2.0.3\AndroidManifest.xml:8:5-10:41
 MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\5b59ab21ab5275a27c8863a93e9f78bc\jetified-paymentparamhelper-1.7.9\AndroidManifest.xml:7:5-9:41
 MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\5b59ab21ab5275a27c8863a93e9f78bc\jetified-paymentparamhelper-1.7.9\AndroidManifest.xml:7:5-9:41
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
-INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
+INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
 	tools:overrideLibrary
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:15-65
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:15-65
 	android:targetSdkVersion
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
-		INJECTED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
+		INJECTED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:5-67
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:13:5-67
 MERGED from [in.payu:payu-checkout-pro:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\7ed27674b527a0da4590d3d776d5318e\jetified-payu-checkout-pro-1.8.1\AndroidManifest.xml:11:5-67
 MERGED from [in.payu:payu-checkout-pro:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\7ed27674b527a0da4590d3d776d5318e\jetified-payu-checkout-pro-1.8.1\AndroidManifest.xml:11:5-67
 MERGED from [net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:11:5-67
@@ -610,15 +610,15 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Us
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\78dbc57b2e4886cc116117758970e9f8\jetified-androidasync-2.2.1\AndroidManifest.xml:11:5-67
 MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\78dbc57b2e4886cc116117758970e9f8\jetified-androidasync-2.2.1\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:22-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:5-79
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:14:5-79
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:7:5-79
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:7:5-79
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:9:5-79
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:9:5-79
-MERGED from [:nebulavideoplayer] E:\Chirag\AndroidNebulaPro\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-MERGED from [:nebulavideoplayer] E:\Chirag\AndroidNebulaPro\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [:nebulavideoplayer] E:\NebulaGit\NebulaProGit\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [:nebulavideoplayer] E:\NebulaGit\NebulaProGit\nebulavideoplayer\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
 MERGED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:11:5-79
 MERGED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:11:5-79
 MERGED from [in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:12:5-79
@@ -656,15 +656,15 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\aabcf9e477dc3bef704d1e3252885be6\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:22-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.MEDIA_CONTENT_CONTROL
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:15:5-17:47
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:15:5-17:47
 	tools:ignore
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:16:9-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:16:9-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:18:5-81
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:11:5-81
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:11:5-81
 MERGED from [net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:12:5-81
@@ -672,55 +672,55 @@ MERGED from [net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\012288351096854e640f825c41c5fb2d\jetified-library-1.1.5\AndroidManifest.xml:12:5-81
 MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\012288351096854e640f825c41c5fb2d\jetified-library-1.1.5\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:5-80
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:22-77
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:19:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:5-81
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:22-78
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:5-69
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:21:5-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:22-66
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:21:22-66
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:5-75
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:22:5-75
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:22-72
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:22:22-72
 uses-permission#android.permission.READ_PROFILE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:5-71
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:24:5-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:22-68
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:24:22-68
 uses-permission#android.permission.CAMERA
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:5-65
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:25:5-65
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:22-62
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:25:22-62
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:5-79
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:22-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:26:22-76
 uses-feature#android.hardware.camera
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:28:5-30:35
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:28:5-30:35
 	android:required
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:30:9-32
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:30:9-32
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:29:9-47
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:29:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:32:5-34:36
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:34:9-33
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:33:9-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:33:9-57
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:5-81
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:36:5-81
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:22-78
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:36:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:5-68
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:37:5-68
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:11:5-68
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:11:5-68
 MERGED from [net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:13:5-68
@@ -742,17 +742,17 @@ MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c142d8a8dc2780a5d25ac516a1cd23af\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\c142d8a8dc2780a5d25ac516a1cd23af\jetified-play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:22-65
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:37:22-65
 application
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:39:5-828:19
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:39:5-828:19
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:22:5-37:19
 MERGED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:22:5-37:19
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:13:5-25:19
 MERGED from [com.paytm.easypay:easypay-appinvoke:1.7.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\406bdced20d5d3feb292836b0d3b7782\jetified-easypay-appinvoke-1.7.3\AndroidManifest.xml:13:5-25:19
-MERGED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
-MERGED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
-MERGED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
-MERGED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
+MERGED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
+MERGED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
+MERGED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
+MERGED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:19
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:13:5-23:19
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:13:5-23:19
 MERGED from [com.github.dimorinny:floating-text-button:0.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2cc99fb867603ad2ee840828b4306279\jetified-floating-text-button-0.0.4\AndroidManifest.xml:11:5-14:38
@@ -896,22 +896,22 @@ MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\Chirag Vaghela\.gra
 MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\5b59ab21ab5275a27c8863a93e9f78bc\jetified-paymentparamhelper-1.7.9\AndroidManifest.xml:11:5-12:19
 MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\5b59ab21ab5275a27c8863a93e9f78bc\jetified-paymentparamhelper-1.7.9\AndroidManifest.xml:11:5-12:19
 	android:requestLegacyExternalStorage
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:48:9-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:48:9-52
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:43:9-32
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:43:9-32
 	tools:ignore
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:52:9-42
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:52:9-42
 	android:largeHeap
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:47:9-33
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:47:9-33
 	android:icon
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:45:9-42
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:45:9-42
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fd1d89d0200088dc7e4fc5334366cdc4\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:49:9-35
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:49:9-35
 	android:label
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:46:9-41
-		REJECTED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-41
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:46:9-41
+		REJECTED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-41
 		REJECTED from [com.github.dimorinny:floating-text-button:0.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2cc99fb867603ad2ee840828b4306279\jetified-floating-text-button-0.0.4\AndroidManifest.xml:13:9-41
 		REJECTED from [in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:16:9-41
 		REJECTED from [ir.samanjafari.easycountdowntimer:easycountdowntimer:2.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\469c7e192ed4f5c0446594d8f4083f4f\jetified-easycountdowntimer-2.5.0\AndroidManifest.xml:13:9-41
@@ -926,15 +926,15 @@ MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\c
 		REJECTED from [com.github.fuzz-productions:RatingBar:1.0.6] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\1109ffa19b1df25e19d9f61945ef78a8\jetified-RatingBar-1.0.6\AndroidManifest.xml:9:9-41
 		REJECTED from [com.m2x:AvatarView:1.0.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\6fc855fb7bf7fe86408b5a22678c430f\jetified-AvatarView-1.0.1\AndroidManifest.xml:13:9-41
 	android:hardwareAccelerated
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:44:9-43
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:44:9-43
 	android:debuggable
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:42:9-35
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:42:9-35
 	tools:targetApi
 		ADDED from [in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:62:9-28
 	android:allowBackup
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:41:9-36
-		REJECTED from [:fancydialog] E:\Chirag\AndroidNebulaPro\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
-		REJECTED from [:treeview] E:\Chirag\AndroidNebulaPro\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:41:9-36
+		REJECTED from [:fancydialog] E:\NebulaGit\NebulaProGit\fancydialog\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
+		REJECTED from [:treeview] E:\NebulaGit\NebulaProGit\treeview\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-35
 		REJECTED from [com.github.dimorinny:floating-text-button:0.0.4] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\2cc99fb867603ad2ee840828b4306279\jetified-floating-text-button-0.0.4\AndroidManifest.xml:12:9-35
 		REJECTED from [ir.samanjafari.easycountdowntimer:easycountdowntimer:2.5.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\469c7e192ed4f5c0446594d8f4083f4f\jetified-easycountdowntimer-2.5.0\AndroidManifest.xml:12:9-35
 		REJECTED from [net.gotev:uploadservice:2.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8ab7c102d99c3e3b704788ea0129768f\jetified-uploadservice-2.0\AndroidManifest.xml:16:9-35
@@ -947,1121 +947,1121 @@ MERGED from [in.payu:paymentparamhelper:1.7.9] C:\Users\Chirag Vaghela\.gradle\c
 		REJECTED from [com.github.fuzz-productions:RatingBar:1.0.6] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\1109ffa19b1df25e19d9f61945ef78a8\jetified-RatingBar-1.0.6\AndroidManifest.xml:8:9-35
 		REJECTED from [com.m2x:AvatarView:1.0.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\6fc855fb7bf7fe86408b5a22678c430f\jetified-AvatarView-1.0.1\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:50:9-77
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:50:9-77
 		REJECTED from [in.payu:payu-checkout-pro-ui:1.8.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\cfec104299c924115ae692fbe4b2d668\jetified-payu-checkout-pro-ui-1.8.1\AndroidManifest.xml:17:9-44
 	tools:replace
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:53:9-82
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:53:9-82
 	android:usesCleartextTraffic
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:51:9-44
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:51:9-44
 		REJECTED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:17:18-54
 		REJECTED from [in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:61:9-45
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:40:9-38
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:40:9-38
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:59:9-61:60
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:59:9-61:60
 	android:resource
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:61:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:61:13-57
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:60:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:60:13-83
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:64:9-66:48
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:64:9-66:48
 	android:resource
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:66:13-45
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:66:13-45
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:65:13-84
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:65:13-84
 meta-data#com.google.android.geo.API_KEY
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:82:9-84:55
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:82:9-84:55
 	android:value
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:84:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:84:13-52
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:83:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:83:13-58
 activity#com.nebulacompanies.ibo.activities.MyDownlineWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:96:9-101:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:96:9-101:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:99:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:99:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:101:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:101:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:98:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:98:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:100:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:100:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:97:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:97:13-53
 receiver#com.nebulacompanies.ibo.util.NetworkChangeReceiver
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:103:9-113:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:103:9-113:20
 	android:label
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:106:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:106:13-50
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:105:13-36
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:105:13-36
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:104:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:104:13-55
 intent-filter#action:name:android.intent.action.MANAGE_NETWORK_USAGE+action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:107:13-112:29
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:107:13-112:29
 action#android.intent.action.MANAGE_NETWORK_USAGE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:17-85
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:108:17-85
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:25-82
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:108:25-82
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:17-79
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:109:17-79
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:25-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:109:25-76
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:17-78
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:110:17-78
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:25-75
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:110:25-75
 receiver#com.nebulacompanies.ibo.sms.SmsBroadcastReceiver
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:127:9-133:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:127:9-133:20
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:129:13-36
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:129:13-36
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:128:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:128:13-53
 intent-filter#action:name:com.google.android.gms.auth.api.phone.SMS_RETRIEVE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:130:13-132:29
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:130:13-132:29
 action#com.google.android.gms.auth.api.phone.SMS_RETRIEVE
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:17-93
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:131:17-93
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:25-90
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:131:25-90
 activity#com.nebulacompanies.ibo.activities.StartUp
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:135:9-149:25
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:135:9-149:25
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:141:18-105
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:141:18-105
 	android:noHistory
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:138:18-42
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:138:18-42
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:139:18-41
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:139:18-41
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:137:18-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:137:18-76
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:140:18-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:140:18-48
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:136:18-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:136:18-52
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:142:18-147:34
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:142:18-147:34
 action#android.intent.action.MAIN
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:22-74
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:30-71
 action#android.intent.action.VIEW
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:22-74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:144:22-74
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:30-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:144:30-71
 category#android.intent.category.LAUNCHER
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:22-82
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:146:22-82
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:32-79
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:146:32-79
 activity#com.nebulacompanies.ibo.ecom.MyLatestCategoryActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:176:9-189:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:176:9-189:20
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:182:13-100
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:182:13-100
 	android:noHistory
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:180:13-37
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:180:13-37
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:179:13-36
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:179:13-36
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:178:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:178:13-71
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:181:13-43
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:181:13-43
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:177:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:177:13-58
 uses-library#org.apache.http.legacy
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:190:9-192:40
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:190:9-192:40
 MERGED from [com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
 MERGED from [com.google.android.gms:play-services-maps:18.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8338b65394c1d3b39b14081d36bfd53d\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
 	android:required
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:192:13-37
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:192:13-37
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:191:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:191:13-50
 activity#com.nebulacompanies.ibo.activities.PinActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:194:9-198:72
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:194:9-198:72
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:197:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:197:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:196:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:196:13-71
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:198:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:198:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:195:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:195:13-51
 activity#com.nebulacompanies.ibo.activities.IdcardActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:199:9-203:54
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:199:9-203:54
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:202:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:202:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:201:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:201:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:203:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:203:13-51
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:200:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:200:13-54
 activity#com.nebulacompanies.ibo.activities.ContactUs
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:205:9-209:72
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:205:9-209:72
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:208:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:208:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:207:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:207:13-71
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:209:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:209:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:206:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:206:13-49
 activity#com.nebulacompanies.ibo.ecom.ShowFullScreenAttachment
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:210:9-214:72
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:210:9-214:72
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:213:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:213:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:212:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:212:13-71
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:214:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:214:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:211:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:211:13-58
 activity#com.nebulacompanies.ibo.activities.ProductListDwarka
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:215:9-218:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:215:9-218:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:217:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:217:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:218:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:218:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:216:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:216:13-57
 activity#com.nebulacompanies.ibo.activities.ProductListHyderabad
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:219:9-222:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:219:9-222:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:221:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:221:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:222:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:222:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:220:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:220:13-60
 activity#com.nebulacompanies.ibo.activities.GenerationIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:223:9-226:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:223:9-226:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:225:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:225:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:226:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:226:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:224:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:224:13-56
 activity#com.nebulacompanies.ibo.activities.GoldIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:227:9-230:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:227:9-230:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:229:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:229:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:230:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:230:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:228:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:228:13-50
 activity#com.nebulacompanies.ibo.MainActivityDemo
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:231:9-248:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:231:9-248:20
 	android:launchMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:234:13-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:234:13-48
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:235:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:235:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:233:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:233:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:232:13-45
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:232:13-45
 activity#com.nebulacompanies.ibo.activities.SiteProducts
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:249:9-253:66
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:249:9-253:66
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:252:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:252:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:251:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:251:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:253:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:253:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:250:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:250:13-52
 activity#com.nebulacompanies.ibo.activities.NewCompanyEvent
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:254:9-258:66
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:254:9-258:66
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:257:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:257:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:256:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:256:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:258:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:258:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:255:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:255:13-55
 activity#com.nebulacompanies.ibo.activities.OrderListActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:259:9-263:66
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:259:9-263:66
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:262:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:262:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:261:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:261:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:263:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:263:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:260:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:260:13-57
 activity#com.nebulacompanies.ibo.activities.ChangodarBanner
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:264:9-269:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:264:9-269:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:267:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:267:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:269:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:269:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:266:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:266:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:268:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:268:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:265:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:265:13-55
 activity#com.nebulacompanies.ibo.activities.SiteProductsWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:270:9-275:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:270:9-275:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:273:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:273:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:275:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:275:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:272:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:272:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:274:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:274:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:271:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:271:13-55
 activity#com.nebulacompanies.ibo.activities.ViewEvents
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:276:9-280:66
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:276:9-280:66
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:279:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:279:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:278:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:278:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:280:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:280:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:277:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:277:13-50
 activity#com.nebulacompanies.ibo.activities.ShowFullScreenEvents
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:281:9-285:54
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:281:9-285:54
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:284:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:284:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:283:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:283:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:285:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:285:13-51
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:282:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:282:13-60
 activity#com.nebulacompanies.ibo.activities.SpotIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:286:9-289:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:286:9-289:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:288:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:288:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:289:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:289:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:287:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:287:13-50
 activity#com.nebulacompanies.ibo.activities.StarClubIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:290:9-293:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:290:9-293:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:292:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:292:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:293:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:293:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:291:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:291:13-54
 activity#com.nebulacompanies.ibo.activities.RankBonusIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:294:9-297:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:294:9-297:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:296:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:296:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:297:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:297:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:295:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:295:13-55
 activity#com.nebulacompanies.ibo.activities.SponsorIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:298:9-301:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:298:9-301:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:300:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:300:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:301:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:301:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:299:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:299:13-53
 activity#com.nebulacompanies.ibo.activities.SalesAavaas
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:302:9-305:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:302:9-305:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:304:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:304:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:305:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:305:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:303:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:303:13-51
 activity#com.nebulacompanies.ibo.activities.SalesDwarka
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:306:9-309:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:306:9-309:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:308:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:308:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:309:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:309:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:307:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:307:13-51
 activity#com.nebulacompanies.ibo.activities.SalesHoliday
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:310:9-313:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:310:9-313:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:312:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:312:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:313:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:313:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:311:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:311:13-52
 activity#com.nebulacompanies.ibo.activities.DownloadRateCharts
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:320:9-323:54
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:320:9-323:54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:322:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:322:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:323:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:323:13-51
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:321:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:321:13-58
 activity#com.nebulacompanies.ibo.activities.DashboardActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:324:9-328:63
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:324:9-328:63
 	android:hardwareAccelerated
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:327:13-47
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:327:13-47
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:326:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:326:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:328:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:328:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:325:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:325:13-57
 activity#com.nebulacompanies.ibo.activities.MyIncomeActivityWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:355:9-360:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:355:9-360:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:358:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:358:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:360:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:360:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:357:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:357:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:359:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:359:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:356:13-59
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:356:13-59
 activity#com.nebulacompanies.ibo.activities.MyIboListActivityWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:361:9-366:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:361:9-366:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:364:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:364:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:366:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:366:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:363:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:363:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:365:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:365:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:362:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:362:13-60
 activity#com.nebulacompanies.ibo.activities.MyProductsActivityWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:367:9-372:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:367:9-372:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:370:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:370:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:372:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:372:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:369:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:369:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:371:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:371:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:368:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:368:13-61
 activity#com.nebulacompanies.ibo.activities.EcomPromosActivityWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:373:9-378:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:373:9-378:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:376:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:376:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:378:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:378:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:375:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:375:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:377:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:377:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:374:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:374:13-61
 activity#com.nebulacompanies.ibo.activities.MyDownlineActivityWeb
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:379:9-384:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:379:9-384:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:382:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:382:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:384:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:384:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:381:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:381:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:383:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:383:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:380:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:380:13-61
 activity#com.nebulacompanies.ibo.ecom.BusinessActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:385:9-390:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:385:9-390:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:388:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:388:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:390:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:390:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:387:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:387:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:389:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:389:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:386:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:386:13-50
 service#com.nebulacompanies.ibo.firebase.MyFirebaseMessagingService
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:426:9-433:19
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:426:9-433:19
 	android:resource
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:429:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:429:13-50
 	android:exported
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:428:13-36
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:428:13-36
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:427:13-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:427:13-64
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:430:13-432:29
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:430:13-432:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:17-78
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:17-78
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:25-75
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:25-75
 activity#com.nebulacompanies.ibo.activities.BonanzaIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:442:9-445:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:442:9-445:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:444:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:444:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:445:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:445:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:443:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:443:13-53
 activity#com.nebulacompanies.ibo.activities.RetailIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:446:9-449:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:446:9-449:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:448:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:448:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:449:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:449:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:447:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:447:13-52
 activity#com.nebulacompanies.ibo.activities.DreamVolume
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:450:9-453:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:450:9-453:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:452:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:452:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:453:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:453:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:451:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:451:13-51
 activity#com.nebulacompanies.ibo.activities.BoosterIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:454:9-457:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:454:9-457:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:456:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:456:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:457:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:457:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:455:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:455:13-53
 activity#com.nebulacompanies.ibo.activities.SuperBoosterIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:458:9-461:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:458:9-461:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:460:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:460:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:461:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:461:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:459:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:459:13-58
 activity#com.nebulacompanies.ibo.activities.LeadershipBonus
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:462:9-465:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:462:9-465:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:464:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:464:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:465:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:465:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:463:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:463:13-55
 activity#com.nebulacompanies.ibo.activities.SuBoosterIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:466:9-469:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:466:9-469:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:468:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:468:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:469:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:469:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:467:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:467:13-55
 activity#com.nebulacompanies.ibo.activities.CarProgramIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:470:9-473:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:470:9-473:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:472:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:472:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:473:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:473:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:471:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:471:13-56
 activity#com.nebulacompanies.ibo.activities.ThreeStarClubIncome
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:474:9-477:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:474:9-477:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:476:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:476:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:477:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:477:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:475:13-59
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:475:13-59
 activity#com.nebulacompanies.ibo.activities.SettingFragment
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:478:9-482:54
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:478:9-482:54
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:481:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:481:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:480:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:480:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:482:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:482:13-51
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:479:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:479:13-55
 activity#com.nebulacompanies.ibo.activities.HolidayAchiever
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:483:9-486:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:483:9-486:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:485:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:485:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:486:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:486:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:484:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:484:13-55
 activity#com.nebulacompanies.ibo.activities.LoginActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:487:9-491:58
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:487:9-491:58
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:491:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:491:13-55
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:489:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:489:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:490:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:490:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:488:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:488:13-53
 activity#com.nebulacompanies.ibo.activities.LoginSkipActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:492:9-496:58
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:492:9-496:58
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:496:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:496:13-55
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:494:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:494:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:495:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:495:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:493:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:493:13-57
 activity#com.nebulacompanies.ibo.activities.LoginSkipDialog
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:497:9-501:58
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:497:9-501:58
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:501:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:501:13-55
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:499:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:499:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:500:13-70
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:500:13-70
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:498:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:498:13-55
 activity#com.nebulacompanies.ibo.activities.SessionOverDialog
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:502:9-506:58
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:502:9-506:58
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:506:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:506:13-55
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:504:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:504:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:505:13-70
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:505:13-70
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:503:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:503:13-57
 activity#com.nebulacompanies.ibo.activities.NoLoginActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:507:9-510:63
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:507:9-510:63
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:509:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:509:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:510:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:510:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:508:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:508:13-55
 activity#com.nebulacompanies.ibo.activities.PrivacyPolicyActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:511:9-514:63
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:511:9-514:63
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:513:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:513:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:514:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:514:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:512:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:512:13-61
 activity#com.nebulacompanies.ibo.activities.RegistationActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:515:9-519:67
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:515:9-519:67
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:519:13-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:519:13-64
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:517:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:517:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:518:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:518:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:516:13-59
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:516:13-59
 activity#com.nebulacompanies.ibo.activities.RegistationFullActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:520:9-524:67
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:520:9-524:67
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:524:13-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:524:13-64
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:522:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:522:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:523:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:523:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:521:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:521:13-63
 activity#com.nebulacompanies.ibo.activities.RegistrationFullWebview
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:525:9-529:71
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:525:9-529:71
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:529:13-68
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:529:13-68
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:527:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:527:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:528:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:528:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:526:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:526:13-63
 activity#com.nebulacompanies.ibo.activities.RegistrationUpdateKYCWebview
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:530:9-535:71
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:530:9-535:71
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:533:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:533:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:535:13-68
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:535:13-68
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:532:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:532:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:534:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:534:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:531:13-68
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:531:13-68
 activity#com.nebulacompanies.ibo.activities.UploadDocument
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:543:9-547:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:543:9-547:74
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:546:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:546:13-49
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:545:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:545:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:547:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:547:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:544:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:544:13-54
 activity#com.nebulacompanies.ibo.activities.RegistrationActivityWebview
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:548:9-553:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:548:9-553:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:551:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:551:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:553:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:553:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:550:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:550:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:552:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:552:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:549:13-67
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:549:13-67
 activity#com.nebulacompanies.ibo.activities.UpdateProfile
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:554:9-559:67
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:554:9-559:67
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:557:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:557:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:559:13-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:559:13-64
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:556:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:556:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:558:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:558:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:555:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:555:13-53
 activity#com.nebulacompanies.ibo.activities.IBONotifications
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:560:9-563:66
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:560:9-563:66
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:562:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:562:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:563:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:563:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:561:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:561:13-56
 activity#com.nebulacompanies.ibo.activities.TakeTourActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:564:9-567:59
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:564:9-567:59
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:566:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:566:13-49
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:567:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:567:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:565:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:565:13-56
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:568:9-571:59
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:568:9-571:59
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:570:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:570:13-49
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:571:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:571:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:569:13-76
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:569:13-76
 activity#com.nebulacompanies.ibo.activities.ProductListHoliday
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:572:9-575:74
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:572:9-575:74
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:574:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:574:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:575:13-71
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:575:13-71
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:573:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:573:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:577:9-579:35
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:577:9-579:35
 	android:value
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:579:13-32
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:579:13-32
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:578:13-70
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:578:13-70
 activity#com.nebulacompanies.ibo.MapsActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:591:9-593:59
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:591:9-593:59
 	android:label
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:593:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:593:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:592:13-41
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:592:13-41
 activity#com.nebulacompanies.ibo.ecom.MyLocationUsingHelper
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:594:9-597:52
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:594:9-597:52
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:597:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:597:13-49
 	android:label
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:596:13-39
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:596:13-39
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:595:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:595:13-55
 activity#com.nebulacompanies.ibo.ecom.MyLocationUsingLocationAPI
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:598:9-600:63
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:598:9-600:63
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:600:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:600:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:599:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:599:13-60
 activity#com.nebulacompanies.ibo.ecom.MainActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:601:9-617:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:601:9-617:20
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:604:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:604:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:603:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:603:13-60
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:602:13-46
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:602:13-46
 activity#com.nebulacompanies.ibo.ecom.ProductDescription
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:618:9-622:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:618:9-622:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:620:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:620:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:622:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:622:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:621:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:621:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:619:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:619:13-52
 activity#com.nebulacompanies.ibo.ecom.TrackOrderActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:623:9-627:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:623:9-627:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:625:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:625:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:627:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:627:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:626:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:626:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:624:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:624:13-52
 activity#com.nebulacompanies.ibo.ecom.MyCartActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:628:9-632:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:628:9-632:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:630:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:630:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:632:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:632:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:631:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:631:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:629:13-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:629:13-48
 activity#com.nebulacompanies.ibo.ecom.MyCartActivityNotification
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:633:9-637:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:633:9-637:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:635:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:635:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:637:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:637:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:636:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:636:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:634:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:634:13-60
 activity#com.nebulacompanies.ibo.ecom.MyCartActivityRemove
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:638:9-642:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:638:9-642:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:640:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:640:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:642:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:642:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:641:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:641:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:639:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:639:13-54
 activity#com.nebulacompanies.ibo.ecom.ProductAvaibilityActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:643:9-647:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:643:9-647:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:645:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:645:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:647:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:647:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:646:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:646:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:644:13-59
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:644:13-59
 activity#com.nebulacompanies.ibo.activities.ReadMoreActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:648:9-652:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:648:9-652:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:650:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:650:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:652:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:652:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:651:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:651:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:649:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:649:13-56
 activity#com.nebulacompanies.ibo.activities.AddReviewActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:653:9-657:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:653:9-657:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:655:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:655:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:657:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:657:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:656:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:656:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:654:13-57
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:654:13-57
 activity#com.nebulacompanies.ibo.activities.TambolaActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:658:9-662:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:658:9-662:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:660:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:660:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:662:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:662:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:661:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:661:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:659:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:659:13-55
 activity#com.nebulacompanies.ibo.ecom.MyCategoryActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:663:9-682:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:663:9-682:20
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:666:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:666:13-49
 	android:launchMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:665:13-43
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:665:13-43
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:668:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:668:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:667:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:667:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:664:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:664:13-52
 activity#com.nebulacompanies.ibo.activities.DashboardDesignChange
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:683:9-688:70
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:683:9-688:70
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:686:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:686:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:688:13-67
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:688:13-67
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:685:13-78
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:685:13-78
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:687:13-63
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:687:13-63
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:684:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:684:13-61
 activity#com.nebulacompanies.ibo.ecom.MyOrderDetailsActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:689:9-693:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:689:9-693:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:691:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:691:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:693:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:693:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:692:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:692:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:690:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:690:13-56
 activity#com.nebulacompanies.ibo.ecom.MyViewOrderActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:694:9-698:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:694:9-698:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:696:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:696:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:698:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:698:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:697:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:697:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:695:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:695:13-53
 activity#com.nebulacompanies.ibo.ecom.MyWishListActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:699:9-703:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:699:9-703:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:701:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:701:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:703:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:703:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:702:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:702:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:700:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:700:13-52
 activity#com.nebulacompanies.ibo.ecom.MyAddressActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:704:9-708:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:704:9-708:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:706:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:706:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:708:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:708:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:707:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:707:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:705:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:705:13-51
 activity#com.nebulacompanies.ibo.ecom.CustomerSupport
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:709:9-713:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:709:9-713:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:711:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:711:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:713:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:713:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:712:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:712:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:710:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:710:13-49
 activity#com.nebulacompanies.ibo.ecom.GenerateCoupon
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:714:9-718:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:714:9-718:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:716:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:716:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:718:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:718:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:717:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:717:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:715:13-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:715:13-48
 activity#com.nebulacompanies.ibo.ecom.ReferralsPromotion
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:719:9-723:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:719:9-723:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:721:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:721:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:723:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:723:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:722:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:722:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:720:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:720:13-52
 activity#com.nebulacompanies.ibo.ecom.MyPromoCodes
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:724:9-728:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:724:9-728:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:726:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:726:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:728:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:728:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:727:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:727:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:725:13-46
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:725:13-46
 activity#com.nebulacompanies.ibo.ecom.CustomerSupportList
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:729:9-733:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:729:9-733:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:731:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:731:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:733:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:733:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:732:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:732:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:730:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:730:13-53
 activity#com.nebulacompanies.ibo.ecom.SearchActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:734:9-738:58
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:734:9-738:58
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:736:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:736:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:738:13-55
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:738:13-55
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:737:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:737:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:735:13-48
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:735:13-48
 activity#com.nebulacompanies.ibo.ecom.MyAddressAccountActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:739:9-743:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:739:9-743:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:741:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:741:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:743:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:743:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:742:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:742:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:740:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:740:13-58
 activity#com.nebulacompanies.ibo.ecom.AddAddressAcountActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:744:9-748:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:744:9-748:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:746:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:746:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:748:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:748:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:747:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:747:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:745:13-58
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:745:13-58
 activity#com.nebulacompanies.ibo.ecom.AddAddressAcountBottomActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:749:9-753:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:749:9-753:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:751:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:751:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:753:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:753:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:752:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:752:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:750:13-64
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:750:13-64
 activity#com.nebulacompanies.ibo.ecom.AddAddressAcountNewActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:754:9-758:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:754:9-758:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:756:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:756:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:758:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:758:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:757:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:757:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:755:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:755:13-61
 activity#com.nebulacompanies.ibo.ecom.EditAddressActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:759:9-763:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:759:9-763:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:761:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:761:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:763:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:763:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:762:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:762:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:760:13-53
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:760:13-53
 activity#com.nebulacompanies.ibo.ecom.EditAddressAccountActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:764:9-768:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:764:9-768:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:766:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:766:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:768:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:768:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:767:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:767:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:765:13-60
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:765:13-60
 activity#com.nebulacompanies.ibo.ecom.OrderSummaryActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:769:9-773:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:769:9-773:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:771:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:771:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:773:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:773:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:772:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:772:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:770:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:770:13-54
 activity#com.nebulacompanies.ibo.ecom.MyWalletActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:774:9-778:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:774:9-778:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:776:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:776:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:778:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:778:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:777:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:777:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:775:13-50
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:775:13-50
 activity#com.nebulacompanies.ibo.ecom.PaymentActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:779:9-783:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:779:9-783:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:781:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:781:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:783:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:783:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:782:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:782:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:780:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:780:13-49
 activity#com.nebulacompanies.ibo.ecom.LoginActivityEcom
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:784:9-788:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:784:9-788:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:786:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:786:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:788:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:788:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:787:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:787:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:785:13-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:785:13-51
 activity#com.nebulacompanies.ibo.ecom.BillingAddressActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:789:9-793:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:789:9-793:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:791:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:791:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:793:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:793:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:792:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:792:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:790:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:790:13-56
 activity#com.nebulacompanies.ibo.ecom.EnlargeItem
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:794:9-798:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:794:9-798:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:796:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:796:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:798:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:798:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:797:13-56
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:797:13-56
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:795:13-45
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:795:13-45
 activity#com.payu.custombrowser.CBActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:801:9-806:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:801:9-806:20
 MERGED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:18:9-21:63
 MERGED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:18:9-21:63
 	android:screenOrientation
 		ADDED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:20:13-49
 	android:launchMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:804:13-43
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:804:13-43
 	android:windowSoftInputMode
 		ADDED from [in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:21:13-60
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:803:13-45
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:803:13-45
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:802:13-61
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:802:13-61
 activity#com.nebulacompanies.ibo.ecom.PayUMoney
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:807:9-813:20
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:807:9-813:20
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:809:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:809:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:811:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:811:13-54
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:810:13-45
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:810:13-45
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:808:13-43
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:808:13-43
 activity#com.nebulacompanies.ibo.dwarkaPackage.DwarkaDashBoardActivity
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:817:9-822:57
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:817:9-822:57
 	android:screenOrientation
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:820:13-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:820:13-49
 	android:windowSoftInputMode
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:822:13-54
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:822:13-54
 	android:configChanges
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:819:13-83
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:819:13-83
 	android:theme
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:821:13-69
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:821:13-69
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:818:13-66
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:818:13-66
 meta-data#com.razorpay.ApiKey
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:824:9-826:55
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:824:9-826:55
 	android:value
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:826:13-52
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:826:13-52
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:825:13-47
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:825:13-47
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:91:13-94:52
+ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:91:13-94:52
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:19:13-21:58
 MERGED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:19:13-21:58
 	android:resource
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:93:17-51
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:93:17-51
 		REJECTED from [gun0912.ted:tedbottompicker:1.0.12] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b5bfa58eb30a1bf1566522c7f422b861\jetified-tedbottompicker-1.0.12\AndroidManifest.xml:21:17-55
 	tools:replace
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:94:17-49
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:94:17-49
 	android:name
-		ADDED from E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:92:17-67
+		ADDED from E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:92:17-67
 queries
 ADDED from [com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:9:5-20:15
 MERGED from [in.payu:upisdk:1.5.3] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\8f3d12bc85294e208a78ced4563b9a66\jetified-upisdk-1.5.3\AndroidManifest.xml:14:5-58:15

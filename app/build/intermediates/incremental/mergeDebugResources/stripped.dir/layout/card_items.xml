@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/item_vertical">
+
+   <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Client name"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/dimen_eleven_sp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"/>
+
+
+
+   <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        tools:text="Client address"
+        android:paddingTop="4dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textSize="@dimen/dimen_thirteen_sp"
+        android:layout_marginTop="@dimen/dimen_eight_dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"/>
+
+
+
+
+
+</LinearLayout>

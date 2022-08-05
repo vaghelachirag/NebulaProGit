@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\280f090dadd11546023978a5fba93cbc\\jetified-library-1.0.0\\res\\values-v11\\values.xml",

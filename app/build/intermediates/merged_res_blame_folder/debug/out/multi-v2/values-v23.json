@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\38f4aa739759c4348ff67a6a5bc8c470\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml:1:1-51
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml:1:1-51
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml:1:1-51
+ADDED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml:1:1-51
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml:1:1-51
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml:1:1-51
 	package
-		ADDED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml:1:11-48
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml:1:11-48
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml:1:1-51
+		ADDED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml:1:1-51
 uses-sdk
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-		ADDED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
-		INJECTED from E:\Chirag\AndroidNebulaPro\libCrop\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+		ADDED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml
+		INJECTED from E:\NebulaGit\NebulaProGit\libCrop\src\main\AndroidManifest.xml

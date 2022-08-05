@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".ecom.GenerateCoupon">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:visibility="visible"
+        app:titleTextAppearance="@style/ToolBarTextAppearance">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_eight_dp"
+            android:layout_marginEnd="@dimen/dimen_eight_dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dimen_four_dp"
+                android:paddingBottom="@dimen/dimen_four_dp">
+
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="-1dp"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="@dimen/dimen_five_dp"
+                    android:paddingEnd="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_five_dp"
+                    android:visibility="visible"
+                    android:tint="@android:color/black"
+                    app:srcCompat="@drawable/ic_arrow_back_svg" />
+
+
+                <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                    android:id="@+id/toolbar_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/dimen_four_dp"
+                    android:layout_toEndOf="@+id/img_back"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_twenty_sp" />
+
+
+                <ImageView
+                    android:id="@+id/img_refresh"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="@dimen/dimen_thirteen_dp"
+                    android:background="@drawable/ic_baseline_refresh_24"
+                    android:padding="@dimen/dimen_four_dp"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+    <include layout="@layout/layout_empty_view_ecom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</LinearLayout>

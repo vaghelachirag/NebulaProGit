@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+        <LinearLayout
+            android:id="@+id/ln_availability"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_eight_dp"
+            android:orientation="vertical">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:text="Choose your location"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_eighteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:text="Select a delivery location to see product availability and delivery options"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+            <RadioGroup
+                android:id="@+id/rdgroup"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd1"
+                    style="@style/RadioButton"
+                    android:drawableStart="@drawable/ic_truck"
+                    android:drawablePadding="@dimen/dimen_eight_dp"
+                    android:padding="@dimen/dimen_fifteen_dp"
+                    android:saveEnabled="true"
+                    android:text="Door step delivery (shipping charges applicable)."
+                    android:textColor="@color/black" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="-10dp"
+                    android:visibility="gone"
+                    android:fadeScrollbars="false"
+                    android:layout_marginTop="@dimen/dimen_ten_dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_address_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+
+                        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                            android:id="@+id/tv_my_account_addresses"
+                            android:layout_width="@dimen/dimen_one_seventy_dp"
+                            android:layout_height="@dimen/dimen_hundred_dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/dimen_ten_dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="@dimen/dimen_eight_dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_toEndOf="@+id/rv_address_list"
+                            android:background="@drawable/drawable_address"
+                            android:gravity="center"
+                            android:hint="Add a new Address"
+                            android:padding="@dimen/dimen_ten_dp"
+                            android:textColorHint="@android:color/black"
+                            android:textSize="@dimen/dimen_fifteen_sp"
+                            android:visibility="visible" />
+                    </RelativeLayout>
+                </HorizontalScrollView>
+
+                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_ten_dp"
+                    android:text="OR"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_sixteen_sp" />
+
+                <RadioButton
+                    android:id="@+id/rd2"
+                    style="@style/RadioButton"
+                    android:drawableStart="@drawable/ic_pick_up"
+                    android:drawablePadding="@dimen/dimen_eight_dp"
+                    android:padding="@dimen/dimen_fifteen_dp"
+                    android:saveEnabled="true"
+                    android:text="Select a pickup point." />
+
+                <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                    android:id="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:visibility="gone"
+                    android:paddingStart="@dimen/dimen_four_dp"
+                    android:paddingTop="@dimen/dimen_eight_dp"
+                    android:paddingBottom="@dimen/dimen_eight_dp"
+                    android:text="Select City"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_sixteen_sp" />
+
+                <RadioButton
+                    android:id="@+id/rd_ahmd"
+                    style="@style/RadioButton"
+                    android:drawableStart="@drawable/ic_ahmd"
+                    android:drawablePadding="@dimen/dimen_eight_dp"
+                    android:padding="@dimen/dimen_fifteen_dp"
+                    android:saveEnabled="true"
+                    android:visibility="gone"
+                    android:text="Ahmedabad" />
+
+
+                <RadioButton
+                    android:id="@+id/rd_hyd"
+                    style="@style/RadioButton"
+                    android:drawableStart="@drawable/ic_hyd"
+                    android:drawablePadding="@dimen/dimen_eight_dp"
+                    android:padding="@dimen/dimen_fifteen_dp"
+                    android:saveEnabled="true"
+                    android:visibility="gone"
+                    android:text="Hyderabad" />
+
+                <RadioButton
+                    android:id="@+id/rd_chennai"
+                    style="@style/RadioButton"
+                    android:drawableStart="@drawable/ic_chennai"
+                    android:drawablePadding="@dimen/dimen_eight_dp"
+                    android:padding="@dimen/dimen_fifteen_dp"
+                    android:saveEnabled="true"
+                    android:visibility="gone"
+                    android:text="Chennai" />
+
+
+            </RadioGroup>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_pick_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="-10dp"
+                android:visibility="gone"
+                android:fadeScrollbars="false"
+                android:layout_marginTop="@dimen/dimen_ten_dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_pickup_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_enter_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:drawableStart="@drawable/ic_location_on_black"
+                android:drawablePadding="@dimen/dimen_six_dp"
+                android:gravity="center|start"
+                android:paddingBottom="@dimen/dimen_four_dp"
+                android:visibility="gone"
+                android:text="Enter a pincode"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fifteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_detect_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:drawableStart="@drawable/ic_my_location_detect_black"
+                android:drawablePadding="@dimen/dimen_six_dp"
+                android:visibility="gone"
+                android:gravity="center_vertical|start"
+                android:text="Use my current location"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fifteen_sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ln_pincode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/dimen_five_dp"
+                android:padding="@dimen/dimen_five_dp"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_pincode_back"
+                    android:layout_width="@dimen/dimen_twenty_four_dp"
+                    android:layout_height="@dimen/dimen_twenty_four_dp"
+                    android:layout_alignParentStart="true"
+                    app:srcCompat="@drawable/ic_arrow_back_black" />
+
+                <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Enter a pincode"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_sixteen_sp" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_one_dp"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:background="@android:color/darker_gray" />
+
+            <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="@dimen/dimen_six_dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:layout_marginBottom="@dimen/dimen_six_dp"
+                android:background="@drawable/drawable_address"
+                android:hint="Enter Pin Here"
+                android:inputType="number"
+                android:maxLength="6"
+                android:padding="@dimen/dimen_ten_dp"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="@dimen/dimen_ten_dp"
+                android:layout_marginTop="@dimen/dimen_eight_dp"
+                android:layout_marginEnd="@dimen/dimen_ten_dp"
+                android:layout_marginBottom="@dimen/dimen_six_dp"
+                android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                android:text="Apply"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

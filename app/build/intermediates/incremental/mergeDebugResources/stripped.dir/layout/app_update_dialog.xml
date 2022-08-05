@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/dimen_seventy_five_dp"
+        android:layout_height="@dimen/dimen_seventy_five_dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/nebula_logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/colorRadio"
+        android:layout_height="2dp"/>
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:layout_margin="@dimen/dimen_ten_dp"
+        android:textColor="@android:color/black"
+        android:text="@string/app_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_thirteen_sp"/>
+
+
+    <com.nebulacompanies.ibo.view.MyButton
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_thirty_two_dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_eight_dp"
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:gravity="center"
+        android:padding="@dimen/dimen_six_dp"
+        android:text="@string/update_now"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

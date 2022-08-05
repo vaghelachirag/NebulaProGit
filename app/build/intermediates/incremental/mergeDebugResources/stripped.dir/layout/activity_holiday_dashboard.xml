@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_dwarka"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:paddingBottom="@dimen/dimen_ten_dp"
+        android:layout_marginBottom="@dimen/dimen_four_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:visibility="gone"
+        android:id="@+id/ln_dwarka"
+        android:layout_marginBottom="@dimen/dimen_four_dp"
+        android:paddingBottom="@dimen/dimen_ten_dp"
+        android:orientation="vertical">
+
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_package"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_five_dp"
+            android:visibility="gone"
+            android:text="Dwarka Packages"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_eighteen_sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/dimen_two_dp">
+
+            <RadioButton
+                android:id="@+id/rb_package_one"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_sixty_dp"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:buttonTint="@color/colorRadio"
+                android:checked="true"
+                android:padding="@dimen/dimen_ten_dp"
+                android:background="@android:drawable/editbox_background"
+                android:textColor="@android:color/black"
+                android:text="@string/package_one"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+            <RadioButton
+                android:id="@+id/rb_package_two"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_sixty_dp"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:buttonTint="@color/colorRadio"
+                android:text="@string/package_two"
+                android:padding="@dimen/dimen_ten_dp"
+                android:background="@android:drawable/editbox_background"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb_package_three"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_sixty_dp"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:layout_marginBottom="@dimen/dimen_six_dp"
+                android:buttonTint="@color/colorRadio"
+                android:padding="@dimen/dimen_ten_dp"
+                android:background="@android:drawable/editbox_background"
+                android:text="@string/package_three"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_fourteen_sp" />
+        </RadioGroup>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dwarka_package"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:weightSum="10" >
+
+            <CheckBox
+                android:id="@+id/chk_free_look_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ember"
+                android:padding="@dimen/dimen_five_dp"
+                android:buttonTint="@color/colorRadio"
+                android:text="@string/check_one"
+                android:layout_weight="9" />
+
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_sort_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="@string/check_one"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen_ten_dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chk_terms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@color/colorRadio"
+                android:padding="@dimen/dimen_five_dp"
+                android:text="@string/check_two"
+                android:fontFamily="@font/ember"
+                android:layout_weight="9" />
+
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:text="@string/check_two"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+
+        </LinearLayout>
+
+        <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+            android:id="@+id/btn_buy_package"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_forty_dp"
+            android:layout_marginStart="@dimen/dimen_ten_dp"
+            android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:layout_marginTop="@dimen/dimen_fifteen"
+            android:background="@drawable/nebula_button_login_eftct_login_ecom"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:visibility="visible"
+            android:onClick="showBottomSheet"
+            android:layout_gravity="bottom"
+            android:text="@string/buy_now"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_sixteen_sp" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        layout="@layout/layout_empty_view_ecom"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/barchart_cardview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:visibility="visible"
+    app:cardBackgroundColor="@color/nebula_new_light"
+    app:cardCornerRadius="@dimen/dimen_five_dp"
+    app:cardElevation="@dimen/dimen_five_dp"
+    app:cardUseCompatPadding="true">
+
+    <!-- <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/nebula_new_light"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_four_dp">
+
+
+            <ImageView
+                style="@style/SelectableItemBackground"
+                android:layout_width="@dimen/dimen_twenty_dp"
+                android:layout_height="@dimen/dimen_twenty_dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:src="@drawable/current_rank" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dimen_five_dp"
+                android:layout_marginStart="@dimen/dimen_five_dp"
+                android:text="Tree"
+                android:textColor="@android:color/white" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="@dimen/dimen_three_dp"
+            android:layout_marginEnd="@dimen/dimen_three_dp"
+            android:layout_marginLeft="@dimen/dimen_three_dp"
+            android:layout_marginRight="@dimen/dimen_three_dp"
+            android:layout_marginStart="@dimen/dimen_three_dp"
+            android:background="@drawable/drawable_rounded_white"
+            android:orientation="vertical">
+
+
+                <de.blox.treeview.TreeView
+                    android:id="@+id/treeview"
+                    android:layout_margin="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </de.blox.treeview.TreeView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

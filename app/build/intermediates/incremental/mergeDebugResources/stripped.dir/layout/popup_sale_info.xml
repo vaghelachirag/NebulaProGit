@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/dialog_background_inset"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/table_effect"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:layout_marginTop="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/sale_id"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/saleid_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_top_info_popup"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/purchase_date"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/purchasedate_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/investment"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/investment_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/payment_plan"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/paymentplan_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/token_amount"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/tokenamount_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/dp_20"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/dp20_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/discount"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/discount_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/monthly_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:id="@+id/monthly_inst_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/monthly_installment"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/monthlyinstallment_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/next_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:id="@+id/next_install_date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/next_installment_date"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/nextinstallmentdate_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/white"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/amount_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_two_dp"
+            android:layout_marginRight="@dimen/dimen_two_dp"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_effect"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:text="@string/amount_paid"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/receipt_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/drawable_rounded_white_bottom_info_popup"
+                android:gravity="start|center"
+                android:padding="@dimen/dimen_eight_dp"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id = "@+id/tablelayout10"
+                android:layout_width = "match_parent"
+                android:layout_height = "50dp"
+                android:background = "@color/facebook_feeds"
+                android:weightSum="28">
+
+                <TextView
+                    android:id="@+id/investment"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/investment"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/payment_plan"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/payment_plan"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/token_amount"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/token_amount"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/dp_20"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="3"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/dp_20"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/discount"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/discount"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/monthly_installment"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/monthly_installment"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/next_installment_date"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="5"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "@string/next_installment_date"
+                    android:textColor = "#ffffff"
+                    android:singleLine="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id = "@+id/linearlayout5"
+                android:layout_width = "match_parent"
+                android:layout_height = "60dp"
+                android:background = "@android:color/white"
+                android:weightSum="28">
+
+                <TextView
+                    android:id="@+id/investment1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/payment_plan1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/token_amount1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/dp_201"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="3"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/discount1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/monthly_installment1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="4"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cfcfcf" />
+
+                <TextView
+                    android:id="@+id/next_installment_date1"
+                    android:layout_width="0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight="5"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:textColor = "#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>-->

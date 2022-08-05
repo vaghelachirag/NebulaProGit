@@ -1,0 +1,46 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/upi_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    app:cardCornerRadius="@dimen/dimen_five_dp"
+    app:cardElevation="@dimen/dimen_five_dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:id="@+id/laydata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgapp"
+            style="@style/SelectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_forty_dp"
+            android:adjustViewBounds="true"
+            android:gravity="left"
+            android:layout_margin="@dimen/dimen_eight_dp"
+            android:scaleType="fitXY" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_four_dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_four_dp"
+            android:text="jgfjsdgfj"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

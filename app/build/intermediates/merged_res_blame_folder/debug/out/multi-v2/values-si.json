@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\fd1d89d0200088dc7e4fc5334366cdc4\\core-1.6.0\\res\\values-si\\values-si.xml",

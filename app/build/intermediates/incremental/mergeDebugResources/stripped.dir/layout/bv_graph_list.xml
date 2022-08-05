@@ -1,0 +1,100 @@
+<LinearLayout android:id="@+id/ln_dashboard_income"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen_five_dp"
+    android:visibility="visible"
+    android:background="@drawable/table_effect"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_three_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_thirty_dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/dimen_five_dp"
+            android:singleLine="false"
+            android:text="@string/id"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/bvmin"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_normal_callibri" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.25"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/bvmax"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_normal_callibri" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.25"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/differentials"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/dimen_normal_callibri" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview_bv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadeScrollbars="false"
+            android:smoothScrollbar="true" />
+
+
+    </LinearLayout>
+</LinearLayout>

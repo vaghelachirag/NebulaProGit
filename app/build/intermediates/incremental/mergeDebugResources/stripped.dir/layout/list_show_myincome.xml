@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/dimen_ten_dp"
+    android:layout_marginLeft="@dimen/dimen_ten_dp"
+    android:layout_marginRight="@dimen/dimen_ten_dp"
+    android:layout_marginStart="@dimen/dimen_ten_dp"
+    android:background="@android:drawable/editbox_background_normal"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgmyincome"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.3" />
+
+    <com.nebulacompanies.ibo.view.JustifiedTextView
+        android:id="@+id/mysin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_weight="0.3"
+        android:textColor="#ff0000ff"
+        android:textSize="@dimen/dimen_twelve_sp" />
+
+    <com.nebulacompanies.ibo.view.JustifiedTextView
+        android:id="@+id/myincomename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="0.4"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+
+</LinearLayout>

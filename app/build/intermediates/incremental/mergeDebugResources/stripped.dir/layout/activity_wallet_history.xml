@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_ordersummary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout_search"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_ten_dp"
+        android:layout_marginRight="@dimen/dimen_ten_dp"
+        android:orientation="horizontal">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_twelve_dp"
+            android:layout_marginBottom="@dimen/dimen_eight_dp"
+            android:text="Your E-wallet balance:"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/dimen_twenty_dp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_twelve_dp"
+            android:layout_marginBottom="@dimen/dimen_eight_dp"
+            android:text=" $99.99"
+            android:textColor="@color/green"
+            android:textSize="@dimen/dimen_twenty_dp" />
+    </LinearLayout>
+
+
+
+
+    <!-- Table View-->
+    <HorizontalScrollView
+        android:id="@+id/horizontal_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/nebula"
+        android:padding="@dimen/dimen_two_dp"
+      >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/table_list_item" />
+
+    </HorizontalScrollView>
+   <include layout="@layout/layout_empty_view" />
+   <!-- <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_amount"
+        android:layout_marginTop="@dimen/dimen_five_dp"
+        android:visibility="gone" />-->
+</LinearLayout>

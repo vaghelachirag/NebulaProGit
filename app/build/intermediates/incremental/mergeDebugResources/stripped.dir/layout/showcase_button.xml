@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nebulacompanies.ibo.view.MyButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ShowcaseButton"
+    android:text="@string/okay"
+    android:id="@+id/showcase_button" />

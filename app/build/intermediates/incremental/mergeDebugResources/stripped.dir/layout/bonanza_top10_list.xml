@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bonanza_leg_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="355dp"
+    android:layout_margin="@dimen/dimen_five_dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/table_effect_up"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="Top 10 list"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_title_callibri" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_dp"
+            android:background="@color/nebula"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/leg"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_title_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/ibo_id"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_title_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/ibo_name"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_title_callibri" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="Sales"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_title_callibri" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_effect_down"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_three_dp"
+                android:background="@drawable/drawable_rounded_white_popup"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/bonanza_listview_sales"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:fadeScrollbars="false"
+                    android:layoutAnimation="@anim/layout_animation_fall_down"
+                    android:smoothScrollbar="true" />
+
+                <include
+                    layout="@layout/layout_empty_view2"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

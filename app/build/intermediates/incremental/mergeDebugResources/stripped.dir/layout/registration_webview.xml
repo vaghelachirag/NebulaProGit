@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/nebula_new_dark"
+            android:elevation="4dp"
+            app:title="Registration"
+            app:titleTextAppearance="@style/ToolBarTextAppearanceBack"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progresbar"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="visible"
+            android:layout_marginTop="-5dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_below="@+id/my_toolbar"
+            app:mpb_indeterminateTint="@color/colorRadio"
+            app:mpb_progressStyle="horizontal" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_below="@+id/progresbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+        <!-- <pl.droidsonroids.gif.GifImageView
+             android:id="@+id/progressBar"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:background="@android:color/transparent"
+             android:src="@drawable/loader"
+             android:layout_centerInParent="true"
+             android:layout_gravity="center" />-->
+
+        <LinearLayout
+            android:id="@+id/ln_progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:animateLayoutChanges="true"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/qwert" />
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_five_dp"
+                android:text="Loading info..."
+                android:textAlignment="center"
+                android:textColor="@color/nebula"
+                android:textSize="@dimen/dimen_large_callibri"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_empty_view1"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -4,12 +4,12 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="16"
-6-->E:\Chirag\AndroidNebulaPro\nebulavideoplayer\src\main\AndroidManifest.xml
+6-->E:\NebulaGit\NebulaProGit\nebulavideoplayer\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="26" />
-7-->E:\Chirag\AndroidNebulaPro\nebulavideoplayer\src\main\AndroidManifest.xml
+7-->E:\NebulaGit\NebulaProGit\nebulavideoplayer\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-9-->E:\Chirag\AndroidNebulaPro\nebulavideoplayer\src\main\AndroidManifest.xml:4:5-79
-9-->E:\Chirag\AndroidNebulaPro\nebulavideoplayer\src\main\AndroidManifest.xml:4:22-76
+9-->E:\NebulaGit\NebulaProGit\nebulavideoplayer\src\main\AndroidManifest.xml:4:5-79
+9-->E:\NebulaGit\NebulaProGit\nebulavideoplayer\src\main\AndroidManifest.xml:4:22-76
 10
 11</manifest>

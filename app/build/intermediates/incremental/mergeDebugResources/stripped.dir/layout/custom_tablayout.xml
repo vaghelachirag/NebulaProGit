@@ -1,0 +1,47 @@
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen_thirty_dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_four_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dimen_five_dp"
+        android:layout_marginStart="@dimen/dimen_five_dp"
+        android:text="@string/id_details1"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/rl_ecom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="@dimen/dimen_two_dp"
+            android:layout_alignParentEnd="true"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_refresh"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+

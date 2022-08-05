@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbarweb" />
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_four_dp"
+        android:layout_marginTop="@dimen/dimen_four_dp"
+        android:layout_marginEnd="@dimen/dimen_four_dp"
+        android:layout_marginBottom="@dimen/dimen_five_dp"
+        android:visibility="gone" />
+
+
+    <include
+        layout="@layout/layout_empty_view_ecom"
+        android:visibility="gone" />
+</LinearLayout>

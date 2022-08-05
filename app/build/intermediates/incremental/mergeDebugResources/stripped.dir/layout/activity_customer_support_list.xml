@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout_search"
+        android:visibility="visible" />
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ly_message"
+        android:layout_below="@+id/progresbar"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include
+
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:visibility="visible" />
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+            android:id="@+id/tv_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_eight_dp"
+            android:text=""
+            android:gravity="center|start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_fourteen_dp"
+            android:textStyle="normal"
+            android:visibility="gone"
+            android:drawableRight="@drawable/ic_closed"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cn_chat_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="1">
+
+                <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                    android:id="@+id/et_message"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_eight_dp"
+                    android:layout_marginTop="@dimen/dimen_four_dp"
+                    android:layout_marginBottom="@dimen/dimen_four_dp"
+                    android:layout_weight="0.97"
+                    android:background="@drawable/drawable_address"
+                    android:drawableRight="@drawable/ic_attach_file"
+                    android:hint="Type a message"
+                    android:imeOptions="actionDone"
+                    android:maxLength="250"
+                    android:maxLines="3"
+                    android:drawablePadding="@dimen/dimen_ten_dp"
+                    android:paddingStart="@dimen/dimen_five_dp"
+                    android:paddingTop="@dimen/dimen_ten_dp"
+                    android:paddingRight="@dimen/dimen_ten_dp"
+                    android:paddingBottom="@dimen/dimen_ten_dp"
+                    android:scrollbars="vertical"
+                    android:singleLine="false"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="@dimen/dimen_fourteen_dp" />
+
+                <ImageView
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_forty_dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.03"
+                    android:padding="5dp"
+                    app:srcCompat="@drawable/ic_send" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

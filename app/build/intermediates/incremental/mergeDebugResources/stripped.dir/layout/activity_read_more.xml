@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout_search"
+        android:visibility="visible" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:id="@+id/tv_product_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_eight_dp"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:layout_marginEnd="@dimen/dimen_eight_dp"
+                android:layout_marginBottom="@dimen/dimen_four_dp"
+                android:paddingTop="@dimen/dimen_four_dp"
+                android:text="@string/product_desc"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_sixteens_sp" />
+
+            <View
+                android:id="@+id/view_product_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_one_dp"
+                android:layout_below="@+id/tv_product_description"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/tv_product_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_product_title"
+                android:layout_marginStart="@dimen/dimen_eight_dp"
+                android:layout_marginEnd="@dimen/dimen_eight_dp"
+                android:paddingBottom="@dimen/dimen_four_dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_thirteen_sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_ebc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_two_dp"
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/dimen_ten_dp"
+                android:scrollbars="vertical"
+                android:visibility="visible" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

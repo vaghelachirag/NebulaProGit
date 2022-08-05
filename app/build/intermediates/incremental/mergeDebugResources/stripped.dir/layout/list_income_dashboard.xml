@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/income_info"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginEnd="@dimen/dimen_five_dp"
+        android:layout_marginLeft="@dimen/dimen_five_dp"
+        android:layout_marginRight="@dimen/dimen_five_dp"
+        android:layout_marginStart="@dimen/dimen_five_dp"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/dimen_five_dp"
+        android:paddingLeft="@dimen/dimen_five_dp"
+        android:paddingRight="@dimen/dimen_five_dp"
+        android:paddingStart="@dimen/dimen_five_dp"
+        android:weightSum="5">
+
+        <cn.jzvd.AVLoadingIndicatorView
+            android:id="@+id/aviLoadingPackageIncome"
+            style="@style/AVLoadingIndicatorView.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"
+            app:indicatorColor="@color/nebula"
+            app:indicatorName="BallPulseIndicator" />
+
+        <ImageView
+            android:id="@+id/dashboard_images"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/dimen_five_dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/aavaas_logo" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/dashboard_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.35"
+            android:maxEms="2"
+            android:padding="@dimen/dimen_five_dp"
+            android:paddingEnd="@dimen/dimen_twenty_dp"
+            android:paddingRight="@dimen/dimen_twenty_dp"
+            android:text="@string/products"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/dashboard_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dimen_five_dp"
+            android:paddingEnd="@dimen/dimen_forty_dp"
+            android:paddingRight="@dimen/dimen_forty_dp"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+    </LinearLayout>
+</LinearLayout>

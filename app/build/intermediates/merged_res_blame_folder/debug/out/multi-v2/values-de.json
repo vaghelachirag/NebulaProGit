@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
-                {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,175,225,298,355",
-                        "endColumns": "74,49,72,56,52",
-                        "endOffsets": "170,220,293,350,403"
-                    },
-                    "to": {
-                        "startLines": "55,56,57,58,59",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "6288,6363,6413,6486,6543",
-                        "endColumns": "74,49,72,56,52",
-                        "endOffsets": "6358,6408,6481,6538,6591"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\e2239ab1f33150dab75c93d0796da1e8\\jetified-android-image-cropper-2.8.0\\res\\values-de\\values-de.xml",
                     "from": {
@@ -86,6 +69,23 @@
                         "startOffsets": "7447",
                         "endColumns": "104",
                         "endOffsets": "7547"
+                    }
+                },
+                {
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,175,225,298,355",
+                        "endColumns": "74,49,72,56,52",
+                        "endOffsets": "170,220,293,350,403"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "6288,6363,6413,6486,6543",
+                        "endColumns": "74,49,72,56,52",
+                        "endOffsets": "6358,6408,6481,6538,6591"
                     }
                 },
                 {

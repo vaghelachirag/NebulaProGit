@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
+                {
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,171,213,275,334",
+                        "endColumns": "70,41,61,58,54",
+                        "endOffsets": "166,208,270,329,384"
+                    },
+                    "to": {
+                        "startLines": "59,60,61,62,63",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "6134,6205,6247,6309,6368",
+                        "endColumns": "70,41,61,58,54",
+                        "endOffsets": "6200,6242,6304,6363,6418"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\6aacef7aea73fd4f4cfe2796fb6818b4\\mediarouter-1.2.5\\res\\values-ar\\values-ar.xml",
                     "from": {
@@ -156,23 +173,6 @@
                         "startOffsets": "7121",
                         "endColumns": "74",
                         "endOffsets": "7191"
-                    }
-                },
-                {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-ar\\values-ar.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,171,213,275,334",
-                        "endColumns": "70,41,61,58,54",
-                        "endOffsets": "166,208,270,329,384"
-                    },
-                    "to": {
-                        "startLines": "59,60,61,62,63",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "6134,6205,6247,6309,6368",
-                        "endColumns": "70,41,61,58,54",
-                        "endOffsets": "6200,6242,6304,6363,6418"
                     }
                 },
                 {

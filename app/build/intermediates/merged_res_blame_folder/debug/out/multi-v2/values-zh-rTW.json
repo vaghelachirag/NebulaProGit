@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\ad065216efd81afd7b82f812ea42b8f6\\jetified-play-services-gcm-17.0.0\\res\\values-zh-rTW\\values.xml",
@@ -159,7 +159,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOffer"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_ten_dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgcancel"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/imgcancel"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:id="@+id/snack_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                android:id="@+id/snack_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingTop="@dimen/dimen_five_dp"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:id="@+id/textadditems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:paddingTop="@dimen/dimen_ten_dp"
+                android:text="Add items"
+                android:textColor="@color/coloroffertext"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

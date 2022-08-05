@@ -1,0 +1,290 @@
+<LinearLayout android:id="@+id/ln_dashboard_income"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/table_effect"
+    android:layout_margin="@dimen/dimen_five_dp"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_three_dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_thirty_five_dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/nebula_new_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_four_dp">
+
+
+        <ImageView
+            style="@style/SelectableItemBackground"
+            android:layout_width="@dimen/dimen_twenty_dp"
+            android:layout_height="@dimen/dimen_twenty_dp"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/dimen_five_dp"
+            android:layout_marginStart="@dimen/dimen_five_dp"
+            android:src="@drawable/current_rank" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimen_five_dp"
+            android:layout_marginStart="@dimen/dimen_five_dp"
+            android:text="FamilyWise PV"
+            android:textColor="@android:color/white" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_ecom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/refreshFamilyPv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="@dimen/dimen_two_dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_refresh"
+                android:background="#00aaaa" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="15"
+        android:orientation="horizontal">
+
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="@dimen/dimen_five_dp"
+            android:singleLine="false"
+            android:layout_weight="3"
+            android:text="@string/families"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/pv_rank"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/pv_today"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/weekly_pv"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:text="@string/lifetime_pv"
+            android:textColor="@color/color_table_text"
+            android:textSize="@dimen/dimen_thirteen_sp" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/pv_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_light"/>
+
+    <LinearLayout
+
+        android:id="@+id/llEmpty_pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_rounded_white_popup"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/dimen_two_dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgError"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_cloud_off_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/txtErrorTitlepv"
+            style="@style/styleTextViewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/error_no_records"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/dimen_fourteen_sp" />
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/txtErrorSubTitlepv"
+            style="@style/styleTextViewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/error_no_records"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/txtRetrypv"
+            style="@style/styleTextViewLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/nebula_effect"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="Retry"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_no_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/drawable_rounded_white_popup"
+
+        android:gravity="center"
+        android:visibility="gone">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            style="@style/styleTextViewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_twenty_dp"
+            android:layout_marginStart="@dimen/dimen_ten_dp"
+            android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:gravity="center_horizontal"
+            android:text="@string/login_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dimen_thirty_five_dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen_ten_dp"
+            android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:layout_marginTop="@dimen/dimen_five_dp"
+            android:layout_marginBottom="@dimen/dimen_ten_dp"
+            android:background="@drawable/nebula_button_nologin_eftct_login_ecom"
+            android:gravity="center"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_sixteen_sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_pv"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="false"
+        android:scrollbars="horizontal"
+        android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@android:color/white">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_pv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false" />
+
+
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

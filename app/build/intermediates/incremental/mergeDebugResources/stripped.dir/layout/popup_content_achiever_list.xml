@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bonanza_leg_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="@dimen/dimen_five_dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/nebula">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width = "match_parent"
+            android:layout_height = "50dp"
+            android:background = "@drawable/table_effect"
+            android:weightSum="6.5">
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:text="@string/sr_no"
+                android:textColor="#ffffff" />
+
+            <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height = "wrap_content"
+                android:layout_weight="2"
+                android:gravity = "center"
+                android:padding = "5dp"
+                android:textColor = "#ffffff"
+                android:singleLine="false"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:text="@string/ibo_id"
+                android:layout_gravity="center"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:layout_width="0dp"
+                android:layout_height = "wrap_content"
+                android:layout_weight="3"
+                android:gravity = "center"
+                android:padding = "5dp"
+                android:textColor = "#ffffff"
+                android:singleLine="false"
+                android:text="@string/ibo_name"
+                android:textSize="@dimen/dimen_title_callibri"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/mini_bonanza_listview_income"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_two_dp"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:fadeScrollbars="false"
+            android:background="@drawable/drawable_rounded_white_popup"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:smoothScrollbar="true" />
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dream_volume_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_thirty_dp"
+            android:background="@color/nebula"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/date_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/date"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cfcfcf" />
+
+            <com.nebulacompanies.ibo.view.MyTextView
+                android:id="@+id/dv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="@string/dv_title"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/dimen_twelve_sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/dv_listview_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarThumbVertical="@drawable/scrollview"
+            android:smoothScrollbar="true" />
+
+        <include
+            layout="@layout/layout_empty_view"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

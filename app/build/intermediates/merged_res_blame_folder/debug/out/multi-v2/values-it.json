@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\6aacef7aea73fd4f4cfe2796fb6818b4\\mediarouter-1.2.5\\res\\values-it\\values-it.xml",
@@ -108,23 +108,6 @@
                     }
                 },
                 {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,173,220,294,357",
-                        "endColumns": "72,46,73,62,55",
-                        "endOffsets": "168,215,289,352,408"
-                    },
-                    "to": {
-                        "startLines": "55,56,57,58,59",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "6122,6195,6242,6316,6379",
-                        "endColumns": "72,46,73,62,55",
-                        "endOffsets": "6190,6237,6311,6374,6430"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\e2239ab1f33150dab75c93d0796da1e8\\jetified-android-image-cropper-2.8.0\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -190,6 +173,23 @@
                         "startOffsets": "14205",
                         "endColumns": "100",
                         "endOffsets": "14301"
+                    }
+                },
+                {
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,173,220,294,357",
+                        "endColumns": "72,46,73,62,55",
+                        "endOffsets": "168,215,289,352,408"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "6122,6195,6242,6316,6379",
+                        "endColumns": "72,46,73,62,55",
+                        "endOffsets": "6190,6237,6311,6374,6430"
                     }
                 }
             ]

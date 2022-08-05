@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dimen_sixty_dp"
+    android:layout_height="@dimen/dimen_sixty_dp"
+    android:background="@color/light_green">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_two_dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white">
+
+            <com.nebulacompanies.ibo.util.SquareFrameLayout
+                android:id="@+id/adapterRoot"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="@dimen/dimen_two_dp">
+
+                <ImageView
+                    android:id="@id/image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:focusable="false"
+                    android:scaleType="fitCenter" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#80AEDFAE" />
+            </com.nebulacompanies.ibo.util.SquareFrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/type"
+        android:layout_width="@dimen/dimen_fourteen_dp"
+        android:layout_height="@dimen/dimen_fourteen_dp"
+        android:layout_gravity="top|right"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/typecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:text="3"
+        android:paddingLeft="6dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="@dimen/dimen_eight_sp"
+        android:background="@drawable/suare_half"
+        android:textColor="@color/black" />
+</FrameLayout>

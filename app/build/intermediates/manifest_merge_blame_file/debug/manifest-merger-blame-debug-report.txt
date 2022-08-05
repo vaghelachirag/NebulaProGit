@@ -5,73 +5,73 @@
 5    android:versionName="1.1.73" >
 6
 7    <uses-sdk
-7-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+7-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
 8        android:minSdkVersion="21"
-8-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+8-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
 9        android:targetSdkVersion="30" />
-9-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:6:5-68
+9-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:6:5-68
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
 13         location permissions for the "MyLocation" functionality.
 14    -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:5-79
-15-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:12:22-76
+15-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:12:5-79
+15-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:12:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:5-67
-16-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:13:22-64
+16-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:13:5-67
+16-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:13:22-64
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
-17-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:5-79
-17-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:14:22-76
+17-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:14:5-79
+17-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:14:22-76
 18    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
-18-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:15:5-17:47
-18-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:16:9-64
+18-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:15:5-17:47
+18-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:16:9-64
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:5-81
-19-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:18:22-78
+19-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:18:5-81
+19-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:18:22-78
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:5-80
-20-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:19:22-77
+20-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:19:5-80
+20-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:19:22-77
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
-21-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:5-81
-21-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:20:22-78
+21-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:20:5-81
+21-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:20:22-78
 22    <uses-permission android:name="android.permission.CALL_PHONE" />
-22-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:5-69
-22-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:21:22-66
+22-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:21:5-69
+22-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:21:22-66
 23    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Removed due to Play Store Policy -->
-23-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:5-75
-23-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:22:22-72
+23-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:22:5-75
+23-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:22:22-72
 24
 25    <uses-permission android:name="android.permission.READ_PROFILE" />
-25-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:5-71
-25-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:24:22-68
+25-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:24:5-71
+25-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:24:22-68
 26    <uses-permission android:name="android.permission.CAMERA" />
-26-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:5-65
-26-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:25:22-62
+26-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:25:5-65
+26-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:25:22-62
 27    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-27-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:5-79
-27-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:26:22-76
+27-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:26:5-79
+27-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:26:22-76
 28
 29    <uses-feature
-29-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:28:5-30:35
+29-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:28:5-30:35
 30        android:name="android.hardware.camera"
-30-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:29:9-47
+30-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:29:9-47
 31        android:required="true" />
-31-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:30:9-32
+31-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:30:9-32
 32    <uses-feature
-32-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:32:5-34:36
+32-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:32:5-34:36
 33        android:name="android.hardware.camera.autofocus"
-33-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:33:9-57
+33-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:33:9-57
 34        android:required="false" />
-34-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:34:9-33
+34-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:34:9-33
 35
 36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-36-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:5-81
-36-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:36:22-78
+36-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:36:5-81
+36-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:36:22-78
 37    <uses-permission android:name="android.permission.WAKE_LOCK" />
-37-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:5-68
-37-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:37:22-65
+37-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:37:5-68
+37-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:37:22-65
 38
 39    <queries>
 39-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:9:5-20:15
@@ -87,8 +87,8 @@
 47        <intent>
 47-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:17:9-19:18
 48            <action android:name="android.intent.action.MAIN" />
-48-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
-48-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+48-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:22-74
+48-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:30-71
 49        </intent>
 50
 51        <package android:name="in.amazon.mShop.android.shopping" />
@@ -255,34 +255,34 @@
 110-->[com.google.android.play:core:1.10.2] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\b9e988bc6567919a85bb3dff4e135ed7\jetified-core-1.10.2\AndroidManifest.xml:13:22-74
 111
 112    <application
-112-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:39:5-828:19
+112-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:39:5-828:19
 113        android:name="com.nebulacompanies.ibo.IBOBackOffice"
-113-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:40:9-38
+113-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:40:9-38
 114        android:allowBackup="false"
-114-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:41:9-36
+114-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:41:9-36
 115        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 115-->[androidx.core:core:1.6.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fd1d89d0200088dc7e4fc5334366cdc4\core-1.6.0\AndroidManifest.xml:24:18-86
 116        android:debuggable="true"
-116-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:42:9-35
+116-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:42:9-35
 117        android:exported="true"
-117-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:43:9-32
+117-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:43:9-32
 118        android:hardwareAccelerated="true"
-118-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:44:9-43
+118-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:44:9-43
 119        android:icon="@drawable/app_logo"
-119-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:45:9-42
+119-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:45:9-42
 120        android:label="@string/app_name"
-120-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:46:9-41
+120-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:46:9-41
 121        android:largeHeap="true"
-121-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:47:9-33
+121-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:47:9-33
 122        android:requestLegacyExternalStorage="true"
-122-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:48:9-52
+122-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:48:9-52
 123        android:supportsRtl="true"
-123-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:49:9-35
+123-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:49:9-35
 124        android:testOnly="true"
 125        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
-125-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:50:9-77
+125-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:50:9-77
 126        android:usesCleartextTraffic="true" >
-126-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:51:9-44
+126-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:51:9-44
 127
 128        <!-- [START fcm_default_icon] -->
 129        <!--
@@ -290,21 +290,21 @@
 131             See README(https://goo.gl/l4GJaQ) for more.
 132        -->
 133        <meta-data
-133-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:59:9-61:60
+133-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:59:9-61:60
 134            android:name="com.google.firebase.messaging.default_notification_icon"
-134-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:60:13-83
+134-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:60:13-83
 135            android:resource="@mipmap/notification_icon" />
-135-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:61:13-57
+135-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:61:13-57
 136        <!--
 137             Set color used with incoming notification messages. This is used when no color is set for the incoming
 138             notification message. See README(https://goo.gl/6BKBk7) for more.
 139        -->
 140        <meta-data
-140-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:64:9-66:48
+140-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:64:9-66:48
 141            android:name="com.google.firebase.messaging.default_notification_color"
-141-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:65:13-84
+141-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:65:13-84
 142            android:resource="@color/nebula" />
-142-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:66:13-45
+142-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:66:13-45
 143        <!-- [END fcm_default_icon] -->
 144        <!-- [START fcm_default_channel] -->
 145        <!--
@@ -324,61 +324,61 @@
 159             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 160        -->
 161        <meta-data
-161-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:82:9-84:55
+161-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:82:9-84:55
 162            android:name="com.google.android.geo.API_KEY"
-162-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:83:13-58
+162-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:83:13-58
 163            android:value="@string/google_maps_key" />
-163-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:84:13-52
+163-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:84:13-52
 164
 165        <provider
 166            android:name="androidx.core.content.FileProvider"
-166-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:86:13-62
+166-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:86:13-62
 167            android:authorities="com.nebulacompanies.ibo.fileprovider"
-167-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:87:13-71
+167-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:87:13-71
 168            android:exported="false"
-168-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:88:13-37
+168-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:88:13-37
 169            android:grantUriPermissions="true" >
-169-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:89:13-47
+169-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:89:13-47
 170            <meta-data
-170-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:91:13-94:52
+170-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:91:13-94:52
 171                android:name="android.support.FILE_PROVIDER_PATHS"
-171-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:92:17-67
+171-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:92:17-67
 172                android:resource="@xml/file_paths" />
-172-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:93:17-51
+172-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:93:17-51
 173        </provider>
 174
 175        <activity
-175-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:96:9-101:57
+175-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:96:9-101:57
 176            android:name="com.nebulacompanies.ibo.activities.MyDownlineWeb"
-176-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:97:13-53
+176-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:97:13-53
 177            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-177-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:98:13-83
+177-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:98:13-83
 178            android:screenOrientation="portrait"
-178-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:99:13-49
+178-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:99:13-49
 179            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-179-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:100:13-69
+179-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:100:13-69
 180            android:windowSoftInputMode="stateHidden" />
-180-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:101:13-54
+180-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:101:13-54
 181
 182        <receiver
-182-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:103:9-113:20
+182-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:103:9-113:20
 183            android:name="com.nebulacompanies.ibo.util.NetworkChangeReceiver"
-183-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:104:13-55
+183-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:104:13-55
 184            android:exported="true"
-184-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:105:13-36
+184-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:105:13-36
 185            android:label="NetworkChangeReceiver" >
-185-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:106:13-50
+185-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:106:13-50
 186            <intent-filter>
-186-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:107:13-112:29
+186-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:107:13-112:29
 187                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
-187-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:17-85
-187-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:108:25-82
+187-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:108:17-85
+187-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:108:25-82
 188                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-188-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:17-79
-188-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:109:25-76
+188-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:109:17-79
+188-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:109:25-76
 189                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-189-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:17-78
-189-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:110:25-75
+189-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:110:17-78
+189-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:110:25-75
 190                <!--  -->
 191            </intent-filter>
 192        </receiver>
@@ -396,45 +396,45 @@
 204        -->
 205
 206        <receiver
-206-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:127:9-133:20
+206-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:127:9-133:20
 207            android:name="com.nebulacompanies.ibo.sms.SmsBroadcastReceiver"
-207-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:128:13-53
+207-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:128:13-53
 208            android:exported="true" >
-208-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:129:13-36
+208-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:129:13-36
 209            <intent-filter>
-209-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:130:13-132:29
+209-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:130:13-132:29
 210                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVE" />
-210-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:17-93
-210-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:131:25-90
+210-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:131:17-93
+210-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:131:25-90
 211            </intent-filter>
 212        </receiver>
 213
 214        <activity
-214-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:135:9-149:25
+214-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:135:9-149:25
 215            android:name="com.nebulacompanies.ibo.activities.StartUp"
-215-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:136:18-52
+215-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:136:18-52
 216            android:configChanges="keyboard|keyboardHidden|screenSize"
-216-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:137:18-76
+216-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:137:18-76
 217            android:exported="true"
-217-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:139:18-41
+217-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:139:18-41
 218            android:noHistory="true"
-218-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:138:18-42
+218-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:138:18-42
 219            android:theme="@style/StartUp"
-219-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:140:18-48
+219-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:140:18-48
 220            android:windowSoftInputMode="stateUnchanged|adjustResize|stateHidden|stateAlwaysHidden" >
-220-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:141:18-105
+220-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:141:18-105
 221            <intent-filter>
-221-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:142:18-147:34
+221-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:142:18-147:34
 222                <action android:name="android.intent.action.MAIN" />
-222-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
-222-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+222-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:22-74
+222-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:30-71
 223                <action android:name="android.intent.action.VIEW" />
-223-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:22-74
-223-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:144:30-71
+223-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:144:22-74
+223-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:144:30-71
 224
 225                <category android:name="android.intent.category.LAUNCHER" />
-225-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:22-82
-225-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:146:32-79
+225-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:146:22-82
+225-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:146:32-79
 226            </intent-filter>
 227        </activity>
 228        <!--
@@ -468,19 +468,19 @@
 256        </activity>
 257        -->
 258        <activity
-258-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:176:9-189:20
+258-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:176:9-189:20
 259            android:name="com.nebulacompanies.ibo.ecom.MyLatestCategoryActivity"
-259-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:177:13-58
+259-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:177:13-58
 260            android:configChanges="keyboard|keyboardHidden|screenSize"
-260-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:178:13-71
+260-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:178:13-71
 261            android:exported="true"
-261-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:179:13-36
+261-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:179:13-36
 262            android:noHistory="true"
-262-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:180:13-37
+262-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:180:13-37
 263            android:theme="@style/StartUp"
-263-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:181:13-43
+263-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:181:13-43
 264            android:windowSoftInputMode="stateUnchanged|adjustResize|stateHidden|stateAlwaysHidden" >
-264-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:182:13-100
+264-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:182:13-100
 265
 266            <!--
 267            <intent-filter>
@@ -493,94 +493,94 @@
 274        </activity>
 275
 276        <uses-library
-276-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:190:9-192:40
+276-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:190:9-192:40
 277            android:name="org.apache.http.legacy"
-277-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:191:13-50
+277-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:191:13-50
 278            android:required="false" />
-278-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:192:13-37
+278-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:192:13-37
 279
 280        <activity
-280-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:194:9-198:72
+280-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:194:9-198:72
 281            android:name="com.nebulacompanies.ibo.activities.PinActivity"
-281-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:195:13-51
+281-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:195:13-51
 282            android:configChanges="keyboard|keyboardHidden|screenSize"
-282-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:196:13-71
+282-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:196:13-71
 283            android:screenOrientation="portrait"
-283-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:197:13-49
+283-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:197:13-49
 284            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-284-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:198:13-69
+284-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:198:13-69
 285        <activity
-285-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:199:9-203:54
+285-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:199:9-203:54
 286            android:name="com.nebulacompanies.ibo.activities.IdcardActivity"
-286-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:200:13-54
+286-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:200:13-54
 287            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-287-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:201:13-83
+287-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:201:13-83
 288            android:screenOrientation="portrait"
-288-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:202:13-49
+288-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:202:13-49
 289            android:theme="@style/Theme.AppCompat" />
-289-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:203:13-51
+289-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:203:13-51
 290        <activity
-290-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:205:9-209:72
+290-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:205:9-209:72
 291            android:name="com.nebulacompanies.ibo.activities.ContactUs"
-291-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:206:13-49
+291-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:206:13-49
 292            android:configChanges="keyboard|keyboardHidden|screenSize"
-292-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:207:13-71
+292-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:207:13-71
 293            android:screenOrientation="portrait"
-293-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:208:13-49
+293-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:208:13-49
 294            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-294-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:209:13-69
+294-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:209:13-69
 295        <activity
-295-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:210:9-214:72
+295-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:210:9-214:72
 296            android:name="com.nebulacompanies.ibo.ecom.ShowFullScreenAttachment"
-296-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:211:13-58
+296-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:211:13-58
 297            android:configChanges="keyboard|keyboardHidden|screenSize"
-297-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:212:13-71
+297-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:212:13-71
 298            android:screenOrientation="portrait"
-298-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:213:13-49
+298-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:213:13-49
 299            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-299-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:214:13-69
+299-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:214:13-69
 300        <activity
-300-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:215:9-218:74
+300-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:215:9-218:74
 301            android:name="com.nebulacompanies.ibo.activities.ProductListDwarka"
-301-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:216:13-57
+301-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:216:13-57
 302            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-302-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:217:13-83
+302-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:217:13-83
 303            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-303-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:218:13-71
+303-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:218:13-71
 304        <activity
-304-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:219:9-222:74
+304-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:219:9-222:74
 305            android:name="com.nebulacompanies.ibo.activities.ProductListHyderabad"
-305-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:220:13-60
+305-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:220:13-60
 306            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-306-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:221:13-83
+306-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:221:13-83
 307            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-307-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:222:13-71
+307-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:222:13-71
 308        <activity
-308-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:223:9-226:74
+308-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:223:9-226:74
 309            android:name="com.nebulacompanies.ibo.activities.GenerationIncome"
-309-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:224:13-56
+309-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:224:13-56
 310            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-310-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:225:13-83
+310-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:225:13-83
 311            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-311-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:226:13-71
+311-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:226:13-71
 312        <activity
-312-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:227:9-230:74
+312-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:227:9-230:74
 313            android:name="com.nebulacompanies.ibo.activities.GoldIncome"
-313-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:228:13-50
+313-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:228:13-50
 314            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-314-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:229:13-83
+314-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:229:13-83
 315            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-315-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:230:13-71
+315-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:230:13-71
 316        <activity
-316-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:231:9-248:20
+316-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:231:9-248:20
 317            android:name="com.nebulacompanies.ibo.MainActivityDemo"
-317-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:232:13-45
+317-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:232:13-45
 318            android:launchMode="singleInstance"
-318-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:234:13-48
+318-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:234:13-48
 319            android:theme="@style/MaterialAnimations.White"
-319-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:233:13-60
+319-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:233:13-60
 320            android:windowSoftInputMode="stateHidden" >
-320-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:235:13-54
+320-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:235:13-54
 321
 322            <!--
 323            <intent-filter android:autoVerify="true">
@@ -595,135 +595,135 @@
 332            -->
 333        </activity>
 334        <activity
-334-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:249:9-253:66
+334-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:249:9-253:66
 335            android:name="com.nebulacompanies.ibo.activities.SiteProducts"
-335-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:250:13-52
+335-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:250:13-52
 336            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-336-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:251:13-83
+336-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:251:13-83
 337            android:screenOrientation="portrait"
-337-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:252:13-49
+337-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:252:13-49
 338            android:theme="@style/Theme.AppCompat.NoActionBar" />
-338-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:253:13-63
+338-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:253:13-63
 339        <activity
-339-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:254:9-258:66
+339-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:254:9-258:66
 340            android:name="com.nebulacompanies.ibo.activities.NewCompanyEvent"
-340-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:255:13-55
+340-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:255:13-55
 341            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-341-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:256:13-83
+341-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:256:13-83
 342            android:screenOrientation="portrait"
-342-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:257:13-49
+342-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:257:13-49
 343            android:theme="@style/Theme.AppCompat.NoActionBar" />
-343-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:258:13-63
+343-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:258:13-63
 344        <activity
-344-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:259:9-263:66
+344-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:259:9-263:66
 345            android:name="com.nebulacompanies.ibo.activities.OrderListActivity"
-345-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:260:13-57
+345-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:260:13-57
 346            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-346-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:261:13-83
+346-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:261:13-83
 347            android:screenOrientation="portrait"
-347-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:262:13-49
+347-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:262:13-49
 348            android:theme="@style/Theme.AppCompat.NoActionBar" />
-348-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:263:13-63
+348-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:263:13-63
 349        <activity
-349-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:264:9-269:57
+349-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:264:9-269:57
 350            android:name="com.nebulacompanies.ibo.activities.ChangodarBanner"
-350-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:265:13-55
+350-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:265:13-55
 351            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-351-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:266:13-83
+351-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:266:13-83
 352            android:screenOrientation="portrait"
-352-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:267:13-49
+352-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:267:13-49
 353            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-353-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:268:13-69
+353-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:268:13-69
 354            android:windowSoftInputMode="stateHidden" />
-354-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:269:13-54
+354-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:269:13-54
 355        <activity
-355-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:270:9-275:57
+355-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:270:9-275:57
 356            android:name="com.nebulacompanies.ibo.activities.SiteProductsWeb"
-356-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:271:13-55
+356-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:271:13-55
 357            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-357-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:272:13-83
+357-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:272:13-83
 358            android:screenOrientation="portrait"
-358-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:273:13-49
+358-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:273:13-49
 359            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-359-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:274:13-69
+359-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:274:13-69
 360            android:windowSoftInputMode="stateHidden" />
-360-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:275:13-54
+360-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:275:13-54
 361        <activity
-361-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:276:9-280:66
+361-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:276:9-280:66
 362            android:name="com.nebulacompanies.ibo.activities.ViewEvents"
-362-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:277:13-50
+362-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:277:13-50
 363            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-363-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:278:13-83
+363-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:278:13-83
 364            android:screenOrientation="portrait"
-364-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:279:13-49
+364-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:279:13-49
 365            android:theme="@style/Theme.AppCompat.NoActionBar" />
-365-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:280:13-63
+365-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:280:13-63
 366        <activity
-366-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:281:9-285:54
+366-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:281:9-285:54
 367            android:name="com.nebulacompanies.ibo.activities.ShowFullScreenEvents"
-367-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:282:13-60
+367-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:282:13-60
 368            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-368-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:283:13-83
+368-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:283:13-83
 369            android:screenOrientation="portrait"
-369-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:284:13-49
+369-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:284:13-49
 370            android:theme="@style/Theme.AppCompat" />
-370-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:285:13-51
+370-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:285:13-51
 371        <activity
-371-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:286:9-289:74
+371-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:286:9-289:74
 372            android:name="com.nebulacompanies.ibo.activities.SpotIncome"
-372-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:287:13-50
+372-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:287:13-50
 373            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-373-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:288:13-83
+373-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:288:13-83
 374            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-374-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:289:13-71
+374-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:289:13-71
 375        <activity
-375-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:290:9-293:74
+375-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:290:9-293:74
 376            android:name="com.nebulacompanies.ibo.activities.StarClubIncome"
-376-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:291:13-54
+376-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:291:13-54
 377            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-377-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:292:13-83
+377-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:292:13-83
 378            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-378-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:293:13-71
+378-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:293:13-71
 379        <activity
-379-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:294:9-297:74
+379-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:294:9-297:74
 380            android:name="com.nebulacompanies.ibo.activities.RankBonusIncome"
-380-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:295:13-55
+380-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:295:13-55
 381            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-381-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:296:13-83
+381-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:296:13-83
 382            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-382-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:297:13-71
+382-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:297:13-71
 383        <activity
-383-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:298:9-301:74
+383-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:298:9-301:74
 384            android:name="com.nebulacompanies.ibo.activities.SponsorIncome"
-384-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:299:13-53
+384-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:299:13-53
 385            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-385-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:300:13-83
+385-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:300:13-83
 386            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-386-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:301:13-71
+386-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:301:13-71
 387        <activity
-387-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:302:9-305:74
+387-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:302:9-305:74
 388            android:name="com.nebulacompanies.ibo.activities.SalesAavaas"
-388-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:303:13-51
+388-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:303:13-51
 389            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-389-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:304:13-83
+389-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:304:13-83
 390            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-390-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:305:13-71
+390-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:305:13-71
 391        <activity
-391-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:306:9-309:74
+391-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:306:9-309:74
 392            android:name="com.nebulacompanies.ibo.activities.SalesDwarka"
-392-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:307:13-51
+392-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:307:13-51
 393            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-393-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:308:13-83
+393-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:308:13-83
 394            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-394-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:309:13-71
+394-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:309:13-71
 395        <activity
-395-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:310:9-313:74
+395-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:310:9-313:74
 396            android:name="com.nebulacompanies.ibo.activities.SalesHoliday"
-396-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:311:13-52
+396-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:311:13-52
 397            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-397-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:312:13-83
+397-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:312:13-83
 398            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-398-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:313:13-71
+398-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:313:13-71
 399        <!--
 400  <activity
 401              android:name=".fragments.DownloadsFragment"
@@ -731,23 +731,23 @@
 403              android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 404        -->
 405        <activity
-405-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:320:9-323:54
+405-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:320:9-323:54
 406            android:name="com.nebulacompanies.ibo.activities.DownloadRateCharts"
-406-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:321:13-58
+406-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:321:13-58
 407            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-407-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:322:13-83
+407-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:322:13-83
 408            android:theme="@style/Theme.AppCompat" />
-408-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:323:13-51
+408-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:323:13-51
 409        <activity
-409-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:324:9-328:63
+409-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:324:9-328:63
 410            android:name="com.nebulacompanies.ibo.activities.DashboardActivity"
-410-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:325:13-57
+410-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:325:13-57
 411            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-411-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:326:13-83
+411-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:326:13-83
 412            android:hardwareAccelerated="true"
-412-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:327:13-47
+412-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:327:13-47
 413            android:theme="@style/MaterialAnimations.White" /> <!-- android:screenOrientation="sensor" -->
-413-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:328:13-60
+413-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:328:13-60
 414        <!--
 415  <activity
 416              android:name=".web.DashBoardFragmentWeb"
@@ -775,77 +775,77 @@
 438              android:theme="@style/MaterialAnimations.White" />
 439        -->
 440        <activity
-440-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:355:9-360:57
+440-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:355:9-360:57
 441            android:name="com.nebulacompanies.ibo.activities.MyIncomeActivityWeb"
-441-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:356:13-59
+441-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:356:13-59
 442            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-442-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:357:13-83
+442-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:357:13-83
 443            android:screenOrientation="portrait"
-443-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:358:13-49
+443-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:358:13-49
 444            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-444-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:359:13-69
+444-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:359:13-69
 445            android:windowSoftInputMode="stateHidden" />
-445-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:360:13-54
+445-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:360:13-54
 446        <activity
-446-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:361:9-366:57
+446-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:361:9-366:57
 447            android:name="com.nebulacompanies.ibo.activities.MyIboListActivityWeb"
-447-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:362:13-60
+447-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:362:13-60
 448            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-448-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:363:13-83
+448-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:363:13-83
 449            android:screenOrientation="portrait"
-449-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:364:13-49
+449-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:364:13-49
 450            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-450-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:365:13-69
+450-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:365:13-69
 451            android:windowSoftInputMode="stateHidden" />
-451-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:366:13-54
+451-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:366:13-54
 452        <activity
-452-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:367:9-372:57
+452-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:367:9-372:57
 453            android:name="com.nebulacompanies.ibo.activities.MyProductsActivityWeb"
-453-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:368:13-61
+453-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:368:13-61
 454            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-454-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:369:13-83
+454-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:369:13-83
 455            android:screenOrientation="portrait"
-455-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:370:13-49
+455-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:370:13-49
 456            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-456-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:371:13-69
+456-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:371:13-69
 457            android:windowSoftInputMode="stateHidden" />
-457-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:372:13-54
+457-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:372:13-54
 458        <activity
-458-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:373:9-378:57
+458-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:373:9-378:57
 459            android:name="com.nebulacompanies.ibo.activities.EcomPromosActivityWeb"
-459-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:374:13-61
+459-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:374:13-61
 460            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-460-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:375:13-83
+460-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:375:13-83
 461            android:screenOrientation="portrait"
-461-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:376:13-49
+461-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:376:13-49
 462            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-462-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:377:13-69
+462-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:377:13-69
 463            android:windowSoftInputMode="stateHidden" />
-463-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:378:13-54
+463-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:378:13-54
 464        <activity
-464-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:379:9-384:57
+464-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:379:9-384:57
 465            android:name="com.nebulacompanies.ibo.activities.MyDownlineActivityWeb"
-465-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:380:13-61
+465-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:380:13-61
 466            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-466-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:381:13-83
+466-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:381:13-83
 467            android:screenOrientation="portrait"
-467-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:382:13-49
+467-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:382:13-49
 468            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-468-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:383:13-69
+468-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:383:13-69
 469            android:windowSoftInputMode="stateHidden" />
-469-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:384:13-54
+469-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:384:13-54
 470        <activity
-470-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:385:9-390:57
+470-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:385:9-390:57
 471            android:name="com.nebulacompanies.ibo.ecom.BusinessActivity"
-471-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:386:13-50
+471-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:386:13-50
 472            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-472-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:387:13-83
+472-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:387:13-83
 473            android:screenOrientation="portrait"
-473-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:388:13-49
+473-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:388:13-49
 474            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-474-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:389:13-69
+474-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:389:13-69
 475            android:windowSoftInputMode="stateHidden" />
-475-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:390:13-54
+475-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:390:13-54
 476        <!--
 477 <activity
 478             android:name=".web.MyIncomeFragmentWeb"
@@ -883,18 +883,18 @@
 510        -->
 511
 512        <service
-512-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:426:9-433:19
+512-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:426:9-433:19
 513            android:name="com.nebulacompanies.ibo.firebase.MyFirebaseMessagingService"
-513-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:427:13-64
+513-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:427:13-64
 514            android:exported="true"
-514-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:428:13-36
+514-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:428:13-36
 515            android:resource="@drawable/app_logo" >
-515-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:429:13-50
+515-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:429:13-50
 516            <intent-filter>
-516-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:430:13-432:29
+516-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:430:13-432:29
 517                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-517-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:17-78
-517-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:25-75
+517-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:17-78
+517-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:25-75
 518            </intent-filter>
 519        </service>
 520        <!--
@@ -906,193 +906,193 @@
 526            android:resource="@color/nebula" />
 527        -->
 528        <activity
-528-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:442:9-445:74
+528-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:442:9-445:74
 529            android:name="com.nebulacompanies.ibo.activities.BonanzaIncome"
-529-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:443:13-53
+529-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:443:13-53
 530            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-530-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:444:13-83
+530-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:444:13-83
 531            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" /> <!-- Modified By Jadav Chirag -->
-531-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:445:13-71
+531-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:445:13-71
 532        <activity
-532-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:446:9-449:74
+532-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:446:9-449:74
 533            android:name="com.nebulacompanies.ibo.activities.RetailIncome"
-533-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:447:13-52
+533-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:447:13-52
 534            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-534-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:448:13-83
+534-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:448:13-83
 535            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-535-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:449:13-71
+535-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:449:13-71
 536        <activity
-536-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:450:9-453:74
+536-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:450:9-453:74
 537            android:name="com.nebulacompanies.ibo.activities.DreamVolume"
-537-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:451:13-51
+537-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:451:13-51
 538            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-538-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:452:13-83
+538-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:452:13-83
 539            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-539-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:453:13-71
+539-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:453:13-71
 540        <activity
-540-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:454:9-457:74
+540-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:454:9-457:74
 541            android:name="com.nebulacompanies.ibo.activities.BoosterIncome"
-541-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:455:13-53
+541-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:455:13-53
 542            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-542-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:456:13-83
+542-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:456:13-83
 543            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-543-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:457:13-71
+543-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:457:13-71
 544        <activity
-544-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:458:9-461:74
+544-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:458:9-461:74
 545            android:name="com.nebulacompanies.ibo.activities.SuperBoosterIncome"
-545-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:459:13-58
+545-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:459:13-58
 546            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-546-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:460:13-83
+546-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:460:13-83
 547            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-547-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:461:13-71
+547-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:461:13-71
 548        <activity
-548-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:462:9-465:74
+548-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:462:9-465:74
 549            android:name="com.nebulacompanies.ibo.activities.LeadershipBonus"
-549-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:463:13-55
+549-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:463:13-55
 550            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-550-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:464:13-83
+550-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:464:13-83
 551            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-551-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:465:13-71
+551-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:465:13-71
 552        <activity
-552-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:466:9-469:74
+552-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:466:9-469:74
 553            android:name="com.nebulacompanies.ibo.activities.SuBoosterIncome"
-553-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:467:13-55
+553-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:467:13-55
 554            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-554-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:468:13-83
+554-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:468:13-83
 555            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-555-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:469:13-71
+555-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:469:13-71
 556        <activity
-556-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:470:9-473:74
+556-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:470:9-473:74
 557            android:name="com.nebulacompanies.ibo.activities.CarProgramIncome"
-557-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:471:13-56
+557-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:471:13-56
 558            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-558-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:472:13-83
+558-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:472:13-83
 559            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-559-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:473:13-71
+559-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:473:13-71
 560        <activity
-560-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:474:9-477:74
+560-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:474:9-477:74
 561            android:name="com.nebulacompanies.ibo.activities.ThreeStarClubIncome"
-561-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:475:13-59
+561-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:475:13-59
 562            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-562-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:476:13-83
+562-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:476:13-83
 563            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-563-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:477:13-71
+563-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:477:13-71
 564        <activity
-564-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:478:9-482:54
+564-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:478:9-482:54
 565            android:name="com.nebulacompanies.ibo.activities.SettingFragment"
-565-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:479:13-55
+565-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:479:13-55
 566            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-566-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:480:13-83
+566-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:480:13-83
 567            android:screenOrientation="portrait"
-567-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:481:13-49
+567-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:481:13-49
 568            android:theme="@style/Theme.AppCompat" />
-568-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:482:13-51
+568-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:482:13-51
 569        <activity
-569-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:483:9-486:74
+569-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:483:9-486:74
 570            android:name="com.nebulacompanies.ibo.activities.HolidayAchiever"
-570-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:484:13-55
+570-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:484:13-55
 571            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-571-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:485:13-83
+571-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:485:13-83
 572            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-572-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:486:13-71
+572-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:486:13-71
 573        <activity
-573-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:487:9-491:58
+573-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:487:9-491:58
 574            android:name="com.nebulacompanies.ibo.activities.LoginActivity"
-574-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:488:13-53
+574-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:488:13-53
 575            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-575-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:489:13-83
+575-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:489:13-83
 576            android:theme="@style/MaterialAnimations.White"
-576-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:490:13-60
+576-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:490:13-60
 577            android:windowSoftInputMode="adjustResize" />
-577-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:491:13-55
+577-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:491:13-55
 578        <activity
-578-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:492:9-496:58
+578-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:492:9-496:58
 579            android:name="com.nebulacompanies.ibo.activities.LoginSkipActivity"
-579-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:493:13-57
+579-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:493:13-57
 580            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-580-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:494:13-83
+580-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:494:13-83
 581            android:theme="@style/MaterialAnimations.White"
-581-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:495:13-60
+581-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:495:13-60
 582            android:windowSoftInputMode="adjustResize" />
-582-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:496:13-55
+582-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:496:13-55
 583        <activity
-583-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:497:9-501:58
+583-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:497:9-501:58
 584            android:name="com.nebulacompanies.ibo.activities.LoginSkipDialog"
-584-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:498:13-55
+584-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:498:13-55
 585            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-585-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:499:13-83
+585-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:499:13-83
 586            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
-586-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:500:13-70
+586-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:500:13-70
 587            android:windowSoftInputMode="adjustResize" />
-587-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:501:13-55
+587-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:501:13-55
 588        <activity
-588-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:502:9-506:58
+588-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:502:9-506:58
 589            android:name="com.nebulacompanies.ibo.activities.SessionOverDialog"
-589-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:503:13-57
+589-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:503:13-57
 590            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-590-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:504:13-83
+590-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:504:13-83
 591            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
-591-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:505:13-70
+591-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:505:13-70
 592            android:windowSoftInputMode="adjustResize" />
-592-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:506:13-55
+592-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:506:13-55
 593        <activity
-593-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:507:9-510:63
+593-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:507:9-510:63
 594            android:name="com.nebulacompanies.ibo.activities.NoLoginActivity"
-594-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:508:13-55
+594-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:508:13-55
 595            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-595-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:509:13-83
+595-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:509:13-83
 596            android:theme="@style/MaterialAnimations.White" />
-596-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:510:13-60
+596-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:510:13-60
 597        <activity
-597-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:511:9-514:63
+597-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:511:9-514:63
 598            android:name="com.nebulacompanies.ibo.activities.PrivacyPolicyActivity"
-598-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:512:13-61
+598-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:512:13-61
 599            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-599-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:513:13-83
+599-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:513:13-83
 600            android:theme="@style/MaterialAnimations.White" />
-600-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:514:13-60
+600-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:514:13-60
 601        <activity
-601-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:515:9-519:67
+601-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:515:9-519:67
 602            android:name="com.nebulacompanies.ibo.activities.RegistationActivity"
-602-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:516:13-59
+602-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:516:13-59
 603            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-603-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:517:13-83
+603-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:517:13-83
 604            android:theme="@style/MaterialAnimations.White"
-604-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:518:13-60
+604-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:518:13-60
 605            android:windowSoftInputMode="stateHidden|adjustPan" />
-605-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:519:13-64
+605-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:519:13-64
 606        <activity
-606-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:520:9-524:67
+606-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:520:9-524:67
 607            android:name="com.nebulacompanies.ibo.activities.RegistationFullActivity"
-607-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:521:13-63
+607-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:521:13-63
 608            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-608-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:522:13-83
+608-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:522:13-83
 609            android:theme="@style/MaterialAnimations.White"
-609-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:523:13-60
+609-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:523:13-60
 610            android:windowSoftInputMode="stateHidden|adjustPan" />
-610-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:524:13-64
+610-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:524:13-64
 611        <activity
-611-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:525:9-529:71
+611-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:525:9-529:71
 612            android:name="com.nebulacompanies.ibo.activities.RegistrationFullWebview"
-612-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:526:13-63
+612-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:526:13-63
 613            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-613-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:527:13-83
+613-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:527:13-83
 614            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-614-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:528:13-69
+614-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:528:13-69
 615            android:windowSoftInputMode="stateVisible|adjustResize" />
-615-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:529:13-68
+615-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:529:13-68
 616        <activity
-616-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:530:9-535:71
+616-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:530:9-535:71
 617            android:name="com.nebulacompanies.ibo.activities.RegistrationUpdateKYCWebview"
-617-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:531:13-68
+617-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:531:13-68
 618            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-618-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:532:13-83
+618-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:532:13-83
 619            android:screenOrientation="portrait"
-619-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:533:13-49
+619-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:533:13-49
 620            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-620-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:534:13-69
+620-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:534:13-69
 621            android:windowSoftInputMode="stateVisible|adjustResize" />
-621-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:535:13-68
+621-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:535:13-68
 622        <!--
 623<activity android:name=".activities.UploadDocument"
 624            android:screenOrientation="portrait"
@@ -1101,124 +1101,124 @@
 627            android:windowSoftInputMode="stateHidden|adjustResize"/>
 628        -->
 629        <activity
-629-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:543:9-547:74
+629-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:543:9-547:74
 630            android:name="com.nebulacompanies.ibo.activities.UploadDocument"
-630-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:544:13-54
+630-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:544:13-54
 631            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-631-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:545:13-83
+631-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:545:13-83
 632            android:screenOrientation="portrait"
-632-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:546:13-49
+632-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:546:13-49
 633            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-633-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:547:13-71
+633-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:547:13-71
 634        <activity
-634-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:548:9-553:57
+634-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:548:9-553:57
 635            android:name="com.nebulacompanies.ibo.activities.RegistrationActivityWebview"
-635-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:549:13-67
+635-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:549:13-67
 636            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-636-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:550:13-83
+636-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:550:13-83
 637            android:screenOrientation="portrait"
-637-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:551:13-49
+637-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:551:13-49
 638            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-638-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:552:13-69
+638-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:552:13-69
 639            android:windowSoftInputMode="stateHidden" />
-639-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:553:13-54
+639-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:553:13-54
 640        <activity
-640-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:554:9-559:67
+640-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:554:9-559:67
 641            android:name="com.nebulacompanies.ibo.activities.UpdateProfile"
-641-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:555:13-53
+641-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:555:13-53
 642            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-642-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:556:13-83
+642-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:556:13-83
 643            android:screenOrientation="portrait"
-643-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:557:13-49
+643-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:557:13-49
 644            android:theme="@style/MaterialAnimations.White"
-644-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:558:13-60
+644-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:558:13-60
 645            android:windowSoftInputMode="stateHidden|adjustPan" />
-645-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:559:13-64
+645-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:559:13-64
 646        <activity
-646-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:560:9-563:66
+646-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:560:9-563:66
 647            android:name="com.nebulacompanies.ibo.activities.IBONotifications"
-647-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:561:13-56
+647-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:561:13-56
 648            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-648-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:562:13-83
+648-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:562:13-83
 649            android:theme="@style/Theme.AppCompat.NoActionBar" />
-649-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:563:13-63
+649-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:563:13-63
 650        <activity
-650-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:564:9-567:59
+650-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:564:9-567:59
 651            android:name="com.nebulacompanies.ibo.activities.TakeTourActivity"
-651-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:565:13-56
+651-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:565:13-56
 652            android:screenOrientation="portrait"
-652-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:566:13-49
+652-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:566:13-49
 653            android:theme="@style/AppTheme.NoActionBar" /> <!-- Customer booking App -->
-653-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:567:13-56
+653-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:567:13-56
 654        <activity
-654-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:568:9-571:59
+654-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:568:9-571:59
 655            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-655-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:569:13-76
+655-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:569:13-76
 656            android:screenOrientation="portrait"
-656-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:570:13-49
+656-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:570:13-49
 657            android:theme="@style/Base.Theme.AppCompat" />
-657-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:571:13-56
+657-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:571:13-56
 658        <activity
-658-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:572:9-575:74
+658-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:572:9-575:74
 659            android:name="com.nebulacompanies.ibo.activities.ProductListHoliday"
-659-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:573:13-58
+659-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:573:13-58
 660            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-660-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:574:13-83
+660-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:574:13-83
 661            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-661-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:575:13-71
+661-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:575:13-71
 662
 663        <meta-data
-663-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:577:9-579:35
+663-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:577:9-579:35
 664            android:name="com.google.android.gms.vision.DEPENDENCIES"
-664-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:578:13-70
+664-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:578:13-70
 665            android:value="ocr" />
-665-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:579:13-32
+665-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:579:13-32
 666
 667        <provider
 668            android:name="androidx.core.content.FileProvider"
-668-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:86:13-62
+668-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:86:13-62
 669            android:authorities="com.nebulacompanies.ibo.provider"
-669-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:87:13-71
+669-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:87:13-71
 670            android:exported="false"
-670-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:88:13-37
+670-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:88:13-37
 671            android:grantUriPermissions="true" >
-671-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:89:13-47
+671-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:89:13-47
 672            <meta-data
-672-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:91:13-94:52
+672-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:91:13-94:52
 673                android:name="android.support.FILE_PROVIDER_PATHS"
-673-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:92:17-67
+673-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:92:17-67
 674                android:resource="@xml/provider_paths" />
-674-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:93:17-51
+674-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:93:17-51
 675        </provider>
 676
 677        <activity
-677-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:591:9-593:59
+677-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:591:9-593:59
 678            android:name="com.nebulacompanies.ibo.MapsActivity"
-678-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:592:13-41
+678-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:592:13-41
 679            android:label="@string/title_activity_maps" /> <!-- ECOM -->
-679-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:593:13-56
+679-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:593:13-56
 680        <activity
-680-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:594:9-597:52
+680-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:594:9-597:52
 681            android:name="com.nebulacompanies.ibo.ecom.MyLocationUsingHelper"
-681-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:595:13-55
+681-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:595:13-55
 682            android:label="MyLocation"
-682-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:596:13-39
+682-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:596:13-39
 683            android:screenOrientation="portrait" />
-683-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:597:13-49
+683-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:597:13-49
 684        <activity
-684-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:598:9-600:63
+684-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:598:9-600:63
 685            android:name="com.nebulacompanies.ibo.ecom.MyLocationUsingLocationAPI"
-685-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:599:13-60
+685-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:599:13-60
 686            android:theme="@style/MaterialAnimations.White" />
-686-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:600:13-60
+686-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:600:13-60
 687        <activity
-687-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:601:9-617:20
+687-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:601:9-617:20
 688            android:name="com.nebulacompanies.ibo.ecom.MainActivity"
-688-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:602:13-46
+688-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:602:13-46
 689            android:theme="@style/MaterialAnimations.White"
-689-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:603:13-60
+689-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:603:13-60
 690            android:windowSoftInputMode="stateHidden" >
-690-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:604:13-54
+690-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:604:13-54
 691
 692            <!--
 693            <intent-filter android:autoVerify="true">
@@ -1233,107 +1233,107 @@
 702            -->
 703        </activity>
 704        <activity
-704-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:618:9-622:57
+704-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:618:9-622:57
 705            android:name="com.nebulacompanies.ibo.ecom.ProductDescription"
-705-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:619:13-52
+705-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:619:13-52
 706            android:screenOrientation="portrait"
-706-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:620:13-49
+706-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:620:13-49
 707            android:theme="@style/AppTheme.NoActionBar"
-707-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:621:13-56
+707-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:621:13-56
 708            android:windowSoftInputMode="stateHidden" />
-708-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:622:13-54
+708-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:622:13-54
 709        <activity
-709-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:623:9-627:57
+709-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:623:9-627:57
 710            android:name="com.nebulacompanies.ibo.ecom.TrackOrderActivity"
-710-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:624:13-52
+710-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:624:13-52
 711            android:screenOrientation="portrait"
-711-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:625:13-49
+711-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:625:13-49
 712            android:theme="@style/AppTheme.NoActionBar"
-712-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:626:13-56
+712-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:626:13-56
 713            android:windowSoftInputMode="stateHidden" />
-713-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:627:13-54
+713-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:627:13-54
 714        <activity
-714-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:628:9-632:57
+714-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:628:9-632:57
 715            android:name="com.nebulacompanies.ibo.ecom.MyCartActivity"
-715-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:629:13-48
+715-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:629:13-48
 716            android:screenOrientation="portrait"
-716-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:630:13-49
+716-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:630:13-49
 717            android:theme="@style/AppTheme.NoActionBar"
-717-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:631:13-56
+717-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:631:13-56
 718            android:windowSoftInputMode="stateHidden" />
-718-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:632:13-54
+718-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:632:13-54
 719        <activity
-719-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:633:9-637:57
+719-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:633:9-637:57
 720            android:name="com.nebulacompanies.ibo.ecom.MyCartActivityNotification"
-720-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:634:13-60
+720-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:634:13-60
 721            android:screenOrientation="portrait"
-721-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:635:13-49
+721-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:635:13-49
 722            android:theme="@style/AppTheme.NoActionBar"
-722-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:636:13-56
+722-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:636:13-56
 723            android:windowSoftInputMode="stateHidden" />
-723-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:637:13-54
+723-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:637:13-54
 724        <activity
-724-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:638:9-642:57
+724-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:638:9-642:57
 725            android:name="com.nebulacompanies.ibo.ecom.MyCartActivityRemove"
-725-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:639:13-54
+725-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:639:13-54
 726            android:screenOrientation="portrait"
-726-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:640:13-49
+726-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:640:13-49
 727            android:theme="@style/AppTheme.NoActionBar"
-727-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:641:13-56
+727-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:641:13-56
 728            android:windowSoftInputMode="stateHidden" />
-728-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:642:13-54
+728-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:642:13-54
 729        <activity
-729-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:643:9-647:57
+729-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:643:9-647:57
 730            android:name="com.nebulacompanies.ibo.ecom.ProductAvaibilityActivity"
-730-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:644:13-59
+730-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:644:13-59
 731            android:screenOrientation="portrait"
-731-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:645:13-49
+731-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:645:13-49
 732            android:theme="@style/AppTheme.NoActionBar"
-732-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:646:13-56
+732-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:646:13-56
 733            android:windowSoftInputMode="stateHidden" />
-733-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:647:13-54
+733-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:647:13-54
 734        <activity
-734-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:648:9-652:57
+734-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:648:9-652:57
 735            android:name="com.nebulacompanies.ibo.activities.ReadMoreActivity"
-735-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:649:13-56
+735-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:649:13-56
 736            android:screenOrientation="portrait"
-736-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:650:13-49
+736-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:650:13-49
 737            android:theme="@style/AppTheme.NoActionBar"
-737-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:651:13-56
+737-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:651:13-56
 738            android:windowSoftInputMode="stateHidden" />
-738-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:652:13-54
+738-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:652:13-54
 739        <activity
-739-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:653:9-657:57
+739-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:653:9-657:57
 740            android:name="com.nebulacompanies.ibo.activities.AddReviewActivity"
-740-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:654:13-57
+740-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:654:13-57
 741            android:screenOrientation="portrait"
-741-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:655:13-49
+741-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:655:13-49
 742            android:theme="@style/AppTheme.NoActionBar"
-742-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:656:13-56
+742-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:656:13-56
 743            android:windowSoftInputMode="stateHidden" />
-743-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:657:13-54
+743-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:657:13-54
 744        <activity
-744-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:658:9-662:57
+744-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:658:9-662:57
 745            android:name="com.nebulacompanies.ibo.activities.TambolaActivity"
-745-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:659:13-55
+745-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:659:13-55
 746            android:screenOrientation="portrait"
-746-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:660:13-49
+746-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:660:13-49
 747            android:theme="@style/AppTheme.NoActionBar"
-747-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:661:13-56
+747-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:661:13-56
 748            android:windowSoftInputMode="stateHidden" />
-748-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:662:13-54
+748-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:662:13-54
 749        <activity
-749-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:663:9-682:20
+749-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:663:9-682:20
 750            android:name="com.nebulacompanies.ibo.ecom.MyCategoryActivity"
-750-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:664:13-52
+750-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:664:13-52
 751            android:launchMode="singleTop"
-751-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:665:13-43
+751-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:665:13-43
 752            android:screenOrientation="portrait"
-752-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:666:13-49
+752-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:666:13-49
 753            android:theme="@style/AppTheme.NoActionBar"
-753-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:667:13-56
+753-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:667:13-56
 754            android:windowSoftInputMode="stateHidden" >
-754-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:668:13-54
+754-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:668:13-54
 755
 756            <!--
 757            <intent-filter android:autoVerify="true">
@@ -1349,283 +1349,283 @@
 767
 768        </activity>
 769        <activity
-769-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:683:9-688:70
+769-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:683:9-688:70
 770            android:name="com.nebulacompanies.ibo.activities.DashboardDesignChange"
-770-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:684:13-61
+770-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:684:13-61
 771            android:configChanges="locale|keyboard|keyboardHidden|screenSize"
-771-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:685:13-78
+771-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:685:13-78
 772            android:screenOrientation="portrait"
-772-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:686:13-49
+772-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:686:13-49
 773            android:theme="@style/Theme.AppCompat.NoActionBar"
-773-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:687:13-63
+773-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:687:13-63
 774            android:windowSoftInputMode="adjustPan|stateUnchanged" />
-774-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:688:13-67
+774-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:688:13-67
 775        <activity
-775-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:689:9-693:57
+775-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:689:9-693:57
 776            android:name="com.nebulacompanies.ibo.ecom.MyOrderDetailsActivity"
-776-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:690:13-56
+776-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:690:13-56
 777            android:screenOrientation="portrait"
-777-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:691:13-49
+777-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:691:13-49
 778            android:theme="@style/AppTheme.NoActionBar"
-778-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:692:13-56
+778-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:692:13-56
 779            android:windowSoftInputMode="stateHidden" />
-779-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:693:13-54
+779-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:693:13-54
 780        <activity
-780-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:694:9-698:57
+780-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:694:9-698:57
 781            android:name="com.nebulacompanies.ibo.ecom.MyViewOrderActivity"
-781-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:695:13-53
+781-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:695:13-53
 782            android:screenOrientation="portrait"
-782-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:696:13-49
+782-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:696:13-49
 783            android:theme="@style/AppTheme.NoActionBar"
-783-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:697:13-56
+783-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:697:13-56
 784            android:windowSoftInputMode="stateHidden" />
-784-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:698:13-54
+784-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:698:13-54
 785        <activity
-785-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:699:9-703:57
+785-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:699:9-703:57
 786            android:name="com.nebulacompanies.ibo.ecom.MyWishListActivity"
-786-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:700:13-52
+786-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:700:13-52
 787            android:screenOrientation="portrait"
-787-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:701:13-49
+787-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:701:13-49
 788            android:theme="@style/AppTheme.NoActionBar"
-788-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:702:13-56
+788-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:702:13-56
 789            android:windowSoftInputMode="stateHidden" />
-789-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:703:13-54
+789-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:703:13-54
 790        <activity
-790-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:704:9-708:57
+790-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:704:9-708:57
 791            android:name="com.nebulacompanies.ibo.ecom.MyAddressActivity"
-791-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:705:13-51
+791-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:705:13-51
 792            android:screenOrientation="portrait"
-792-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:706:13-49
+792-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:706:13-49
 793            android:theme="@style/AppTheme.NoActionBar"
-793-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:707:13-56
+793-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:707:13-56
 794            android:windowSoftInputMode="stateHidden" />
-794-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:708:13-54
+794-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:708:13-54
 795        <activity
-795-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:709:9-713:57
+795-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:709:9-713:57
 796            android:name="com.nebulacompanies.ibo.ecom.CustomerSupport"
-796-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:710:13-49
+796-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:710:13-49
 797            android:screenOrientation="portrait"
-797-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:711:13-49
+797-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:711:13-49
 798            android:theme="@style/CustomerSupportWhite"
-798-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:712:13-56
+798-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:712:13-56
 799            android:windowSoftInputMode="stateHidden" />
-799-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:713:13-54
+799-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:713:13-54
 800        <activity
-800-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:714:9-718:57
+800-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:714:9-718:57
 801            android:name="com.nebulacompanies.ibo.ecom.GenerateCoupon"
-801-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:715:13-48
+801-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:715:13-48
 802            android:screenOrientation="portrait"
-802-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:716:13-49
+802-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:716:13-49
 803            android:theme="@style/AppTheme.NoActionBar"
-803-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:717:13-56
+803-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:717:13-56
 804            android:windowSoftInputMode="stateHidden" />
-804-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:718:13-54
+804-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:718:13-54
 805        <activity
-805-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:719:9-723:57
+805-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:719:9-723:57
 806            android:name="com.nebulacompanies.ibo.ecom.ReferralsPromotion"
-806-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:720:13-52
+806-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:720:13-52
 807            android:screenOrientation="portrait"
-807-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:721:13-49
+807-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:721:13-49
 808            android:theme="@style/AppTheme.NoActionBar"
-808-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:722:13-56
+808-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:722:13-56
 809            android:windowSoftInputMode="stateHidden" />
-809-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:723:13-54
+809-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:723:13-54
 810        <activity
-810-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:724:9-728:57
+810-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:724:9-728:57
 811            android:name="com.nebulacompanies.ibo.ecom.MyPromoCodes"
-811-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:725:13-46
+811-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:725:13-46
 812            android:screenOrientation="portrait"
-812-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:726:13-49
+812-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:726:13-49
 813            android:theme="@style/AppTheme.NoActionBar"
-813-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:727:13-56
+813-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:727:13-56
 814            android:windowSoftInputMode="stateHidden" />
-814-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:728:13-54
+814-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:728:13-54
 815        <activity
-815-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:729:9-733:57
+815-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:729:9-733:57
 816            android:name="com.nebulacompanies.ibo.ecom.CustomerSupportList"
-816-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:730:13-53
+816-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:730:13-53
 817            android:screenOrientation="portrait"
-817-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:731:13-49
+817-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:731:13-49
 818            android:theme="@style/AppTheme.NoActionBar"
-818-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:732:13-56
+818-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:732:13-56
 819            android:windowSoftInputMode="stateHidden" />
-819-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:733:13-54
+819-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:733:13-54
 820        <activity
-820-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:734:9-738:58
+820-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:734:9-738:58
 821            android:name="com.nebulacompanies.ibo.ecom.SearchActivity"
-821-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:735:13-48
+821-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:735:13-48
 822            android:screenOrientation="portrait"
-822-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:736:13-49
+822-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:736:13-49
 823            android:theme="@style/AppTheme.NoActionBar"
-823-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:737:13-56
+823-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:737:13-56
 824            android:windowSoftInputMode="stateVisible" />
-824-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:738:13-55
+824-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:738:13-55
 825        <activity
-825-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:739:9-743:57
+825-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:739:9-743:57
 826            android:name="com.nebulacompanies.ibo.ecom.MyAddressAccountActivity"
-826-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:740:13-58
+826-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:740:13-58
 827            android:screenOrientation="portrait"
-827-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:741:13-49
+827-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:741:13-49
 828            android:theme="@style/AppTheme.NoActionBar"
-828-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:742:13-56
+828-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:742:13-56
 829            android:windowSoftInputMode="stateHidden" />
-829-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:743:13-54
+829-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:743:13-54
 830        <activity
-830-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:744:9-748:57
+830-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:744:9-748:57
 831            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountActivity"
-831-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:745:13-58
+831-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:745:13-58
 832            android:screenOrientation="portrait"
-832-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:746:13-49
+832-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:746:13-49
 833            android:theme="@style/AppTheme.NoActionBar"
-833-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:747:13-56
+833-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:747:13-56
 834            android:windowSoftInputMode="stateHidden" />
-834-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:748:13-54
+834-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:748:13-54
 835        <activity
-835-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:749:9-753:57
+835-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:749:9-753:57
 836            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountBottomActivity"
-836-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:750:13-64
+836-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:750:13-64
 837            android:screenOrientation="portrait"
-837-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:751:13-49
+837-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:751:13-49
 838            android:theme="@style/AppTheme.NoActionBar"
-838-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:752:13-56
+838-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:752:13-56
 839            android:windowSoftInputMode="stateHidden" />
-839-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:753:13-54
+839-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:753:13-54
 840        <activity
-840-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:754:9-758:57
+840-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:754:9-758:57
 841            android:name="com.nebulacompanies.ibo.ecom.AddAddressAcountNewActivity"
-841-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:755:13-61
+841-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:755:13-61
 842            android:screenOrientation="portrait"
-842-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:756:13-49
+842-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:756:13-49
 843            android:theme="@style/AppTheme.NoActionBar"
-843-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:757:13-56
+843-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:757:13-56
 844            android:windowSoftInputMode="stateHidden" />
-844-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:758:13-54
+844-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:758:13-54
 845        <activity
-845-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:759:9-763:57
+845-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:759:9-763:57
 846            android:name="com.nebulacompanies.ibo.ecom.EditAddressActivity"
-846-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:760:13-53
+846-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:760:13-53
 847            android:screenOrientation="portrait"
-847-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:761:13-49
+847-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:761:13-49
 848            android:theme="@style/AppTheme.NoActionBar"
-848-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:762:13-56
+848-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:762:13-56
 849            android:windowSoftInputMode="stateHidden" />
-849-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:763:13-54
+849-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:763:13-54
 850        <activity
-850-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:764:9-768:57
+850-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:764:9-768:57
 851            android:name="com.nebulacompanies.ibo.ecom.EditAddressAccountActivity"
-851-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:765:13-60
+851-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:765:13-60
 852            android:screenOrientation="portrait"
-852-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:766:13-49
+852-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:766:13-49
 853            android:theme="@style/AppTheme.NoActionBar"
-853-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:767:13-56
+853-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:767:13-56
 854            android:windowSoftInputMode="stateHidden" />
-854-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:768:13-54
+854-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:768:13-54
 855        <activity
-855-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:769:9-773:57
+855-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:769:9-773:57
 856            android:name="com.nebulacompanies.ibo.ecom.OrderSummaryActivity"
-856-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:770:13-54
+856-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:770:13-54
 857            android:screenOrientation="portrait"
-857-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:771:13-49
+857-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:771:13-49
 858            android:theme="@style/AppTheme.NoActionBar"
-858-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:772:13-56
+858-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:772:13-56
 859            android:windowSoftInputMode="stateHidden" />
-859-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:773:13-54
+859-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:773:13-54
 860        <activity
-860-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:774:9-778:57
+860-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:774:9-778:57
 861            android:name="com.nebulacompanies.ibo.ecom.MyWalletActivity"
-861-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:775:13-50
+861-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:775:13-50
 862            android:screenOrientation="portrait"
-862-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:776:13-49
+862-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:776:13-49
 863            android:theme="@style/AppTheme.NoActionBar"
-863-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:777:13-56
+863-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:777:13-56
 864            android:windowSoftInputMode="stateHidden" />
-864-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:778:13-54
+864-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:778:13-54
 865        <activity
-865-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:779:9-783:57
+865-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:779:9-783:57
 866            android:name="com.nebulacompanies.ibo.ecom.PaymentActivity"
-866-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:780:13-49
+866-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:780:13-49
 867            android:screenOrientation="portrait"
-867-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:781:13-49
+867-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:781:13-49
 868            android:theme="@style/AppTheme.NoActionBar"
-868-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:782:13-56
+868-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:782:13-56
 869            android:windowSoftInputMode="stateHidden" />
-869-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:783:13-54
+869-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:783:13-54
 870        <activity
-870-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:784:9-788:57
+870-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:784:9-788:57
 871            android:name="com.nebulacompanies.ibo.ecom.LoginActivityEcom"
-871-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:785:13-51
+871-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:785:13-51
 872            android:screenOrientation="portrait"
-872-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:786:13-49
+872-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:786:13-49
 873            android:theme="@style/AppTheme.NoActionBar"
-873-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:787:13-56
+873-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:787:13-56
 874            android:windowSoftInputMode="stateHidden" />
-874-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:788:13-54
+874-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:788:13-54
 875        <activity
-875-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:789:9-793:57
+875-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:789:9-793:57
 876            android:name="com.nebulacompanies.ibo.ecom.BillingAddressActivity"
-876-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:790:13-56
+876-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:790:13-56
 877            android:screenOrientation="portrait"
-877-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:791:13-49
+877-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:791:13-49
 878            android:theme="@style/AppTheme.NoActionBar"
-878-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:792:13-56
+878-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:792:13-56
 879            android:windowSoftInputMode="stateHidden" />
-879-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:793:13-54
+879-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:793:13-54
 880        <activity
-880-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:794:9-798:57
+880-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:794:9-798:57
 881            android:name="com.nebulacompanies.ibo.ecom.EnlargeItem"
-881-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:795:13-45
+881-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:795:13-45
 882            android:screenOrientation="portrait"
-882-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:796:13-49
+882-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:796:13-49
 883            android:theme="@style/AppTheme.NoActionBar"
-883-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:797:13-56
+883-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:797:13-56
 884            android:windowSoftInputMode="stateHidden" /> <!-- Dwarka Package -->
-884-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:798:13-54
+884-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:798:13-54
 885
 886        <activity
-886-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:801:9-806:20
+886-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:801:9-806:20
 887            android:name="com.payu.custombrowser.CBActivity"
-887-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:802:13-61
+887-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:802:13-61
 888            android:launchMode="singleTop"
-888-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:804:13-43
+888-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:804:13-43
 889            android:screenOrientation="portrait"
 889-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:20:13-49
 890            android:theme="@style/AppThemes"
-890-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:803:13-45
+890-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:803:13-45
 891            android:windowSoftInputMode="stateAlwaysHidden" >
 891-->[in.payu:payu-custom-browser:7.10.1] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\778da813f8031f01c04daa18c33ab5e3\jetified-payu-custom-browser-7.10.1\AndroidManifest.xml:21:13-60
 892        </activity>
 893        <activity
-893-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:807:9-813:20
+893-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:807:9-813:20
 894            android:name="com.nebulacompanies.ibo.ecom.PayUMoney"
-894-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:808:13-43
+894-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:808:13-43
 895            android:screenOrientation="portrait"
-895-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:809:13-49
+895-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:809:13-49
 896            android:theme="@style/AppThemes"
-896-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:810:13-45
+896-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:810:13-45
 897            android:windowSoftInputMode="stateHidden" >
-897-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:811:13-54
+897-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:811:13-54
 898        </activity>
 899            /> 
 900        <!-- Dwarka Package -->
 901        <activity
-901-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:817:9-822:57
+901-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:817:9-822:57
 902            android:name="com.nebulacompanies.ibo.dwarkaPackage.DwarkaDashBoardActivity"
-902-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:818:13-66
+902-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:818:13-66
 903            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-903-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:819:13-83
+903-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:819:13-83
 904            android:screenOrientation="portrait"
-904-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:820:13-49
+904-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:820:13-49
 905            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-905-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:821:13-69
+905-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:821:13-69
 906            android:windowSoftInputMode="stateHidden" />
-906-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:822:13-54
+906-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:822:13-54
 907
 908        <meta-data
-908-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:824:9-826:55
+908-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:824:9-826:55
 909            android:name="com.razorpay.ApiKey"
-909-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:825:13-47
+909-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:825:13-47
 910            android:value="rzp_live_5aijCS78CRhk5A" />
-910-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:826:13-52
+910-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:826:13-52
 911
 912        <activity
 912-->[com.paytm.appinvokesdk:appinvokesdk:1.6.5] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\91e10ebd9c28f321b2c541e6cf8d3171\jetified-appinvokesdk-1.6.5\AndroidManifest.xml:23:9-26:66
@@ -1759,10 +1759,10 @@
 983            android:exported="false" >
 983-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\fdc235d9373fa71c1c6e3691dfb88cf8\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
 984            <intent-filter android:priority="-500" >
-984-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:430:13-432:29
+984-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:430:13-432:29
 985                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-985-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:17-78
-985-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:431:25-75
+985-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:17-78
+985-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:431:25-75
 986            </intent-filter>
 987        </service>
 988        <service
@@ -1925,8 +1925,8 @@
 1074            <intent-filter>
 1074-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:22:13-28:29
 1075                <action android:name="android.intent.action.MAIN" />
-1075-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:22-74
-1075-->E:\Chirag\AndroidNebulaPro\app\src\main\AndroidManifest.xml:143:30-71
+1075-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:22-74
+1075-->E:\NebulaGit\NebulaProGit\app\src\main\AndroidManifest.xml:143:30-71
 1076
 1077                <data
 1077-->[com.razorpay:checkout:1.5.8] C:\Users\Chirag Vaghela\.gradle\caches\transforms-2\files-2.1\59060ce27d1d9027e37fdaf797ddccca\jetified-checkout-1.5.8\AndroidManifest.xml:25:17-27:47

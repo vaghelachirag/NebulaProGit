@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="3dp"
+        android:background="@null"
+        android:drawableRight="@drawable/close_new"
+        android:drawableTint="@color/white"
+        android:scaleType="fitCenter" />
+
+    <com.nebulacompanies.ibo.view.WrappingViewPager
+        android:id="@+id/view_pagerOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:background="#80000000" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dots_height"
+        android:gravity="center|bottom"
+        android:layout_gravity="center|bottom"
+        android:orientation="horizontal"></LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout_search"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/dimen_eight_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Addresses"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_nineteen_sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_item_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:layout_marginBottom="@dimen/dimen_ten_dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Full Name"
+                        android:imeOptions="actionNext"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Mobile Number"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_pincode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Pincode"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Flat, House no., Building, Company, Apartment"
+                        android:imeOptions="actionNext"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Area, Colony, Street, Sector, Village"
+                        android:imeOptions="actionNext"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:id="@+id/tv_add_address_landmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Landmark e.g. near Apollo Hospital"
+                        android:imeOptions="actionDone"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:singleLine="true"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.NebulaEditTextEcom
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_address"
+                        android:hint="Town/City"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="@dimen/dimen_thirteen_sp"
+                        android:visibility="gone" />
+
+                    <!--<Spinner
+                        android:id="@+id/spinner_address_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:drawSelectorOnTop="true"
+                        android:spinnerMode="dropdown" />-->
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_address_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:gravity="start"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:popupBackground="@android:color/white"
+                        android:spinnerMode="dropdown" />
+
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_address_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:gravity="start"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:popupBackground="@android:color/white"
+                        android:spinnerMode="dropdown" />
+
+                    <!--<Spinner
+                        android:id="@+id/spinner_address_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:drawSelectorOnTop="true"
+                        android:spinnerMode="dropdown" />-->
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:text="Add delivery instructions"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_sixteen_sp" />
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:text="Preferences are used to plan your delivery. However, shipments can somtimes arrive early or later than planned."
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fifteen_sp" />
+
+
+                    <com.nebulacompanies.ibo.ecom.utils.MyBoldTextViewEcom
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:text="Address Types"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/dimen_fourteen_sp"
+                        android:visibility="visible" />
+
+
+                    <Spinner
+                        android:id="@+id/spinner_instruction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/drawable_address"
+                        android:padding="@dimen/dimen_ten_dp"
+                        android:visibility="gone" />
+
+
+                    <!--<Spinner
+                        android:id="@+id/spinner_address_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dimen_four_dp"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:drawSelectorOnTop="true"
+                        android:entries="@array/address_types"
+                        android:spinnerMode="dropdown" />-->
+
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_address_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_thirty_eight_dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_four_dp"
+                        android:layout_marginBottom="@dimen/dimen_four_dp"
+                        android:background="@drawable/drawable_spinner_rounded_ecom"
+                        android:gravity="start"
+                        android:padding="@dimen/dimen_two_dp"
+                        android:popupBackground="@android:color/white"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+                android:id="@+id/btn_deliver"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_forty_dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_ten_dp"
+                android:layout_marginBottom="@dimen/dimen_ten_dp"
+                android:background="@drawable/nebula_button_login_eftct_login_ecom"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Edit Address"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_sixteen_sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

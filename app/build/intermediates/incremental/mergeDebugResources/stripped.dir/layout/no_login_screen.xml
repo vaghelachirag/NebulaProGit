@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_ten_dp"
+        android:gravity="start"
+        app:srcCompat="@drawable/ic_arrow_back_svg" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_thirty_dp"
+        android:layout_marginEnd="@dimen/dimen_twenty_dp"
+        android:layout_marginBottom="@dimen/dimen_twenty_dp"
+        android:src="@drawable/app_logo" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_twenty_dp"
+        android:gravity="center"
+        android:text="Sign in to your account"
+        android:textColor="@color/black" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_twenty_dp"
+        android:gravity="start"
+        android:text="View your business data" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_ten_dp"
+        android:gravity="start"
+        android:text="Find &amp; reorder past purchase" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyTextViewEcom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_ten_dp"
+        android:gravity="start"
+        android:text="Track your purchases" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_forty_dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_twenty_dp"
+        android:layout_marginEnd="@dimen/dimen_twenty_dp"
+        android:background="@drawable/nebula_button_login_eftct_login_ecom"
+        android:gravity="center"
+        android:text="Already a customer? Sign in"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_sixteen_sp"
+        android:visibility="visible" />
+
+    <com.nebulacompanies.ibo.ecom.utils.MyButtonEcom
+        android:id="@+id/btn_skip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_forty_dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dimen_twenty_dp"
+        android:layout_marginTop="@dimen/dimen_twenty_dp"
+        android:layout_marginEnd="@dimen/dimen_twenty_dp"
+        android:background="@drawable/nebula_button_skip_login"
+        android:gravity="center"
+        android:text="Skip sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/dimen_sixteen_sp"
+        android:visibility="visible" />
+
+</LinearLayout>

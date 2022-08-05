@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/list_income_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_one_dp"
+        android:layout_marginEnd="@dimen/dimen_three_dp"
+        android:layout_marginLeft="@dimen/dimen_three_dp"
+        android:layout_marginRight="@dimen/dimen_three_dp"
+        android:layout_marginStart="@dimen/dimen_three_dp"
+        android:layout_marginTop="@dimen/dimen_one_dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/closingdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:singleLine="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cfcfcf" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/rank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:padding="@dimen/dimen_eight_dp"
+            android:singleLine="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimen_twelve_sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#cfcfcf" />
+
+        <ImageView
+            android:id="@+id/retail_info_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@drawable/nebula_effect"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:src="@drawable/ic_info_black" />
+
+    </LinearLayout>
+
+</LinearLayout>

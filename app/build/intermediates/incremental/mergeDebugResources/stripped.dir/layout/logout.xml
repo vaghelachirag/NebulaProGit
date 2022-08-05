@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_ten_dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_ten_dp">
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/tv_logout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_five_dp"
+        android:padding="@dimen/dimen_five_dp"
+        android:text="@string/logout"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp"
+        android:visibility="gone" />
+
+    <com.nebulacompanies.ibo.view.MyTextView
+        android:id="@+id/tv_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_logout_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dimen_five_dp"
+        android:text="@string/logout_show"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_fourteen_sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_logout"
+        android:layout_marginTop="@dimen/dimen_eight_dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_five_dp"
+        android:weightSum="1">
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/txtcancel"
+            style="@style/SelectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_fifteen_dp"
+            android:layout_marginRight="@dimen/dimen_fifteen_dp"
+            android:layout_toLeftOf="@+id/txtok"
+            android:layout_toStartOf="@+id/txtok"
+            android:gravity="center"
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="@string/no"
+            android:textAlignment="textEnd"
+            android:textAllCaps="true"
+            android:textColor="#009688"
+            android:textSize="@dimen/dimen_fourteen_sp"
+            tools:ignore="RtlCompat" />
+
+        <com.nebulacompanies.ibo.view.MyTextView
+            android:id="@+id/txtok"
+            style="@style/SelectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/dimen_ten_dp"
+            android:layout_marginRight="@dimen/dimen_ten_dp"
+            android:gravity="center"
+            android:padding="@dimen/dimen_ten_dp"
+            android:text="@string/yes"
+            android:textAllCaps="true"
+            android:textColor="#009688"
+            android:textSize="@dimen/dimen_fourteen_sp"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+</RelativeLayout>

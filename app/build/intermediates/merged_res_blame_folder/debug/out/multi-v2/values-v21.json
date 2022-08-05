@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\365698a39617860209539578a0a14895\\material-1.4.0\\res\\values-v21\\values-v21.xml",
@@ -20,6 +20,16 @@
                         "endLines": "4,5,6,7,8,9,10,11,12,13,77,78,79,80,84,87,90,185,188,191,194,200,265,268,273,425,431,504,510,516,522,523,524,525,529,532,535,538,541,553,557,560",
                         "endColumns": "67,78,87,87,87,87,86,86,86,86,92,106,104,118,10,10,10,10,10,10,10,10,115,10,12,10,10,10,10,10,10,137,143,155,10,10,10,10,10,10,10,10",
                         "endOffsets": "293,372,460,548,636,724,811,898,985,1072,6727,6834,6939,7058,7374,7633,7904,14464,14696,14932,15182,15612,20284,20454,20775,29726,30183,34887,35231,35581,35931,36069,36213,36369,36762,36980,37202,37428,37644,38409,38668,38845"
+                    }
+                },
+                {
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     }
                 },
                 {
@@ -77,16 +87,6 @@
                         "endLines": "279,286,298,313,331,348,360,367,374,381,394,414",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "21128,21503,22150,22972,24104,25078,25744,26101,26462,26867,27588,28697"
-                    }
-                },
-                {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "56",
-                        "endOffsets": "107"
                     }
                 },
                 {

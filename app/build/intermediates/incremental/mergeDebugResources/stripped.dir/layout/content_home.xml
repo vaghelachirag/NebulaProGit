@@ -1,0 +1,113 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ln_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar2"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/progresbar3"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:mpb_indeterminateTint="@color/colorRadio"
+        app:mpb_progressStyle="horizontal" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_eight_dp"
+        android:layout_marginTop="@dimen/dimen_five_dp"
+        android:layout_marginEnd="@dimen/dimen_eight_dp"
+        android:layout_marginBottom="@dimen/dimen_five_dp"
+        android:foreground="@drawable/cardview_selector">
+
+        <com.takwolf.android.aspectratio.AspectRatioLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:arl_heightRatio="2"
+            app:arl_widthRatio="5">
+
+            <RelativeLayout
+                android:id="@+id/rl_banner_ecom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_four_dp"
+                android:background="@drawable/placeholder">
+
+                <com.nebulacompanies.ibo.ecom.customBanner.InfiniteViewPager
+                    android:id="@+id/viewpager_ecom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.nebulacompanies.ibo.ecom.customBanner.CirclePageIndicator
+                    android:id="@+id/indicator_ecom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="200dp"
+                    android:padding="@dimen/dimen_eight_dp" />
+
+                <!--android:layout_marginTop="120dp"-->
+
+            </RelativeLayout>
+        </com.takwolf.android.aspectratio.AspectRatioLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/fl_banner"
+        android:layout_marginTop="@dimen/dimen_four_dp"
+        android:layout_marginBottom="@dimen/dimen_four_dp"
+        android:background="@drawable/banner_category2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_category_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_banner"
+            android:scrollbars="horizontal" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rview_todays_deals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/dimen_fifty_dp"
+        />
+
+</LinearLayout>

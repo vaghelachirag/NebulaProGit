@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Chirag\\AndroidNebulaPro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "E:\\NebulaGit\\NebulaProGit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chirag Vaghela\\.gradle\\caches\\transforms-2\\files-2.1\\365698a39617860209539578a0a14895\\material-1.4.0\\res\\values-tr\\values-tr.xml",
@@ -20,23 +20,6 @@
                         "endLines": "5,33,34,35,36,67,68,71,72,73,74,75,76,77,78,79,80,81,82,83,84,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143",
                         "endColumns": "12,76,95,111,81,63,90,76,60,90,62,58,68,62,53,107,57,61,53,72,120,83,90,109,76,75,86,66,65,69,76,82,70,74,77,70,84,88,94,92,71,71,95,51,66,83,89,61,63,62,93,95,88,96,78",
                         "endOffsets": "310,3079,3175,3287,3369,6992,7083,7339,7400,7491,7554,7613,7682,7745,7799,7907,7965,8027,8081,8154,8275,10792,10883,10993,11070,11146,11233,11300,11366,11436,11513,11596,11667,11742,11820,11891,11976,12065,12160,12253,12325,12397,12493,12545,12612,12696,12786,12848,12912,12975,13069,13165,13254,13351,13430"
-                    }
-                },
-                {
-                    "source": "E:\\Chirag\\AndroidNebulaPro\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,171,216,281,345",
-                        "endColumns": "70,44,64,63,55",
-                        "endOffsets": "166,211,276,340,396"
-                    },
-                    "to": {
-                        "startLines": "55,56,57,58,59",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "6114,6185,6230,6295,6359",
-                        "endColumns": "70,44,64,63,55",
-                        "endOffsets": "6180,6225,6290,6354,6410"
                     }
                 },
                 {
@@ -139,6 +122,23 @@
                         "startOffsets": "8280,8376,8474,8578,8685,8791,8889,8982,9077,9183,9279,9373,9471,9565,9664,9770,9856,9939,10023,10121,10234,10326,10425,10532,10618",
                         "endColumns": "95,97,103,106,105,97,92,94,105,95,93,97,93,98,105,85,82,83,97,112,91,98,106,85,94",
                         "endOffsets": "8371,8469,8573,8680,8786,8884,8977,9072,9178,9274,9368,9466,9560,9659,9765,9851,9934,10018,10116,10229,10321,10420,10527,10613,10708"
+                    }
+                },
+                {
+                    "source": "E:\\NebulaGit\\NebulaProGit\\libCrop\\build\\intermediates\\packaged_res\\debug\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,171,216,281,345",
+                        "endColumns": "70,44,64,63,55",
+                        "endOffsets": "166,211,276,340,396"
+                    },
+                    "to": {
+                        "startLines": "55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "6114,6185,6230,6295,6359",
+                        "endColumns": "70,44,64,63,55",
+                        "endOffsets": "6180,6225,6290,6354,6410"
                     }
                 },
                 {
